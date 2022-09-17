@@ -22,7 +22,8 @@
       },
       "y": {
         "field": "temp_range",
-        "aggregate": "mean"
+        "aggregate": "mean",
+        "title": "Mean of Temperature"
       },
       "color": {
         "timeUnit": "year",
