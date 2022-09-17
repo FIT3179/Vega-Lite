@@ -1,0 +1,771 @@
+iso_code,country,year,Energy Type,Energy Consumption (TwH)
+OWID_WRL,World,1965,biofuel,0.0
+OWID_WRL,World,1965,coal,16140.191
+OWID_WRL,World,1965,energy_per_capita,12949.971
+OWID_WRL,World,1965,energy_per_gdp,2.574
+OWID_WRL,World,1965,fossil fuel,40552.638
+OWID_WRL,World,1965,gas,6303.804
+OWID_WRL,World,1965,hydro,2564.441
+OWID_WRL,World,1965,low carbon,2685.343
+OWID_WRL,World,1965,nuclear,70.944
+OWID_WRL,World,1965,oil,18108.643
+OWID_WRL,World,1965,other renewable,49.959
+OWID_WRL,World,1965,renewables,2614.4
+OWID_WRL,World,1965,solar,0.0
+OWID_WRL,World,1965,wind,0.0
+OWID_WRL,World,1966,biofuel,0.0
+OWID_WRL,World,1966,coal,16324.107
+OWID_WRL,World,1966,energy_per_capita,13375.477
+OWID_WRL,World,1966,energy_per_gdp,2.575
+OWID_WRL,World,1966,fossil fuel,42689.378
+OWID_WRL,World,1966,gas,6868.8
+OWID_WRL,World,1966,hydro,2732.827
+OWID_WRL,World,1966,low carbon,2883.492
+OWID_WRL,World,1966,nuclear,95.648
+OWID_WRL,World,1966,oil,19496.471
+OWID_WRL,World,1966,other renewable,55.017
+OWID_WRL,World,1966,renewables,2787.844
+OWID_WRL,World,1966,solar,0.0
+OWID_WRL,World,1966,wind,0.0
+OWID_WRL,World,1967,biofuel,0.0
+OWID_WRL,World,1967,coal,16060.823
+OWID_WRL,World,1967,energy_per_capita,13596.333
+OWID_WRL,World,1967,energy_per_gdp,2.571
+OWID_WRL,World,1967,fossil fuel,44325.448
+OWID_WRL,World,1967,gas,7374.045
+OWID_WRL,World,1967,hydro,2793.732
+OWID_WRL,World,1967,low carbon,2963.156
+OWID_WRL,World,1967,nuclear,113.906
+OWID_WRL,World,1967,oil,20890.58
+OWID_WRL,World,1967,other renewable,55.518
+OWID_WRL,World,1967,renewables,2849.25
+OWID_WRL,World,1967,solar,0.0
+OWID_WRL,World,1967,wind,0.0
+OWID_WRL,World,1968,biofuel,0.0
+OWID_WRL,World,1968,coal,16301.16
+OWID_WRL,World,1968,energy_per_capita,14128.77
+OWID_WRL,World,1968,energy_per_gdp,2.573
+OWID_WRL,World,1968,fossil fuel,47020.964
+OWID_WRL,World,1968,gas,8044.338
+OWID_WRL,World,1968,hydro,2942.472
+OWID_WRL,World,1968,low carbon,3148.675
+OWID_WRL,World,1968,nuclear,144.759
+OWID_WRL,World,1968,oil,22675.466
+OWID_WRL,World,1968,other renewable,61.445
+OWID_WRL,World,1968,renewables,3003.916
+OWID_WRL,World,1968,solar,0.0
+OWID_WRL,World,1968,wind,0.0
+OWID_WRL,World,1969,biofuel,0.0
+OWID_WRL,World,1969,coal,16798.749
+OWID_WRL,World,1969,energy_per_capita,14775.572
+OWID_WRL,World,1969,energy_per_gdp,2.601
+OWID_WRL,World,1969,fossil fuel,50209.059
+OWID_WRL,World,1969,gas,8833.425
+OWID_WRL,World,1969,hydro,3115.956
+OWID_WRL,World,1969,low carbon,3352.182
+OWID_WRL,World,1969,nuclear,171.621
+OWID_WRL,World,1969,oil,24576.884
+OWID_WRL,World,1969,other renewable,64.606
+OWID_WRL,World,1969,renewables,3180.561
+OWID_WRL,World,1969,solar,0.0
+OWID_WRL,World,1969,wind,0.0
+OWID_WRL,World,1970,biofuel,0.0
+OWID_WRL,World,1970,coal,17058.622
+OWID_WRL,World,1970,energy_per_capita,15389.117
+OWID_WRL,World,1970,energy_per_gdp,2.612
+OWID_WRL,World,1970,fossil fuel,53381.484
+OWID_WRL,World,1970,gas,9614.799
+OWID_WRL,World,1970,hydro,3262.913
+OWID_WRL,World,1970,low carbon,3553.379
+OWID_WRL,World,1970,nuclear,219.096
+OWID_WRL,World,1970,oil,26708.063
+OWID_WRL,World,1970,other renewable,71.37
+OWID_WRL,World,1970,renewables,3334.283
+OWID_WRL,World,1970,solar,0.0
+OWID_WRL,World,1970,wind,0.0
+OWID_WRL,World,1971,biofuel,0.0
+OWID_WRL,World,1971,coal,16965.973
+OWID_WRL,World,1971,energy_per_capita,15696.423
+OWID_WRL,World,1971,energy_per_gdp,2.599
+OWID_WRL,World,1971,fossil fuel,55463.017
+OWID_WRL,World,1971,gas,10292.201
+OWID_WRL,World,1971,hydro,3408.517
+OWID_WRL,World,1971,low carbon,3790.693
+OWID_WRL,World,1971,nuclear,304.734
+OWID_WRL,World,1971,oil,28204.844
+OWID_WRL,World,1971,other renewable,77.442
+OWID_WRL,World,1971,renewables,3485.959
+OWID_WRL,World,1971,solar,0.0
+OWID_WRL,World,1971,wind,0.0
+OWID_WRL,World,1972,biofuel,0.0
+OWID_WRL,World,1972,coal,17154.346
+OWID_WRL,World,1972,energy_per_capita,16221.962
+OWID_WRL,World,1972,energy_per_gdp,2.603
+OWID_WRL,World,1972,fossil fuel,58393.68
+OWID_WRL,World,1972,gas,10861.368
+OWID_WRL,World,1972,hydro,3568.421
+OWID_WRL,World,1972,low carbon,4074.122
+OWID_WRL,World,1972,nuclear,422.709
+OWID_WRL,World,1972,oil,30377.966
+OWID_WRL,World,1972,other renewable,82.992
+OWID_WRL,World,1972,renewables,3651.413
+OWID_WRL,World,1972,solar,0.0
+OWID_WRL,World,1972,wind,0.0
+OWID_WRL,World,1973,biofuel,0.0
+OWID_WRL,World,1973,coal,17667.864
+OWID_WRL,World,1973,energy_per_capita,16823.47
+OWID_WRL,World,1973,energy_per_gdp,2.571
+OWID_WRL,World,1973,fossil fuel,61790.732
+OWID_WRL,World,1973,gas,11376.729
+OWID_WRL,World,1973,hydro,3619.474
+OWID_WRL,World,1973,low carbon,4274.992
+OWID_WRL,World,1973,nuclear,566.394
+OWID_WRL,World,1973,oil,32746.14
+OWID_WRL,World,1973,other renewable,89.125
+OWID_WRL,World,1973,renewables,3708.599
+OWID_WRL,World,1973,solar,0.0
+OWID_WRL,World,1973,wind,0.0
+OWID_WRL,World,1974,biofuel,0.0
+OWID_WRL,World,1974,coal,17682.065
+OWID_WRL,World,1974,energy_per_capita,16592.805
+OWID_WRL,World,1974,energy_per_gdp,2.488
+OWID_WRL,World,1974,fossil fuel,61610.765
+OWID_WRL,World,1974,gas,11656.257
+OWID_WRL,World,1974,hydro,3975.739
+OWID_WRL,World,1974,low carbon,4810.626
+OWID_WRL,World,1974,nuclear,740.556
+OWID_WRL,World,1974,oil,32272.443
+OWID_WRL,World,1974,other renewable,94.33
+OWID_WRL,World,1974,renewables,4070.069
+OWID_WRL,World,1974,solar,0.0
+OWID_WRL,World,1974,wind,0.0
+OWID_WRL,World,1975,biofuel,0.0
+OWID_WRL,World,1975,coal,18024.552
+OWID_WRL,World,1975,energy_per_capita,16373.159
+OWID_WRL,World,1975,energy_per_gdp,2.447
+OWID_WRL,World,1975,fossil fuel,61634.069
+OWID_WRL,World,1975,gas,11661.084
+OWID_WRL,World,1975,hydro,4024.697
+OWID_WRL,World,1975,low carbon,5147.842
+OWID_WRL,World,1975,nuclear,1027.357
+OWID_WRL,World,1975,oil,31948.433
+OWID_WRL,World,1975,other renewable,95.788
+OWID_WRL,World,1975,renewables,4120.485
+OWID_WRL,World,1975,solar,0.0
+OWID_WRL,World,1975,wind,0.0
+OWID_WRL,World,1976,biofuel,0.0
+OWID_WRL,World,1976,coal,18688.5
+OWID_WRL,World,1976,energy_per_capita,16945.56
+OWID_WRL,World,1976,energy_per_gdp,2.462
+OWID_WRL,World,1976,fossil fuel,65073.273
+OWID_WRL,World,1976,gas,12355.072
+OWID_WRL,World,1976,hydro,4008.711
+OWID_WRL,World,1976,low carbon,5317.413
+OWID_WRL,World,1976,nuclear,1201.866
+OWID_WRL,World,1976,oil,34029.701
+OWID_WRL,World,1976,other renewable,106.836
+OWID_WRL,World,1976,renewables,4115.547
+OWID_WRL,World,1976,solar,0.0
+OWID_WRL,World,1976,wind,0.0
+OWID_WRL,World,1977,biofuel,0.0
+OWID_WRL,World,1977,coal,19241.309
+OWID_WRL,World,1977,energy_per_capita,17256.216
+OWID_WRL,World,1977,energy_per_gdp,2.449
+OWID_WRL,World,1977,fossil fuel,67216.572
+OWID_WRL,World,1977,gas,12760.638
+OWID_WRL,World,1977,hydro,4143.536
+OWID_WRL,World,1977,low carbon,5752.177
+OWID_WRL,World,1977,nuclear,1495.967
+OWID_WRL,World,1977,oil,35214.625
+OWID_WRL,World,1977,other renewable,112.674
+OWID_WRL,World,1977,renewables,4256.209
+OWID_WRL,World,1977,solar,0.0
+OWID_WRL,World,1977,wind,0.0
+OWID_WRL,World,1978,biofuel,0.0
+OWID_WRL,World,1978,coal,19457.913
+OWID_WRL,World,1978,energy_per_capita,17549.601
+OWID_WRL,World,1978,energy_per_gdp,2.429
+OWID_WRL,World,1978,fossil fuel,69179.136
+OWID_WRL,World,1978,gas,13295.429
+OWID_WRL,World,1978,hydro,4484.414
+OWID_WRL,World,1978,low carbon,6342.096
+OWID_WRL,World,1978,nuclear,1738.319
+OWID_WRL,World,1978,oil,36425.795
+OWID_WRL,World,1978,other renewable,119.354
+OWID_WRL,World,1978,renewables,4603.776
+OWID_WRL,World,1978,solar,0.0
+OWID_WRL,World,1978,wind,0.008
+OWID_WRL,World,1979,biofuel,0.0
+OWID_WRL,World,1979,coal,20363.547
+OWID_WRL,World,1979,energy_per_capita,17847.088
+OWID_WRL,World,1979,energy_per_gdp,2.42
+OWID_WRL,World,1979,fossil fuel,71507.525
+OWID_WRL,World,1979,gas,14119.884
+OWID_WRL,World,1979,hydro,4708.863
+OWID_WRL,World,1979,low carbon,6645.073
+OWID_WRL,World,1979,nuclear,1807.946
+OWID_WRL,World,1979,oil,37024.093
+OWID_WRL,World,1979,other renewable,128.248
+OWID_WRL,World,1979,renewables,4837.128
+OWID_WRL,World,1979,solar,0.0
+OWID_WRL,World,1979,wind,0.017
+OWID_WRL,World,1980,biofuel,0.0
+OWID_WRL,World,1980,coal,20857.619
+OWID_WRL,World,1980,energy_per_capita,17413.264
+OWID_WRL,World,1980,energy_per_gdp,2.345
+OWID_WRL,World,1980,fossil fuel,70672.85
+OWID_WRL,World,1980,gas,14237.999
+OWID_WRL,World,1980,hydro,4810.15
+OWID_WRL,World,1980,low carbon,6924.929
+OWID_WRL,World,1980,nuclear,1977.569
+OWID_WRL,World,1980,oil,35577.233
+OWID_WRL,World,1980,other renewable,137.182
+OWID_WRL,World,1980,renewables,4947.36
+OWID_WRL,World,1980,solar,0.0
+OWID_WRL,World,1980,wind,0.029
+OWID_WRL,World,1981,biofuel,0.0
+OWID_WRL,World,1981,coal,21149.69
+OWID_WRL,World,1981,energy_per_capita,17030.072
+OWID_WRL,World,1981,energy_per_gdp,2.313
+OWID_WRL,World,1981,fossil fuel,69840.694
+OWID_WRL,World,1981,gas,14395.129
+OWID_WRL,World,1981,hydro,4913.625
+OWID_WRL,World,1981,low carbon,7396.727
+OWID_WRL,World,1981,nuclear,2335.421
+OWID_WRL,World,1981,oil,34295.875
+OWID_WRL,World,1981,other renewable,147.652
+OWID_WRL,World,1981,renewables,5061.306
+OWID_WRL,World,1981,solar,0.0
+OWID_WRL,World,1981,wind,0.029
+OWID_WRL,World,1982,biofuel,0.0
+OWID_WRL,World,1982,coal,21384.44
+OWID_WRL,World,1982,energy_per_capita,16631.477
+OWID_WRL,World,1982,energy_per_gdp,2.292
+OWID_WRL,World,1982,fossil fuel,69051.151
+OWID_WRL,World,1982,gas,14468.777
+OWID_WRL,World,1982,hydro,5002.529
+OWID_WRL,World,1982,low carbon,7706.883
+OWID_WRL,World,1982,nuclear,2533.829
+OWID_WRL,World,1982,oil,33197.934
+OWID_WRL,World,1982,other renewable,170.474
+OWID_WRL,World,1982,renewables,5173.054
+OWID_WRL,World,1982,solar,0.0
+OWID_WRL,World,1982,wind,0.051
+OWID_WRL,World,1983,biofuel,0.0
+OWID_WRL,World,1983,coal,22045.022
+OWID_WRL,World,1983,energy_per_capita,16605.477
+OWID_WRL,World,1983,energy_per_gdp,2.282
+OWID_WRL,World,1983,fossil fuel,69716.562
+OWID_WRL,World,1983,gas,14702.803
+OWID_WRL,World,1983,hydro,5216.03
+OWID_WRL,World,1983,low carbon,8276.773
+OWID_WRL,World,1983,nuclear,2871.704
+OWID_WRL,World,1983,oil,32968.737
+OWID_WRL,World,1983,other renewable,188.939
+OWID_WRL,World,1983,renewables,5405.069
+OWID_WRL,World,1983,solar,0.008
+OWID_WRL,World,1983,wind,0.091
+OWID_WRL,World,1984,biofuel,0.0
+OWID_WRL,World,1984,coal,22999.527
+OWID_WRL,World,1984,energy_per_capita,17095.12
+OWID_WRL,World,1984,energy_per_gdp,2.31
+OWID_WRL,World,1984,fossil fuel,72639.879
+OWID_WRL,World,1984,gas,15901.561
+OWID_WRL,World,1984,hydro,5392.714
+OWID_WRL,World,1984,low carbon,9088.908
+OWID_WRL,World,1984,nuclear,3484.915
+OWID_WRL,World,1984,oil,33738.791
+OWID_WRL,World,1984,other renewable,211.137
+OWID_WRL,World,1984,renewables,5603.993
+OWID_WRL,World,1984,solar,0.018
+OWID_WRL,World,1984,wind,0.124
+OWID_WRL,World,1985,biofuel,0.0
+OWID_WRL,World,1985,coal,23986.182
+OWID_WRL,World,1985,energy_per_capita,17235.385
+OWID_WRL,World,1985,energy_per_gdp,2.3
+OWID_WRL,World,1985,fossil fuel,74036.273
+OWID_WRL,World,1985,gas,16260.907
+OWID_WRL,World,1985,hydro,5499.379
+OWID_WRL,World,1985,low carbon,9851.576
+OWID_WRL,World,1985,nuclear,4135.897
+OWID_WRL,World,1985,oil,33789.184
+OWID_WRL,World,1985,other renewable,216.09
+OWID_WRL,World,1985,renewables,5715.68
+OWID_WRL,World,1985,solar,0.033
+OWID_WRL,World,1985,wind,0.178
+OWID_WRL,World,1986,biofuel,0.0
+OWID_WRL,World,1986,coal,24256.05
+OWID_WRL,World,1986,energy_per_capita,17296.598
+OWID_WRL,World,1986,energy_per_gdp,2.27
+OWID_WRL,World,1986,fossil fuel,75478.664
+OWID_WRL,World,1986,gas,16419.892
+OWID_WRL,World,1986,hydro,5573.815
+OWID_WRL,World,1986,low carbon,10241.787
+OWID_WRL,World,1986,nuclear,4429.825
+OWID_WRL,World,1986,oil,34802.722
+OWID_WRL,World,1986,other renewable,237.72
+OWID_WRL,World,1986,renewables,5811.962
+OWID_WRL,World,1986,solar,0.042
+OWID_WRL,World,1986,wind,0.386
+OWID_WRL,World,1987,biofuel,0.0
+OWID_WRL,World,1987,coal,25210.286
+OWID_WRL,World,1987,energy_per_capita,17574.466
+OWID_WRL,World,1987,energy_per_gdp,2.259
+OWID_WRL,World,1987,fossil fuel,77990.38
+OWID_WRL,World,1987,gas,17280.611
+OWID_WRL,World,1987,hydro,5649.189
+OWID_WRL,World,1987,low carbon,10723.032
+OWID_WRL,World,1987,nuclear,4818.707
+OWID_WRL,World,1987,oil,35499.484
+OWID_WRL,World,1987,other renewable,254.564
+OWID_WRL,World,1987,renewables,5904.325
+OWID_WRL,World,1987,solar,0.029
+OWID_WRL,World,1987,wind,0.543
+OWID_WRL,World,1988,biofuel,0.0
+OWID_WRL,World,1988,coal,25964.647
+OWID_WRL,World,1988,energy_per_capita,17916.469
+OWID_WRL,World,1988,energy_per_gdp,2.248
+OWID_WRL,World,1988,fossil fuel,80755.347
+OWID_WRL,World,1988,gas,18087.621
+OWID_WRL,World,1988,hydro,5829.785
+OWID_WRL,World,1988,low carbon,11346.1
+OWID_WRL,World,1988,nuclear,5253.474
+OWID_WRL,World,1988,oil,36703.079
+OWID_WRL,World,1988,other renewable,261.891
+OWID_WRL,World,1988,renewables,6092.626
+OWID_WRL,World,1988,solar,0.028
+OWID_WRL,World,1988,wind,0.921
+OWID_WRL,World,1989,biofuel,0.0
+OWID_WRL,World,1989,coal,26213.476
+OWID_WRL,World,1989,energy_per_capita,17943.04
+OWID_WRL,World,1989,energy_per_gdp,2.222
+OWID_WRL,World,1989,fossil fuel,82383.876
+OWID_WRL,World,1989,gas,18870.551
+OWID_WRL,World,1989,hydro,5798.813
+OWID_WRL,World,1989,low carbon,11499.57
+OWID_WRL,World,1989,nuclear,5402.812
+OWID_WRL,World,1989,oil,37299.85
+OWID_WRL,World,1989,other renewable,289.857
+OWID_WRL,World,1989,renewables,6096.758
+OWID_WRL,World,1989,solar,0.728
+OWID_WRL,World,1989,wind,7.36
+OWID_WRL,World,1990,biofuel,102.76
+OWID_WRL,World,1990,coal,25894.997
+OWID_WRL,World,1990,energy_per_capita,17844.721
+OWID_WRL,World,1990,energy_per_gdp,2.201
+OWID_WRL,World,1990,fossil fuel,83070.319
+OWID_WRL,World,1990,gas,19484.436
+OWID_WRL,World,1990,hydro,5996.967
+OWID_WRL,World,1990,low carbon,11992.629
+OWID_WRL,World,1990,nuclear,5556.843
+OWID_WRL,World,1990,oil,37690.886
+OWID_WRL,World,1990,other renewable,324.89
+OWID_WRL,World,1990,renewables,6435.785
+OWID_WRL,World,1990,solar,1.079
+OWID_WRL,World,1990,wind,10.09
+OWID_WRL,World,1991,biofuel,108.63
+OWID_WRL,World,1991,coal,25642.774
+OWID_WRL,World,1991,energy_per_capita,17681.04
+OWID_WRL,World,1991,energy_per_gdp,2.191
+OWID_WRL,World,1991,fossil fuel,83310.064
+OWID_WRL,World,1991,gas,19976.062
+OWID_WRL,World,1991,hydro,6137.256
+OWID_WRL,World,1991,low carbon,12420.196
+OWID_WRL,World,1991,nuclear,5822.712
+OWID_WRL,World,1991,oil,37691.227
+OWID_WRL,World,1991,other renewable,338.842
+OWID_WRL,World,1991,renewables,6597.484
+OWID_WRL,World,1991,solar,1.403
+OWID_WRL,World,1991,wind,11.352
+OWID_WRL,World,1992,biofuel,106.608
+OWID_WRL,World,1992,coal,25549.959
+OWID_WRL,World,1992,energy_per_capita,17539.656
+OWID_WRL,World,1992,energy_per_gdp,2.153
+OWID_WRL,World,1992,fossil fuel,83961.136
+OWID_WRL,World,1992,gas,20066.809
+OWID_WRL,World,1992,hydro,6136.322
+OWID_WRL,World,1992,low carbon,12488.026
+OWID_WRL,World,1992,nuclear,5866.919
+OWID_WRL,World,1992,oil,38344.368
+OWID_WRL,World,1992,other renewable,363.728
+OWID_WRL,World,1992,renewables,6621.107
+OWID_WRL,World,1992,solar,1.302
+OWID_WRL,World,1992,wind,13.148
+OWID_WRL,World,1993,biofuel,111.162
+OWID_WRL,World,1993,coal,25675.129
+OWID_WRL,World,1993,energy_per_capita,17400.078
+OWID_WRL,World,1993,energy_per_gdp,2.139
+OWID_WRL,World,1993,fossil fuel,84043.499
+OWID_WRL,World,1993,gas,20269.103
+OWID_WRL,World,1993,hydro,6503.463
+OWID_WRL,World,1993,low carbon,13076.747
+OWID_WRL,World,1993,nuclear,6068.966
+OWID_WRL,World,1993,oil,38099.268
+OWID_WRL,World,1993,other renewable,375.783
+OWID_WRL,World,1993,renewables,7007.781
+OWID_WRL,World,1993,solar,1.546
+OWID_WRL,World,1993,wind,15.827
+OWID_WRL,World,1994,biofuel,120.114
+OWID_WRL,World,1994,coal,25773.562
+OWID_WRL,World,1994,energy_per_capita,17369.002
+OWID_WRL,World,1994,energy_per_gdp,2.115
+OWID_WRL,World,1994,fossil fuel,85101.869
+OWID_WRL,World,1994,gas,20393.341
+OWID_WRL,World,1994,hydro,6546.899
+OWID_WRL,World,1994,low carbon,13261.399
+OWID_WRL,World,1994,nuclear,6182.906
+OWID_WRL,World,1994,oil,38934.965
+OWID_WRL,World,1994,other renewable,390.027
+OWID_WRL,World,1994,renewables,7078.493
+OWID_WRL,World,1994,solar,1.667
+OWID_WRL,World,1994,wind,19.786
+OWID_WRL,World,1995,biofuel,126.441
+OWID_WRL,World,1995,coal,25954.363
+OWID_WRL,World,1995,energy_per_capita,17482.117
+OWID_WRL,World,1995,energy_per_gdp,2.079
+OWID_WRL,World,1995,fossil fuel,86507.622
+OWID_WRL,World,1995,gas,21108.566
+OWID_WRL,World,1995,hydro,6904.543
+OWID_WRL,World,1995,low carbon,13913.38
+OWID_WRL,World,1995,nuclear,6451.105
+OWID_WRL,World,1995,oil,39444.693
+OWID_WRL,World,1995,other renewable,406.56
+OWID_WRL,World,1995,renewables,7462.274
+OWID_WRL,World,1995,solar,1.78
+OWID_WRL,World,1995,wind,22.95
+OWID_WRL,World,1996,biofuel,121.037
+OWID_WRL,World,1996,coal,26572.145
+OWID_WRL,World,1996,energy_per_capita,17746.228
+OWID_WRL,World,1996,energy_per_gdp,2.076
+OWID_WRL,World,1996,fossil fuel,89116.102
+OWID_WRL,World,1996,gas,22163.46
+OWID_WRL,World,1996,hydro,7001.392
+OWID_WRL,World,1996,low carbon,14253.758
+OWID_WRL,World,1996,nuclear,6685.564
+OWID_WRL,World,1996,oil,40380.497
+OWID_WRL,World,1996,other renewable,418.238
+OWID_WRL,World,1996,renewables,7568.194
+OWID_WRL,World,1996,solar,1.959
+OWID_WRL,World,1996,wind,25.568
+OWID_WRL,World,1997,biofuel,126.272
+OWID_WRL,World,1997,coal,26526.834
+OWID_WRL,World,1997,energy_per_capita,17671.673
+OWID_WRL,World,1997,energy_per_gdp,2.03
+OWID_WRL,World,1997,fossil fuel,89974.447
+OWID_WRL,World,1997,gas,22034.355
+OWID_WRL,World,1997,hydro,7128.16
+OWID_WRL,World,1997,low carbon,14377.597
+OWID_WRL,World,1997,nuclear,6639.662
+OWID_WRL,World,1997,oil,41413.258
+OWID_WRL,World,1997,other renewable,448.019
+OWID_WRL,World,1997,renewables,7737.935
+OWID_WRL,World,1997,solar,2.102
+OWID_WRL,World,1997,wind,33.383
+OWID_WRL,World,1998,biofuel,127.632
+OWID_WRL,World,1998,coal,26359.578
+OWID_WRL,World,1998,energy_per_capita,17545.245
+OWID_WRL,World,1998,energy_per_gdp,2.015
+OWID_WRL,World,1998,fossil fuel,90421.931
+OWID_WRL,World,1998,gas,22437.921
+OWID_WRL,World,1998,hydro,7185.956
+OWID_WRL,World,1998,low carbon,14582.748
+OWID_WRL,World,1998,nuclear,6753.84
+OWID_WRL,World,1998,oil,41624.432
+OWID_WRL,World,1998,other renewable,468.784
+OWID_WRL,World,1998,renewables,7828.908
+OWID_WRL,World,1998,solar,2.311
+OWID_WRL,World,1998,wind,44.226
+OWID_WRL,World,1999,biofuel,129.306
+OWID_WRL,World,1999,coal,26521.914
+OWID_WRL,World,1999,energy_per_capita,17628.417
+OWID_WRL,World,1999,energy_per_gdp,1.98
+OWID_WRL,World,1999,fossil fuel,91969.278
+OWID_WRL,World,1999,gas,23075.98
+OWID_WRL,World,1999,hydro,7237.996
+OWID_WRL,World,1999,low carbon,14933.661
+OWID_WRL,World,1999,nuclear,7012.121
+OWID_WRL,World,1999,oil,42371.384
+OWID_WRL,World,1999,other renewable,492.76
+OWID_WRL,World,1999,renewables,7921.54
+OWID_WRL,World,1999,solar,2.545
+OWID_WRL,World,1999,wind,58.934
+OWID_WRL,World,2000,biofuel,126.039
+OWID_WRL,World,2000,coal,27417.313
+OWID_WRL,World,2000,energy_per_capita,17837.305
+OWID_WRL,World,2000,energy_per_gdp,1.912
+OWID_WRL,World,2000,fossil fuel,94314.391
+OWID_WRL,World,2000,gas,23999.887
+OWID_WRL,World,2000,hydro,7366.566
+OWID_WRL,World,2000,low carbon,15268.987
+OWID_WRL,World,2000,nuclear,7169.17
+OWID_WRL,World,2000,oil,42897.191
+OWID_WRL,World,2000,other renewable,516.82
+OWID_WRL,World,2000,renewables,8099.817
+OWID_WRL,World,2000,solar,3.112
+OWID_WRL,World,2000,wind,87.28
+OWID_WRL,World,2001,biofuel,125.74
+OWID_WRL,World,2001,coal,27852.504
+OWID_WRL,World,2001,energy_per_capita,17786.908
+OWID_WRL,World,2001,energy_per_gdp,1.889
+OWID_WRL,World,2001,fossil fuel,95461.607
+OWID_WRL,World,2001,gas,24330.947
+OWID_WRL,World,2001,hydro,7130.864
+OWID_WRL,World,2001,low carbon,15219.685
+OWID_WRL,World,2001,nuclear,7323.716
+OWID_WRL,World,2001,oil,43278.157
+OWID_WRL,World,2001,other renewable,529.551
+OWID_WRL,World,2001,renewables,7895.97
+OWID_WRL,World,2001,solar,3.866
+OWID_WRL,World,2001,wind,105.949
+OWID_WRL,World,2002,biofuel,146.199
+OWID_WRL,World,2002,coal,28944.643
+OWID_WRL,World,2002,energy_per_capita,17948.314
+OWID_WRL,World,2002,energy_per_gdp,1.87
+OWID_WRL,World,2002,fossil fuel,97636.749
+OWID_WRL,World,2002,gas,25052.899
+OWID_WRL,World,2002,hydro,7216.359
+OWID_WRL,World,2002,low carbon,15469.445
+OWID_WRL,World,2002,nuclear,7392.732
+OWID_WRL,World,2002,oil,43639.207
+OWID_WRL,World,2002,other renewable,565.829
+OWID_WRL,World,2002,renewables,8076.714
+OWID_WRL,World,2002,solar,4.837
+OWID_WRL,World,2002,wind,143.49
+OWID_WRL,World,2003,biofuel,164.938
+OWID_WRL,World,2003,coal,31496.509
+OWID_WRL,World,2003,energy_per_capita,18358.56
+OWID_WRL,World,2003,energy_per_gdp,1.877
+OWID_WRL,World,2003,fossil fuel,101858.037
+OWID_WRL,World,2003,gas,25752.011
+OWID_WRL,World,2003,hydro,7158.541
+OWID_WRL,World,2003,low carbon,15291.334
+OWID_WRL,World,2003,nuclear,7196.586
+OWID_WRL,World,2003,oil,44609.516
+OWID_WRL,World,2003,other renewable,593.708
+OWID_WRL,World,2003,renewables,8094.747
+OWID_WRL,World,2003,solar,6.153
+OWID_WRL,World,2003,wind,171.409
+OWID_WRL,World,2004,biofuel,199.349
+OWID_WRL,World,2004,coal,33664.341
+OWID_WRL,World,2004,energy_per_capita,19012.351
+OWID_WRL,World,2004,energy_per_gdp,1.861
+OWID_WRL,World,2004,fossil fuel,106655.621
+OWID_WRL,World,2004,gas,26735.573
+OWID_WRL,World,2004,hydro,7635.779
+OWID_WRL,World,2004,low carbon,16186.198
+OWID_WRL,World,2004,nuclear,7475.689
+OWID_WRL,World,2004,oil,46255.707
+OWID_WRL,World,2004,other renewable,636.916
+OWID_WRL,World,2004,renewables,8710.51
+OWID_WRL,World,2004,solar,8.053
+OWID_WRL,World,2004,wind,230.413
+OWID_WRL,World,2005,biofuel,238.388
+OWID_WRL,World,2005,coal,36170.786
+OWID_WRL,World,2005,energy_per_capita,19408.082
+OWID_WRL,World,2005,energy_per_gdp,1.796
+OWID_WRL,World,2005,fossil fuel,110458.954
+OWID_WRL,World,2005,gas,27463.918
+OWID_WRL,World,2005,hydro,7844.619
+OWID_WRL,World,2005,low carbon,16506.912
+OWID_WRL,World,2005,nuclear,7447.91
+OWID_WRL,World,2005,oil,46824.25
+OWID_WRL,World,2005,other renewable,684.812
+OWID_WRL,World,2005,renewables,9059.002
+OWID_WRL,World,2005,solar,11.205
+OWID_WRL,World,2005,wind,279.978
+OWID_WRL,World,2006,biofuel,299.533
+OWID_WRL,World,2006,coal,38070.674
+OWID_WRL,World,2006,energy_per_capita,19716.933
+OWID_WRL,World,2006,energy_per_gdp,1.739
+OWID_WRL,World,2006,fossil fuel,113613.158
+OWID_WRL,World,2006,gas,28175.652
+OWID_WRL,World,2006,hydro,8092.845
+OWID_WRL,World,2006,low carbon,16982.305
+OWID_WRL,World,2006,nuclear,7493.281
+OWID_WRL,World,2006,oil,47366.831
+OWID_WRL,World,2006,other renewable,726.227
+OWID_WRL,World,2006,renewables,9489.024
+OWID_WRL,World,2006,solar,15.293
+OWID_WRL,World,2006,wind,355.127
+OWID_WRL,World,2007,biofuel,394.209
+OWID_WRL,World,2007,coal,40223.624
+OWID_WRL,World,2007,energy_per_capita,20076.27
+OWID_WRL,World,2007,energy_per_gdp,1.685
+OWID_WRL,World,2007,fossil fuel,117504.838
+OWID_WRL,World,2007,gas,29323.697
+OWID_WRL,World,2007,hydro,8179.49
+OWID_WRL,World,2007,low carbon,17125.569
+OWID_WRL,World,2007,nuclear,7294.706
+OWID_WRL,World,2007,oil,47957.516
+OWID_WRL,World,2007,other renewable,783.021
+OWID_WRL,World,2007,renewables,9830.863
+OWID_WRL,World,2007,solar,20.64
+OWID_WRL,World,2007,wind,453.503
+OWID_WRL,World,2008,biofuel,539.807
+OWID_WRL,World,2008,coal,40770.48
+OWID_WRL,World,2008,energy_per_capita,20057.851
+OWID_WRL,World,2008,energy_per_gdp,1.641
+OWID_WRL,World,2008,fossil fuel,118360.46
+OWID_WRL,World,2008,gas,30024.33
+OWID_WRL,World,2008,hydro,8598.703
+OWID_WRL,World,2008,low carbon,17814.072
+OWID_WRL,World,2008,nuclear,7226.874
+OWID_WRL,World,2008,oil,47565.65
+OWID_WRL,World,2008,other renewable,832.851
+OWID_WRL,World,2008,renewables,10587.198
+OWID_WRL,World,2008,solar,33.376
+OWID_WRL,World,2008,wind,582.461
+OWID_WRL,World,2009,biofuel,618.649
+OWID_WRL,World,2009,coal,40148.633
+OWID_WRL,World,2009,energy_per_capita,19514.057
+OWID_WRL,World,2009,energy_per_gdp,1.628
+OWID_WRL,World,2009,fossil fuel,116213.166
+OWID_WRL,World,2009,gas,29411.029
+OWID_WRL,World,2009,hydro,8532.793
+OWID_WRL,World,2009,low carbon,17902.397
+OWID_WRL,World,2009,nuclear,7080.672
+OWID_WRL,World,2009,oil,46653.505
+OWID_WRL,World,2009,other renewable,891.054
+OWID_WRL,World,2009,renewables,10821.725
+OWID_WRL,World,2009,solar,55.016
+OWID_WRL,World,2009,wind,724.212
+OWID_WRL,World,2010,biofuel,712.414
+OWID_WRL,World,2010,coal,41997.234
+OWID_WRL,World,2010,energy_per_capita,20204.963
+OWID_WRL,World,2010,energy_per_gdp,1.588
+OWID_WRL,World,2010,fossil fuel,121691.136
+OWID_WRL,World,2010,gas,31606.766
+OWID_WRL,World,2010,hydro,8958.472
+OWID_WRL,World,2010,low carbon,18871.237
+OWID_WRL,World,2010,nuclear,7218.503
+OWID_WRL,World,2010,oil,48087.136
+OWID_WRL,World,2010,other renewable,990.475
+OWID_WRL,World,2010,renewables,11652.734
+OWID_WRL,World,2010,solar,87.907
+OWID_WRL,World,2010,wind,903.467
+OWID_WRL,World,2011,biofuel,745.152
+OWID_WRL,World,2011,coal,44018.078
+OWID_WRL,World,2011,energy_per_capita,20447.575
+OWID_WRL,World,2011,energy_per_gdp,1.532
+OWID_WRL,World,2011,fossil fuel,124939.047
+OWID_WRL,World,2011,gas,32370.994
+OWID_WRL,World,2011,hydro,9072.896
+OWID_WRL,World,2011,low carbon,19036.297
+OWID_WRL,World,2011,nuclear,6874.33
+OWID_WRL,World,2011,oil,48549.975
+OWID_WRL,World,2011,other renewable,1033.31
+OWID_WRL,World,2011,renewables,12161.967
+OWID_WRL,World,2011,solar,168.766
+OWID_WRL,World,2011,wind,1141.844
+OWID_WRL,World,2012,biofuel,764.713
+OWID_WRL,World,2012,coal,44185.345
+OWID_WRL,World,2012,energy_per_capita,20464.76
+OWID_WRL,World,2012,energy_per_gdp,1.51
+OWID_WRL,World,2012,fossil fuel,126562.097
+OWID_WRL,World,2012,gas,33220.032
+OWID_WRL,World,2012,hydro,9400.811
+OWID_WRL,World,2012,low carbon,19266.268
+OWID_WRL,World,2012,nuclear,6364.201
+OWID_WRL,World,2012,oil,49156.72
+OWID_WRL,World,2012,other renewable,1109.535
+OWID_WRL,World,2012,renewables,12902.067
+OWID_WRL,World,2012,solar,259.658
+OWID_WRL,World,2012,wind,1367.349
+OWID_WRL,World,2013,biofuel,817.131
+OWID_WRL,World,2013,coal,44993.467
+OWID_WRL,World,2013,energy_per_capita,20606.611
+OWID_WRL,World,2013,energy_per_gdp,1.496
+OWID_WRL,World,2013,fossil fuel,128448.117
+OWID_WRL,World,2013,gas,33766.139
+OWID_WRL,World,2013,hydro,9764.87
+OWID_WRL,World,2013,low carbon,20137.543
+OWID_WRL,World,2013,nuclear,6383.714
+OWID_WRL,World,2013,oil,49688.511
+OWID_WRL,World,2013,other renewable,1187.923
+OWID_WRL,World,2013,renewables,13753.829
+OWID_WRL,World,2013,solar,356.169
+OWID_WRL,World,2013,wind,1627.737
+OWID_WRL,World,2014,biofuel,875.835
+OWID_WRL,World,2014,coal,44954.435
+OWID_WRL,World,2014,energy_per_capita,20532.66
+OWID_WRL,World,2014,energy_per_gdp,1.469
+OWID_WRL,World,2014,fossil fuel,128962.368
+OWID_WRL,World,2014,gas,33994.279
+OWID_WRL,World,2014,hydro,9910.341
+OWID_WRL,World,2014,low carbon,20829.361
+OWID_WRL,World,2014,nuclear,6466.974
+OWID_WRL,World,2014,oil,50013.654
+OWID_WRL,World,2014,other renewable,1274.776
+OWID_WRL,World,2014,renewables,14362.387
+OWID_WRL,World,2014,solar,503.532
+OWID_WRL,World,2014,wind,1797.902
+OWID_WRL,World,2015,biofuel,907.399
+OWID_WRL,World,2015,coal,43844.173
+OWID_WRL,World,2015,energy_per_capita,20445.283
+OWID_WRL,World,2015,energy_per_gdp,1.437
+OWID_WRL,World,2015,fossil fuel,129516.27
+OWID_WRL,World,2015,gas,34780.121
+OWID_WRL,World,2015,hydro,9827.171
+OWID_WRL,World,2015,low carbon,21365.767
+OWID_WRL,World,2015,nuclear,6516.074
+OWID_WRL,World,2015,oil,50891.976
+OWID_WRL,World,2015,other renewable,1361.715
+OWID_WRL,World,2015,renewables,14849.694
+OWID_WRL,World,2015,solar,649.74
+OWID_WRL,World,2015,wind,2103.669
+OWID_WRL,World,2016,biofuel,944.501
+OWID_WRL,World,2016,coal,43195.639
+OWID_WRL,World,2016,energy_per_capita,20490.955
+OWID_WRL,World,2016,energy_per_gdp,1.429
+OWID_WRL,World,2016,fossil fuel,130705.831
+OWID_WRL,World,2016,gas,35590.036
+OWID_WRL,World,2016,hydro,10091.741
+OWID_WRL,World,2016,low carbon,22239.107
+OWID_WRL,World,2016,nuclear,6575.951
+OWID_WRL,World,2016,oil,51920.156
+OWID_WRL,World,2016,other renewable,1377.77
+OWID_WRL,World,2016,renewables,15663.156
+OWID_WRL,World,2016,solar,825.45
+OWID_WRL,World,2016,wind,2423.694
+OWID_WRL,World,2017,biofuel,972.009
+OWID_WRL,World,2017,coal,43359.508
+OWID_WRL,World,2017,energy_per_capita,20624.761
+OWID_WRL,World,2017,energy_per_gdp,
+OWID_WRL,World,2017,fossil fuel,132512.67
+OWID_WRL,World,2017,gas,36585.642
+OWID_WRL,World,2017,hydro,10164.682
+OWID_WRL,World,2017,low carbon,23160.114
+OWID_WRL,World,2017,nuclear,6596.391
+OWID_WRL,World,2017,oil,52567.52
+OWID_WRL,World,2017,other renewable,1457.234
+OWID_WRL,World,2017,renewables,16563.723
+OWID_WRL,World,2017,solar,1117.368
+OWID_WRL,World,2017,wind,2852.43
+OWID_WRL,World,2018,biofuel,1040.053
+OWID_WRL,World,2018,coal,44109.462
+OWID_WRL,World,2018,energy_per_capita,20975.203
+OWID_WRL,World,2018,energy_per_gdp,
+OWID_WRL,World,2018,fossil fuel,135807.237
+OWID_WRL,World,2018,gas,38516.651
+OWID_WRL,World,2018,hydro,10367.535
+OWID_WRL,World,2018,low carbon,24252.866
+OWID_WRL,World,2018,nuclear,6711.461
+OWID_WRL,World,2018,oil,53181.125
+OWID_WRL,World,2018,other renewable,1528.605
+OWID_WRL,World,2018,renewables,17541.405
+OWID_WRL,World,2018,solar,1448.367
+OWID_WRL,World,2018,wind,3156.845
+OWID_WRL,World,2019,biofuel,1101.949
+OWID_WRL,World,2019,coal,43849.215
+OWID_WRL,World,2019,energy_per_capita,21027.415
+OWID_WRL,World,2019,energy_per_gdp,
+OWID_WRL,World,2019,fossil fuel,136761.607
+OWID_WRL,World,2019,gas,39292.468
+OWID_WRL,World,2019,hydro,10455.127
+OWID_WRL,World,2019,low carbon,25427.562
+OWID_WRL,World,2019,nuclear,6923.412
+OWID_WRL,World,2019,oil,53619.925
+OWID_WRL,World,2019,other renewable,1614.027
+OWID_WRL,World,2019,renewables,18504.151
+OWID_WRL,World,2019,solar,1792.996
+OWID_WRL,World,2019,wind,3540.051

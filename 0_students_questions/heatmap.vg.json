@@ -1,0 +1,32 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/TylerPersonal/Vis2_data/main/lat_long_state_areas.csv" },
+    "config": {
+        "background": "aliceblue",
+        "title": { "fontSize": 18 },
+        "view": { "stroke": "transparent" },
+        "axis": { "grid": true, "tickBand": "extent" }
+    },
+    "hconcat": [{
+        "width": 400,
+        "height": 300,
+        "transform": [{ "calculate": "datum.brightness - 273", "as": "Surface Temperature" }],
+        "mark": { "type": "rect", "strokeWidth": 2 },
+        "encoding": {
+            "x": {
+                "field": "acq_date",
+                "timeUnit": "date",
+                "type": "ordinal",
+                "title": "Day",
+                "axis": {
+                    "labelAngle": 0,
+                    "format": "%e"
+                }
+            },
+            "y": { "field": "brightness", "bin": { "maxbins": 10 }, "title": "Surface Temperature" },
+            "color": {
+                "aggregate": "count"
+            }
+        }
+    }]
+}

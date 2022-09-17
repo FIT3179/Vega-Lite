@@ -1,0 +1,45 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/earthquake.csv"
+  },
+  "transform": [
+    {"bin": {"step": 0.5, "extent": [5, 7]}, "field": "mag", "as": "magnitude"}
+  ],
+  "vconcat":[
+    {
+        "width": 600,
+        "height": 300,
+        "mark": "area",
+        "encoding": {
+        "x": {
+          "field": "time",
+          "timeUnit": "yearmonth",
+          "scale": {"domain": {"param": "brush"}},
+          "axis": {"title": "", "tickCount": 5, "grid": false}
+        },
+        "y": {"aggregate": "count", "title": "Count"},
+        "color": {
+          "field": "magnitude",
+          "scale": {
+            "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#bd0026", "#7f0000"]
+          },
+          "legend": {"values": ["5", "5.5", "6", "6.5"]}
+        }
+      }
+    },
+    {
+      "width": 600,
+      "height": 50,
+      "params": [{
+        "name": "brush",
+        "select": {"type": "interval", "encodings": ["x"]}
+      }],
+      "mark": "line",
+      "encoding": {
+        "x": {"field": "time", "type": "temporal","timeUnit": "yearmonth"},
+        "y": {"aggregate": "count", "title": "Count"}
+      }
+    }
+  ]
+}

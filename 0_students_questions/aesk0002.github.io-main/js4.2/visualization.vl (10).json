@@ -1,0 +1,47 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": "container",
+  "title": "Number of Mass Rapid Transit (MRT) Stations in Singapore",
+  "view": {"stroke": "transparent"},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/aesk0002/aesk0002.github.io/main/data4/national-map-polygon-geojson.json",
+        "format": {
+          "type": "topojson",
+          "feature": "national-map-polygon-geojson"
+        }
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+      "projection": {"type": "mercator"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/aesk0002/aesk0002.github.io/main/data4/G_MP14_RAIL_LI.json",
+        "format": {"type": "topojson", "feature": "G_MP14_RAIL_LI"}
+      },
+      "mark": {"type": "geoshape", "filled": false, "strokeWidth": 2},
+      "projection": {"type": "identity", "reflectX": false, "reflectY": true}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/aesk0002/aesk0002.github.io/main/data4/singapore_public_transport.csv"
+      },
+      "mark": {"type": "point"},
+      
+      "encoding": {
+        "longitude": {"field": "lng", "type": "quantitative"},
+        "latitude": {"field": "lat", "type": "quantitative"},
+        "color": {"value": "red"},
+        "tooltip": [
+          {"field": "lng", "type": "quantitative"},
+          {"field": "lat", "type": "quantitative"},
+          {"field": "station_name", "type": "nominal"},
+          {"field": "type", "type": "nominal"}
+        ]
+      }
+    }
+  ],
+  "config": {}
+}

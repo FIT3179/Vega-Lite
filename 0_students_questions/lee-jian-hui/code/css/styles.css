@@ -1,0 +1,69 @@
+#choropleth_map {
+	width: max-content;
+}
+
+body{
+    /* background-image: url("/image-assests/nuclear-smoke-cropped.jpg"); */
+	/* https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/image-assests/nuclear-smoke-cropped.jpg */
+
+	background-image: url("https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/image-assests/nuclear-smoke-cropped.jpg");
+
+	background-size: 100% 100%;	
+	background-repeat: no-repeat;
+}
+
+
+.page{
+	width: 1400px;    
+	/* background-color: #ffe400; */
+	/* yellow */
+	background-color: rgba(256, 228, 00, 0.8);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 35px;
+}
+
+
+/* https://stackoverflow.com/questions/47545136/centering-an-object-within-a-grid-width-using-purecss */
+.center-item{
+	margin: 0 auto;
+	/* margin-left: auto;
+	margin-right: auto; */
+	width: 50%;
+}
+
+.pure-g{
+	display: flex;
+	justify-content: center;
+}
+
+/* .pure-g-center{
+	
+} */
+
+.marginal-text-box{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+.empty-container{
+	height: 30px;
+	/* background-color: black */
+}
+
+.subtitle-container{
+    background-color: black;
+	width: auto;
+	height: fit-content;
+}
+
+.vis-container{
+	/* border-width: 10px;
+	border-radius: 20px;
+	border-style: solid; */
+	width: 1250px;
+	height: 700px;
+}
+

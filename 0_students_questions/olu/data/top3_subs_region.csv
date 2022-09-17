@@ -1,0 +1,1027 @@
+Suburb,Address,Rooms,Type,Price,Method,Date,Distance,Postcode,Bedroom2,Bathroom,Car,Landsize,YearBuilt,CouncilArea,Regionname
+Alphington,30 Austin St,3,House,1337591,SN,Sep-16,6.4,3078,3,2,1,174,2003,Darebin,Northern Metropolitan
+Alphington,6 Smith St,4,House,2000000,S,Sep-16,6.4,3078,3,2,4,853,1930,Darebin,Northern Metropolitan
+Alphington,5/6 Yarralea St,3,House,1110000,S,Sep-16,6.4,3078,3,2,2,208,2013,Yarra,Northern Metropolitan
+Alphington,136A Fulham Rd,3,House,1492000,S,Mar-17,6.4,3078,3,2,2,411,1990,Darebin,Northern Metropolitan
+Alphington,1/9 Roemer Cr,2,Unit,480000,PI,May-16,6.4,3078,2,1,1,71,1972,Darebin,Northern Metropolitan
+Alphington,4 Tuckett St,3,House,1337591,S,May-16,6.4,3078,3,1,3,922,1990,Darebin,Northern Metropolitan
+Alphington,2/21 Fulham Rd,3,Townhouse,1304000,SP,Oct-16,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,44 Shiers St,4,House,1717500,S,Oct-16,6.4,3078,4,2,1,599,1925,Darebin,Northern Metropolitan
+Alphington,83 Fulham Rd,5,House,2840000,S,Jun-16,6.4,3078,5,4,4,809,1910,Darebin,Northern Metropolitan
+Alphington,29 Alphington St,5,House,2840000,S,Nov-16,6.4,3078,5,3,4,743,1915,Yarra,Northern Metropolitan
+Alphington,3/19 Harker St,2,Unit,525500,S,Nov-16,6.4,3078,2,1,1,88,1960,Darebin,Northern Metropolitan
+Alphington,4/2 Miller St,2,Townhouse,805000,S,Nov-16,6.4,3078,2,2,3,155,2004,Darebin,Northern Metropolitan
+Alphington,2/5 Yarana Rd,2,Unit,465000,S,Nov-16,6.4,3078,2,1,1,0,1972,Darebin,Northern Metropolitan
+Alphington,4/5 Chandler Hwy,4,Townhouse,2022292,PN,Aug-16,6.4,3078,4,2,2,618,1947,Darebin,Northern Metropolitan
+Alphington,69 Lucerne Cr,3,House,1480000,S,Aug-16,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,815 Heidelberg Rd,3,House,2000000,PI,Oct-16,6.4,3078,3,3,2,686,1990,Darebin,Northern Metropolitan
+Alphington,44 Naroon Rd,3,House,1540000,S,Apr-16,6.4,3078,3,1,2,592,1990,Darebin,Northern Metropolitan
+Alphington,11 Tower Av,4,House,2022292,S,Apr-16,6.4,3078,4,2,2,618,1947,Darebin,Northern Metropolitan
+Alphington,1/17 Rex Av,2,Unit,590000,PI,Sep-16,6.4,3078,2,1,1,71,1972,Darebin,Northern Metropolitan
+Alphington,3/98 Grange Rd,2,Unit,820000,S,Mar-17,6.4,3078,2,1,1,183,1972,Darebin,Northern Metropolitan
+Alphington,10 Bennett St,4,House,1830000,S,Nov-16,6.4,3078,4,2,2,606,1970,Darebin,Northern Metropolitan
+Alphington,38 Bennett St,4,House,2100000,S,Nov-16,6.4,3078,4,2,2,575,2008,Darebin,Northern Metropolitan
+Alphington,2c Hamilton St,3,House,865000,SP,May-16,6.4,3078,3,1,1,180,2010,Darebin,Northern Metropolitan
+Alphington,5/5 Yarana Rd,2,Unit,390000,VB,May-16,6.4,3078,2,1,1,0,1960,Darebin,Northern Metropolitan
+Alphington,1/14 Fulham Rd,2,Unit,512000,S,Feb-17,6.4,3078,2,1,1,0,1965,Darebin,Northern Metropolitan
+Alphington,17 Lowther St,3,House,1361000,S,Feb-17,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,29 Naroon Rd,4,House,2022292,SP,Feb-17,6.4,3078,4,2,2,597,1947,Darebin,Northern Metropolitan
+Alphington,13a Fulham Rd,3,House,1310000,S,Jul-16,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,32/23 Coate Av,3,House,570000,VB,Jun-16,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,22 Lowther St,3,House,1165000,S,Jun-16,6.4,3078,3,1,2,979,1990,Yarra,Northern Metropolitan
+Alphington,6/11 Broomfield Av,2,Unit,530000,S,Nov-16,6.4,3078,2,1,1,71,1972,Darebin,Northern Metropolitan
+Alphington,11 Margaret Gr,4,House,1900000,SP,Nov-16,6.4,3078,4,2,2,556,1930,Yarra,Northern Metropolitan
+Alphington,21 Como St,5,House,2840000,SN,Aug-16,6.4,3078,5,2,2,552,1916,Yarra,Northern Metropolitan
+Alphington,6 Naroon Rd,3,House,1485000,SP,Aug-16,6.4,3078,3,0,0,597,1990,Darebin,Northern Metropolitan
+Alphington,42 Shiers St,4,House,1950000,S,Jul-16,6.4,3078,4,2,3,589,1920,Darebin,Northern Metropolitan
+Canterbury,18 Irilbarra Rd,4,House,2950000,S,Sep-16,9,3126,4,2,2,687,1935,Boroondara,Southern Metropolitan
+Canterbury,2a View St,3,House,1943975,SN,Sep-16,9,3126,3,2,2,309,2004,Boroondara,Southern Metropolitan
+Canterbury,1 Claremont Cr,3,House,1943975,S,Dec-16,9,3126,3,2,2,482,1943,Boroondara,Southern Metropolitan
+Canterbury,33 Myrtle Rd,3,House,1587500,S,Dec-16,9,3126,3,1,1,459,1920,Boroondara,Southern Metropolitan
+Canterbury,62 Wentworth Av,4,House,2778864,S,Dec-16,9,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,22 Allenby Rd,3,House,1943975,S,Mar-17,9,3126,3,2,2,522,1943,Boroondara,Southern Metropolitan
+Canterbury,1/17 Chatham Rd,4,Townhouse,1550000,PI,Mar-17,9,3126,4,2,4,318,1941,Boroondara,Southern Metropolitan
+Canterbury,3 Claremont Cr,4,House,2778864,S,Mar-17,9,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,2E Hopetoun Av,4,Townhouse,2778864,S,Mar-17,9,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,1/28 Milton St,2,House,765000,S,Mar-17,9,3126,2,1,1,543,1970,Boroondara,Southern Metropolitan
+Canterbury,2 Monomeath Av,5,House,3775500,S,Mar-17,9,3126,5,3,3,916,1933,Boroondara,Southern Metropolitan
+Canterbury,4/31 Monomeath Av,3,Unit,2130000,S,Mar-17,9,3126,3,2,2,482,1943,Boroondara,Southern Metropolitan
+Canterbury,80 Highfield Rd,2,House,876400,S,Jun-16,9,3126,2,1,1,231,1930,Boroondara,Southern Metropolitan
+Canterbury,3/13 Wattle Valley Rd,2,Unit,830000,S,Jun-16,9,3126,2,1,1,110,1960,Boroondara,Southern Metropolitan
+Canterbury,11 Mangarra Rd,3,House,1943975,S,Aug-16,9,3126,3,1,1,654,1910,Boroondara,Southern Metropolitan
+Canterbury,9 Victoria Av,3,House,4110000,S,Aug-16,9,3126,3,2,2,482,1943,Boroondara,Southern Metropolitan
+Canterbury,2 McGregor St,4,House,2375000,S,May-16,9,3126,4,2,1,653,1910,Boroondara,Southern Metropolitan
+Canterbury,31 Rubens Gr,5,House,2900000,PI,May-16,9,3126,5,2,2,795,1910,Boroondara,Southern Metropolitan
+Canterbury,8 View St,4,House,2778864,SP,May-16,9,3126,4,2,1,756,1941,Boroondara,Southern Metropolitan
+Canterbury,42 Warburton Rd,3,House,2200000,VB,May-16,9,3126,3,3,2,468,1890,Boroondara,Southern Metropolitan
+Canterbury,5 Margaret St,4,House,2620000,S,Nov-16,9,3126,4,1,1,717,1890,Boroondara,Southern Metropolitan
+Canterbury,5 Dorothea St,2,House,1305000,S,Oct-16,9,3126,2,1,1,342,1945,Boroondara,Southern Metropolitan
+Canterbury,3 Monomeath Pl,4,House,4350000,S,Oct-16,9,3126,4,3,3,788,1941,Boroondara,Southern Metropolitan
+Canterbury,1b Daphne St,3,House,928000,S,Sep-16,9,3126,3,2,1,145,1998,Boroondara,Southern Metropolitan
+Canterbury,14 Golding St,4,House,2778864,S,Sep-16,9,3126,4,2,2,598,1905,Boroondara,Southern Metropolitan
+Canterbury,13 Byron St,5,House,2930000,S,Dec-16,9,3126,5,3,4,645,2005,Boroondara,Southern Metropolitan
+Canterbury,21 Compton St,4,House,2950000,PI,Dec-16,9,3126,4,2,3,812,1927,Boroondara,Southern Metropolitan
+Canterbury,12A Highfield Rd,5,House,3775500,SN,Dec-16,9,3126,5,3,3,965,1928,Boroondara,Southern Metropolitan
+Canterbury,29 Rubens Gr,4,House,3800000,PI,Feb-17,9,3126,4,1,1,858,1941,Boroondara,Southern Metropolitan
+Canterbury,4/34 Rochester Rd,2,Unit,722000,S,Nov-16,9,3126,2,1,1,0,1965,Boroondara,Southern Metropolitan
+Canterbury,14 Selwyn St,5,House,3775500,S,May-16,9,3126,5,3,2,900,1900,Boroondara,Southern Metropolitan
+Canterbury,6 Cross St,4,House,2778864,S,Oct-16,9,3126,4,3,2,585,1900,Boroondara,Southern Metropolitan
+Canterbury,8 Dudley Pde,5,House,2350000,VB,Oct-16,9,3126,5,2,4,838,1910,Boroondara,Southern Metropolitan
+Canterbury,1/8 Faversham Rd,3,Townhouse,1680000,S,Oct-16,9,3126,3,2,2,387,1943,Boroondara,Southern Metropolitan
+Canterbury,21 Marden St,3,House,1640000,PI,Oct-16,9,3126,3,3,2,352,1997,Boroondara,Southern Metropolitan
+Canterbury,5/69 Canterbury Rd,2,Unit,876400,S,Sep-16,9,3126,2,2,1,0,2014,Boroondara,Southern Metropolitan
+Canterbury,47 Warburton Rd,3,House,1680000,S,Sep-16,9,3126,3,2,1,325,1910,Boroondara,Southern Metropolitan
+Canterbury,77 Highfield Rd,5,House,3550000,VB,Mar-17,9,3126,5,4,4,684,2013,Boroondara,Southern Metropolitan
+Canterbury,55 Warburton Rd,3,House,1385000,S,Jun-16,9,3126,2,1,1,444,1910,Boroondara,Southern Metropolitan
+Canterbury,17 Irilbarra Rd,4,House,3400000,S,Nov-16,9,3126,4,1,4,845,2008,Boroondara,Southern Metropolitan
+Canterbury,12 Grange Av,5,House,4500000,PI,May-16,9,3126,5,3,3,916,1933,Boroondara,Southern Metropolitan
+Canterbury,3 Compton St,4,House,2778864,S,Aug-16,9,3126,4,2,2,879,1941,Boroondara,Southern Metropolitan
+Canterbury,5/25 Chatham Rd,3,House,1943975,SP,Apr-16,9,3126,3,0,0,502,1943,Boroondara,Southern Metropolitan
+Canterbury,2/20 Margaret St,2,Unit,690500,SP,Apr-16,9,3126,2,1,1,118,1970,Boroondara,Southern Metropolitan
+Canterbury,25 Myrtle Rd,4,House,2778864,SN,Feb-17,9,3126,4,2,6,1266,1904,Boroondara,Southern Metropolitan
+Canterbury,3 Allenby Rd,3,House,1943975,S,Jul-16,9,3126,3,2,1,415,1943,Boroondara,Southern Metropolitan
+Canterbury,12a View St,3,House,1850000,PI,Jul-16,9,3126,3,2,2,361,1995,Boroondara,Southern Metropolitan
+Canterbury,6/124 Canterbury Rd,2,Unit,736000,S,Jun-16,9,3126,2,1,2,132,1970,Boroondara,Southern Metropolitan
+Canterbury,3/34 Faversham Rd,3,Townhouse,1843000,S,Jun-16,9,3126,3,2,2,0,1943,Boroondara,Southern Metropolitan
+Canterbury,3/124 Canterbury Rd,2,Unit,685000,S,Nov-16,9,3126,2,1,1,122,1970,Boroondara,Southern Metropolitan
+Canterbury,2A Erica St,2,House,1800000,VB,Nov-16,9,3126,2,1,3,716,1970,Boroondara,Southern Metropolitan
+Canterbury,1/29 Logan St,3,House,1800000,S,Nov-16,9,3126,3,2,2,316,1986,Boroondara,Southern Metropolitan
+Canterbury,35 Myrtle Rd,4,House,3145000,S,Nov-16,9,3126,4,2,2,796,2012,Boroondara,Southern Metropolitan
+Canterbury,2B Victoria Av,4,House,2778864,SP,Nov-16,9,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,140 Canterbury Rd,4,House,2778864,SP,Jan-16,9,3126,4,2,0,808,1910,Boroondara,Southern Metropolitan
+Canterbury,8 Avenue Athol,4,Townhouse,1742000,S,May-16,9,3126,4,2,2,780,1941,Boroondara,Southern Metropolitan
+Canterbury,32 Faversham Rd,3,House,1943975,SP,May-16,9,3126,3,1,2,1698,1910,Boroondara,Southern Metropolitan
+Canterbury,14 Monomeath Av,5,House,5110000,S,May-16,9,3126,5,3,3,916,1933,Boroondara,Southern Metropolitan
+Canterbury,20 Wentworth Av,5,House,2750000,VB,May-16,9,3126,5,3,3,916,1933,Boroondara,Southern Metropolitan
+Canterbury,28 Wentworth Av,5,House,3775500,SP,May-16,9,3126,5,3,3,916,1933,Boroondara,Southern Metropolitan
+Canterbury,1/172 Mont Albert Rd,2,Unit,876400,SP,Jul-16,9,3126,2,1,1,175,1970,Boroondara,Southern Metropolitan
+Canterbury,2/46 Wattle Valley Rd,2,Unit,1016000,S,Jul-16,9,3126,2,1,2,0,1970,Boroondara,Southern Metropolitan
+Carlton North,527 Nicholson St,3,House,1330000,VB,Sep-16,3.2,3054,3,1,1,314,1900,Yarra,Northern Metropolitan
+Carlton North,593 Canning St,3,House,1540000,S,Mar-17,3.2,3054,3,1,0,169,1908,Yarra,Northern Metropolitan
+Carlton North,112 Newry St,4,House,1425000,S,Mar-17,3.2,3054,4,3,0,122,1890,Yarra,Northern Metropolitan
+Carlton North,122 Richardson St,2,House,1725000,S,Mar-17,3.2,3054,2,1,1,210,1932,Yarra,Northern Metropolitan
+Carlton North,247 Richardson St,3,House,1631333,SP,Mar-17,3.2,3054,3,1,1,187,1908,Yarra,Northern Metropolitan
+Carlton North,632 Rathdowne St,3,House,1280000,VB,Aug-16,3.2,3054,3,1,0,203,1908,Yarra,Northern Metropolitan
+Carlton North,449 Canning St,2,House,1206750,SP,May-16,3.2,3054,2,1,1,178,1932,Yarra,Northern Metropolitan
+Carlton North,989 Drummond St,3,House,2950000,SP,May-16,3.2,3054,3,1,2,499,1910,Yarra,Northern Metropolitan
+Carlton North,700 Rathdowne St,4,House,2175000,S,May-16,3.2,3054,3,1,0,418,1920,Yarra,Northern Metropolitan
+Carlton North,86 Wilson St,3,House,1555000,S,May-16,3.2,3054,3,1,1,222,1908,Yarra,Northern Metropolitan
+Carlton North,2/872 Drummond St,2,Townhouse,765000,S,Oct-16,3.2,3054,2,1,1,1031,1970,Yarra,Northern Metropolitan
+Carlton North,568 Station St,3,House,1631333,S,Sep-16,3.2,3054,3,1,1,174,1910,Yarra,Northern Metropolitan
+Carlton North,1 Fletcher La,2,House,800000,PI,Dec-16,3.2,3054,2,1,1,73,2009,Yarra,Northern Metropolitan
+Carlton North,173 MacPherson St,2,House,1301000,S,Dec-16,3.2,3054,2,1,0,133,1932,Yarra,Northern Metropolitan
+Carlton North,450 Park St,2,House,1206750,S,Dec-16,3.2,3054,2,1,0,168,1932,Yarra,Northern Metropolitan
+Carlton North,94 Princes St,2,House,1206750,S,Dec-16,3.2,3054,2,1,0,115,1880,Yarra,Northern Metropolitan
+Carlton North,967 Drummond St,4,House,2718000,S,Mar-17,3.2,3054,4,2,0,538,2015,Yarra,Northern Metropolitan
+Carlton North,9/823 Rathdowne St,1,Unit,468000,S,Mar-17,3.2,3054,1,1,1,861,1970,Yarra,Northern Metropolitan
+Carlton North,392 Station St,2,House,2400000,S,Nov-16,3.2,3054,1,2,0,413,1900,Yarra,Northern Metropolitan
+Carlton North,40 Ogrady St,2,House,1330000,S,Oct-16,3.2,3054,2,1,0,116,1932,Yarra,Northern Metropolitan
+Carlton North,1018 Drummond St,4,House,2520000,S,Apr-16,3.2,3054,4,2,2,504,1890,Yarra,Northern Metropolitan
+Carlton North,354 Station St,3,House,1214000,S,Apr-16,3.2,3054,3,3,1,144,1908,Yarra,Northern Metropolitan
+Carlton North,462 Canning St,3,House,1955000,S,Jul-16,3.2,3054,3,2,1,163,1908,Yarra,Northern Metropolitan
+Carlton North,636 Canning St,3,House,1631333,S,Jul-16,3.2,3054,3,1,0,252,1890,Yarra,Northern Metropolitan
+Carlton North,26/174 Lee St,1,Unit,390000,S,Jul-16,3.2,3054,1,1,1,0,1970,Yarra,Northern Metropolitan
+Carlton North,119 Curtain St,1,House,885000,S,Mar-17,3.2,3054,1,1,0,93,1962,Yarra,Northern Metropolitan
+Carlton North,75 Fenwick St,3,House,2050000,S,Mar-17,3.2,3054,3,2,0,84,1970,Yarra,Northern Metropolitan
+Carlton North,658 Lygon St,2,House,880000,S,Jun-16,3.2,3054,2,1,0,142,1932,Yarra,Northern Metropolitan
+Carlton North,292 Amess St,4,House,1950000,S,May-16,3.2,3054,4,2,2,207,1900,Yarra,Northern Metropolitan
+Carlton North,167 Richardson St,3,House,1280000,S,Aug-16,3.2,3054,3,1,1,131,1908,Yarra,Northern Metropolitan
+Carlton North,14/1102 Lygon St,1,Unit,437000,S,Sep-16,3.2,3054,1,1,1,0,1970,Yarra,Northern Metropolitan
+Carlton North,956 Lygon St,3,House,1631333,S,Sep-16,3.2,3054,3,1,1,408,1910,Yarra,Northern Metropolitan
+Carlton North,984 Lygon St,2,House,1150000,VB,Sep-16,3.2,3054,2,1,2,373,1932,Yarra,Northern Metropolitan
+Carlton North,4 Mary St,2,Unit,520000,VB,Sep-16,3.2,3054,2,1,1,0,1940,Yarra,Northern Metropolitan
+Carlton North,194 Amess St,3,House,1631333,S,Feb-17,3.2,3054,3,1,1,202,1908,Yarra,Northern Metropolitan
+Carlton North,20/22 Grattan St,4,Unit,1560000,S,Feb-17,3.2,3054,4,2,1,322,1920,Yarra,Northern Metropolitan
+Carlton North,80 Wilson St,2,House,1678000,S,Feb-17,3.2,3054,2,1,1,353,1932,Yarra,Northern Metropolitan
+Carlton North,377 Canning St,3,House,1631333,S,Jul-16,3.2,3054,3,2,1,163,1883,Yarra,Northern Metropolitan
+Carlton North,24/635 Drummond St,2,Unit,570000,S,Jun-16,3.2,3054,2,1,1,0,1975,Yarra,Northern Metropolitan
+Carlton North,696 Rathdowne St,3,House,1631333,SP,Aug-16,3.2,3054,3,1,0,217,1890,Yarra,Northern Metropolitan
+Eaglemont,82 The Righi,3,House,1435200,SN,Sep-16,10.3,3084,3,1,2,844,1930,Banyule,Eastern Metropolitan
+Eaglemont,23 Silverdale Rd,4,House,2177500,SN,Aug-16,10.3,3084,4,3,2,1127,1996,Banyule,Eastern Metropolitan
+Eaglemont,6 Ashby Gr,5,House,1901000,S,Sep-16,10.3,3084,3,2,2,963,1925,Banyule,Eastern Metropolitan
+Eaglemont,41 Carlsberg Rd,4,House,2177500,SN,Sep-16,10.3,3084,4,2,2,842,1920,Banyule,Eastern Metropolitan
+Eaglemont,76 Castle St,4,House,1650000,VB,Sep-16,10.3,3084,4,3,2,724,1940,Banyule,Eastern Metropolitan
+Eaglemont,7 Glen Dr,5,House,2180333,SS,Sep-16,10.3,3084,3,5,3,1185,1925,Banyule,Eastern Metropolitan
+Eaglemont,1 The Righi,4,House,1687000,S,Sep-16,10.3,3084,4,3,2,968,1950,Banyule,Eastern Metropolitan
+Eaglemont,41 Glenard Dr,2,House,1059000,PN,Dec-16,10.3,3084,2,1,1,733,1950,Banyule,Eastern Metropolitan
+Eaglemont,59 Banksia St,3,House,1435200,SN,Nov-16,10.3,3084,3,1,2,858,1925,Banyule,Eastern Metropolitan
+Eaglemont,27 Glen Dr,3,House,1816000,S,Nov-16,10.3,3084,3,1,2,846,1955,Banyule,Eastern Metropolitan
+Eaglemont,1/16 Cape St,2,Unit,525000,S,May-16,10.3,3084,2,1,1,79,1970,Banyule,Eastern Metropolitan
+Eaglemont,61 Glenard Dr,4,House,2050000,S,Oct-16,10.3,3084,4,3,2,723,1950,Banyule,Eastern Metropolitan
+Eaglemont,47 Ormond Rd,5,House,1930000,S,Oct-16,10.3,3084,5,2,1,939,1930,Banyule,Eastern Metropolitan
+Eaglemont,24 Brooke St,2,House,2850000,S,Mar-17,10.3,3084,2,1,1,1777,1962,Banyule,Eastern Metropolitan
+Eaglemont,14 Cumberland St,4,House,2600000,VB,Jun-16,10.3,3084,3,2,3,871,1937,Banyule,Eastern Metropolitan
+Eaglemont,27 Ormond Rd,3,House,1435200,PI,Jun-16,10.3,3084,3,1,1,981,1950,Banyule,Eastern Metropolitan
+Eaglemont,2/12 Ashby Gr,2,Unit,600000,SP,Apr-16,10.3,3084,2,1,1,112,1970,Banyule,Eastern Metropolitan
+Eaglemont,4/84 The Righi,3,Unit,1435200,PN,Feb-17,10.3,3084,3,2,2,341,1980,Banyule,Eastern Metropolitan
+Eaglemont,34 Durham St,3,House,1601000,S,Jul-16,10.3,3084,3,1,1,872,1960,Banyule,Eastern Metropolitan
+Eaglemont,107 Banksia St,3,House,1100000,VB,Jun-16,10.3,3084,3,2,1,555,1988,Banyule,Eastern Metropolitan
+Eaglemont,58 Glenard Dr,4,House,2177500,S,Nov-16,10.3,3084,4,3,2,867,1950,Banyule,Eastern Metropolitan
+Eaglemont,8 Outlook Dr,4,House,2550000,VB,Nov-16,10.3,3084,4,2,2,1484,1970,Banyule,Eastern Metropolitan
+Eaglemont,4/47 Sherwood Rd,3,Unit,1060000,S,Nov-16,10.3,3084,3,1,2,696,1954,Banyule,Eastern Metropolitan
+Eaglemont,2/84 The Righi,3,Unit,1190000,S,Nov-16,10.3,3084,3,2,2,0,1975,Banyule,Eastern Metropolitan
+Eaglemont,13 Warne St,4,House,2012000,S,Nov-16,10.3,3084,4,3,2,597,1940,Banyule,Eastern Metropolitan
+Eaglemont,30 Cape St,4,House,2177500,S,Aug-16,10.3,3084,4,2,1,576,1950,Banyule,Eastern Metropolitan
+Eaglemont,20 Glenard Dr,4,House,2309000,S,Aug-16,10.3,3084,4,3,2,1177,1960,Banyule,Eastern Metropolitan
+Eaglemont,49a Hopetoun Gr,3,House,650000,S,Jul-16,10.3,3084,3,1,2,696,1954,Banyule,Eastern Metropolitan
+Malvern,17 Horace St,3,House,2092464,S,Sep-16,7.4,3144,3,2,1,226,1900,Stonnington,Southern Metropolitan
+Malvern,39 McKinley Av,3,House,2500000,S,Sep-16,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,17 Shaftesbury Av,4,House,3850000,PI,Sep-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,2/240 Wattletree Rd,2,Unit,926867,SP,Sep-16,7.4,3144,2,1,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,1/11 Mayfield Av,2,Unit,2660000,S,Dec-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,17 Chesterfield Av,4,House,3177850,S,Mar-17,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,1/3 Irving St,2,Unit,926867,S,Mar-17,7.4,3144,2,1,2,0,1970,Stonnington,Southern Metropolitan
+Malvern,9/3 Irving St,2,Unit,570500,S,Mar-17,7.4,3144,2,1,2,0,1969,Stonnington,Southern Metropolitan
+Malvern,17/246 Wattletree Rd,2,Unit,1350000,VB,Mar-17,7.4,3144,2,2,2,0,1969,Stonnington,Southern Metropolitan
+Malvern,95 Claremont Av,4,House,2325000,S,Jun-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,35 Dixon St,3,House,2050000,S,Jun-16,7.4,3144,2,2,1,231,1890,Stonnington,Southern Metropolitan
+Malvern,8/6 Finlayson St,2,Unit,926867,S,Jun-16,7.4,3144,2,1,1,0,1960,Stonnington,Southern Metropolitan
+Malvern,12 Hornsby St,4,House,2300000,S,Jun-16,7.4,3144,4,2,2,599,1977,Stonnington,Southern Metropolitan
+Malvern,3 Plant St,4,House,3460000,S,Jun-16,7.4,3144,4,2,2,502,2016,Stonnington,Southern Metropolitan
+Malvern,27 Alice St,4,House,3177850,S,Aug-16,7.4,3144,3,2,2,396,1910,Stonnington,Southern Metropolitan
+Malvern,12 Robinson St,4,House,3177850,S,Aug-16,7.4,3144,4,2,4,652,1980,Stonnington,Southern Metropolitan
+Malvern,67 Wheatland Rd,4,House,2400000,VB,Aug-16,7.4,3144,4,2,2,586,1890,Stonnington,Southern Metropolitan
+Malvern,27 Bonview Rd,4,House,3177850,S,May-16,7.4,3144,4,3,2,706,1964,Stonnington,Southern Metropolitan
+Malvern,3/58 Cawkwell St,2,Unit,569000,S,May-16,7.4,3144,2,1,2,0,1970,Stonnington,Southern Metropolitan
+Malvern,11 Eva St,3,House,2025000,VB,May-16,7.4,3144,3,2,2,396,1910,Stonnington,Southern Metropolitan
+Malvern,32a Ewart St,3,House,2092464,SP,May-16,7.4,3144,3,0,0,476,1940,Stonnington,Southern Metropolitan
+Malvern,19 Glendearg Gr,4,House,3177850,S,May-16,7.4,3144,3,2,2,853,1920,Stonnington,Southern Metropolitan
+Malvern,206/361 Glenferrie Rd,2,Unit,926867,S,May-16,7.4,3144,2,2,2,0,2002,Stonnington,Southern Metropolitan
+Malvern,19 Gordon Gr,3,House,1950000,S,May-16,7.4,3144,2,1,1,325,1900,Stonnington,Southern Metropolitan
+Malvern,7/6 Irving St,2,Unit,926867,S,May-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,8/15 Wheatland Rd,2,Unit,926867,S,May-16,7.4,3144,2,1,1,0,1960,Stonnington,Southern Metropolitan
+Malvern,35 Evandale Rd,3,House,1895000,S,Nov-16,7.4,3144,3,2,0,258,1940,Stonnington,Southern Metropolitan
+Malvern,4/382 Glenferrie Rd,3,Unit,2092464,SP,Nov-16,7.4,3144,3,0,0,0,1940,Stonnington,Southern Metropolitan
+Malvern,30 Grace St,2,House,926867,S,Nov-16,7.4,3144,2,1,2,383,1900,Stonnington,Southern Metropolitan
+Malvern,3/6 Irving St,2,Unit,926867,S,Nov-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,2/64 Cawkwell St,2,Unit,635000,S,Oct-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,8/7 Warner St,2,Unit,611000,SP,Oct-16,7.4,3144,2,1,1,0,2008,Stonnington,Southern Metropolitan
+Malvern,20 Norfolk Pl,3,Townhouse,2092464,S,Sep-16,7.4,3144,3,2,2,88,2013,Stonnington,Southern Metropolitan
+Malvern,21a Claremont Av,2,Unit,1020000,S,Dec-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,25 Edsall St,3,House,2092464,S,Dec-16,7.4,3144,3,2,2,265,1940,Stonnington,Southern Metropolitan
+Malvern,30 Parslow St,4,House,3177850,S,Dec-16,7.4,3144,4,3,2,333,2012,Stonnington,Southern Metropolitan
+Malvern,42 Stanhope St,5,House,3859000,S,Dec-16,7.4,3144,5,2,2,767,1930,Stonnington,Southern Metropolitan
+Malvern,51 Dixon St,2,House,1611000,S,Nov-16,7.4,3144,2,1,2,277,1969,Stonnington,Southern Metropolitan
+Malvern,41 Milton Pde,3,House,2092464,S,Nov-16,7.4,3144,3,3,2,177,1940,Stonnington,Southern Metropolitan
+Malvern,41 Horace St,4,House,3800000,S,Aug-16,7.4,3144,4,3,2,587,2016,Stonnington,Southern Metropolitan
+Malvern,3/2 Cawkwell St,3,Townhouse,1390000,PI,May-16,7.4,3144,3,2,1,227,1995,Stonnington,Southern Metropolitan
+Malvern,42 Cressy St,2,House,780000,VB,May-16,7.4,3144,2,0,0,0,1969,Stonnington,Southern Metropolitan
+Malvern,312 Glenferrie Rd,4,House,4700000,S,May-16,7.4,3144,4,3,2,879,1964,Stonnington,Southern Metropolitan
+Malvern,109/1387 Malvern Rd,2,Unit,926867,PI,May-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,22 Milton Pde,3,House,2415000,S,Oct-16,7.4,3144,3,1,3,696,1910,Stonnington,Southern Metropolitan
+Malvern,60 Milton Pde,2,House,926867,SP,Oct-16,7.4,3144,2,1,1,344,1969,Stonnington,Southern Metropolitan
+Malvern,203/1 Norfolk Pl,2,Unit,710000,VB,Oct-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,85 Stanhope St,3,House,2092464,S,Oct-16,7.4,3144,3,2,2,521,1940,Stonnington,Southern Metropolitan
+Malvern,29/202 Wattletree Rd,2,Unit,566000,SP,Oct-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,14 Woodmason St,3,House,1437000,S,Apr-16,7.4,3144,2,1,1,313,1910,Stonnington,Southern Metropolitan
+Malvern,6/20 Johnstone St,2,Townhouse,500000,S,Jul-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,9/42 Winter St,1,Unit,650444,S,Jul-16,7.4,3144,1,1,1,0,1960,Stonnington,Southern Metropolitan
+Malvern,304/361 Glenferrie Rd,2,Unit,1155000,S,Sep-16,7.4,3144,2,2,2,0,2002,Stonnington,Southern Metropolitan
+Malvern,1/19 Horace St,2,Unit,926867,S,Sep-16,7.4,3144,2,1,1,0,1970,Stonnington,Southern Metropolitan
+Malvern,54 Jordan St,3,House,2092464,SP,Sep-16,7.4,3144,3,2,1,221,1940,Stonnington,Southern Metropolitan
+Malvern,10/37 Wheatland Rd,1,Unit,650444,S,Sep-16,7.4,3144,1,1,1,0,1962,Stonnington,Southern Metropolitan
+Malvern,40 Cawkwell St,3,House,2092464,PI,Mar-17,7.4,3144,3,2,2,380,1940,Stonnington,Southern Metropolitan
+Malvern,9 Fraser St,3,House,3010000,S,Mar-17,7.4,3144,3,3,4,283,1940,Stonnington,Southern Metropolitan
+Malvern,16/236 Wattletree Rd,2,Unit,926867,PI,Mar-17,7.4,3144,2,1,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,45 Wheatland Rd,4,House,3177850,S,Mar-17,7.4,3144,4,1,1,551,1964,Stonnington,Southern Metropolitan
+Malvern,109/14 Elizabeth St,2,Unit,650000,VB,Jun-16,7.4,3144,2,2,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,6 Euston St,2,House,926867,S,Jun-16,7.4,3144,2,1,0,218,1915,Stonnington,Southern Metropolitan
+Malvern,3/423 Glenferrie Rd,3,House,2092464,S,Jun-16,7.4,3144,3,2,1,276,1965,Stonnington,Southern Metropolitan
+Malvern,34 Johnstone St,5,House,3400000,SP,Jun-16,7.4,3144,4,3,4,807,1920,Stonnington,Southern Metropolitan
+Malvern,10 Woodmason St,3,House,2355000,S,Jun-16,7.4,3144,3,2,4,471,1985,Stonnington,Southern Metropolitan
+Malvern,109/14 Elizabeth St,2,Unit,926867,PN,Nov-16,7.4,3144,2,2,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,82 Elizabeth St,4,House,3177850,S,Nov-16,7.4,3144,4,2,2,624,1964,Stonnington,Southern Metropolitan
+Malvern,7 Lysterville Av,3,House,2092464,S,Nov-16,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,18 Soudan St,5,House,4240000,S,Nov-16,7.4,3144,5,3,3,580,1890,Stonnington,Southern Metropolitan
+Malvern,3/298 Glenferrie Rd,3,Unit,927000,S,May-16,7.4,3144,3,1,1,0,1940,Stonnington,Southern Metropolitan
+Malvern,24 Hunter St,3,House,2092464,SP,May-16,7.4,3144,3,1,1,256,1940,Stonnington,Southern Metropolitan
+Malvern,37 Claremont Av,4,House,3177850,S,Aug-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,13 Euston St,1,House,2605000,S,Aug-16,7.4,3144,1,1,1,1116,1962,Stonnington,Southern Metropolitan
+Malvern,7 Hunter St,2,House,1326000,S,Aug-16,7.4,3144,2,1,0,254,1900,Stonnington,Southern Metropolitan
+Malvern,3 Mary St,4,House,4525000,PI,Aug-16,7.4,3144,4,4,2,716,1925,Stonnington,Southern Metropolitan
+Malvern,59 Thanet St,3,House,2092464,SP,Aug-16,7.4,3144,3,3,1,169,1940,Stonnington,Southern Metropolitan
+Malvern,2/2 Cawkwell St,3,House,2092464,SP,Sep-16,7.4,3144,3,2,2,203,1940,Stonnington,Southern Metropolitan
+Malvern,11 Chesterfield Av,4,House,3177850,PI,Sep-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,24/1231 Malvern Rd,2,Unit,660000,S,Sep-16,7.4,3144,2,1,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,101/361 Glenferrie Rd,2,Unit,926867,S,Feb-17,7.4,3144,2,2,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,20 Gordon Gr,4,House,1965000,SP,Feb-17,7.4,3144,4,2,1,300,1890,Stonnington,Southern Metropolitan
+Malvern,58 Horace St,3,House,2325000,PI,Feb-17,7.4,3144,3,2,2,347,1940,Stonnington,Southern Metropolitan
+Malvern,50 Hunter St,4,House,3470000,S,Feb-17,7.4,3144,4,3,2,585,1915,Stonnington,Southern Metropolitan
+Malvern,8/6 Irving St,2,Unit,740000,S,Feb-17,7.4,3144,2,1,1,0,1967,Stonnington,Southern Metropolitan
+Malvern,1 McArthur St,4,House,3177850,S,Feb-17,7.4,3144,4,2,2,338,1930,Stonnington,Southern Metropolitan
+Malvern,82 Milton Pde,3,House,2092464,SP,Feb-17,7.4,3144,3,2,1,260,1930,Stonnington,Southern Metropolitan
+Malvern,3 Pine Gr,3,House,2092464,S,Feb-17,7.4,3144,3,2,0,329,1940,Stonnington,Southern Metropolitan
+Malvern,5 Shaftesbury Av,3,House,2092464,S,Feb-17,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,17 Spring Rd,4,House,5075000,S,Feb-17,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,3/197 Wattletree Rd,5,House,2325000,S,Feb-17,7.4,3144,5,3,2,501,2006,Stonnington,Southern Metropolitan
+Malvern,6/31 Claremont Av,2,Unit,926867,S,Jul-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,5a Ewart St,3,House,1970000,S,Jun-16,7.4,3144,3,2,1,246,1910,Stonnington,Southern Metropolitan
+Malvern,8/236 Wattletree Rd,1,Unit,405000,S,Jun-16,7.4,3144,1,1,1,0,1962,Stonnington,Southern Metropolitan
+Malvern,11 Childers Rd,2,House,1475000,S,Nov-16,7.4,3144,2,1,1,232,2001,Stonnington,Southern Metropolitan
+Malvern,122/14 Elizabeth St,2,Unit,640000,PI,Nov-16,7.4,3144,2,2,1,0,1969,Stonnington,Southern Metropolitan
+Malvern,53 Elizabeth St,4,House,3177850,SN,Nov-16,7.4,3144,4,2,2,540,1964,Stonnington,Southern Metropolitan
+Malvern,3/3 Irving St,2,Unit,700000,VB,Nov-16,7.4,3144,2,1,2,0,1998,Stonnington,Southern Metropolitan
+Malvern,2/5 Moorakyne Av,4,House,1395000,S,Nov-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,120 Stanhope St,3,House,2092464,SP,Nov-16,7.4,3144,3,2,0,363,1940,Stonnington,Southern Metropolitan
+Malvern,4/8 Park St,3,Unit,1000000,VB,May-16,7.4,3144,3,2,1,176,1940,Stonnington,Southern Metropolitan
+Malvern,1/58 Cawkwell St,2,Unit,584000,S,Aug-16,7.4,3144,2,1,1,0,1971,Stonnington,Southern Metropolitan
+Malvern,5 Northbrook Av,4,House,4940000,S,Aug-16,7.4,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,13/200 Wattletree Rd,1,Unit,420000,SP,Aug-16,7.4,3144,1,1,3,0,1962,Stonnington,Southern Metropolitan
+Malvern,15 Winter St,4,House,3177850,S,Aug-16,7.4,3144,3,2,1,504,1900,Stonnington,Southern Metropolitan
+Malvern,36 Hunter St,4,House,3177850,S,Jul-16,7.4,3144,4,2,2,637,1964,Stonnington,Southern Metropolitan
+Malvern,17 McKinley Av,5,House,4980000,S,Jul-16,7.4,3144,5,3,2,616,1942,Stonnington,Southern Metropolitan
+Malvern,117 Stanhope St,3,House,2092464,S,Jul-16,7.4,3144,3,1,2,669,1949,Stonnington,Southern Metropolitan
+Malvern,42 Victoria Rd,3,House,2092464,SP,Jul-16,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,25/158 Wattletree Rd,2,Unit,670000,VB,Jul-16,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Malvern,31a Winter St,3,House,2300000,S,Jul-16,7.4,3144,3,2,2,313,1920,Stonnington,Southern Metropolitan
+Middle Park,277 Danks St,3,House,2600000,VB,Sep-16,4.1,3206,3,1,1,279,1900,Port Phillip,Southern Metropolitan
+Middle Park,198 Page St,3,House,2350000,S,Dec-16,4.1,3206,3,1,2,277,1900,Port Phillip,Southern Metropolitan
+Middle Park,96 Hambleton St,3,House,2956000,S,Mar-17,4.1,3206,3,2,0,300,1909,Port Phillip,Southern Metropolitan
+Middle Park,2/61 Canterbury Rd,2,Unit,535000,S,Jun-16,4.1,3206,2,1,1,760,1930,Port Phillip,Southern Metropolitan
+Middle Park,40 Langridge St,2,House,1194769,S,Oct-16,4.1,3206,2,1,1,169,1926,Port Phillip,Southern Metropolitan
+Middle Park,337 Danks St,5,House,6400000,SP,Sep-16,4.1,3206,5,5,2,557,1910,Port Phillip,Southern Metropolitan
+Middle Park,12 Langridge St,3,House,2227000,S,Dec-16,4.1,3206,3,1,1,200,1909,Port Phillip,Southern Metropolitan
+Middle Park,15 McGregor St,2,House,1690000,VB,Aug-16,4.1,3206,2,1,1,145,1926,Port Phillip,Southern Metropolitan
+Middle Park,81 Carter St,2,House,1020000,S,May-16,4.1,3206,2,1,1,107,1900,Port Phillip,Southern Metropolitan
+Middle Park,6/82 Patterson St,2,Unit,700000,SP,Apr-16,4.1,3206,2,1,1,0,1970,Port Phillip,Southern Metropolitan
+Middle Park,48 Langridge St,2,House,1194769,S,Mar-17,4.1,3206,2,1,1,169,1926,Port Phillip,Southern Metropolitan
+Middle Park,76 Harold St,3,House,2360000,S,Jun-16,4.1,3206,3,1,1,288,1900,Port Phillip,Southern Metropolitan
+Middle Park,82 Harold St,3,House,2005000,S,Jun-16,4.1,3206,3,1,0,220,1909,Port Phillip,Southern Metropolitan
+Middle Park,8/49 Patterson St,2,Unit,702000,SP,Jun-16,4.1,3206,2,1,1,0,1970,Port Phillip,Southern Metropolitan
+Middle Park,319 Richardson St,5,House,6400000,SN,Jun-16,4.1,3206,3,2,1,305,1900,Port Phillip,Southern Metropolitan
+Middle Park,287 Richardson St,4,House,3120000,S,Nov-16,4.1,3206,4,2,1,182,1900,Port Phillip,Southern Metropolitan
+Middle Park,15 Fraser St,2,House,1025000,S,Apr-16,4.1,3206,2,1,0,123,1910,Port Phillip,Southern Metropolitan
+Middle Park,193 Richardson St,3,House,2238619,SN,Apr-16,4.1,3206,3,1,1,80,1909,Port Phillip,Southern Metropolitan
+Middle Park,33 Nimmo St,2,House,1920000,S,Feb-17,4.1,3206,2,1,0,152,1910,Port Phillip,Southern Metropolitan
+Middle Park,171 Ashworth St,3,House,2623000,S,Jul-16,4.1,3206,3,2,2,181,2010,Port Phillip,Southern Metropolitan
+Middle Park,77 Mills St,3,House,2238619,PI,Jul-16,4.1,3206,3,1,1,200,1909,Port Phillip,Southern Metropolitan
+Middle Park,82 Hambleton St,3,House,1500000,VB,Jun-16,4.1,3206,3,2,1,151,1880,Port Phillip,Southern Metropolitan
+Middle Park,98 Harold St,2,House,1630000,SP,Nov-16,4.1,3206,2,1,0,152,1915,Port Phillip,Southern Metropolitan
+Middle Park,141 Richardson St,3,House,1910000,PI,Aug-16,4.1,3206,3,1,3,217,1900,Port Phillip,Southern Metropolitan
+Middle Park,87 Carter St,3,House,2238619,S,Jul-16,4.1,3206,3,2,0,133,1900,Port Phillip,Southern Metropolitan
+Mont Albert,371 Elgar Rd,2,House,1320000,SP,Sep-16,11.8,3127,2,1,1,613,1950,Whitehorse,Eastern Metropolitan
+Mont Albert,17 Rowland St,4,House,2850000,S,Sep-16,11.8,3127,4,2,2,1388,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,50/781 Whitehorse Rd,2,Unit,750000,S,Feb-16,11.8,3127,2,2,2,0,2003,Whitehorse,Eastern Metropolitan
+Mont Albert,7A Lightfoot St,4,House,2259412,S,Mar-17,11.8,3127,4,3,2,435,2005,Whitehorse,Eastern Metropolitan
+Mont Albert,2 Gawler Ct,5,House,2016800,S,Jun-16,11.8,3127,5,2,2,944,1907,Whitehorse,Eastern Metropolitan
+Mont Albert,71 Victoria Cr,4,House,1666000,S,Jun-16,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,48 Kenmare St,3,House,2588000,SP,Nov-16,11.8,3127,3,3,2,1149,1920,Whitehorse,Eastern Metropolitan
+Mont Albert,3 Gilbert St,5,House,1955000,PI,Oct-16,11.8,3127,5,3,2,424,1963,Whitehorse,Eastern Metropolitan
+Mont Albert,3/7 Leopold Cr,2,Unit,768000,S,Sep-16,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,4/30 Kenmare St,5,House,1400000,PI,Dec-16,11.8,3127,5,4,2,355,1979,Whitehorse,Eastern Metropolitan
+Mont Albert,13/17 Kingsley Cr,2,Unit,731476,SN,Dec-16,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,33a Kingsley Cr,2,Unit,1150000,S,Dec-16,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,7 Kingsley Cr,3,House,1901000,S,Dec-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,105/766 Whitehorse Rd,2,Unit,665000,S,Dec-16,11.8,3127,2,2,2,1291,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,11 Rostrevor Pde,5,House,2714000,S,Nov-16,11.8,3127,5,2,2,1053,1963,Whitehorse,Eastern Metropolitan
+Mont Albert,9 Carlyle Cr,4,House,2100000,VB,Aug-16,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,9 Hotham Ct,4,House,2259412,SP,Aug-16,11.8,3127,3,2,3,793,1940,Whitehorse,Eastern Metropolitan
+Mont Albert,42 View St,4,House,2200000,S,Aug-16,11.8,3127,4,2,2,931,1930,Whitehorse,Eastern Metropolitan
+Mont Albert,28 Lorne Pde,3,House,1561875,S,May-16,11.8,3127,3,1,0,697,1920,Whitehorse,Eastern Metropolitan
+Mont Albert,4/1 Nangnak La,2,Townhouse,660000,PI,May-16,11.8,3127,2,2,1,146,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,7/27 High St,3,Townhouse,1310000,S,Oct-16,11.8,3127,3,2,2,330,2001,Whitehorse,Eastern Metropolitan
+Mont Albert,6/41 Zetland Rd,2,Unit,540000,S,Oct-16,11.8,3127,2,1,1,0,1960,Whitehorse,Eastern Metropolitan
+Mont Albert,5 Kingsley Cr,3,House,1561875,S,Sep-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,10 Zetland Rd,3,House,1355000,S,Sep-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,27 Grace St,3,House,1561875,SN,Mar-17,11.8,3127,3,2,4,404,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,2/18 Lorne Pde,3,Townhouse,1561875,PI,Mar-17,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,12 Rostrevor Pde,4,House,2335000,S,Mar-17,11.8,3127,4,2,2,813,1938,Whitehorse,Eastern Metropolitan
+Mont Albert,80 Victoria Cr,4,House,2259412,PI,Mar-17,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,9 Victoria Cr,4,House,2259412,SP,Mar-17,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,55 View St,4,House,2000000,S,Jun-16,11.8,3127,3,2,1,626,1929,Whitehorse,Eastern Metropolitan
+Mont Albert,3/18 Louise Av,2,Unit,625000,PI,Nov-16,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,6 Serpentine St,5,House,1815000,S,Nov-16,11.8,3127,5,1,0,711,1950,Whitehorse,Eastern Metropolitan
+Mont Albert,2/82 Victoria Cr,2,Unit,626000,S,Nov-16,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,53/781 Whitehorse Rd,2,Unit,725000,VB,Nov-16,11.8,3127,2,2,2,0,2005,Whitehorse,Eastern Metropolitan
+Mont Albert,3/29 Trafalgar St,2,Unit,731476,S,May-16,11.8,3127,2,1,1,164,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,7/86 Victoria Cr,3,Townhouse,870000,S,Aug-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,72 Churchill St,4,House,3900000,PI,Feb-17,11.8,3127,4,2,6,2187,1903,Whitehorse,Eastern Metropolitan
+Mont Albert,33 Victoria Cr,4,House,2259412,PI,Feb-17,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,1a Hotham Ct,3,Townhouse,1150000,PI,Jul-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,2/3 Inglisby Rd,2,House,666000,S,Jul-16,11.8,3127,2,1,1,0,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,26 Serpentine St,3,Townhouse,1200000,S,Jun-16,11.8,3127,3,2,2,255,2000,Whitehorse,Eastern Metropolitan
+Mont Albert,3 Blenheim Av,4,House,2025000,PI,Nov-16,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,3/72 Kenmare St,4,Townhouse,1310000,PI,Nov-16,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,2/86 Victoria Cr,3,Unit,1561875,SP,Nov-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,47 Zetland Rd,3,House,1564000,S,Nov-16,11.8,3127,3,2,2,640,1950,Whitehorse,Eastern Metropolitan
+Mont Albert,35 Kingsley Cr,3,House,1650000,S,May-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,58 Victoria Cr,3,House,1561875,PN,May-16,11.8,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,11/781 Whitehorse Rd,2,Unit,520000,VB,May-16,11.8,3127,2,1,1,0,2005,Whitehorse,Eastern Metropolitan
+Williamstown,4 Freyer St,4,House,1325000,S,Sep-16,8,3016,3,2,1,452,1902,Hobsons Bay,Western Metropolitan
+Williamstown,46 Pasco St,4,House,1400000,S,Sep-16,8,3016,4,2,1,320,1950,Hobsons Bay,Western Metropolitan
+Williamstown,8 Pope Pl,3,House,920000,SP,Sep-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,54 Twyford St,3,House,1535000,S,Sep-16,8,3016,3,1,1,507,1910,Hobsons Bay,Western Metropolitan
+Williamstown,2/20 Victoria St,3,Unit,890000,S,Dec-16,8,3016,3,1,3,0,1980,Hobsons Bay,Western Metropolitan
+Williamstown,35 Chandler St,4,House,1400000,PI,Mar-17,8,3016,4,2,4,457,1956,Hobsons Bay,Western Metropolitan
+Williamstown,43B Cole St,3,House,1800000,VB,Mar-17,8,3016,3,2,2,332,2006,Hobsons Bay,Western Metropolitan
+Williamstown,8 Long St,2,House,1050000,S,Mar-17,8,3016,2,1,4,445,1983,Hobsons Bay,Western Metropolitan
+Williamstown,22 Station Rd,2,House,850000,SP,Mar-17,8,3016,2,1,1,278,1983,Hobsons Bay,Western Metropolitan
+Williamstown,19 Verdon St,4,House,2910000,SP,Mar-17,8,3016,4,3,0,338,1890,Hobsons Bay,Western Metropolitan
+Williamstown,56 Verdon St,3,House,2910000,SP,Mar-17,8,3016,3,3,2,515,1990,Hobsons Bay,Western Metropolitan
+Williamstown,7 Victoria St,4,House,2640000,S,Mar-17,8,3016,4,2,2,650,1956,Hobsons Bay,Western Metropolitan
+Williamstown,110 Bayview St,3,House,1200000,S,Jun-16,8,3016,3,2,2,315,1990,Hobsons Bay,Western Metropolitan
+Williamstown,27a Perry St,4,House,2000000,S,Jun-16,8,3016,4,2,2,419,1956,Hobsons Bay,Western Metropolitan
+Williamstown,64 Twyford St,4,House,3130000,S,Jun-16,8,3016,4,2,2,897,1920,Hobsons Bay,Western Metropolitan
+Williamstown,25 Anzac Cr,2,House,1500000,SP,Aug-16,8,3016,2,1,1,121,1983,Hobsons Bay,Western Metropolitan
+Williamstown,74 Thompson St,4,House,1800147,S,Aug-16,8,3016,3,0,0,344,1902,Hobsons Bay,Western Metropolitan
+Williamstown,12 McGuire Cr,3,House,825000,S,May-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,98 Osborne St,3,House,1460000,S,May-16,8,3016,3,1,2,373,1970,Hobsons Bay,Western Metropolitan
+Williamstown,8/99 Verdon St,1,Unit,310000,SP,May-16,8,3016,1,1,1,0,1968,Hobsons Bay,Western Metropolitan
+Williamstown,20 Bates Dr,3,House,1200000,S,Nov-16,8,3016,3,2,2,348,1997,Hobsons Bay,Western Metropolitan
+Williamstown,28 Council La,3,House,1560000,SP,Nov-16,8,3016,3,2,2,310,2005,Hobsons Bay,Western Metropolitan
+Williamstown,8/29 Dover Rd,1,Unit,342000,PN,Nov-16,8,3016,1,1,1,0,1968,Hobsons Bay,Western Metropolitan
+Williamstown,19 Perry St,3,House,1575000,S,Nov-16,8,3016,3,2,3,430,1996,Hobsons Bay,Western Metropolitan
+Williamstown,13/8 The Strand,2,Townhouse,830000,SP,Nov-16,8,3016,2,1,1,84,1980,Hobsons Bay,Western Metropolitan
+Williamstown,19/8 The Strand,2,Townhouse,830000,SP,Nov-16,8,3016,2,1,0,56,1983,Hobsons Bay,Western Metropolitan
+Williamstown,17 Station Rd,4,House,1085000,S,Oct-16,8,3016,3,1,2,458,1902,Hobsons Bay,Western Metropolitan
+Williamstown,73 Victoria St,4,House,1815000,PI,Oct-16,8,3016,4,3,2,321,1956,Hobsons Bay,Western Metropolitan
+Williamstown,17 Yarra St,3,House,1470000,S,Oct-16,8,3016,3,2,1,364,1970,Hobsons Bay,Western Metropolitan
+Williamstown,33 Hannan St,4,House,2230000,S,Sep-16,8,3016,3,2,2,782,1900,Hobsons Bay,Western Metropolitan
+Williamstown,22 Bayview St,3,Townhouse,1460000,S,Dec-16,8,3016,3,2,2,506,2010,Hobsons Bay,Western Metropolitan
+Williamstown,164 Coogee La,5,House,1410000,SP,Dec-16,8,3016,5,2,2,195,1933,Hobsons Bay,Western Metropolitan
+Williamstown,5/28 Hanmer St,2,Unit,749113,SN,Dec-16,8,3016,2,1,1,0,1970,Hobsons Bay,Western Metropolitan
+Williamstown,3 Hosking Ct,3,House,1270450,S,Dec-16,8,3016,3,1,2,261,1967,Hobsons Bay,Western Metropolitan
+Williamstown,14 Illawarra St,2,House,940000,S,Dec-16,8,3016,2,1,0,166,1986,Hobsons Bay,Western Metropolitan
+Williamstown,2b Mariner St,3,House,1270450,SN,Dec-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,73 Victoria St,4,House,1900000,SP,Mar-17,8,3016,4,3,2,321,1956,Hobsons Bay,Western Metropolitan
+Williamstown,112 Crofton Dr,4,House,1330000,S,Nov-16,8,3016,4,3,2,217,2003,Hobsons Bay,Western Metropolitan
+Williamstown,5 Railway Pl,3,House,1010000,PI,Nov-16,8,3016,3,2,2,250,1967,Hobsons Bay,Western Metropolitan
+Williamstown,20 Proctor St,3,House,1010000,S,Aug-16,8,3016,3,2,2,418,1995,Hobsons Bay,Western Metropolitan
+Williamstown,5/72 Dover Rd,2,Unit,450000,S,May-16,8,3016,2,1,2,0,1983,Hobsons Bay,Western Metropolitan
+Williamstown,5/77 Dover Rd,2,Unit,513500,S,May-16,8,3016,2,1,1,0,1980,Hobsons Bay,Western Metropolitan
+Williamstown,102 John St,2,House,1000000,S,Oct-16,8,3016,2,1,0,240,1983,Hobsons Bay,Western Metropolitan
+Williamstown,24/18 Station Rd,2,Unit,415000,S,Oct-16,8,3016,2,1,1,0,1983,Hobsons Bay,Western Metropolitan
+Williamstown,22 Burbidge Dr,3,House,906000,SP,Apr-16,8,3016,3,2,2,270,1967,Hobsons Bay,Western Metropolitan
+Williamstown,71 Hannan St,4,House,1805000,S,Apr-16,8,3016,3,2,2,466,1930,Hobsons Bay,Western Metropolitan
+Williamstown,46 Illawarra St,3,House,1270450,SN,Apr-16,8,3016,3,2,1,337,1967,Hobsons Bay,Western Metropolitan
+Williamstown,16 Princes St,4,House,1126000,SP,Apr-16,8,3016,4,1,1,307,1900,Hobsons Bay,Western Metropolitan
+Williamstown,21a Station Rd,3,Townhouse,935000,SP,Apr-16,8,3016,3,2,1,233,2002,Hobsons Bay,Western Metropolitan
+Williamstown,16 Merrett Dr,4,House,1800147,SP,Jul-16,8,3016,4,2,2,319,1997,Hobsons Bay,Western Metropolitan
+Williamstown,16 Oconnell Mw,3,House,1205000,SP,Jul-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,200 Osborne St,5,House,2190000,SP,Jul-16,8,3016,5,2,3,1019,1915,Hobsons Bay,Western Metropolitan
+Williamstown,53 Thompson St,3,House,1270450,SP,Jul-16,8,3016,3,2,2,386,2000,Hobsons Bay,Western Metropolitan
+Williamstown,18 James St,2,House,895000,SA,Sep-16,8,3016,2,2,1,193,1983,Hobsons Bay,Western Metropolitan
+Williamstown,1 Laverton St,2,House,890000,VB,Sep-16,8,3016,2,1,1,121,1983,Hobsons Bay,Western Metropolitan
+Williamstown,4/54 Yarra St,2,Unit,375000,SP,Sep-16,8,3016,2,1,1,0,1970,Hobsons Bay,Western Metropolitan
+Williamstown,79 Aitken St,3,House,1000000,S,Mar-17,8,3016,3,1,2,189,1967,Hobsons Bay,Western Metropolitan
+Williamstown,45 Albert St,2,House,769000,S,Jun-16,8,3016,2,1,1,265,1983,Hobsons Bay,Western Metropolitan
+Williamstown,26 Collins St,3,House,1270000,S,Nov-16,8,3016,3,1,2,470,1967,Hobsons Bay,Western Metropolitan
+Williamstown,6 Crofton Dr,3,House,1270450,SN,Nov-16,8,3016,3,2,2,352,2000,Hobsons Bay,Western Metropolitan
+Williamstown,4/77 Dover Rd,2,Unit,749113,SN,Nov-16,8,3016,2,1,1,0,1983,Hobsons Bay,Western Metropolitan
+Williamstown,1 Lenore Cr,3,House,1270450,SN,Nov-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,24 Merrett Dr,4,House,1172000,S,Nov-16,8,3016,4,2,2,344,1956,Hobsons Bay,Western Metropolitan
+Williamstown,175 Douglas Pde,3,House,1360000,S,May-16,8,3016,3,1,1,477,1930,Hobsons Bay,Western Metropolitan
+Williamstown,104 Hannan St,4,House,2050000,S,May-16,8,3016,4,2,2,648,2011,Hobsons Bay,Western Metropolitan
+Williamstown,116a Hannan St,3,House,975000,PI,May-16,8,3016,3,2,2,289,1967,Hobsons Bay,Western Metropolitan
+Williamstown,33 Cecil St,3,House,1310000,S,Sep-16,8,3016,3,2,1,185,1900,Hobsons Bay,Western Metropolitan
+Williamstown,105 Dover Rd,4,Townhouse,830000,SP,Sep-16,8,3016,4,1,2,0,1956,Hobsons Bay,Western Metropolitan
+Williamstown,6/13 Dover Rd,2,Unit,491500,S,Sep-16,8,3016,2,1,1,0,1970,Hobsons Bay,Western Metropolitan
+Williamstown,2 Heriot Pl,3,House,1270450,SN,Sep-16,8,3016,3,3,1,197,2016,Hobsons Bay,Western Metropolitan
+Williamstown,2/4 Lyons St,2,Unit,547500,SP,Sep-16,8,3016,2,1,1,0,1980,Hobsons Bay,Western Metropolitan
+Williamstown,10 Alma Tce,2,House,749113,SN,Feb-17,8,3016,2,1,2,213,1983,Hobsons Bay,Western Metropolitan
+Williamstown,29 Bates Dr,3,House,1270450,S,Feb-17,8,3016,3,2,3,457,1967,Hobsons Bay,Western Metropolitan
+Williamstown,120 Cecil St,5,House,2190000,SN,Feb-17,8,3016,5,3,3,1037,1910,Hobsons Bay,Western Metropolitan
+Williamstown,5 Ellery La,3,Townhouse,965000,S,Feb-17,8,3016,3,2,1,151,1967,Hobsons Bay,Western Metropolitan
+Williamstown,26A Macquarie St,3,House,1262000,S,Feb-17,8,3016,3,2,2,204,1967,Hobsons Bay,Western Metropolitan
+Williamstown,77 Melbourne Rd,3,House,1210000,S,Feb-17,8,3016,3,1,0,249,1910,Hobsons Bay,Western Metropolitan
+Williamstown,9/99 Melbourne Rd,2,Unit,412000,SP,Feb-17,8,3016,2,1,1,0,1980,Hobsons Bay,Western Metropolitan
+Williamstown,81 Parker St,2,House,1337500,SP,Feb-17,8,3016,2,1,0,297,1983,Hobsons Bay,Western Metropolitan
+Williamstown,2 Pope Pl,3,Townhouse,1230000,SP,Feb-17,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,8 Radford St,4,House,1800147,VB,Feb-17,8,3016,4,2,2,418,1980,Hobsons Bay,Western Metropolitan
+Williamstown,18A Rennie St,2,House,811000,S,Feb-17,8,3016,2,1,2,183,1983,Hobsons Bay,Western Metropolitan
+Williamstown,50 Thompson St,4,House,1630000,S,Feb-17,8,3016,4,2,2,265,2010,Hobsons Bay,Western Metropolitan
+Williamstown,24 John St,2,House,920000,S,Jul-16,8,3016,2,1,1,307,1983,Hobsons Bay,Western Metropolitan
+Williamstown,166 Cecil St,3,House,960000,SP,Jun-16,8,3016,3,2,1,189,1977,Hobsons Bay,Western Metropolitan
+Williamstown,118 Hannan St,3,House,1482500,S,Jun-16,8,3016,3,2,1,506,1910,Hobsons Bay,Western Metropolitan
+Williamstown,19 MacLean St,4,House,1300000,PI,Jun-16,8,3016,4,2,2,369,1980,Hobsons Bay,Western Metropolitan
+Williamstown,44 Parker St,3,House,1378000,SP,Jun-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,139 Cecil St,4,House,2255000,S,Nov-16,8,3016,4,1,3,765,1880,Hobsons Bay,Western Metropolitan
+Williamstown,233 Nelson Pl,4,House,1860000,S,Nov-16,8,3016,4,2,0,199,1956,Hobsons Bay,Western Metropolitan
+Williamstown,68 Osborne St,3,House,1710000,SP,Nov-16,8,3016,3,2,1,260,2016,Hobsons Bay,Western Metropolitan
+Williamstown,42 Pasco St,4,House,1800147,S,Nov-16,8,3016,4,3,4,545,1956,Hobsons Bay,Western Metropolitan
+Williamstown,11 Sandpiper Pl,4,House,2440000,S,Nov-16,8,3016,4,3,3,500,2005,Hobsons Bay,Western Metropolitan
+Williamstown,2/125 Ferguson St,1,Unit,331000,S,May-16,8,3016,1,1,1,0,1968,Hobsons Bay,Western Metropolitan
+Williamstown,14 Osborne St,4,House,1800147,SP,May-16,8,3016,3,3,0,502,1890,Hobsons Bay,Western Metropolitan
+Williamstown,5 Dover La,3,House,1230000,S,Aug-16,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,8 Freyer St,4,House,1800147,SN,Jul-16,8,3016,3,2,1,340,1890,Hobsons Bay,Western Metropolitan
+Aberfeldie,2/2 St Kinnord St,1,Unit,380000,S,Dec-16,9.1,3040,1,1,1,0,1990,Moonee Valley,Western Metropolitan
+Aberfeldie,40 Clifton St,4,House,1646000,S,Mar-17,9.1,3040,4,3,2,757,1950,Moonee Valley,Western Metropolitan
+Aberfeldie,45 Vida St,4,House,1661643,PI,Jun-16,9.1,3040,4,2,2,489,1940,Moonee Valley,Western Metropolitan
+Aberfeldie,6/8 Arthur St,2,Unit,442000,S,May-16,9.1,3040,2,1,1,0,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,8/257 Buckley St,2,Unit,470000,S,May-16,9.1,3040,2,1,1,976,2000,Moonee Valley,Western Metropolitan
+Aberfeldie,26a Fawkner St,3,House,760000,SP,Nov-16,9.1,3040,3,1,1,321,1940,Moonee Valley,Western Metropolitan
+Aberfeldie,21 May St,4,House,1346000,S,Oct-16,9.1,3040,2,2,2,559,1995,Moonee Valley,Western Metropolitan
+Aberfeldie,2/30 Caroline St,3,Townhouse,935000,SP,Sep-16,9.1,3040,3,2,2,217,2005,Moonee Valley,Western Metropolitan
+Aberfeldie,11a Muldowney St,3,House,1175000,PI,Sep-16,9.1,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,1a Arthur St,3,Unit,845000,S,Dec-16,9.1,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,126 The Boulevard,4,House,3900000,S,Dec-16,9.1,3040,4,4,4,670,2010,Moonee Valley,Western Metropolitan
+Aberfeldie,3/64 Brunel St,3,Unit,1160000,S,Feb-17,9.1,3040,3,2,1,309,2007,Moonee Valley,Western Metropolitan
+Aberfeldie,2 May St,4,House,1150000,PI,Feb-17,9.1,3040,4,2,2,578,2010,Moonee Valley,Western Metropolitan
+Aberfeldie,5 Aroona Ct,1,House,1720000,PI,Oct-16,9.1,3040,3,2,1,676,1965,Moonee Valley,Western Metropolitan
+Aberfeldie,25 Beaver St,2,House,1705000,S,Oct-16,9.1,3040,2,1,2,809,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,4 Brunel Ct,3,House,1190000,S,Sep-16,9.1,3040,3,1,1,465,1950,Moonee Valley,Western Metropolitan
+Aberfeldie,2/7 Fawkner St,2,Unit,380000,VB,Mar-17,9.1,3040,2,1,1,622,1970,Moonee Valley,Western Metropolitan
+Aberfeldie,58 Waverley St,2,House,840000,VB,Mar-17,9.1,3040,2,1,1,373,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,29 Beaver St,5,House,1740000,S,Jun-16,9.1,3040,3,3,2,839,1925,Moonee Valley,Western Metropolitan
+Aberfeldie,40 Allan St,3,House,1860000,S,Nov-16,9.1,3040,3,2,2,311,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,14 Knight St,3,House,1195000,S,Nov-16,9.1,3040,3,2,2,496,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,2 May St,4,House,1200000,VB,Nov-16,9.1,3040,4,2,2,578,2010,Moonee Valley,Western Metropolitan
+Aberfeldie,20 Batman St,4,House,1661643,SP,May-16,9.1,3040,4,3,1,701,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,19 Park Cr,3,House,1227816,S,Apr-16,9.1,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,1 Chisholm St,3,Unit,726000,S,Sep-16,9.1,3040,3,1,1,229,1996,Moonee Valley,Western Metropolitan
+Aberfeldie,99 Fawkner St,4,House,1325000,PI,Feb-17,9.1,3040,4,2,2,674,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,11 Muldowney St,3,Townhouse,1300000,SP,Feb-17,9.1,3040,3,3,1,593,2016,Moonee Valley,Western Metropolitan
+Aberfeldie,1/30 Caroline St,4,House,1661643,SP,Jun-16,9.1,3040,4,3,2,354,2005,Moonee Valley,Western Metropolitan
+Aberfeldie,5/319 Buckley St,2,Unit,373000,S,Nov-16,9.1,3040,2,1,1,0,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,1/7 Derry St,2,House,670000,SP,Nov-16,9.1,3040,2,1,2,0,1990,Moonee Valley,Western Metropolitan
+Aberfeldie,13 Batman St,5,House,2400000,S,May-16,9.1,3040,3,2,2,1315,1925,Moonee Valley,Western Metropolitan
+Aberfeldie,47 Clifton St,4,House,1350000,S,May-16,9.1,3040,3,2,2,1076,1960,Moonee Valley,Western Metropolitan
+Ivanhoe East,23 Hilltop Cr,4,House,1775000,S,Dec-16,9,3079,4,2,2,798,1952,Banyule,Eastern Metropolitan
+Ivanhoe East,271 The Boulevard,5,House,3850000,SP,Dec-16,9,3079,5,4,2,2064,1951,Banyule,Eastern Metropolitan
+Ivanhoe East,24 Flora Gr,3,House,1605000,S,Aug-16,9,3079,3,1,1,624,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,5/3 Rotherwood Rd,2,Unit,470000,VB,Aug-16,9,3079,2,1,1,1473,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,61 Streeton Cr,5,House,3350000,S,Aug-16,9,3079,5,3,2,1400,1990,Banyule,Eastern Metropolitan
+Ivanhoe East,11 Oakdene Pl,3,House,1744182,S,May-16,9,3079,3,1,2,582,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,11 Warncliffe Rd,3,House,2150000,S,May-16,9,3079,3,2,2,1232,1959,Banyule,Eastern Metropolitan
+Ivanhoe East,41 McArthur Rd,4,House,1740000,S,Nov-16,9,3079,4,3,3,948,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,34 Charteris Dr,4,House,2020000,SP,Oct-16,9,3079,4,3,2,779,1930,Banyule,Eastern Metropolitan
+Ivanhoe East,44 Keam St,4,House,1660000,S,Oct-16,9,3079,4,2,2,830,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,3/36 Wilfred Rd,3,Unit,1260000,S,Dec-16,9,3079,3,2,2,356,1998,Banyule,Eastern Metropolitan
+Ivanhoe East,31 Keam St,4,House,2200000,S,Nov-16,9,3079,4,2,2,1004,1935,Banyule,Eastern Metropolitan
+Ivanhoe East,11/33 Carmichael St,2,Unit,485000,S,Aug-16,9,3079,2,1,1,0,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,17 Withers St,3,House,1744182,SN,Apr-16,9,3079,3,1,2,1125,1959,Banyule,Eastern Metropolitan
+Ivanhoe East,21 Wilfred Rd,3,House,1651000,S,Jul-16,9,3079,3,1,1,1073,1947,Banyule,Eastern Metropolitan
+Ivanhoe East,10 Carmichael St,4,House,1875000,PI,Jun-16,9,3079,4,3,2,583,1975,Banyule,Eastern Metropolitan
+Ivanhoe East,34 York Av,4,House,2020000,S,Nov-16,9,3079,4,2,2,798,1952,Banyule,Eastern Metropolitan
+Ivanhoe East,333 The Boulevard,5,House,1797000,S,May-16,9,3079,4,3,3,826,1955,Banyule,Eastern Metropolitan
+Ivanhoe East,1/169 Lower Heidelberg Rd,3,Townhouse,1050000,VB,Aug-16,9,3079,3,2,1,180,2012,Banyule,Eastern Metropolitan
+Ivanhoe East,17 Streeton Cr,4,House,2850000,VB,Feb-17,9,3079,4,2,2,798,1952,Banyule,Eastern Metropolitan
+Ivanhoe East,18 Otterington Gr,4,House,2020000,SN,Nov-16,9,3079,4,2,2,680,2002,Banyule,Eastern Metropolitan
+Ivanhoe East,14 York Av,5,House,3390000,S,Nov-16,9,3079,5,3,2,1400,1990,Banyule,Eastern Metropolitan
+Ivanhoe East,5/45 Wilfred Rd,3,Townhouse,1744182,SN,May-16,9,3079,3,2,1,138,1994,Banyule,Eastern Metropolitan
+Ivanhoe East,3/204 The Boulevard,1,Unit,405000,S,Aug-16,9,3079,1,1,1,0,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,9/61 Maltravers Rd,2,Unit,520000,VB,Jul-16,9,3079,2,1,1,654,1960,Banyule,Eastern Metropolitan
+Seaholme,41 Simmons Dr,3,House,860000,PI,Aug-16,12.7,3018,3,2,2,537,1970,Hobsons Bay,Western Metropolitan
+Seaholme,1 Seaholme Av,5,House,950000,VB,May-16,12.7,3018,4,3,4,697,2005,Hobsons Bay,Western Metropolitan
+Seaholme,13 Sussex St,5,House,1415000,S,Sep-16,12.7,3018,5,3,6,705,2005,Hobsons Bay,Western Metropolitan
+Seaholme,5 Parkside Cr,3,House,1050000,S,Apr-16,12.7,3018,3,2,4,600,1970,Hobsons Bay,Western Metropolitan
+Seaholme,10 Wattle Gr,5,House,2000000,PI,Feb-17,12.7,3018,4,3,4,697,2005,Hobsons Bay,Western Metropolitan
+Seaholme,1 Seaholme Av,5,House,925000,S,Jun-16,12.7,3018,4,3,4,697,2005,Hobsons Bay,Western Metropolitan
+Princes Hill,313 Pigdon St,3,House,1724000,SN,Nov-16,3.7,3054,3,2,0,360,1916,Yarra,Northern Metropolitan
+Princes Hill,76 Arnold St,3,House,1700000,VB,Nov-16,3.7,3054,3,1,2,341,1913,Yarra,Northern Metropolitan
+Princes Hill,77 McIlwraith St,4,House,1908000,S,May-16,3.7,3054,4,2,1,256,1890,Yarra,Northern Metropolitan
+Aberfeldie,32 Fawkner St,4,House,1330000,S,May-17,9.1,3040,4,2,2,273,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,12 Beaver St,3,House,1227816,SP,Apr-17,9.1,3040,3,2,2,424,2010,Moonee Valley,Western Metropolitan
+Aberfeldie,40b Clifton St,3,Townhouse,1220000,S,Apr-17,9.1,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,2/65 Clifton St,3,House,1300000,S,Apr-17,9.1,3040,3,3,2,240,2013,Moonee Valley,Western Metropolitan
+Aberfeldie,3/4 Combermere St,2,House,470000,S,Apr-17,9.1,3040,2,1,1,70,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,32 Beatrice Av,3,House,1167500,S,May-17,9.1,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,5 Allan St,4,House,1661643,S,Apr-17,9.1,3040,4,2,2,537,2015,Moonee Valley,Western Metropolitan
+Aberfeldie,2 Derry St,4,House,1740000,PI,Apr-17,9.1,3040,4,2,2,746,1950,Moonee Valley,Western Metropolitan
+Aberfeldie,7 Rita St,3,House,1227816,S,Apr-17,9.1,3040,3,1,2,551,1991,Moonee Valley,Western Metropolitan
+Alphington,15 Welsh Wy,3,Townhouse,920000,VB,May-17,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,10/90 Yarralea St,1,Unit,320000,S,May-17,6.4,3078,1,1,1,915,1970,Darebin,Northern Metropolitan
+Alphington,15 Bank St,3,House,1540000,S,Apr-17,6.4,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,57 Yarralea St,3,Townhouse,1285000,PI,May-17,6.4,3078,3,2,2,528,1967,Yarra,Northern Metropolitan
+Alphington,55 Bennett St,4,House,1975000,S,May-17,6.4,3078,4,2,2,600,1947,Darebin,Northern Metropolitan
+Alphington,3/34 Grange Rd,1,Unit,316000,S,May-17,6.4,3078,1,1,1,0,1970,Darebin,Northern Metropolitan
+Canterbury,7 Byron St,4,House,2778864,S,May-17,9,3126,4,2,2,413,1941,Boroondara,Southern Metropolitan
+Canterbury,14 Rubens Gr,5,House,3115000,SP,Apr-17,9,3126,5,3,0,715,1920,Boroondara,Southern Metropolitan
+Canterbury,4/69 Wattle Valley Rd,2,Unit,913000,S,Apr-17,9,3126,2,1,1,0,1970,Boroondara,Southern Metropolitan
+Canterbury,17 Bryson St,4,House,2778864,S,May-17,9,3126,4,2,4,831,1941,Boroondara,Southern Metropolitan
+Canterbury,16 Church St,4,House,2778864,S,May-17,9,3126,4,1,1,665,1890,Boroondara,Southern Metropolitan
+Canterbury,25 Faversham Rd,4,House,2510000,PI,May-17,9,3126,4,3,2,789,1941,Boroondara,Southern Metropolitan
+Canterbury,49 Mangarra Rd,5,House,8000000,VB,May-17,9,3126,5,5,4,2079,1880,Boroondara,Southern Metropolitan
+Canterbury,36 The Ridge,3,Townhouse,1775000,VB,May-17,9,3126,3,2,2,410,1943,Boroondara,Southern Metropolitan
+Canterbury,17 View St,3,House,3725000,S,May-17,9,3126,3,2,2,857,1943,Boroondara,Southern Metropolitan
+Carlton North,132 Lee St,2,House,1206750,S,May-17,3.2,3054,2,1,0,109,1932,Yarra,Northern Metropolitan
+Carlton North,235 Amess St,4,House,3450000,S,May-17,3.2,3054,4,2,1,515,1905,Yarra,Northern Metropolitan
+Carlton North,54 Davis St,2,House,1206750,S,May-17,3.2,3054,2,1,0,101,1932,Yarra,Northern Metropolitan
+Carlton North,72 Pigdon St,2,House,1290000,S,May-17,3.2,3054,2,1,0,119,1932,Yarra,Northern Metropolitan
+Carlton North,408 Canning St,3,House,1614500,S,May-17,3.2,3054,3,1,0,167,1908,Yarra,Northern Metropolitan
+Carlton North,90 Fenwick St,4,House,1550000,S,May-17,3.2,3054,4,1,0,202,1920,Yarra,Northern Metropolitan
+Carlton North,9/600 Station St,1,Unit,595000,S,May-17,3.2,3054,1,1,0,0,1940,Yarra,Northern Metropolitan
+Carlton North,12/869 Drummond St,2,Unit,550000,PI,Apr-17,3.2,3054,2,1,1,353,1932,Yarra,Northern Metropolitan
+Ivanhoe East,7 Robinhood Rd,2,House,2100000,S,May-17,9,3079,2,1,2,1003,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,325 The Boulevard,5,House,2325000,PI,May-17,9,3079,5,3,2,737,2008,Banyule,Eastern Metropolitan
+Ivanhoe East,475 The Boulevard,3,House,2400000,VB,May-17,9,3079,3,2,2,1132,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,15 Longstaff St,3,House,1740000,S,May-17,9,3079,3,1,2,792,1959,Banyule,Eastern Metropolitan
+Malvern,10/27 Ewart St,1,Unit,650444,PN,May-17,7.4,3144,1,1,1,0,1962,Stonnington,Southern Metropolitan
+Malvern,5/11 Johnstone St,1,Unit,365000,SP,May-17,7.4,3144,1,1,1,0,1960,Stonnington,Southern Metropolitan
+Malvern,14 Norfolk Pl,2,Townhouse,1000000,VB,May-17,7.4,3144,2,2,1,156,1969,Stonnington,Southern Metropolitan
+Malvern,9 Plant St,3,House,2092464,SN,May-17,7.4,3144,3,2,4,429,1940,Stonnington,Southern Metropolitan
+Malvern,32 Shaftesbury Av,3,House,2092464,SP,May-17,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,11/5 Warner St,1,Unit,456000,S,May-17,7.4,3144,1,1,1,4721,1962,Stonnington,Southern Metropolitan
+Malvern,18 Chandlers Rd,3,House,2250000,S,May-17,7.4,3144,3,2,2,192,2010,Stonnington,Southern Metropolitan
+Malvern,66 Claremont Av,5,House,3859000,S,May-17,7.4,3144,5,3,2,616,1942,Stonnington,Southern Metropolitan
+Malvern,2B Finlayson St,3,House,2092464,PI,May-17,7.4,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,19 Gordon Gr,3,House,2000000,VB,May-17,7.4,3144,3,1,2,360,1940,Stonnington,Southern Metropolitan
+Malvern,56 Hunter St,4,House,3177850,SN,May-17,7.4,3144,4,2,2,512,1964,Stonnington,Southern Metropolitan
+Malvern,38 Milton Pde,2,House,926867,S,May-17,7.4,3144,2,1,0,78,1969,Stonnington,Southern Metropolitan
+Malvern,93 Stanhope St,3,House,2092464,PI,May-17,7.4,3144,3,2,2,332,1940,Stonnington,Southern Metropolitan
+Malvern,27 Thanet St,4,House,3177850,S,May-17,7.4,3144,4,2,2,334,1964,Stonnington,Southern Metropolitan
+Malvern,13 Wheatland Rd,3,House,2092464,SP,May-17,7.4,3144,3,2,3,574,1940,Stonnington,Southern Metropolitan
+Malvern,6 Arthur St,4,House,3177850,SP,May-17,7.4,3144,4,3,2,625,1964,Stonnington,Southern Metropolitan
+Malvern,2 Dixon St,4,House,3177850,SN,May-17,7.4,3144,4,2,1,448,1964,Stonnington,Southern Metropolitan
+Malvern,1/102 Stanhope St,2,Townhouse,926867,S,May-17,7.4,3144,2,1,2,87,1970,Stonnington,Southern Metropolitan
+Malvern,118/14 Elizabeth St,1,Unit,650444,PI,Apr-17,7.4,3144,1,1,1,5325,1962,Stonnington,Southern Metropolitan
+Malvern,108/1387 Malvern Rd,1,Unit,400000,VB,Apr-17,7.4,3144,1,1,1,1116,1962,Stonnington,Southern Metropolitan
+Malvern,20A Silver St,2,House,2245000,S,Apr-17,7.4,3144,2,1,1,59,1969,Stonnington,Southern Metropolitan
+Mont Albert,8 Gawler Ct,4,House,1865000,S,May-17,11.8,3127,4,2,2,609,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,2/90 Victoria Cr,2,Unit,770000,S,May-17,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,1/1 Leopold Cr,2,Unit,731476,SP,Apr-17,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,1/24 St Johns Av,2,Unit,820000,S,Apr-17,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,1 Howson Ct,4,House,2100000,VB,May-17,11.8,3127,4,2,5,719,1950,Whitehorse,Eastern Metropolitan
+Mont Albert,4 Lightfoot St,3,House,1561875,S,May-17,11.8,3127,3,2,2,682,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,22 Smythe Av,4,House,2660000,S,May-17,11.8,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,141 Windsor Cr,2,House,665000,PI,May-17,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,1/389 Mont Albert Rd,2,Unit,442500,SP,May-17,11.8,3127,2,1,1,0,1960,Whitehorse,Eastern Metropolitan
+Mont Albert,47 View St,3,House,1587000,S,May-17,11.8,3127,3,2,2,624,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,7 Grace St,4,House,2365000,S,Apr-17,11.8,3127,4,2,2,636,1920,Whitehorse,Eastern Metropolitan
+Mont Albert,3/82 Victoria Cr,2,Unit,651500,S,Apr-17,11.8,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,24 View St,5,House,2016800,SP,Apr-17,11.8,3127,5,5,4,936,1970,Whitehorse,Eastern Metropolitan
+Princes Hill,288 Richardson St,3,House,1550000,S,May-17,3.7,3054,3,1,1,294,1913,Yarra,Northern Metropolitan
+Williamstown,44 Electra St,4,House,2165000,SP,May-17,8,3016,4,2,2,450,1910,Hobsons Bay,Western Metropolitan
+Williamstown,8 Jobson St,3,House,1245000,S,May-17,8,3016,3,2,2,292,1980,Hobsons Bay,Western Metropolitan
+Williamstown,73a Victoria St,4,House,2075000,SP,May-17,8,3016,4,3,2,324,2009,Hobsons Bay,Western Metropolitan
+Williamstown,2/77 Dover Rd,2,Unit,543000,S,Apr-17,8,3016,2,1,1,0,1974,Hobsons Bay,Western Metropolitan
+Williamstown,8 Princes St,3,House,1150000,SP,Apr-17,8,3016,3,1,0,308,1900,Hobsons Bay,Western Metropolitan
+Williamstown,35 Railway Pl,3,House,1290000,S,Apr-17,8,3016,3,1,0,273,1967,Hobsons Bay,Western Metropolitan
+Williamstown,2/170 Cecil St,2,House,1000000,S,May-17,8,3016,2,1,2,447,1983,Hobsons Bay,Western Metropolitan
+Williamstown,10 Crofton Dr,5,House,2040000,S,May-17,8,3016,5,3,2,531,1997,Hobsons Bay,Western Metropolitan
+Williamstown,4 Laverton St,3,House,1270450,SP,May-17,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,60 Merrett Dr,4,House,1412000,SP,May-17,8,3016,4,2,4,551,1956,Hobsons Bay,Western Metropolitan
+Williamstown,8/97 Verdon St,2,Unit,465000,S,May-17,8,3016,2,1,1,0,1970,Hobsons Bay,Western Metropolitan
+Williamstown,33 Anzac Cr,3,House,1810000,PI,May-17,8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,2/47 Power St,2,House,855000,S,May-17,8,3016,2,1,1,160,1983,Hobsons Bay,Western Metropolitan
+Williamstown,12/53 Morris St,2,Unit,550000,SP,Apr-17,8,3016,2,1,2,0,1990,Hobsons Bay,Western Metropolitan
+Williamstown,9/99 Verdon St,2,Unit,490000,S,Apr-17,8,3016,2,1,1,0,1983,Hobsons Bay,Western Metropolitan
+Williamstown,6 Caspian Tce,4,House,1200000,SP,Apr-17,8,3016,4,3,2,183,2006,Hobsons Bay,Western Metropolitan
+Williamstown,240 Coogee La,3,House,1330000,S,Apr-17,8,3016,3,2,2,184,1967,Hobsons Bay,Western Metropolitan
+Williamstown,15 Kingshott Cl,4,House,1500000,VB,Apr-17,8,3016,4,3,2,450,1956,Hobsons Bay,Western Metropolitan
+Williamstown,165 Osborne St,4,House,1630000,S,Apr-17,8,3016,4,2,2,260,1956,Hobsons Bay,Western Metropolitan
+Eaglemont,51 Silverdale Rd,3,House,1435200,SN,Apr-17,10.3,3084,3,1,2,613,1930,Banyule,Eastern Metropolitan
+Eaglemont,39 Durham St,4,House,1750000,VB,May-17,10.3,3084,4,2,2,707,1956,Banyule,Eastern Metropolitan
+Eaglemont,121 The Righi,5,House,2710000,PI,Apr-17,10.3,3084,5,3,2,1001,1930,Banyule,Eastern Metropolitan
+Middle Park,26 Canterbury Rd,3,House,1420000,S,Apr-17,4.1,3206,3,1,0,112,1909,Port Phillip,Southern Metropolitan
+Middle Park,81 Carter St,2,House,1335000,S,Apr-17,4.1,3206,2,1,1,107,1900,Port Phillip,Southern Metropolitan
+Middle Park,18 Fraser St,4,House,2550000,SP,Apr-17,4.1,3206,4,2,1,204,1910,Port Phillip,Southern Metropolitan
+Middle Park,158 Neville St,2,House,1300000,S,Apr-17,4.1,3206,2,1,0,132,1900,Port Phillip,Southern Metropolitan
+Middle Park,135 Neville St,4,House,2550000,S,May-17,4.1,3206,4,2,2,249,1900,Port Phillip,Southern Metropolitan
+Middle Park,84 Hambleton St,4,House,2860000,S,May-17,4.1,3206,4,3,2,160,1903,Port Phillip,Southern Metropolitan
+Middle Park,129 Hambleton St,3,House,1630000,S,Apr-17,4.1,3206,3,1,0,143,1909,Port Phillip,Southern Metropolitan
+Middle Park,23 Nimmo St,3,House,2250000,VB,Apr-17,4.1,3206,3,2,1,148,1890,Port Phillip,Southern Metropolitan
+Alphington,6 Como St,4,House,2345000,S,Jul-17,5.7,3078,4,2,2,803,1947,Yarra,Northern Metropolitan
+Alphington,91 Lucerne Cr,4,House,2022292,S,Jul-17,5.7,3078,4,2,2,618,1947,Darebin,Northern Metropolitan
+Berwick,96 Avebury Dr,4,House,627500,SP,Jul-17,35.2,3806,4,2,2,687,2002,Casey,Eastern Victoria
+Canterbury,108/2 Gascoyne St,2,Unit,816000,S,Jul-17,8.4,3126,2,2,1,8140,2015,Boroondara,Southern Metropolitan
+Diamond Creek,17 Norma St,2,House,621000,S,Jul-17,21.8,3089,2,1,0,610,1939,Nillumbik,Northern Victoria
+Eaglemont,69 Banksia St,4,House,2177500,S,Jul-17,8.9,3084,4,2,2,1007,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,8 Otterington Gr,4,House,2020000,S,Jul-17,7.8,3079,4,2,2,1127,1940,Banyule,Eastern Metropolitan
+Melton,38 Gretel Gr,4,House,320000,SP,Jul-17,31.7,3337,4,2,1,547,1986,Melton,Western Victoria
+Melton,21 Sandra St,3,House,480000,SP,Jul-17,31.7,3337,3,1,2,900,1980,Melton,Western Victoria
+Melton South,19 Sutherland Av,3,House,365000,S,Jul-17,29.8,3338,3,1,2,623,1979,Melton,Western Victoria
+Mont Albert,21 Barloa Rd,5,House,2200000,SP,Jul-17,10.2,3127,5,2,4,819,1963,Boroondara,Eastern Metropolitan
+Mont Albert,11 Inglisby Rd,4,House,2320000,S,Jul-17,10.2,3127,4,2,5,728,1937,Whitehorse,Eastern Metropolitan
+Mont Albert,46 Victoria Cr,4,House,2752000,S,Jul-17,10.2,3127,4,2,3,821,1937,Whitehorse,Eastern Metropolitan
+Princes Hill,251 Richardson St,3,House,1930000,S,Jul-17,3.5,3054,3,1,1,294,1913,Yarra,Northern Metropolitan
+Aberfeldie,5/257 Buckley St,2,Unit,507000,S,Jun-17,7.5,3040,2,1,1,0,1960,Moonee Valley,Western Metropolitan
+Alphington,14 Bennett St,4,House,2022292,PI,Jun-17,5.7,3078,4,1,3,605,1947,Darebin,Northern Metropolitan
+Alphington,5 Ross St,4,House,2220000,S,Jun-17,5.7,3078,4,2,3,580,1930,Darebin,Northern Metropolitan
+Aspendale,19 Third Av,5,House,1385000,S,Jun-17,21.5,3195,5,3,5,593,2000,Kingston,South-Eastern Metropolitan
+Canterbury,15 Compton St,3,House,2050000,PI,Jun-17,8.4,3126,3,2,3,779,1943,Boroondara,Southern Metropolitan
+Canterbury,2/42 Faversham Rd,2,Unit,850000,PI,Jun-17,8.4,3126,2,1,1,116,1960,Boroondara,Southern Metropolitan
+Carlton North,535 Station St,2,House,1501000,S,Jun-17,3.5,3054,2,1,0,152,1932,Yarra,Northern Metropolitan
+Eaglemont,2/12 Ashby Gr,2,Unit,750000,PI,Jun-17,8.9,3084,2,1,1,112,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,6 Oakdene Pl,3,House,2525000,VB,Jun-17,7.8,3079,3,2,1,805,1930,Banyule,Eastern Metropolitan
+Ivanhoe East,2/3 Rotherwood Rd,2,Unit,535000,S,Jun-17,7.8,3079,2,1,1,0,1960,Banyule,Eastern Metropolitan
+Malvern,1/16 Finlayson St,2,Townhouse,910000,S,Jun-17,5.9,3144,2,1,2,195,1969,Stonnington,Southern Metropolitan
+Malvern,8 Grace St,3,House,2092464,S,Jun-17,5.9,3144,3,2,2,660,1900,Stonnington,Southern Metropolitan
+Malvern,14 Irving St,3,House,4900000,VB,Jun-17,5.9,3144,3,4,2,950,1940,Stonnington,Southern Metropolitan
+Malvern,6/36 Johnstone St,2,Unit,592000,S,Jun-17,5.9,3144,2,1,1,0,1977,Stonnington,Southern Metropolitan
+Malvern,32A Milton Pde,4,House,3177850,SP,Jun-17,5.9,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Malvern,18 Robinson St,4,House,3177850,S,Jun-17,5.9,3144,4,2,3,1006,1964,Stonnington,Southern Metropolitan
+Malvern,11/37 Wheatland Rd,1,Unit,455000,S,Jun-17,5.9,3144,1,1,1,1112,1962,Stonnington,Southern Metropolitan
+Melton,95 Barries Rd,3,House,388786,SN,Jun-17,31.7,3337,3,2,2,587,1975,Melton,Western Victoria
+Melton,1 Irving Rd,4,House,400000,S,Jun-17,31.7,3337,4,2,2,643,1982,Melton,Western Victoria
+Melton,31 Plover St,3,House,388786,PN,Jun-17,31.7,3337,3,1,2,590,1975,Melton,Western Victoria
+Melton South,19 Kingsford Av,3,House,315000,SP,Jun-17,29.8,3338,3,1,2,623,1979,Melton,Western Victoria
+Melton South,1 Tamar Dr,4,House,355000,S,Jun-17,29.8,3338,4,2,1,766,1980,Melton,Western Victoria
+Middle Park,67 McGregor St,3,House,2010000,S,Jun-17,3,3206,3,1,0,207,1890,Port Phillip,Southern Metropolitan
+Middle Park,92 Neville St,3,House,2238619,SP,Jun-17,3,3206,3,2,0,185,1910,Port Phillip,Southern Metropolitan
+Middle Park,204 Page St,6,House,5600000,PI,Jun-17,3,3206,6,4,2,472,1915,Port Phillip,Southern Metropolitan
+Middle Park,2 Patterson St,3,House,1850000,PI,Jun-17,3,3206,3,2,1,321,1909,Port Phillip,Southern Metropolitan
+Mooroolbark,188 Cardigan Rd,5,House,872000,SP,Jun-17,26.5,3138,5,2,2,1254,1980,Yarra Ranges,Eastern Victoria
+Mooroolbark,32 Churchill Dr,3,House,730000,SP,Jun-17,26.5,3138,3,2,2,947,1978,Yarra Ranges,Eastern Victoria
+Princes Hill,109 McIlwraith St,3,House,1900000,PI,Jun-17,3.5,3054,3,1,0,204,1910,Yarra,Northern Metropolitan
+Seaholme,26 Sussex St,3,House,1360000,S,Jun-17,11,3018,3,2,6,663,1970,Hobsons Bay,Western Metropolitan
+Wheelers Hill,87 Chancellor Dr,4,House,1171000,S,Jun-17,16.7,3150,4,2,3,800,1968,Monash,South-Eastern Metropolitan
+Williamstown,3 Garden St,3,House,1494000,S,Jun-17,6.8,3016,3,1,0,333,1967,Hobsons Bay,Western Metropolitan
+Williamstown,60 Hannan St,5,House,2760000,S,Jun-17,6.8,3016,5,2,2,646,1933,Hobsons Bay,Western Metropolitan
+Williamstown,4 Long St,3,House,1285000,S,Jun-17,6.8,3016,3,2,3,448,1967,Hobsons Bay,Western Metropolitan
+Williamstown,10 Mullins Ct,4,House,1900000,S,Jun-17,6.8,3016,4,2,1,448,1998,Hobsons Bay,Western Metropolitan
+Williamstown,8 Pearson St,3,House,950000,S,Jun-17,6.8,3016,3,1,0,169,1967,Hobsons Bay,Western Metropolitan
+Alphington,38 Grange Rd,3,House,1650000,VB,Jun-17,5.7,3078,3,1,2,827,1990,Darebin,Northern Metropolitan
+Alphington,30 Shiers St,4,House,2750000,VB,Jun-17,5.7,3078,4,3,4,597,1947,Darebin,Northern Metropolitan
+Berwick,59 Bemersyde Dr,4,House,608500,S,Jun-17,35.2,3806,4,2,2,563,1995,Casey,Eastern Victoria
+Canterbury,28 Allenby Rd,3,House,1943975,SP,Jun-17,8.4,3126,3,2,1,362,1943,Boroondara,Southern Metropolitan
+Canterbury,17 Hassett Av,4,House,2300000,S,Jun-17,8.4,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Carlton North,903 Rathdowne St,3,House,1840000,PI,Jun-17,3.5,3054,3,1,1,311,1908,Yarra,Northern Metropolitan
+Eaglemont,10 Silverdale Rd,3,House,2270000,VB,Jun-17,8.9,3084,3,1,2,1143,1954,Banyule,Eastern Metropolitan
+Ivanhoe East,27 Wallis Av,3,House,1744182,PN,Jun-17,7.8,3079,3,2,2,731,1959,Banyule,Eastern Metropolitan
+Ivanhoe East,12 Wilfred Rd,2,House,1853000,S,Jun-17,7.8,3079,2,2,2,751,1960,Banyule,Eastern Metropolitan
+Malvern,4a Milton Pde,5,House,3859000,PI,Jun-17,5.9,3144,5,3,2,616,1942,Stonnington,Southern Metropolitan
+Malvern,1 Wilks Av,4,House,3900000,S,Jun-17,5.9,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Melton,2 Kym Pl,4,House,420000,S,Jun-17,31.7,3337,4,2,2,642,2004,Melton,Western Victoria
+Melton South,24 Brennan St,3,House,419000,S,Jun-17,29.8,3338,3,1,3,603,1979,Melton,Western Victoria
+Middle Park,78 Erskine St,4,House,2500000,VB,Jun-17,3,3206,4,3,1,209,1903,Port Phillip,Southern Metropolitan
+Middle Park,45 Nimmo St,3,House,2238619,SP,Jun-17,3,3206,3,2,0,187,1880,Port Phillip,Southern Metropolitan
+Mont Albert,21 Kingsley Cr,3,House,1565000,S,Jun-17,10.2,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,41 Windsor Cr,3,House,1657000,S,Jun-17,10.2,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mooroolbark,95 Cardigan Rd,4,House,651000,S,Jun-17,26.5,3138,4,2,2,854,1984,Yarra Ranges,Eastern Victoria
+Mooroolbark,7 Cowley Ct,3,House,581000,S,Jun-17,26.5,3138,3,1,2,484,1970,Yarra Ranges,Eastern Victoria
+Aberfeldie,435 Buckley St,3,House,1210000,S,Jun-17,7.5,3040,3,1,6,645,1991,Moonee Valley,Western Metropolitan
+Alphington,1 Shiers St,4,House,1800000,S,Jun-17,5.7,3078,4,1,2,605,1947,Darebin,Northern Metropolitan
+Alphington,10/14 Yarralea St,1,House,330000,VB,Jun-17,5.7,3078,1,1,1,60,1970,Yarra,Northern Metropolitan
+Aspendale,13/34 Nepean Hwy,2,Unit,695500,PN,Jun-17,21.5,3195,2,1,1,0,1965,Kingston,South-Eastern Metropolitan
+Berwick,5 Gretel Pl,3,House,690000,S,Jun-17,35.2,3806,3,2,2,703,1980,Casey,Eastern Victoria
+Canterbury,1 Balwyn Rd,4,House,2778864,S,Jun-17,8.4,3126,4,2,2,981,1905,Boroondara,Southern Metropolitan
+Canterbury,3/900 Burke Rd,3,Townhouse,1381000,S,Jun-17,8.4,3126,3,2,2,230,1943,Boroondara,Southern Metropolitan
+Canterbury,8 Hassett Av,4,House,2260000,S,Jun-17,8.4,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Carlton North,454 Canning St,3,House,1717500,S,Jun-17,3.5,3054,3,1,0,202,1908,Yarra,Northern Metropolitan
+Carlton North,570 Canning St,4,House,2400000,SP,Jun-17,3.5,3054,4,1,1,163,1920,Yarra,Northern Metropolitan
+Carlton North,771 Rathdowne St,3,House,1950000,S,Jun-17,3.5,3054,3,1,1,309,1908,Yarra,Northern Metropolitan
+Diamond Creek,1 Brooks Cr,3,House,588000,SP,Jun-17,21.8,3089,3,2,2,790,1983,Nillumbik,Northern Victoria
+Ivanhoe East,7 Maltravers Rd,3,House,1744182,VB,Jun-17,7.8,3079,3,3,2,880,1960,Banyule,Eastern Metropolitan
+Malvern,5 Banksia Wy,3,Townhouse,1000000,PI,Jun-17,5.9,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,39 Ewart St,4,House,3177850,SP,Jun-17,5.9,3144,4,3,1,502,1964,Stonnington,Southern Metropolitan
+Malvern,1C Glenview Av,3,Townhouse,2092464,PI,Jun-17,5.9,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,44 McKinley Av,4,House,3177850,S,Jun-17,5.9,3144,4,2,2,555,1964,Stonnington,Southern Metropolitan
+Melton,102 Palmerston St,4,House,405000,S,Jun-17,31.7,3337,4,2,2,590,1970,Melton,Western Victoria
+Melton South,51 Andrew St,3,House,420000,S,Jun-17,29.8,3338,3,2,2,599,1979,Melton,Western Victoria
+Melton South,112 Brooklyn Rd,3,House,378708,PN,Jun-17,29.8,3338,3,1,2,585,1985,Melton,Western Victoria
+Melton South,44 Brooklyn Rd,3,House,465000,S,Jun-17,29.8,3338,3,1,2,615,1980,Melton,Western Victoria
+Middle Park,2/106 Nimmo St,3,Unit,1210000,PI,Jun-17,3,3206,3,1,1,200,1909,Port Phillip,Southern Metropolitan
+Middle Park,295 Richardson St,3,House,2238619,S,Jun-17,3,3206,3,1,0,183,1909,Port Phillip,Southern Metropolitan
+Mont Albert,7 Hotham St,5,House,2016800,PI,Jun-17,10.2,3127,5,2,4,642,2007,Whitehorse,Eastern Metropolitan
+Mooroolbark,14 Fernleigh Dr,4,House,782750,SN,Jun-17,26.5,3138,4,2,2,1513,1993,Yarra Ranges,Eastern Victoria
+Riddells Creek,53 Bluegum Cct,4,House,817000,S,Jun-17,47.4,3431,4,2,4,1459,2011,Macedon Ranges,Northern Victoria
+Riddells Creek,2 Dwyer Ct,4,House,967500,S,Jun-17,47.4,3431,4,2,4,1459,2011,Macedon Ranges,Northern Victoria
+Wheelers Hill,20 Ajax Dr,5,House,1306875,PI,Jun-17,16.7,3150,5,3,0,843,1970,Monash,South-Eastern Metropolitan
+Wheelers Hill,7 Darvell Cl,4,House,1272000,S,Jun-17,16.7,3150,4,2,2,733,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,4 Locum Ct,4,House,1240616,PI,Jun-17,16.7,3150,4,2,2,935,1975,Monash,South-Eastern Metropolitan
+Williamstown,152 Ferguson St,3,Townhouse,1270450,S,Jun-17,6.8,3016,3,2,2,238,1999,Hobsons Bay,Western Metropolitan
+Aberfeldie,5 Rita St,5,House,2905000,S,May-17,7.5,3040,5,3,2,557,2010,Moonee Valley,Western Metropolitan
+Aspendale,15 Amberley Av,2,House,680000,S,May-17,21.5,3195,2,1,1,0,1965,Kingston,South-Eastern Metropolitan
+Aspendale,31 Mill St,4,House,1150000,PI,May-17,21.5,3195,4,2,2,599,1970,Kingston,South-Eastern Metropolitan
+Aspendale,2a Park La,4,House,3000000,VB,May-17,21.5,3195,4,2,2,518,1970,Kingston,South-Eastern Metropolitan
+Berwick,2 Greystoke Ct,4,House,667000,S,May-17,35.2,3806,4,2,2,792,1977,Casey,Eastern Victoria
+Berwick,65 Peel St,5,House,940000,SN,May-17,35.2,3806,5,4,2,1289,1975,Casey,Eastern Victoria
+Berwick,3 Thornley Dr,4,House,740000,S,May-17,35.2,3806,4,2,2,796,2004,Casey,Eastern Victoria
+Canterbury,43 Matlock St,3,House,1930000,S,May-17,8.4,3126,3,2,1,359,1910,Boroondara,Southern Metropolitan
+Canterbury,6 Maysia St,4,House,2408000,S,May-17,8.4,3126,4,2,2,654,1945,Boroondara,Southern Metropolitan
+Canterbury,42 Parlington St,4,House,4750000,S,May-17,8.4,3126,4,3,2,967,1996,Boroondara,Southern Metropolitan
+Canterbury,2/67 Wattle Valley Rd,2,Unit,645000,PI,May-17,8.4,3126,2,1,1,2207,1970,Boroondara,Southern Metropolitan
+Carlton North,73 Amess St,3,House,1631333,S,May-17,3.5,3054,3,1,0,337,1915,Yarra,Northern Metropolitan
+Carlton North,673 Canning St,3,House,1628000,S,May-17,3.5,3054,3,1,0,216,1908,Yarra,Northern Metropolitan
+Carlton North,648 Drummond St,2,House,1206750,S,May-17,3.5,3054,2,1,0,109,1890,Yarra,Northern Metropolitan
+Chirnside Park,2 Greenridge Ct,4,House,911982,SP,May-17,27.1,3116,4,2,3,734,1996,Yarra Ranges,Eastern Victoria
+Ivanhoe East,8 Carmichael St,3,House,1640000,S,May-17,7.8,3079,3,1,2,617,1930,Banyule,Eastern Metropolitan
+Malvern,9 Elizabeth St,4,House,3177850,PI,May-17,5.9,3144,4,4,4,370,2009,Stonnington,Southern Metropolitan
+Malvern,10 Horace St,4,House,2775000,PI,May-17,5.9,3144,4,2,2,510,1964,Stonnington,Southern Metropolitan
+Malvern,13 Nicholls St,3,House,1700000,PI,May-17,5.9,3144,3,2,0,312,1920,Stonnington,Southern Metropolitan
+Melton,14 Musk Ct,3,House,295000,SP,May-17,31.7,3337,3,1,4,600,1975,Melton,Western Victoria
+Melton South,3 Francis St,4,House,347500,S,May-17,29.8,3338,4,2,1,587,1990,Melton,Western Victoria
+Middle Park,89 Armstrong St,3,House,3750000,PI,May-17,3,3206,3,2,1,411,1909,Port Phillip,Southern Metropolitan
+Middle Park,150 Page St,3,House,1750000,VB,May-17,3,3206,3,2,0,138,1885,Port Phillip,Southern Metropolitan
+Middle Park,286 Richardson St,3,House,2238619,S,May-17,3,3206,3,1,1,247,1909,Port Phillip,Southern Metropolitan
+Mont Albert,72 Zetland Rd,4,House,1462000,S,May-17,10.2,3127,4,2,0,420,1910,Whitehorse,Eastern Metropolitan
+Wheelers Hill,12 Bellini Av,4,House,1155000,S,May-17,16.7,3150,4,2,2,737,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,127 Lum Rd,4,House,1240616,SN,May-17,16.7,3150,4,2,2,732,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,9 Mill Ct,4,House,1200000,PI,May-17,16.7,3150,4,3,3,858,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,49 Phoenix Dr,5,House,1223000,S,May-17,16.7,3150,5,3,2,762,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,5 Rubens Ct,4,House,1035000,S,May-17,16.7,3150,4,2,2,702,1980,Monash,South-Eastern Metropolitan
+Williamstown,11 Hosking St,3,House,1367000,SP,May-17,6.8,3016,3,1,2,410,1967,Hobsons Bay,Western Metropolitan
+Williamstown,2/70 Osborne St,2,Unit,880000,S,May-17,6.8,3016,2,1,2,169,2000,Hobsons Bay,Western Metropolitan
+Berwick,9 Geranium Ct,4,House,920000,S,Jul-17,35.2,3806,4,5,2,638,2014,Casey,Eastern Victoria
+Berwick,9 Sunview Pl,4,House,950000,SA,Jul-17,35.2,3806,4,4,2,603,2007,Casey,Eastern Victoria
+Eaglemont,129 Banksia St,3,House,1300000,VB,Jul-17,8.9,3084,3,1,2,615,1950,Banyule,Eastern Metropolitan
+Malvern,4/30 Finlayson St,1,Unit,338000,SP,Jul-17,5.9,3144,1,1,1,0,1970,Stonnington,Southern Metropolitan
+Melton,28 Atkin St,4,House,550000,PI,Jul-17,31.7,3337,4,2,2,1241,1970,Melton,Western Victoria
+Melton,22 Bittern St,3,House,373500,S,Jul-17,31.7,3337,3,2,2,586,1980,Melton,Western Victoria
+Melton South,69 Andrew St,3,House,378708,PI,Jul-17,29.8,3338,3,2,2,699,2000,Melton,Western Victoria
+Melton South,1/33 Staughton St,2,House,280500,S,Jul-17,29.8,3338,2,1,1,180,1990,Melton,Western Victoria
+Middle Park,201 Ashworth St,3,House,2238619,S,Jul-17,3,3206,3,1,0,88,2000,Port Phillip,Southern Metropolitan
+Mooroolbark,5 Byron Ct,3,House,650000,PI,Jul-17,26.5,3138,3,2,2,1103,1976,Yarra Ranges,Eastern Victoria
+Mooroolbark,3 Dunoon St,4,House,782750,W,Jul-17,26.5,3138,4,2,2,447,1984,Yarra Ranges,Eastern Victoria
+Mooroolbark,103 Landscape Dr,4,House,845000,SP,Jul-17,26.5,3138,4,2,3,926,1984,Yarra Ranges,Eastern Victoria
+Wheelers Hill,6 Leon St,5,House,1306875,SN,Jul-17,16.7,3150,5,2,2,652,1975,Monash,South-Eastern Metropolitan
+Wheelers Hill,930 Waverley Rd,4,House,1240616,SN,Jul-17,16.7,3150,4,4,2,628,2014,Monash,South-Eastern Metropolitan
+Williamstown,7 Alfred Pl,3,House,1200000,PI,Jul-17,6.8,3016,3,2,0,159,1967,Hobsons Bay,Western Metropolitan
+Williamstown,13 Lakeside Pl,3,House,1270000,SP,Jul-17,6.8,3016,3,2,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,39 Osborne St,3,House,1270450,SP,Jul-17,6.8,3016,3,2,1,500,1900,Hobsons Bay,Western Metropolitan
+Williamstown,2/87 Railway Cr,2,Unit,650000,SP,Jul-17,6.8,3016,2,1,1,0,1983,Hobsons Bay,Western Metropolitan
+Aberfeldie,241 Buckley St,4,House,1380000,VB,Aug-17,7.5,3040,4,2,2,766,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,130A The Boulevard,4,House,2300000,VB,Aug-17,7.5,3040,4,2,2,580,1980,Moonee Valley,Western Metropolitan
+Aberfeldie,53a Vida St,3,Townhouse,1370000,S,Aug-17,7.5,3040,3,2,2,416,1991,Moonee Valley,Western Metropolitan
+Alphington,30 Kelvin Rd,3,House,1625000,VB,Aug-17,5.7,3078,3,2,1,300,1990,Darebin,Northern Metropolitan
+Berwick,3 Ellaswood Cl,4,House,683000,S,Aug-17,35.2,3806,4,2,2,670,2002,Casey,Eastern Victoria
+Canterbury,13 Golding St,4,House,2100000,S,Aug-17,8.4,3126,4,2,4,544,1941,Boroondara,Southern Metropolitan
+Canterbury,3 Leeds St,4,House,2725000,SA,Aug-17,8.4,3126,4,2,2,650,2006,Boroondara,Southern Metropolitan
+Canterbury,11 Parlington St,4,House,3250000,VB,Aug-17,8.4,3126,4,2,3,855,1941,Boroondara,Southern Metropolitan
+Diamond Creek,14 Fuller St,4,House,898000,SP,Aug-17,21.8,3089,4,3,2,705,2012,Nillumbik,Northern Victoria
+Diamond Creek,11 Wayland Ct,3,House,815000,S,Aug-17,21.8,3089,3,2,3,790,1980,Nillumbik,Northern Victoria
+Hurstbridge,40 Anzac Av,5,House,790000,S,Aug-17,26.1,3099,5,2,2,1034,1985,Nillumbik,Northern Victoria
+Ivanhoe East,65 Wilfred Rd,4,House,2020000,S,Aug-17,7.8,3079,4,3,2,575,1952,Banyule,Eastern Metropolitan
+Malvern,20 Coonil Cr,4,House,4050000,S,Aug-17,5.9,3144,4,3,2,787,1915,Stonnington,Southern Metropolitan
+Malvern,7A Isabella St,3,House,2092464,S,Aug-17,5.9,3144,3,1,1,562,1940,Stonnington,Southern Metropolitan
+Malvern,1219 Malvern Rd,3,House,1650000,S,Aug-17,5.9,3144,3,1,2,354,1880,Stonnington,Southern Metropolitan
+Malvern,30 Warner St,3,House,2020000,PI,Aug-17,5.9,3144,3,2,2,400,2007,Stonnington,Southern Metropolitan
+Melton,62 Oneills Rd,4,House,375000,SP,Aug-17,31.7,3337,4,2,2,733,1982,Melton,Western Victoria
+Mooroolbark,39 Diane Cr,3,House,930000,S,Aug-17,26.5,3138,3,1,4,905,1969,Yarra Ranges,Eastern Victoria
+Princes Hill,24 Arnold St,3,House,1724000,S,Aug-17,3.5,3054,3,1,2,278,1913,Yarra,Northern Metropolitan
+Princes Hill,78 Arnold St,3,House,1540000,S,Aug-17,3.5,3054,3,2,1,288,1913,Yarra,Northern Metropolitan
+Wheelers Hill,4 Bowden Ct,4,House,1240616,SN,Aug-17,16.7,3150,4,2,2,820,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,18 Garnett Rd,4,House,1184000,S,Aug-17,16.7,3150,4,2,2,700,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,3 Jensen Ct,4,House,1157000,PI,Aug-17,16.7,3150,4,2,2,752,1971,Monash,South-Eastern Metropolitan
+Wheelers Hill,19 Kooringa Cr,5,House,1100000,S,Aug-17,16.7,3150,5,2,2,672,1970,Monash,South-Eastern Metropolitan
+Williamstown,119 Hannan St,4,House,2200000,S,Aug-17,6.8,3016,4,3,2,650,1956,Hobsons Bay,Western Metropolitan
+Alphington,2 Perry St,3,House,1110000,PI,Jul-17,5.7,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Aspendale,5/148 Nepean Hwy,3,Townhouse,805000,S,Jul-17,21.5,3195,3,2,2,0,2006,Kingston,South-Eastern Metropolitan
+Eaglemont,104 Studley Rd,3,House,1440000,S,Jul-17,8.9,3084,3,1,2,598,1955,Banyule,Eastern Metropolitan
+Ivanhoe East,82 McArthur Rd,2,House,1601000,S,Jul-17,7.8,3079,2,1,2,697,1960,Banyule,Eastern Metropolitan
+Malvern,3/26 McArthur St,2,Unit,575000,PI,Jul-17,5.9,3144,2,1,1,0,1999,Stonnington,Southern Metropolitan
+Melton South,13 Bridge Rd,3,House,341000,S,Jul-17,29.8,3338,3,2,4,578,1979,Melton,Western Victoria
+Melton South,15 Kurrajong Cr,3,House,336000,S,Jul-17,29.8,3338,3,1,1,580,1975,Melton,Western Victoria
+Melton South,23 Neerim St,4,House,426000,S,Jul-17,29.8,3338,4,2,3,655,1975,Melton,Western Victoria
+Mooroolbark,36 Bellara Dr,3,House,637500,SP,Jul-17,26.5,3138,3,1,1,609,1969,Yarra Ranges,Eastern Victoria
+Mooroolbark,27 Marion Av,3,House,780000,PI,Jul-17,26.5,3138,3,2,3,1469,1969,Yarra Ranges,Eastern Victoria
+Waterways,7 Portland Pl,4,House,1265000,S,Jul-17,21.5,3195,4,2,2,604,2004,Kingston,South-Eastern Metropolitan
+Wheelers Hill,994 Waverley Rd,5,House,1090000,S,Jul-17,16.7,3150,5,2,2,698,1978,Monash,South-Eastern Metropolitan
+Williamstown,47 Pasco St,4,House,1920000,SP,Jul-17,6.8,3016,4,2,0,388,1900,Hobsons Bay,Western Metropolitan
+Aberfeldie,45 Afton St,3,House,2050000,SP,Jul-17,7.5,3040,3,2,6,402,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,45A Afton St,3,House,1227816,PN,Jul-17,7.5,3040,3,3,2,401,2009,Moonee Valley,Western Metropolitan
+Aberfeldie,5 Aroona Ct,3,House,1680000,SP,Jul-17,7.5,3040,3,2,2,673,1965,Moonee Valley,Western Metropolitan
+Aberfeldie,4/37 St Kinnord St,1,Unit,280000,VB,Jul-17,7.5,3040,1,1,1,0,1970,Moonee Valley,Western Metropolitan
+Aberfeldie,6/39 St Kinnord St,1,Unit,310000,S,Jul-17,7.5,3040,1,1,1,1715,1970,Moonee Valley,Western Metropolitan
+Aberfeldie,18 Valencia St,5,House,1472000,S,Jul-17,7.5,3040,5,3,2,486,2012,Moonee Valley,Western Metropolitan
+Aspendale,14 Ebb St,3,House,970000,VB,Jul-17,21.5,3195,4,2,2,612,1960,Kingston,South-Eastern Metropolitan
+Aspendale,8A Lawrence Av,2,Townhouse,711000,S,Jul-17,21.5,3195,2,1,1,0,1965,Kingston,South-Eastern Metropolitan
+Berwick,2 Northgate Dr,4,House,775000,VB,Jul-17,35.2,3806,4,2,2,520,2002,Casey,Eastern Victoria
+Berwick,5 Russel Av,3,House,755000,S,Jul-17,35.2,3806,3,2,2,840,1975,Casey,Eastern Victoria
+Carlton North,51 Davis St,3,House,1400000,VB,Jul-17,3.5,3054,3,2,0,107,1908,Yarra,Northern Metropolitan
+Melton,53 Barries Rd,3,House,388786,SN,Jul-17,31.7,3337,3,1,2,780,1970,Melton,Western Victoria
+Melton South,30 Bennett St,3,House,375000,S,Jul-17,29.8,3338,3,1,2,584,1983,Melton,Western Victoria
+Melton South,8 Charles Ct,3,House,326000,S,Jul-17,29.8,3338,3,1,1,611,1985,Melton,Western Victoria
+Melton South,6 Denny Pl,3,House,400000,SP,Jul-17,29.8,3338,3,2,2,800,1979,Melton,Western Victoria
+Melton South,39 First Av,3,House,412250,S,Jul-17,29.8,3338,3,1,2,592,1979,Melton,Western Victoria
+Melton South,7 Waratah St,4,House,384625,SP,Jul-17,29.8,3338,4,2,0,594,1960,Melton,Western Victoria
+Mooroolbark,7 Hedwig Dr,3,House,718042,PI,Jul-17,26.5,3138,3,2,2,841,1969,Yarra Ranges,Eastern Victoria
+Wheelers Hill,11 Bluegum Av,5,House,1591000,S,Jul-17,16.7,3150,5,3,3,923,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,6 Reynolds Av,5,House,1490000,S,Jul-17,16.7,3150,5,3,4,677,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,5 Timaru Ct,4,House,1240616,PI,Jul-17,16.7,3150,4,2,1,653,1980,Monash,South-Eastern Metropolitan
+Williamstown,22 Hotham St,4,House,1440000,S,Jul-17,6.8,3016,4,2,0,240,1900,Hobsons Bay,Western Metropolitan
+Alphington,2A Constance St,3,House,1337591,S,Jul-17,5.7,3078,3,1,2,667,1950,Yarra,Northern Metropolitan
+Alphington,1/16 Miller St,3,House,1305000,PI,Jul-17,5.7,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Aspendale,2 Harrison La,3,Townhouse,997167,PI,Jul-17,21.5,3195,3,2,2,1224,1989,Kingston,South-Eastern Metropolitan
+Aspendale,36 Laura St,4,House,1125000,S,Jul-17,21.5,3195,4,2,2,518,1970,Kingston,South-Eastern Metropolitan
+Aspendale,4 Roycroft Av,4,House,1510000,S,Jul-17,21.5,3195,4,2,4,387,1970,Kingston,South-Eastern Metropolitan
+Berwick,33 Jane St,3,House,620000,S,Jul-17,35.2,3806,3,1,2,792,1970,Casey,Eastern Victoria
+Berwick,67 Strathavan Dr,4,House,790250,PI,Jul-17,35.2,3806,4,3,2,890,1992,Casey,Eastern Victoria
+Brookfield,30 Pinrush Rd,4,House,456000,S,Jul-17,29.8,3338,4,2,2,576,2010,Melton,Western Victoria
+Carlton North,384 Canning St,2,House,1690000,S,Jul-17,3.5,3054,2,1,1,173,1932,Yarra,Northern Metropolitan
+Carlton North,9/1062 Lygon St,3,Unit,550000,PI,Jul-17,3.5,3054,3,1,1,222,1908,Yarra,Northern Metropolitan
+Diamond Creek,2/18 Bruce St,3,House,632000,S,Jul-17,21.8,3089,3,2,2,790,1983,Nillumbik,Northern Victoria
+Diamond Creek,31 Phipps Cr,2,House,621000,SN,Jul-17,21.8,3089,2,1,0,344,1960,Nillumbik,Northern Victoria
+Eaglemont,18 Carlsberg Rd,4,House,3300000,S,Jul-17,8.9,3084,4,2,3,1783,1950,Banyule,Eastern Metropolitan
+Ivanhoe East,51 Wilfred Rd,4,House,2020000,PI,Jul-17,7.8,3079,4,3,3,1022,1952,Banyule,Eastern Metropolitan
+Melton South,24 Blaxland Rd,3,House,300000,S,Jul-17,29.8,3338,3,1,1,585,1979,Melton,Western Victoria
+Melton South,48 Manson Dr,3,House,385000,S,Jul-17,29.8,3338,3,1,2,670,1975,Melton,Western Victoria
+Middle Park,6/178 Canterbury Rd,3,Unit,2238619,SP,Jul-17,3,3206,3,1,1,0,1909,Port Phillip,Southern Metropolitan
+Mont Albert,1/381 Elgar Rd,3,Townhouse,943000,S,Jul-17,10.2,3127,3,1,1,248,2000,Whitehorse,Eastern Metropolitan
+Mont Albert,3/81 Victoria Cr,2,Unit,731476,SA,Jul-17,10.2,3127,2,1,1,146,1960,Whitehorse,Eastern Metropolitan
+Mooroolbark,149 Manchester Rd,3,House,696000,S,Jul-17,26.5,3138,3,1,2,886,1960,Yarra Ranges,Eastern Victoria
+Wheelers Hill,7 Ondine Dr,5,House,1095000,S,Jul-17,16.7,3150,5,2,2,629,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,9 Xavier Dr,4,House,1240616,PN,Jul-17,16.7,3150,4,2,2,656,1980,Monash,South-Eastern Metropolitan
+Williamstown,75 Cecil St,3,House,1050000,VB,Jul-17,6.8,3016,3,1,0,179,1890,Hobsons Bay,Western Metropolitan
+Williamstown,2/29 Dover Rd,1,Unit,385000,SP,Jul-17,6.8,3016,1,1,1,0,1967,Hobsons Bay,Western Metropolitan
+Williamstown,87 Pasco St,3,House,1285000,S,Jul-17,6.8,3016,3,1,0,296,1967,Hobsons Bay,Western Metropolitan
+Aberfeldie,1 Alma St,4,House,1436000,S,Sep-17,7.5,3040,4,3,3,511,1922,Moonee Valley,Western Metropolitan
+Alphington,22 Harker St,4,House,1680000,S,Sep-17,5.7,3078,4,3,2,720,1947,Darebin,Northern Metropolitan
+Berwick,7 Inkerman St,4,House,827000,S,Sep-17,35.2,3806,4,2,2,683,2007,Casey,Eastern Victoria
+Berwick,4 Rheanva St,5,House,940000,VB,Sep-17,35.2,3806,5,4,2,1289,1984,Casey,Eastern Victoria
+Berwick,18 Viewgrand Dr,4,House,975000,SP,Sep-17,35.2,3806,4,3,2,675,2005,Casey,Eastern Victoria
+Canterbury,2A Gwenda Av,3,House,1943975,SP,Sep-17,8.4,3126,3,2,2,482,1943,Boroondara,Southern Metropolitan
+Canterbury,62 Warburton Rd,4,House,2778864,S,Sep-17,8.4,3126,4,2,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,3/67 Wattle Valley Rd,2,Unit,615000,S,Sep-17,8.4,3126,2,1,1,810,1970,Boroondara,Southern Metropolitan
+Carlton North,521 Canning St,2,House,1520000,PI,Sep-17,3.5,3054,2,1,1,193,1900,Yarra,Northern Metropolitan
+Carlton North,595 Canning St,3,House,1631333,S,Sep-17,3.5,3054,3,2,1,222,1908,Yarra,Northern Metropolitan
+Diamond Creek,17 Wentworth Cl,4,House,950000,SP,Sep-17,21.8,3089,4,2,2,879,1995,Nillumbik,Northern Victoria
+Ivanhoe East,1/18 Carmichael St,2,Unit,629000,SP,Sep-17,7.8,3079,2,1,1,654,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,25 Flora Gr,3,House,1744182,PI,Sep-17,7.8,3079,3,1,1,731,1959,Banyule,Eastern Metropolitan
+Malvern,39 Edsall St,3,House,2092464,S,Sep-17,5.9,3144,3,2,0,230,1940,Stonnington,Southern Metropolitan
+Malvern,7/16 Elizabeth St,2,Unit,751500,SP,Sep-17,5.9,3144,2,1,2,59,1969,Stonnington,Southern Metropolitan
+Malvern,3/101 9 Somers Av,3,Unit,2210000,S,Sep-17,5.9,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,7 Thanet St,3,House,2092464,SP,Sep-17,5.9,3144,3,1,2,334,1940,Stonnington,Southern Metropolitan
+Malvern,10 Wilks Av,5,House,4350000,PI,Sep-17,5.9,3144,5,3,2,616,1942,Stonnington,Southern Metropolitan
+Melton,1 Carina Dr,5,House,460000,S,Sep-17,31.7,3337,5,2,2,590,2000,Melton,Western Victoria
+Melton,51 Gretel Gr,4,House,370000,S,Sep-17,31.7,3337,4,1,1,733,1982,Melton,Western Victoria
+Melton,20 Perry Cl,3,House,430000,S,Sep-17,31.7,3337,3,1,2,583,1980,Melton,Western Victoria
+Melton South,169 Exford Rd,3,House,378708,PN,Sep-17,29.8,3338,3,1,2,623,1979,Melton,Western Victoria
+Middle Park,67 Park Rd,3,House,2238619,SN,Sep-17,3,3206,3,1,1,309,1900,Port Phillip,Southern Metropolitan
+Mont Albert,201/766 Whitehorse Rd,2,Unit,620000,VB,Sep-17,10.2,3127,2,1,2,384,2011,Whitehorse,Eastern Metropolitan
+Mooroolbark,1 Corowa Ct,4,House,782750,VB,Sep-17,26.5,3138,4,2,3,926,1984,Yarra Ranges,Eastern Victoria
+Mooroolbark,2/130 Manchester Rd,3,Unit,718042,PI,Sep-17,26.5,3138,3,2,2,918,1969,Yarra Ranges,Eastern Victoria
+Princes Hill,30 Garton St,4,House,1908000,S,Sep-17,3.5,3054,4,2,1,239,1890,Yarra,Northern Metropolitan
+Wheelers Hill,16 Belinda Cr,4,House,1223000,S,Sep-17,16.7,3150,4,3,2,872,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,17 Highwood Dr,5,House,1206000,S,Sep-17,16.7,3150,5,2,2,784,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,11 Marykirk Dr,4,House,1240616,PI,Sep-17,16.7,3150,4,2,2,737,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,6 The Woodland,4,House,1678000,S,Sep-17,16.7,3150,4,2,2,943,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,22 Tudawali Cr,4,House,1000000,S,Sep-17,16.7,3150,4,2,2,737,1980,Monash,South-Eastern Metropolitan
+Williamstown,48 Smith Av,4,House,1630000,S,Sep-17,6.8,3016,4,3,2,400,1956,Hobsons Bay,Western Metropolitan
+Aberfeldie,1A Aberfeldie St,3,House,1195000,S,Sep-17,7.5,3040,3,2,2,381,1991,Moonee Valley,Western Metropolitan
+Alphington,77A Fulham Rd,3,House,1170000,S,Sep-17,5.7,3078,3,1,1,268,1994,Darebin,Northern Metropolitan
+Alphington,4/148 Grange Rd,2,Townhouse,576750,S,Sep-17,5.7,3078,2,1,1,71,1972,Darebin,Northern Metropolitan
+Aspendale,13 Bowman St,5,House,1385000,SN,Sep-17,21.5,3195,5,3,5,593,2000,Kingston,South-Eastern Metropolitan
+Aspendale,13/200 Nepean Hwy,3,Townhouse,997167,SN,Sep-17,21.5,3195,3,1,2,3931,1989,Kingston,South-Eastern Metropolitan
+Aspendale,58 Station St,3,House,780000,PI,Sep-17,21.5,3195,3,1,2,292,1955,Kingston,South-Eastern Metropolitan
+Canterbury,20 Allenby Rd,3,House,1943975,S,Sep-17,8.4,3126,3,2,2,482,1915,Boroondara,Southern Metropolitan
+Canterbury,4/10 Dryden St,3,Unit,1943975,S,Sep-17,8.4,3126,3,1,1,482,1968,Boroondara,Southern Metropolitan
+Canterbury,17 McGregor St,4,House,3130000,S,Sep-17,8.4,3126,4,2,2,618,1941,Boroondara,Southern Metropolitan
+Canterbury,11 Moresby St,4,House,2650000,VB,Sep-17,8.4,3126,4,2,2,748,1986,Boroondara,Southern Metropolitan
+Canterbury,4/22 Rochester Rd,3,House,1500000,VB,Sep-17,8.4,3126,3,2,2,482,1987,Boroondara,Southern Metropolitan
+Canterbury,9 Rubens Gr,5,House,3775500,S,Sep-17,8.4,3126,5,2,2,868,1933,Boroondara,Southern Metropolitan
+Canterbury,38 Victoria Av,4,House,2778864,PI,Sep-17,8.4,3126,4,3,2,748,2002,Boroondara,Southern Metropolitan
+Carlton North,782 Lygon St,2,House,1065000,S,Sep-17,3.5,3054,2,1,1,4025,1932,Yarra,Northern Metropolitan
+Carlton North,125 Newry St,2,House,950000,VB,Sep-17,3.5,3054,2,1,1,97,1932,Yarra,Northern Metropolitan
+Diamond Creek,2 Bishop Av,4,House,745000,S,Sep-17,21.8,3089,4,2,2,767,2002,Nillumbik,Northern Victoria
+Eaglemont,67 Banksia St,4,House,1867000,S,Sep-17,8.9,3084,4,3,2,968,1920,Banyule,Eastern Metropolitan
+Ivanhoe East,46 McArthur Rd,3,House,1535000,S,Sep-17,7.8,3079,3,2,1,697,1930,Banyule,Eastern Metropolitan
+Malvern,2A Dalny St,3,House,1990000,S,Sep-17,5.9,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,57 Edsall St,3,House,1510000,PI,Sep-17,5.9,3144,3,1,0,228,1900,Stonnington,Southern Metropolitan
+Malvern,225/14 Elizabeth St,1,Unit,650444,PI,Sep-17,5.9,3144,1,1,1,1116,1962,Stonnington,Southern Metropolitan
+Malvern,3/382 Glenferrie Rd,2,Unit,926867,SP,Sep-17,5.9,3144,2,2,2,59,1969,Stonnington,Southern Metropolitan
+Melton South,71 Hume Av,4,House,410000,S,Sep-17,29.8,3338,4,1,2,578,1980,Melton,Western Victoria
+Middle Park,263 Danks St,2,House,1194769,SN,Sep-17,3,3206,2,1,1,157,1926,Port Phillip,Southern Metropolitan
+Middle Park,75 Mills St,4,House,1720000,PI,Sep-17,3,3206,4,2,1,201,1903,Port Phillip,Southern Metropolitan
+Middle Park,136 Page St,5,House,6400000,S,Sep-17,3,3206,5,2,1,553,1920,Port Phillip,Southern Metropolitan
+Middle Park,253 Richardson St,2,House,1500000,VB,Sep-17,3,3206,2,1,1,194,1926,Port Phillip,Southern Metropolitan
+Mont Albert,1/12 Hotham St,2,Unit,850000,SP,Sep-17,10.2,3127,2,1,1,2243,1980,Whitehorse,Eastern Metropolitan
+Mooroolbark,327 Hull Rd,3,House,720000,S,Sep-17,26.5,3138,3,1,1,862,1960,Yarra Ranges,Eastern Victoria
+Waterways,22 Broadwater Dr,4,House,1232000,SP,Sep-17,21.5,3195,4,2,2,620,2004,Kingston,South-Eastern Metropolitan
+Wheelers Hill,5 Timaru Ct,4,House,1240616,PI,Sep-17,16.7,3150,4,2,1,737,1972,Monash,South-Eastern Metropolitan
+Williamstown,34 Queen St,3,House,1080000,SP,Sep-17,6.8,3016,3,1,2,318,1967,Hobsons Bay,Western Metropolitan
+Williamstown,40 Queen St,3,House,1470000,S,Sep-17,6.8,3016,3,1,1,508,1967,Hobsons Bay,Western Metropolitan
+Williamstown,93 Thompson St,3,House,1270450,PI,Sep-17,6.8,3016,3,1,2,230,1860,Hobsons Bay,Western Metropolitan
+Aberfeldie,437 Buckley St,3,House,990000,VB,Sep-17,7.5,3040,3,1,2,416,1991,Moonee Valley,Western Metropolitan
+Aberfeldie,59A Clifton St,4,House,1510000,PI,Sep-17,7.5,3040,4,3,2,580,2015,Moonee Valley,Western Metropolitan
+Aberfeldie,13 Valencia St,4,House,1650000,SP,Sep-17,7.5,3040,4,2,1,484,1950,Moonee Valley,Western Metropolitan
+Aspendale,85 Nepean Hwy,3,House,1300000,PI,Sep-17,21.5,3195,3,2,2,673,1989,Kingston,South-Eastern Metropolitan
+Berwick,37 Mansfield St,4,House,790250,S,Sep-17,35.2,3806,4,2,2,683,2002,Casey,Eastern Victoria
+Canterbury,23 Margaret St,4,House,2750000,S,Sep-17,8.4,3126,4,3,2,748,1941,Boroondara,Southern Metropolitan
+Canterbury,21 Selwyn St,4,House,2778864,SP,Sep-17,8.4,3126,4,3,2,602,1920,Boroondara,Southern Metropolitan
+Diamond Creek,28 Anne St,4,House,895750,SN,Sep-17,21.8,3089,4,2,2,838,1987,Nillumbik,Northern Victoria
+Diamond Creek,6 Ormonde Ct,4,House,895750,SP,Sep-17,21.8,3089,4,2,4,744,2002,Nillumbik,Northern Victoria
+Eaglemont,1/18 Cape St,2,Unit,570000,S,Sep-17,8.9,3084,2,1,1,563,1960,Banyule,Eastern Metropolitan
+Malvern,4 Elizabeth St,4,House,3177850,S,Sep-17,5.9,3144,4,3,4,311,2004,Stonnington,Southern Metropolitan
+Malvern,5/355 Glenferrie Rd,2,Unit,550000,VB,Sep-17,5.9,3144,2,1,1,59,1970,Stonnington,Southern Metropolitan
+Malvern,27 McArthur St,3,House,1700000,VB,Sep-17,5.9,3144,3,2,2,340,2003,Stonnington,Southern Metropolitan
+Malvern,32 Milton Pde,4,Townhouse,2750000,SP,Sep-17,5.9,3144,4,2,3,357,2015,Stonnington,Southern Metropolitan
+Malvern,2/102 Stanhope St,2,Unit,1000000,S,Sep-17,5.9,3144,2,1,1,59,1970,Stonnington,Southern Metropolitan
+Malvern,213 Wattletree Rd,3,House,2092464,S,Sep-17,5.9,3144,3,2,2,340,1920,Stonnington,Southern Metropolitan
+Malvern,27 Wheatland Rd,4,House,3400000,S,Sep-17,5.9,3144,4,2,2,561,1964,Stonnington,Southern Metropolitan
+Melton South,97 Exford Rd,3,House,392500,S,Sep-17,29.8,3338,3,1,2,623,1975,Melton,Western Victoria
+Melton South,5 Leggatt St,3,House,370000,S,Sep-17,29.8,3338,3,1,2,623,1975,Melton,Western Victoria
+Middle Park,16/82 Patterson St,2,Unit,660000,PI,Sep-17,3,3206,2,1,0,169,1960,Port Phillip,Southern Metropolitan
+Mont Albert,9 Inglisby Rd,3,House,1561875,S,Sep-17,10.2,3127,3,1,1,706,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,1/11 Rowland St,3,Townhouse,1580000,S,Sep-17,10.2,3127,3,2,2,1153,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,85 Victoria Cr,4,House,2500000,VB,Sep-17,10.2,3127,4,3,3,402,1950,Whitehorse,Eastern Metropolitan
+Mooroolbark,1 Gould Pl,4,House,782750,W,Sep-17,26.5,3138,4,4,3,892,1989,Yarra Ranges,Eastern Victoria
+Mooroolbark,5 Wilde Ct,3,House,718042,SN,Sep-17,26.5,3138,3,1,1,926,1950,Yarra Ranges,Eastern Victoria
+Wheelers Hill,8 Drysdale Ct,4,House,1240616,SN,Sep-17,16.7,3150,4,2,2,660,1970,Monash,South-Eastern Metropolitan
+Wheelers Hill,7 Meadowbrook Dr,4,House,1211000,S,Sep-17,16.7,3150,4,3,4,653,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,40 Strathconnan Pl,4,House,1240616,W,Sep-17,16.7,3150,4,2,2,664,2001,Monash,South-Eastern Metropolitan
+Wheelers Hill,25 Winterton Dr,4,House,1240616,PI,Sep-17,16.7,3150,4,3,2,697,1980,Monash,South-Eastern Metropolitan
+Williamstown,17/8 Techno Park Dr,2,Unit,749113,PI,Sep-17,6.8,3016,2,1,1,121,1983,Hobsons Bay,Western Metropolitan
+Alphington,9/45 Broomfield Av,1,House,341000,S,Aug-17,5.7,3078,1,1,1,325,1970,Darebin,Northern Metropolitan
+Aspendale,87 Albany Cr,4,House,1629400,VB,Aug-17,21.5,3195,4,2,1,535,1970,Kingston,South-Eastern Metropolitan
+Aspendale,6 Foam St,4,House,1362000,S,Aug-17,21.5,3195,4,2,3,549,1970,Kingston,South-Eastern Metropolitan
+Berwick,20 Ambleside Cr,3,House,730000,S,Aug-17,35.2,3806,3,1,2,823,1975,Casey,Eastern Victoria
+Berwick,39 Inkerman St,4,House,710000,SP,Aug-17,35.2,3806,4,2,2,683,2007,Casey,Eastern Victoria
+Canterbury,34 Maysia St,5,House,2550000,PI,Aug-17,8.4,3126,5,2,4,692,1933,Boroondara,Southern Metropolitan
+Canterbury,4 Parlington St,5,House,3775500,SP,Aug-17,8.4,3126,5,3,3,900,1933,Boroondara,Southern Metropolitan
+Canterbury,1/145 Prospect Hill Rd,3,House,1750000,VB,Aug-17,8.4,3126,3,2,2,482,1900,Boroondara,Southern Metropolitan
+Carlton North,242 Canning St,2,House,1540000,S,Aug-17,3.5,3054,2,1,1,158,1890,Yarra,Northern Metropolitan
+Diamond Creek,86 Oronsay Cr,3,House,740000,S,Aug-17,21.8,3089,3,2,2,790,1986,Nillumbik,Northern Victoria
+Eaglemont,1 Cumberland St,4,House,2177500,S,Aug-17,8.9,3084,4,3,2,968,1950,Banyule,Eastern Metropolitan
+Eaglemont,36 Silverdale Rd,3,House,1925000,S,Aug-17,8.9,3084,3,2,2,780,1954,Banyule,Eastern Metropolitan
+Melton South,18 Brennan St,3,House,460000,S,Aug-17,29.8,3338,3,1,1,602,1980,Melton,Western Victoria
+Middle Park,70 Herbert St,3,House,3500000,S,Aug-17,3,3206,3,2,0,200,1900,Port Phillip,Southern Metropolitan
+Middle Park,4 Wright St,3,House,2220000,PI,Aug-17,3,3206,3,1,1,200,1909,Port Phillip,Southern Metropolitan
+Mont Albert,4 Howson Ct,3,House,1600000,VB,Aug-17,10.2,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mooroolbark,100A Landscape Dr,3,House,702000,S,Aug-17,26.5,3138,3,2,2,918,1969,Yarra Ranges,Eastern Victoria
+Wheelers Hill,12 Erskine Cr,4,House,1200000,S,Aug-17,16.7,3150,4,2,2,650,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,99 Grandview Rd,4,House,1480000,S,Aug-17,16.7,3150,4,3,2,649,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,77 Jells Rd,4,House,1250000,VB,Aug-17,16.7,3150,4,2,3,737,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,61 Mary Av,4,House,1136000,S,Aug-17,16.7,3150,4,2,2,737,1978,Monash,South-Eastern Metropolitan
+Wheelers Hill,2 Rodney Cl,4,House,1500000,S,Aug-17,16.7,3150,4,2,2,657,1980,Monash,South-Eastern Metropolitan
+Wheelers Hill,4 Tyrone Ct,4,House,1194700,SP,Aug-17,16.7,3150,4,2,2,875,1980,Monash,South-Eastern Metropolitan
+Williamstown,54 Victoria St,5,House,2550000,PI,Aug-17,6.8,3016,5,2,2,840,1910,Hobsons Bay,Western Metropolitan
+Aberfeldie,10 Caroline St,5,House,1830000,S,Sep-17,7.5,3040,5,4,4,730,2014,Moonee Valley,Western Metropolitan
+Aberfeldie,9/39 St Kinnord St,1,Unit,315000,SP,Sep-17,7.5,3040,1,1,1,572,1970,Moonee Valley,Western Metropolitan
+Alphington,15 Bank St,3,House,1520000,SP,Sep-17,5.7,3078,3,1,2,524,1990,Darebin,Northern Metropolitan
+Alphington,31 Broomfield Av,3,House,1620000,S,Sep-17,5.7,3078,3,1,1,524,1990,Darebin,Northern Metropolitan
+Aspendale,5/4 Groves St,3,Townhouse,1140000,S,Sep-17,21.5,3195,3,2,2,1224,2006,Kingston,South-Eastern Metropolitan
+Aspendale,30 Kubis Av,4,House,1629400,S,Sep-17,21.5,3195,4,3,2,518,1970,Kingston,South-Eastern Metropolitan
+Aspendale,75 Laura St,3,House,988000,S,Sep-17,21.5,3195,3,2,2,1224,1989,Kingston,South-Eastern Metropolitan
+Berwick,9 Cambridge Dr,4,House,1000000,SA,Sep-17,35.2,3806,4,4,2,683,2008,Casey,Eastern Victoria
+Berwick,13 Ridge Rd,3,House,835000,SP,Sep-17,35.2,3806,3,2,2,957,1975,Casey,Eastern Victoria
+Carlton North,17/999 Rathdowne St,1,Unit,555000,SP,Sep-17,3.5,3054,1,1,1,191,1962,Yarra,Northern Metropolitan
+Diamond Creek,37 Brownlow Dr,4,House,990000,S,Sep-17,21.8,3089,4,3,2,1001,2012,Nillumbik,Northern Victoria
+Diamond Creek,10 Haley St,3,House,715000,S,Sep-17,21.8,3089,3,1,2,790,1983,Nillumbik,Northern Victoria
+Ivanhoe East,5/23 Cedric St,2,Unit,860000,S,Sep-17,7.8,3079,2,1,1,654,1960,Banyule,Eastern Metropolitan
+Ivanhoe East,36 Rotherwood Rd,4,House,2020000,SN,Sep-17,7.8,3079,4,2,2,641,1925,Banyule,Eastern Metropolitan
+Ivanhoe East,13 York Av,4,House,2040000,VB,Sep-17,7.8,3079,4,2,2,585,1952,Banyule,Eastern Metropolitan
+Malvern,101 Stanhope St,3,House,2500000,VB,Sep-17,5.9,3144,3,2,2,395,1880,Stonnington,Southern Metropolitan
+Melton,118 Barries Rd,3,House,283000,S,Sep-17,31.7,3337,3,1,0,362,1976,Melton,Western Victoria
+Melton,11 Emil Ct,3,House,501000,S,Sep-17,31.7,3337,3,1,1,624,1965,Melton,Western Victoria
+Melton South,32 Manson Dr,3,House,378708,PN,Sep-17,29.8,3338,3,2,1,623,1970,Melton,Western Victoria
+Middle Park,104 Nimmo St,3,House,2800000,SP,Sep-17,3,3206,3,2,1,200,1900,Port Phillip,Southern Metropolitan
+Mont Albert,7/6 Leopold Cr,2,Unit,647000,SP,Sep-17,10.2,3127,2,1,1,384,1970,Whitehorse,Eastern Metropolitan
+Mont Albert,4 Lightfoot St,3,House,2470000,SP,Sep-17,10.2,3127,3,2,2,626,1965,Whitehorse,Eastern Metropolitan
+Mont Albert,1/315 Mont Albert Rd,2,Unit,880000,S,Sep-17,10.2,3127,2,1,1,384,1980,Whitehorse,Eastern Metropolitan
+Mont Albert,58 View St,4,House,2259412,S,Sep-17,10.2,3127,4,2,1,821,1937,Whitehorse,Eastern Metropolitan
+Mooroolbark,4 Bulga St,3,House,835000,S,Sep-17,26.5,3138,3,2,1,940,1969,Yarra Ranges,Eastern Victoria
+Mooroolbark,14 Ricky Ct,4,House,840500,S,Sep-17,26.5,3138,4,2,3,926,1984,Yarra Ranges,Eastern Victoria
+Mooroolbark,2D Zina Gr,3,Townhouse,595000,PI,Sep-17,26.5,3138,3,2,1,918,1969,Yarra Ranges,Eastern Victoria
+Wheelers Hill,25 Erskine Cr,5,House,1306875,PI,Sep-17,16.7,3150,5,2,3,743,1977,Monash,South-Eastern Metropolitan
+Wheelers Hill,6 Rostella Ct,4,House,1280000,S,Sep-17,16.7,3150,4,2,2,737,1975,Monash,South-Eastern Metropolitan
+Wheelers Hill,2 Wattleglade Ct,5,House,1660000,S,Sep-17,16.7,3150,5,2,2,790,1990,Monash,South-Eastern Metropolitan
+Williamstown,146 Ferguson St,3,House,832000,S,Sep-17,6.8,3016,3,1,1,269,1967,Hobsons Bay,Western Metropolitan
+Williamstown,4/65 Melbourne Rd,2,Unit,440000,PI,Sep-17,6.8,3016,2,1,1,121,1980,Hobsons Bay,Western Metropolitan
+Williamstown,1/32 Princes St,2,House,900000,SP,Sep-17,6.8,3016,2,2,1,121,2009,Hobsons Bay,Western Metropolitan
+Canterbury,10 Beaumont St,3,House,1935000,S,Aug-17,8.4,3126,3,2,2,449,1915,Boroondara,Southern Metropolitan
+Canterbury,52 Bryson St,4,House,2778864,SP,Aug-17,8.4,3126,4,3,2,981,1920,Boroondara,Southern Metropolitan
+Canterbury,6/27 Chatham Rd,2,Unit,757500,S,Aug-17,8.4,3126,2,1,1,810,1975,Boroondara,Southern Metropolitan
+Canterbury,36 Dudley Pde,3,House,1943975,SP,Aug-17,8.4,3126,3,1,1,737,1940,Boroondara,Southern Metropolitan
+Canterbury,2 Wentworth Av,3,House,1943975,SP,Aug-17,8.4,3126,3,2,2,482,1912,Boroondara,Southern Metropolitan
+Carlton North,426 Canning St,3,House,1631333,S,Aug-17,3.5,3054,3,1,1,146,1900,Yarra,Northern Metropolitan
+Ivanhoe East,1 Hartlands Rd,3,House,1630000,S,Aug-17,7.8,3079,3,2,2,731,1959,Banyule,Eastern Metropolitan
+Ivanhoe East,19 Wilfred Rd,5,House,3350000,VB,Aug-17,7.8,3079,5,3,2,1400,2010,Banyule,Eastern Metropolitan
+Malvern,7 Northbrook Av,4,House,860000,SP,Aug-17,5.9,3144,4,2,3,633,1964,Stonnington,Southern Metropolitan
+Malvern,2 Thanet St,3,House,3610000,S,Aug-17,5.9,3144,3,2,2,340,1940,Stonnington,Southern Metropolitan
+Malvern,2/21 Thanet St,1,Unit,410000,PI,Aug-17,5.9,3144,1,1,1,1116,1960,Stonnington,Southern Metropolitan
+Melton,12 Alkemade Dr,3,House,359000,S,Aug-17,31.7,3337,3,1,2,624,1975,Melton,Western Victoria
+Melton,21D Yuille St,5,House,710000,PI,Aug-17,31.7,3337,5,2,2,1670,2000,Melton,Western Victoria
+Melton South,115 Exford Rd,3,House,340000,S,Aug-17,29.8,3338,3,1,1,623,1970,Melton,Western Victoria
+Melton South,1 Fraser St,3,House,395000,S,Aug-17,29.8,3338,3,1,1,649,1975,Melton,Western Victoria
+Middle Park,81 Erskine St,3,House,2090000,S,Aug-17,3,3206,3,1,0,199,1900,Port Phillip,Southern Metropolitan
+Mont Albert,56 View St,4,House,2259412,SP,Aug-17,10.2,3127,4,2,2,580,1930,Whitehorse,Eastern Metropolitan
+Mooroolbark,68 Bellara Dr,4,House,794500,S,Aug-17,26.5,3138,4,2,6,926,1970,Yarra Ranges,Eastern Victoria
+Mooroolbark,48 Croydondale Dr,3,House,718042,S,Aug-17,26.5,3138,3,2,2,1096,1990,Yarra Ranges,Eastern Victoria
+Mooroolbark,11 Western Wy,3,House,760000,S,Aug-17,26.5,3138,3,1,2,864,1969,Yarra Ranges,Eastern Victoria
+Wheelers Hill,12 Strada Cr,4,House,1245000,S,Aug-17,16.7,3150,4,2,2,652,1981,Monash,South-Eastern Metropolitan
+Williamstown,77 Merrett Dr,3,House,1031000,SP,Aug-17,6.8,3016,3,2,2,333,1995,Hobsons Bay,Western Metropolitan
+Williamstown,83 Power St,3,House,1170000,S,Aug-17,6.8,3016,3,2,4,436,1997,Hobsons Bay,Western Metropolitan
+Williamstown,8/2 Thompson St,2,Townhouse,622500,SP,Aug-17,6.8,3016,2,2,1,121,2010,Hobsons Bay,Western Metropolitan
+Williamstown,96 Verdon St,4,House,2500000,PI,Aug-17,6.8,3016,4,1,5,866,1920,Hobsons Bay,Western Metropolitan

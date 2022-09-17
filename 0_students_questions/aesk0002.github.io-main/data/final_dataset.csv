@@ -1,0 +1,89 @@
+"City","Country","city_ascii","lat","lng","iso2","iso3","admin_name","capital","population","id","Land.area","Density","Population Density"
+"Aachen","Germany","Aachen",50.7762,6.0838,"DE","DEU","North Rhine-Westphalia","minor",247380,1276805572,401,1450,616.907730673317
+"Accra","Ghana","Accra",5.6037,-0.187,"GH","GHA","Greater Accra","primary",2291352,1288299415,453,3300,5058.17218543046
+"Adelaide","Australia","Adelaide",-34.9289,138.6011,"AU","AUS","South Australia","admin",1345777,1036538171,729,NA,1846.05898491084
+"Aguadilla","Puerto Rico","Aguadilla",18.4382,-67.1536,"PR","PRI","Puerto Rico","",10739,1630035605,620,500,17.3209677419355
+"Ankara","Turkey","Ankara",39.93,32.85,"TR","TUR","Ankara","primary",5503985,1792572891,583,5300,9440.79759862779
+"Antwerp","Belgium","Antwerp",51.2206,4.4003,"BE","BEL","Flanders","minor",920000,1056168623,596,1550,1543.62416107383
+"Athens","Greece","Athens",37.9842,23.7281,"GR","GRC","Attikí","primary",664046,1300715560,684,5400,970.827485380117
+"Auckland","New Zealand","Auckland",-36.85,174.7833,"NZ","NZL","Auckland","admin",1470100,1554435911,531,2000,2768.54990583804
+"Avignon","France","Avignon",43.95,4.8075,"FR","FRA","Provence-Alpes-Côte d’Azur","minor",93671,1250645342,508,500,184.391732283465
+"Baghdad","Iraq","Baghdad",33.35,44.4167,"IQ","IRQ","Baghdād","primary",5796000,1368596238,596,9250,9724.8322147651
+"Bangalore","India","Bangalore",12.9699,77.598,"IN","IND","Karnātaka","admin",13707000,1356410365,534,10100,25668.5393258427
+"Barcelona","Spain","Barcelona",41.3825,2.1769,"ES","ESP","Catalonia","admin",4588000,1724594040,803,NA,5713.57409713574
+"Beijing","China","Beijing",39.905,116.3914,"CN","CHN","Beijing","primary",19433000,1156228865,748,NA,25979.9465240642
+"Beirut","Lebanon","Beirut",33.8869,35.5131,"LB","LBN","Beyrouth","primary",361366,1422847713,648,2800,557.663580246914
+"Belo Horizonte","Brazil","Belo Horizonte",-19.9281,-43.9419,"BR","BRA","Minas Gerais","admin",5159000,1076967355,868,NA,5943.54838709677
+"Berlin","Germany","Berlin",52.5167,13.3833,"DE","DEU","Berlin","primary",3644826,1276451290,984,NA,3704.09146341463
+"Brussels","Belgium","Brussels",50.8333,4.3333,"BE","BEL","Brussels-Capital Region","primary",1743000,1056469830,712,NA,2448.03370786517
+"Budapest","Hungary","Budapest",47.4983,19.0408,"HU","HUN","Budapest","primary",1752286,1348611435,702,NA,2496.1339031339
+"Calgary","Canada","Calgary",51.05,-114.0667,"CA","CAN","Alberta","",1239220,1124690423,702,NA,1765.27065527066
+"Campinas","Brazil","Campinas",-22.9009,-47.0573,"BR","BRA","São Paulo","",1164098,1076145766,492,3550,2366.05284552846
+"Cape Town","South Africa","Cape Town",-33.925,18.425,"ZA","ZAF","Western Cape","primary",433688,1710680650,686,NA,632.198250728863
+"Chennai","India","Chennai",13.0825,80.275,"IN","IND","Tamil Nādu","admin",11324000,1356374944,414,14350,27352.6570048309
+"Copenhagen","Denmark","Copenhagen",55.6761,12.5689,"DK","DNK","Hovedstaden","primary",602481,1208763942,816,NA,738.334558823529
+"Curitiba","Brazil","Curitiba",-25.4297,-49.2719,"BR","BRA","Paraná","admin",1879355,1076701712,648,3850,2900.23919753086
+"Dalian","China","Dalian",38.9,121.6,"CN","CHN","Liaoning","",4480000,1156175472,389,7100,11516.7095115681
+"Donetsk","Ukraine","Donetsk",48.0089,37.8042,"UA","UKR","Donets’ka Oblast’","admin",929063,1804963805,451,3100,2060.0066518847
+"Dublin","Ireland","Dublin",53.3497,-6.2603,"IE","IRL","Dublin","primary",1173179,1372595407,365,2950,3214.18904109589
+"Durban","South Africa","Durban",-29.8583,31.025,"ZA","ZAF","KwaZulu-Natal","",595061,1710149138,829,NA,717.805790108565
+"Edmonton","Canada","Edmonton",53.5344,-113.4903,"CA","CAN","Alberta","",1062643,1124290735,850,900,1250.16823529412
+"Fortaleza","Brazil","Fortaleza",-3.7275,-38.5275,"BR","BRA","Ceará","admin",2452185,1076567885,583,4550,4206.14922813036
+"Frankfurt","Germany","Frankfurt",50.1136,8.6797,"DE","DEU","Hesse","minor",753056,1276054552,984,NA,765.30081300813
+"Fukuoka","Japan","Fukuoka",33.6,130.4167,"JP","JPN","Fukuoka","admin",2128000,1392576294,544,3950,3911.76470588235
+"Gold Coast","Australia","Gold Coast",-28.0167,153.4,"AU","AUS","Queensland","",679127,1036153217,383,1100,1773.17754569191
+"Guadalajara","Mexico","Guadalajara",20.6767,-103.3475,"MX","MEX","Jalisco","admin",5253000,1484950208,596,5900,8813.75838926175
+"Hamburg","Germany","Hamburg",53.55,10,"DE","DEU","Hamburg","admin",1841179,1276041799,829,NA,2220.96381182147
+"Harare","Zimbabwe","Harare",-17.8292,31.0522,"ZW","ZWE","Harare","primary",2150000,1716196799,712,NA,3019.66292134831
+"Helsinki","Finland","Helsinki",60.1756,24.9342,"FI","FIN","Uusimaa","primary",642045,1246177997,479,2100,1340.38622129436
+"Ho Chi Minh City","Vietnam","Ho Chi Minh City",10.8167,106.6333,"VN","VNM","Hồ Chí Minh","admin",13312000,1704774326,518,9450,25698.8416988417
+"Jeddah","Saudi Arabia","Jeddah",21.5428,39.1728,"SA","SAU","Makkah al Mukarramah","",3976000,1682926944,777,NA,5117.11711711712
+"Karachi","Pakistan","Karachi",24.86,67.01,"PK","PAK","Sindh","admin",14835000,1586129469,518,18900,28638.9961389961
+"Katowice","Poland","Katowice",50.25,19,"PL","POL","Śląskie","admin",276499,1616798495,544,4050,508.270220588235
+"Khartoum","Sudan","Khartoum",15.6031,32.5265,"SD","SDN","Khartoum","primary",7282000,1729268475,583,6850,12490.5660377358
+"Lagos","Nigeria","Lagos",6.45,3.4,"NG","NGA","Lagos","minor",15279000,1566593751,738,NA,20703.2520325203
+"Lahore","Pakistan","Lahore",31.5497,74.3436,"PK","PAK","Punjab","admin",11021000,1586801463,622,8200,17718.6495176849
+"Lille","France","Lille",50.6278,3.0583,"FR","FRA","Hauts-de-France","admin",232787,1250071961,474,2200,491.111814345992
+"Lima","Peru","Lima",-12.05,-77.0333,"PE","PER","Lima","primary",9848000,1604728603,596,11750,16523.4899328859
+"Lisbon","Portugal","Lisbon",38.7452,-9.1604,"PT","PRT","Lisboa","primary",506654,1620619017,881,NA,575.089670828604
+"Lyon","France","Lyon",45.76,4.84,"FR","FRA","Auvergne-Rhône-Alpes","admin",516092,1250196189,954,NA,540.976939203354
+"Madrid","Spain","Madrid",40.4167,-3.7167,"ES","ESP","Madrid","primary",6026000,1724616994,945,NA,6376.71957671958
+"Mumbai","India","Mumbai",18.9667,72.8333,"IN","IND","Mahārāshtra","admin",23355000,1356226629,484,29650,48254.132231405
+"Munich","Germany","Munich",48.1372,11.5755,"DE","DEU","Bavaria","admin",1471508,1276692352,518,3100,2840.74903474903
+"Nantes","France","Nantes",47.2181,-1.5528,"FR","FRA","Pays de la Loire","admin",633690,1250091495,476,1150,1331.28151260504
+"Naples","Italy","Naples",40.8333,14.25,"IT","ITA","Campania","admin",966144,1380646673,583,4100,1657.19382504288
+"Nice","France","Nice",43.7034,7.2663,"FR","FRA","Provence-Alpes-Côte d’Azur","minor",1006402,1250774553,721,NA,1395.84188626907
+"Pau","France","Pau",43.3,-0.37,"FR","FRA","Nouvelle-Aquitaine","minor",77130,1250041150,450,400,171.4
+"Perth","Australia","Perth",-31.9522,115.8589,"AU","AUS","Western Australia","admin",2059484,1036178956,964,NA,2136.39419087137
+"Phnom Penh","Cambodia","Phnom Penh",11.5696,104.921,"KH","KHM","Phnom Penh","primary",2129371,1116260534,518,2900,4110.75482625483
+"Port Elizabeth","South Africa","Port Elizabeth",-33.9581,25.6,"ZA","ZAF","Eastern Cape","",312392,1710918997,427,2100,731.59718969555
+"Porto Alegre","Brazil","Porto Alegre",-30.0328,-51.23,"BR","BRA","Rio Grande do Sul","admin",1484941,1076658221,583,4800,2547.06861063465
+"Porto","Portugal","Porto",41.1495,-8.6108,"PT","PRT","Porto","admin",237591,1620356810,389,2650,610.773778920308
+"Pretoria","South Africa","Pretoria",-25.7464,28.1881,"ZA","ZAF","Gauteng","primary",741651,1710176249,673,2750,1102.00742942051
+"Quito","Ecuador","Quito",-0.2186,-78.5097,"EC","ECU","Pichincha","primary",2011388,1218441993,479,3150,4199.13987473904
+"Recife","Brazil","Recife",-8.0539,-34.8808,"BR","BRA","Pernambuco","admin",1555039,1076137337,376,8050,4135.7420212766
+"Rome","Italy","Rome",41.8931,12.4828,"IT","ITA","Lazio","primary",2872800,1380382862,842,NA,3411.87648456057
+"Rotterdam","Netherlands","Rotterdam",51.9225,4.4792,"NL","NLD","Zuid-Holland","minor",631155,1528892850,531,2500,1188.61581920904
+"Santiago","Chile","Santiago",-33.45,-70.6667,"CL","CHL","Región Metropolitana","primary",7007000,1152554349,648,8400,10813.2716049383
+"Sapporo","Japan","Sapporo",43.0621,141.3544,"JP","JPN","Hokkaidō","admin",1961690,1392000195,414,5000,4738.38164251208
+"Shanghai","China","Shanghai",31.1667,121.4667,"CN","CHN","Shanghai","admin",22120000,1156073548,746,NA,29651.4745308311
+"Shenyang","China","Shenyang",41.8039,123.4258,"CN","CHN","Liaoning","admin",7105000,1156309382,453,9250,15684.3267108168
+"Shenzhen","China","Shenzhen",22.535,114.054,"CN","CHN","Guangdong","minor",15929000,1156158707,466,17150,34182.4034334764
+"Singapore","Singapore","Singapore",1.3,103.8,"SG","SGP","Central Singapore","primary",5745000,1702341327,479,8350,11993.7369519833
+"St. Catharines","Canada","St. Catharines",43.1833,-79.2333,"CA","CAN","Ontario","",309319,1124140229,389,750,795.164524421594
+"Stockholm","Sweden","Stockholm",59.3294,18.0686,"SE","SWE","Stockholm","primary",972647,1752425602,518,2700,1877.69691119691
+"Stuttgart","Germany","Stuttgart",48.7761,9.1775,"DE","DEU","Baden-Württemberg","admin",634830,1276171358,414,3000,1533.40579710145
+"Taichung","Taiwan","Taichung",24.15,120.6667,"TW","TWN","Taichung","admin",2803894,1158689622,510,3900,5497.83137254902
+"Taipei","Taiwan","Taipei",25.0478,121.5319,"TW","TWN","Taipei","primary",2684567,1158881289,376,15200,7139.80585106383
+"Tashkent","Uzbekistan","Tashkent",41.3,69.2667,"UZ","UZB","Toshkent","primary",2424100,1860331871,531,4150,4565.16007532957
+"Tehran","Iran","Tehran",35.7,51.4167,"IR","IRN","Tehrān","primary",13633000,1364305026,686,NA,19873.1778425656
+"Tianjin","China","Tianjin",39.1467,117.2056,"CN","CHN","Tianjin","admin",10800000,1156174046,453,10500,23841.059602649
+"Toulon","France","Toulon",43.1258,5.9306,"FR","FRA","Provence-Alpes-Côte d’Azur","minor",171953,1250541629,713,750,241.168302945302
+"Toulouse","France","Toulouse",43.6045,1.444,"FR","FRA","Occitanie","admin",968638,1250258110,808,950,1198.80940594059
+"Tours","France","Tours",47.2436,0.6892,"FR","FRA","Centre-Val de Loire","minor",135787,1250635972,421,700,322.534441805226
+"Turin","Italy","Turin",45.0667,7.7,"IT","ITA","Piedmont","admin",870952,1380244627,500,2700,1741.904
+"Valenciennes","France","Valenciennes",50.358,3.5233,"FR","FRA","Hauts-de-France","minor",43336,1250025032,507,700,85.4753451676529
+"Vereeniging","South Africa","Vereeniging",-26.6736,27.9319,"ZA","ZAF","Gauteng","",1074000,1710271883,479,1250,2242.17118997912
+"Vienna","Austria","Vienna",48.2083,16.3731,"AT","AUT","Wien","primary",1911191,1040261752,453,3400,4218.9646799117
+"Warsaw","Poland","Warsaw",52.2167,21.0333,"PL","POL","Mazowieckie","primary",1790658,1616024847,466,4300,3842.61373390558
+"Winnipeg","Canada","Winnipeg",49.8844,-97.1464,"CA","CAN","Manitoba","",705244,1124224963,446,1400,1581.26457399103

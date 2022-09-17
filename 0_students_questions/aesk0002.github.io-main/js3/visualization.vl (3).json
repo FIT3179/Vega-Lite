@@ -1,0 +1,147 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": "container",
+  "width": "container",
+  "title": "Population densities vs Private Passenger Energy Use",
+  "data": {
+    "url": "https://raw.githubusercontent.com/aesk0002/aesk0002.github.io/main/data3/fuel_final.csv"
+  },
+  "params": [
+    {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 20000,
+        "step": 2000,
+        "name": "Minimum Population Density: "
+      }
+    },
+    {
+      "name": "energy_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 7900,
+        "max": 76000,
+        "step": 5000,
+        "name": "Minimum Private passenger transport energy use per capita: "
+      }
+    },
+    {
+      "name": "Continent_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "Americas", "Europe", "Africa", "Asia", "Oceania"],
+        "labels": [
+          "Show All",
+          "Americas",
+          "Europe",
+          "Africa",
+          "Asia",
+          "Oceania"
+        ],
+        "name": "Continent Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {"filter": "datum.Population_Density > Population_Above"},
+    {"filter": "datum.Private_energy_use > energy_Above"},
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    }
+  ],
+  
+  
+  "encoding": {
+    "x": {
+      "field": "Population_Density",
+      "type": "quantitative",
+      "title": "Population Density",
+      "axis": {"tickCount": 7},
+      "scale": {"domain": [500, 20000]}
+    },
+    "y": {
+      "field": "Private_energy_use",
+      "type": "quantitative",
+      "title": "Private passenger transport energy use per capita",
+      "axis": {"tickCount": 10},
+      "scale": {"domain": [7900, 76000]}
+    },
+    "color": {
+      "field": "Continent",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Americas", "Europe", "Africa", "Asia", "Oceania"],
+        "range": [
+          "#e41a1c",
+          "#984ea3",
+          "#ff7f00",
+          "#a6cee3",
+          "#377eb8",
+          "#a65628"
+        ]
+      }
+    },
+    "opacity": {
+      "condition": {"selection": "continent_highlight", "value": 0.6},
+      "value": 0.0001
+    },
+    "size": {"field": "Population", "type": "quantitative"},
+    "tooltip": [
+      {"field": "City", "type": "nominal"},
+      {"field": "Country", "type": "nominal"},
+      {"field": "Continent", "type": "nominal"},
+      {"field": "Population", "type": "quantitative", "format": ","},
+      {"field": "Private_energy_use", "type": "quantitative", "format": ","},
+      {"field": "Population_Density", "type": "quantitative", "format": ","}
+    ]
+  },
+  "layer": [
+    {  
+      "selection": {
+        "continent_highlight": {
+          "type": "multi",
+          "fields": ["Continent"],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "color": {
+          "field": "Continent",
+          "type": "nominal",
+          "scale": {
+            "domain": ["Americas", "Europe", "Africa", "Asia", "Oceania"],
+            "range": [
+              "#e41a1c",
+              "#984ea3",
+              "#ff7f00",
+              "#a6cee3",
+              "#377eb8",
+              "#a65628"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {"selection": "continent_highlight", "value": 0.6},
+          "value": 0.0001
+        },
+        "size": {"field": "Population", "type": "quantitative"},
+        "tooltip": [
+          {"field": "City", "type": "nominal"},
+          {"field": "Country", "type": "nominal"},
+          {"field": "Continent", "type": "nominal"},
+          {"field": "Population", "type": "quantitative", "format": ","},
+          {"field": "Private_energy_use", "type": "quantitative", "format": ","},
+          {"field": "Population_Density", "type": "quantitative", "format": ","}
+        ]
+      }
+    }
+  ],
+
+
+  "config": {}
+}

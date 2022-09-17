@@ -1,0 +1,94 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "World Happiness Index 2021",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/heheheejin/FIT3179-Data-Visualisation-2-Project/main/json/countries-110m.topojson",
+    "format": {
+      "type": "topojson",
+      "feature": "countries"
+    }
+  },
+  "projection": {
+    "type": "equirectangular"
+  },
+  "params": [
+        {
+          "name": "Regional_indicator",
+          "bind": {
+            "input": "select",
+            "options": [
+              null,
+              "Central and Eastern Europe",
+              "Commonwealth of Independent States",
+              "Western Europe"
+            ]
+          }
+        }
+      ],
+  "layer": [
+    {
+
+      "data": {
+        "url": "https://raw.githubusercontent.com/heheheejin/FIT3179-Data-Visualisation-2-Project/main/json/countries-110m.topojson",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      },
+      "encoding": {
+        "tooltip": null
+      }
+    },
+    {
+      
+      "transform": [
+        {
+          "lookup": "properties.name",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/heheheejin/FIT3179-Data-Visualisation-2-Project/main/data/world-happiness-report-2021.csv"
+            },
+            "key": "Country",
+            "fields": [
+              "Ladder score", "Regional indicator"
+            ]
+          }
+        },
+        {"filter": "Regional_indicator == null || datum['Regional indicator'] == Regional_indicator"}
+      ],
+      "mark": {
+        "type": "geoshape"
+      },
+      "encoding": {
+        "color": {
+          "title": "Happiness Score",
+          "field": "Ladder score",
+          "type": "quantitative",
+          "scale": {
+            "scheme": "redyellowgreen"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "properties.name",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "Ladder score",
+            "type": "quantitative",
+            "title": "Happiness Score",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ]
+}

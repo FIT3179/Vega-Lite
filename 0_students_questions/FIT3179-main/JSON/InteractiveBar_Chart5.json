@@ -1,0 +1,184 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zolyn17/FIT3179/main/CSV/pyramid_data_world_suicide.csv"
+  },
+  "params": [
+    {
+      "name": "Top_k_Continent",
+      "value": 5,
+      "bind": {
+        "input": "select",
+        "options": ["6", "3", "2"],
+        "labels": ["Top 6", "Top 3", "Top 2"],
+        "name": "Continent Rank: "
+      }
+    },
+    {
+      "name": "Top_k_Country",
+      "value": 10,
+      "bind": {
+        "input": "select",
+        "options": ["20", "15", "10", "5", "3"],
+        "labels": ["Top 20", "Top 15", "Top 10", "Top 5", "Top 3"],
+        "name": "Country Rank: "
+      }
+    }
+  ],
+  "hconcat": [
+    {
+      "width": 200,
+      "height": 300,
+      "title": {"text": "Suicide Cases by Continent"},
+      "layer": [
+        {
+          "params": [
+            {
+              "name": "sel_Continent",
+              "select": {"type": "point", "fields": ["continent"]}
+            },
+            {
+              "name": "highlight",
+              "select": {"type": "point", "on": "mouseover"}
+            }
+          ],
+          "transform": [
+            {"filter": {"param": "sel_Continent"}},
+            {
+              "aggregate": [
+                {"op": "sum", "field": "suicides_no", "as": "Num_of_case"}
+              ],
+              "groupby": ["continent"]
+            },
+            {
+              "window": [{"op": "rank", "as": "rank"}],
+              "sort": [{"field": "Num_of_case", "order": "descending"}]
+            },
+            {"filter": "datum.rank <= Top_k_Continent"},
+            {"calculate": "split(datum.continent, ' ')", "as": "Y"}
+          ],
+          "mark": {
+            "type": "bar",
+            "fill": "#DCD0EA",
+            "stroke": "black",
+            "cursor": "pointer"
+          },
+          "encoding": {
+            "tooltip": [
+              {"field": "continent", "type": "nominal", "title": "continent"},
+              {
+                "field": "Num_of_case",
+                "type": "quantitative",
+                "title": "Number of suicide cases"
+              }
+            ],
+            "x": {
+              "field": "Num_of_case",
+              "type": "quantitative",
+              "title": "Number of suicide cases"
+            },
+            "y": {
+              "sort": {"field": "Num_of_case", "order": "descending"},
+              "field": "Y",
+              "type": "ordinal",
+              "title": null
+            },
+            "fillOpacity": {
+              "condition": {"param": "sel_Continent", "value": 1},
+              "value": 0.3
+            },
+            "color": {"field": "rank", "legend": false},
+            "strokeWidth": {
+              "condition": [
+                {"param": "sel_Continent", "empty": false, "value": "2"},
+                {"param": "sel_Country", "empty": false, "value": "2"},
+                {"param": "highlight", "empty": false, "value": 1}
+              ],
+              "value": "0.5"
+            },
+            "stroke": {"value": "black"}
+          }
+        }
+      ]
+    },
+    {
+      "width": 200,
+      "height": 300,
+      "title": {"text": "Suicide Cases by Country "},
+      "layer": [
+        {
+          "params": [
+            {
+              "name": "sel_Country",
+              "select": {"type": "point", "fields": ["country"]}
+            },
+            {
+              "name": "highlight_2",
+              "select": {"type": "point", "on": "mouseover"}
+            }
+          ],
+          "transform": [
+            {"filter": {"param": "sel_Continent"}},
+            {
+              "aggregate": [
+                {"op": "sum", "field": "suicides_no", "as": "Num_of_case"}
+              ],
+              "groupby": ["country"]
+            },
+            {
+              "window": [{"op": "rank", "as": "rank"}],
+              "sort": [{"field": "Num_of_case", "order": "descending"}]
+            },
+            {"filter": "datum.rank <= Top_k_Country"}
+          ],
+          "mark": {
+            "type": "bar",
+            "fill": "#DCD0EA",
+            "stroke": "black",
+            "cursor": "pointer"
+          },
+          "encoding": {
+            "tooltip": [
+              {"field": "country", "type": "nominal", "title": "Country"},
+              {
+                "field": "Num_of_case",
+                "aggregate": "sum",
+                "title": "Number of Suicide Cases"
+              }
+            ],
+            "x": {
+              "field": "Num_of_case",
+              "type": "quantitative",
+              "title": "Number of Suicide Cases"
+            },
+            "y": {
+              "sort": {"field": "Num_of_case", "order": "descending"},
+              "field": "country",
+              "type": "ordinal",
+              "title": null
+            },
+            "fillOpacity": {
+              "condition": {"param": "sel_Country", "value": 1},
+              "value": 0.3
+            },
+            "color": {"field": "rank", "legend": false},
+            "strokeWidth": {
+              "condition": [
+                {"param": "sel_Continent", "empty": false, "value": "2"},
+                {"param": "sel_Country", "empty": false, "value": "2"},
+                {"param": "highlight_2", "empty": false, "value": 1}
+              ],
+              "value": "0.5"
+            },
+            "stroke": {"value": "black"}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "facet": {"spacing": 3},
+    "title": {"font": "sans-serif", "fontSize": 14},
+    "bar": {"cornerRadius": 3}
+  }
+}

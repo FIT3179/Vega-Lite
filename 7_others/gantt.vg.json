@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with ranged data (aka Gantt Chart).",
+  "width": 300,
+  "height": 200,
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/7_others/gantt.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "y": {"field": "Customer", "type": "ordinal"},
+    "x": {"field": "Arrival Time", "type": "quantitative", "title": "Time"},
+    "x2": {"field": "Depature time"}
+  }
+}

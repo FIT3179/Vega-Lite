@@ -1,0 +1,16 @@
+{
+    "folders": [
+		{
+			"path": "../../../../../../../../kane/Google Drive/Code/VS"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../../Work_2021/15_Monash_3179/Lab/Week 7 - Introduction to JS _ Vega-lite/Studio Codes (week 7)/Part A - Intro to javascript"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "vega_lite"
+    }
+}

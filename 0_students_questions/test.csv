@@ -1,0 +1,604 @@
+country,year,number
+Algeria,1957,1
+Algeria,1997,2
+Argentina,1936,1
+Argentina,1947,1
+Argentina,1980,1
+Argentina,1984,1
+Australia,1915,1
+Australia,1945,1
+Australia,1960,1
+Australia,1963,1
+Australia,1964,1
+Australia,1975,1
+Australia,1996,1
+Australia,2005,3
+Australia,2009,1
+Austria,1911,1
+Austria,1914,1
+Austria,1925,1
+Austria,1927,1
+Austria,1930,1
+Austria,1933,1
+Austria,1936,1
+Austria,1938,2
+Austria,1945,1
+Austria,1962,1
+Austria,1973,2
+Austria,1974,1
+Austria,1998,1
+Austria,2000,1
+Austria,2004,1
+Austria,2013,2
+Azerbaijan,1962,1
+Bangladesh,2006,1
+Belarus,1971,1
+Belarus,1978,1
+Belarus,1994,1
+Belarus,2000,1
+Belgium,1909,1
+Belgium,1911,1
+Belgium,1913,1
+Belgium,1919,1
+Belgium,1938,1
+Belgium,1958,1
+Belgium,1974,1
+Belgium,2005,1
+Belgium,2013,1
+Bosnia,1961,1
+Bosnia,1975,1
+Brazil,1960,1
+Bulgaria,1981,1
+Canada,1923,1
+Canada,1949,1
+Canada,1957,1
+Canada,1966,1
+Canada,1976,1
+Canada,1981,1
+Canada,1983,1
+Canada,1989,1
+Canada,1990,1
+Canada,1992,1
+Canada,1994,1
+Canada,1996,1
+Canada,1997,1
+Canada,1999,1
+Canada,2009,1
+Canada,2011,1
+Canada,2013,1
+Canada,2015,1
+Chile,1945,1
+Chile,1971,1
+China,1956,1
+China,1957,2
+China,1989,1
+China,1992,1
+China,1998,1
+China,2000,1
+China,2009,2
+China,2010,2
+China,2012,1
+China,2015,1
+Colombia,1982,1
+Colombia,2016,1
+Costa Rica,1987,1
+Croatia,1939,1
+Cyprus,2010,1
+Czech Republic,1905,1
+Czech Republic,1947,2
+Czech Republic,1959,1
+Czech Republic,1984,1
+Czech Republic,2007,1
+Denmark,1908,1
+Denmark,1917,2
+Denmark,1920,1
+Denmark,1922,1
+Denmark,1926,1
+Denmark,1928,1
+Denmark,1943,1
+Denmark,1944,1
+Denmark,1975,1
+Denmark,1997,1
+East Timor,1996,2
+Egypt,1964,1
+Egypt,1978,1
+Egypt,1988,1
+Egypt,1994,1
+Egypt,1999,1
+Egypt,2005,1
+Faroe Islands ,1903,1
+Finland,1939,1
+Finland,1945,1
+Finland,1967,1
+France,1901,2
+France,1903,2
+France,1904,1
+France,1906,1
+France,1907,2
+France,1909,1
+France,1912,3
+France,1913,2
+France,1915,1
+France,1920,1
+France,1921,1
+France,1926,2
+France,1927,2
+France,1928,1
+France,1929,1
+France,1935,2
+France,1937,1
+France,1947,1
+France,1951,1
+France,1952,2
+France,1956,1
+France,1964,1
+France,1965,3
+France,1966,1
+France,1967,1
+France,1968,1
+France,1970,2
+France,1974,1
+France,1977,1
+France,1980,1
+France,1983,1
+France,1987,2
+France,1988,1
+France,1991,1
+France,2007,2
+France,2008,3
+France,2014,2
+France,2016,1
+Germany,1901,1
+Germany,1902,2
+Germany,1905,2
+Germany,1907,1
+Germany,1908,1
+Germany,1909,1
+Germany,1910,2
+Germany,1912,1
+Germany,1914,1
+Germany,1915,1
+Germany,1918,1
+Germany,1919,1
+Germany,1920,1
+Germany,1921,1
+Germany,1922,1
+Germany,1925,2
+Germany,1926,1
+Germany,1927,2
+Germany,1928,1
+Germany,1929,2
+Germany,1930,1
+Germany,1931,3
+Germany,1932,1
+Germany,1935,2
+Germany,1936,1
+Germany,1939,2
+Germany,1944,1
+Germany,1945,1
+Germany,1946,1
+Germany,1950,1
+Germany,1953,3
+Germany,1954,2
+Germany,1955,1
+Germany,1956,2
+Germany,1961,2
+Germany,1963,2
+Germany,1964,1
+Germany,1966,1
+Germany,1967,1
+Germany,1969,1
+Germany,1970,1
+Germany,1971,2
+Germany,1972,1
+Germany,1973,2
+Germany,1978,1
+Germany,1979,1
+Germany,1984,1
+Germany,1986,3
+Germany,1987,1
+Germany,1988,5
+Germany,1989,2
+Germany,1991,2
+Germany,1995,1
+Germany,1998,1
+Germany,2000,1
+Germany,2001,1
+Germany,2005,3
+Germany,2007,1
+Germany,2008,1
+Germany,2013,2
+Ghana,2001,1
+Greece,1979,1
+Guadeloupe Island,1960,1
+Guatemala,1967,1
+Guatemala,1992,1
+Hungary,1937,1
+Hungary,1943,1
+Hungary,1961,1
+Hungary,1963,1
+Hungary,1971,1
+Hungary,1994,2
+Hungary,2002,1
+Hungary,2004,1
+Iceland,1955,1
+India,1902,1
+India,1907,1
+India,1913,1
+India,1930,1
+India,1968,1
+India,1998,1
+India,2009,1
+India,2014,1
+Indonesia,1924,1
+Iran,2003,1
+Iran,2007,1
+Ireland,1923,1
+Ireland,1925,1
+Ireland,1951,1
+Ireland,1969,1
+Ireland,2015,1
+Israel,1994,1
+Israel,2002,1
+Israel,2004,1
+Israel,2009,1
+Israel,2011,1
+Israel,2013,1
+Italy,1906,2
+Italy,1907,1
+Italy,1909,1
+Italy,1926,1
+Italy,1934,1
+Italy,1938,1
+Italy,1959,2
+Italy,1963,1
+Italy,1969,1
+Italy,1975,2
+Italy,1984,1
+Italy,1985,1
+Italy,1986,1
+Italy,1997,1
+Italy,2002,1
+Italy,2007,2
+Japan,1949,2
+Japan,1949,1
+Japan,1965,1
+Japan,1968,1
+Japan,1973,1
+Japan,1974,1
+Japan,1981,1
+Japan,1987,1
+Japan,1994,1
+Japan,2000,1
+Japan,2001,1
+Japan,2002,2
+Japan,2008,6
+Japan,2010,1
+Japan,2012,2
+Japan,2014,4
+Japan,2015,2
+Japan,2016,1
+Kenya,2004,1
+Latvia,1909,1
+Liberia,2011,2
+Lithuania,1977,1
+Lithuania,1980,1
+Lithuania,1982,1
+Luxembourg,1908,1
+Luxembourg,2011,1
+Madagascar,1985,1
+Mexico,1982,1
+Mexico,1990,1
+Mexico,1995,1
+Morocco,2012,2
+Myanmar,1991,1
+New Zealand,1908,1
+New Zealand,1962,1
+New Zealand,2000,1
+Nigeria,1986,1
+Northern Ireland,1976,2
+Northern Ireland,1995,1
+Northern Ireland,1998,2
+Norway,1903,1
+Norway,1920,1
+Norway,1921,1
+Norway,1922,1
+Norway,1968,1
+Norway,1969,2
+Norway,1973,1
+Norway,1989,1
+Norway,2004,2
+Norway,2014,2
+Norway,2014,1
+Pakistan,1979,2
+Pakistan,1983,1
+Pakistan,2014,1
+Peru,2010,1
+Poland,1901,1
+Poland,1903,1
+Poland,1905,1
+Poland,1907,1
+Poland,1908,2
+Poland,1911,1
+Poland,1918,1
+Poland,1924,1
+Poland,1931,2
+Poland,1939,1
+Poland,1943,1
+Poland,1944,1
+Poland,1950,2
+Poland,1954,1
+Poland,1963,1
+Poland,1964,1
+Poland,1978,1
+Poland,1983,1
+Poland,1985,1
+Poland,1992,2
+Poland,1994,1
+Poland,1995,1
+Poland,1996,1
+Poland,1999,3
+Portugal,1949,2
+Portugal,1998,1
+Republic of Macedonia,1979,1
+Romania,1974,1
+Romania,1986,1
+Romania,2009,1
+Romania,2014,2
+Russia,1904,1
+Russia,1910,1
+Russia,1911,1
+Russia,1933,1
+Russia,1937,1
+Russia,1953,2
+Russia,1956,1
+Russia,1958,6
+Russia,1964,1
+Russia,1965,1
+Russia,1970,1
+Russia,1973,1
+Russia,1975,2
+Russia,1977,2
+Russia,1978,1
+Russia,1987,1
+Russia,1990,1
+Russia,2003,2
+Russia,2007,1
+Russia,2008,1
+Russia,2010,2
+Saint Lucia,1979,1
+Saint Lucia,1992,1
+Scotland,1904,1
+Scotland,1923,1
+Scotland,1927,1
+Scotland,1934,1
+Scotland,1945,1
+Scotland,1949,1
+Scotland,1957,1
+Scotland,1988,1
+Scotland,1996,1
+Slovakia,1905,1
+Slovenia,1923,1
+South Africa,1951,1
+South Africa,1979,1
+South Africa,1984,1
+South Africa,1991,1
+South Africa,1993,2
+South Africa,2002,1
+South Africa,2003,1
+South Africa,2013,1
+South Korea,1987,1
+South Korea,2000,1
+Spain,1904,1
+Spain,1906,1
+Spain,1922,1
+Spain,1956,1
+Spain,1959,1
+Spain,1977,1
+Spain,1989,1
+Sweden,1903,1
+Sweden,1908,1
+Sweden,1909,1
+Sweden,1911,1
+Sweden,1912,1
+Sweden,1916,1
+Sweden,1921,1
+Sweden,1924,1
+Sweden,1926,1
+Sweden,1930,1
+Sweden,1931,1
+Sweden,1948,1
+Sweden,1951,1
+Sweden,1955,1
+Sweden,1961,1
+Sweden,1970,2
+Sweden,1974,3
+Sweden,1977,1
+Sweden,1981,2
+Sweden,1982,3
+Sweden,2000,1
+Sweden,2011,1
+Sweden,2015,2
+Switzerland,1901,1
+Switzerland,1902,2
+Switzerland,1909,1
+Switzerland,1919,1
+Switzerland,1920,1
+Switzerland,1948,1
+Switzerland,1949,1
+Switzerland,1952,1
+Switzerland,1957,1
+Switzerland,1978,1
+Switzerland,1986,1
+Switzerland,1987,1
+Switzerland,1991,1
+Switzerland,1996,1
+Switzerland,2002,2
+Taiwan,1986,1
+the Netherlands,1901,1
+the Netherlands,1902,2
+the Netherlands,1910,1
+the Netherlands,1911,1
+the Netherlands,1913,1
+the Netherlands,1929,1
+the Netherlands,1936,2
+the Netherlands,1953,1
+the Netherlands,1969,1
+the Netherlands,1973,1
+the Netherlands,1975,1
+the Netherlands,1981,1
+the Netherlands,1984,1
+the Netherlands,1995,1
+the Netherlands,1999,2
+the Netherlands,2016,1
+Trinidad,2001,1
+Turkey,1963,1
+Turkey,2006,1
+Turkey,2015,1
+Ukraine,1908,1
+Ukraine,1952,1
+Ukraine,1966,1
+Ukraine,1981,1
+Ukraine,2015,1
+United Kingdom,1903,1
+United Kingdom,1904,1
+United Kingdom,1906,1
+United Kingdom,1915,1
+United Kingdom,1917,1
+United Kingdom,1921,1
+United Kingdom,1922,2
+United Kingdom,1925,1
+United Kingdom,1928,1
+United Kingdom,1929,2
+United Kingdom,1932,3
+United Kingdom,1933,2
+United Kingdom,1935,1
+United Kingdom,1936,1
+United Kingdom,1937,3
+United Kingdom,1947,2
+United Kingdom,1948,1
+United Kingdom,1950,2
+United Kingdom,1951,1
+United Kingdom,1952,2
+United Kingdom,1953,1
+United Kingdom,1956,2
+United Kingdom,1958,1
+United Kingdom,1959,1
+United Kingdom,1962,2
+United Kingdom,1963,2
+United Kingdom,1967,2
+United Kingdom,1969,1
+United Kingdom,1972,2
+United Kingdom,1973,3
+United Kingdom,1974,4
+United Kingdom,1977,2
+United Kingdom,1978,1
+United Kingdom,1979,2
+United Kingdom,1980,1
+United Kingdom,1982,1
+United Kingdom,1983,1
+United Kingdom,1984,2
+United Kingdom,1991,1
+United Kingdom,1993,2
+United Kingdom,1996,1
+United Kingdom,1997,1
+United Kingdom,1998,1
+United Kingdom,2001,2
+United Kingdom,2002,1
+United Kingdom,2003,3
+United Kingdom,2005,1
+United Kingdom,2007,2
+United Kingdom,2009,3
+United Kingdom,2010,1
+United Kingdom,2012,1
+United Kingdom,2013,1
+United Kingdom,2015,1
+United Kingdom,2016,4
+United States of America,1906,1
+United States of America,1912,1
+United States of America,1914,1
+United States of America,1919,1
+United States of America,1923,1
+United States of America,1925,1
+United States of America,1927,1
+United States of America,1929,1
+United States of America,1930,1
+United States of America,1931,2
+United States of America,1932,1
+United States of America,1933,1
+United States of America,1934,5
+United States of America,1936,2
+United States of America,1937,1
+United States of America,1938,1
+United States of America,1939,1
+United States of America,1943,1
+United States of America,1944,2
+United States of America,1945,1
+United States of America,1946,7
+United States of America,1948,1
+United States of America,1949,1
+United States of America,1950,3
+United States of America,1951,2
+United States of America,1952,1
+United States of America,1953,1
+United States of America,1954,6
+United States of America,1955,2
+United States of America,1956,2
+United States of America,1958,3
+United States of America,1959,2
+United States of America,1960,2
+United States of America,1961,2
+United States of America,1962,3
+United States of America,1964,2
+United States of America,1965,3
+United States of America,1966,2
+United States of America,1967,2
+United States of America,1968,3
+United States of America,1969,2
+United States of America,1970,3
+United States of America,1971,1
+United States of America,1972,8
+United States of America,1974,1
+United States of America,1975,4
+United States of America,1976,6
+United States of America,1977,3
+United States of America,1978,4
+United States of America,1979,3
+United States of America,1980,6
+United States of America,1981,3
+United States of America,1982,2
+United States of America,1983,2
+United States of America,1984,1
+United States of America,1985,4
+United States of America,1986,3
+United States of America,1987,2
+United States of America,1988,4
+United States of America,1989,4
+United States of America,1990,8
+United States of America,1992,2
+United States of America,1993,7
+United States of America,1994,4
+United States of America,1995,6
+United States of America,1996,5
+United States of America,1997,6
+United States of America,1998,4
+United States of America,2000,5
+United States of America,2001,8
+United States of America,2002,5
+United States of America,2003,5
+United States of America,2004,8
+United States of America,2005,6
+United States of America,2006,6
+United States of America,2007,3
+United States of America,2008,4
+United States of America,2009,8
+United States of America,2010,4
+United States of America,2011,9
+United States of America,2012,8
+United States of America,2013,6
+United States of America,2014,3
+United States of America,2015,2
+Venezuela,1980,1
+Vietnam,1973,1
+Yemen,2011,1
+Zimbabwe,1960,1

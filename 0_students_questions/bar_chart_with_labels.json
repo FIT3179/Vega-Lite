@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Global Crime Rate Rank",
+  "width": 450,
+  "height": {"step": 17},
+  "data": {
+    "url": "https://raw.githubusercontent.com/wenqii09/FIT3179_A2/main/data/trend.csv"
+  },
+  "encoding": {
+        "y": {"field": "Country", "sort": "-x"},
+        "x": {
+          "aggregate": "sum",
+          "field": "rate",
+          "title": "Crime Rate",
+          "axis": {"grid": false}
+        }
+      },
+  "layer": [
+    {
+      "mark": {"type": "bar", "tooltip": true}
+    },
+    {
+      "mark": {"type": "text", "align": "left", "dx": 10},
+      "encoding": {
+        "text": {
+          "aggregate": "sum",
+          "field": "rate",
+          "title": "Crime Rate",
+          "format": ".2f"
+        }
+      }
+    }
+  ],
+  "config": {}
+}

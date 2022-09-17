@@ -1,0 +1,96 @@
+/* Dimensions of "page" in HTML */
+.page{
+  width: 1000px;    
+  background-color: white;   
+  margin: auto;
+  padding: 0px;
+  padding-top: 10px;
+}
+
+
+/* Define margin on "pure-g" class */
+.pure-g{
+  margin-bottom: 5px;
+}
+
+/* Overrides "pure-g" original font */
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
+    /* Set you're content font stack here: */
+    font-family: 'Roboto Condensed', sans-serif;;
+}
+
+/* Original way to set font */
+body{
+  font-family: 'Roboto Condensed', sans-serif;; 
+  }
+
+
+/* Padding for paragraphs */  
+.description h2, h1{
+  margin-top:0px;
+}
+.description-right {
+  padding-left: 10px;
+}
+.description-left{
+  padding-right: 10px;
+}
+
+
+/* Text Alignment in HTML */
+#l-align {
+  text-align: left;
+  border: 1px solid black;
+}
+#c-align {
+  text-align: center;
+}
+#r-align {
+  text-align: right;
+  border: 1px solid black;
+}
+
+/* Coloured text */
+.blue_text {
+  color: #2163aa;
+}
+
+.red_text {
+  color:red
+}
+
+/* Edit idiom size
+#vis1 {
+	top: 0px;
+	bottom: 100px; 
+	left: 100px;
+	right: 100px;
+	height: 300px;
+	width: 700px;
+*/
+
+
+.vis-container{
+  width: 100%;
+}
+
+.vega-container,
+.vega-container::after,
+.vega-container::before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+.vega-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vega-embed {
+    width: 100%;
+ }

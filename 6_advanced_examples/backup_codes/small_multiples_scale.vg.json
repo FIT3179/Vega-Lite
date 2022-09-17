@@ -1,0 +1,141 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+
+    "title": "Median house price per suburb (2010-2020)",
+    "repeat": ["2010", "2012", "2014", "2016", "2018", "2020"],
+    "params": [{
+            "name": "Year_selection",
+            "value": 2018,
+            "bind": {
+                "input": "range",
+                "min": 2010,
+                "max": 2020,
+                "step": 1,
+                "name": "Year:  "
+            }
+        },
+        {
+            "name": "zoom_level",
+            "value": 30000,
+            "bind": {
+                "input": "range",
+                "min": 3500,
+                "max": 60000,
+                "step": 100,
+                "name": "Zoom: "
+            }
+        },
+        {
+            "name": "center_to",
+            "value": [145, -37.95],
+            "bind": {
+                "input": "select",
+                "options": [
+                    [145, -37.95],
+                    [144.3, -38.1],
+                    [144.9, -36.7],
+                    [147.1, -38.1]
+                ],
+                "labels": ["Melbourne CBD", "Geelong", "Bendigo", "Sale"],
+                "name": "Map Centre: "
+            }
+        }
+    ],
+    "columns": 1,
+    "spec": {
+
+        "projection": {
+            "type": "equirectangular",
+            "center": { "expr": "center_to" },
+            "scale": { "expr": "zoom_level" }
+        },
+        "width": 400,
+        "height": 300,
+        "layer": [{
+                "data": {
+                    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/VIC_LOCALITY_POLYGON_SHP.json",
+                    "format": { "type": "topojson", "feature": "VIC_LOCALITY_POLYGON_SHP" }
+                },
+                "transform": [{
+                    "calculate": "'Data is not available in ' + datum.properties.NAME",
+                    "as": "note"
+                }],
+                "mark": {
+                    "type": "geoshape",
+                    "fill": "#ddd",
+                    "stroke": "white",
+                    "strokeWidth": 1
+                },
+                "encoding": { "tooltip": { "field": "note" } }
+            },
+            {
+                "data": {
+                    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/house_price_by_suburb_wide_format.csv"
+                },
+                "transform": [{
+                    "lookup": "locality",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/VIC_LOCALITY_POLYGON_SHP.json",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "VIC_LOCALITY_POLYGON_SHP"
+                            }
+                        },
+                        "key": "properties.NAME"
+                    },
+                    "as": "geo"
+                }],
+                "mark": { "type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5 },
+                "encoding": {
+                    "shape": { "field": "geo", "type": "geojson" },
+                    "color": {
+                        "field": { "repeat": "repeat" },
+                        "type": "quantitative",
+                        "scale": {
+                            "domain": [
+                                400000,
+                                1800000
+                            ],
+                            "scheme": "reds"
+                        },
+                        "legend": { "format": ".2s", "title": "Median price" }
+                    },
+                    "tooltip": [
+                        { "field": "locality", "type": "nominal", "title": "Suburb" },
+                        {
+                            "field": { "repeat": "repeat" },
+                            "type": "quantitative",
+                            "title": "Median Price",
+                            "format": ","
+                        }
+                    ]
+                }
+            },
+            {
+                "data": {
+                    "values": [{
+                        "2010": "Year: 2010",
+                        "2012": "Year: 2012",
+                        "2014": "Year: 2014",
+                        "2016": "Year: 2016",
+                        "2018": "Year: 2018",
+                        "2020": "Year: 2020"
+                    }]
+                },
+                "mark": {
+                    "type": "text",
+                    "align": "right",
+                    "baseline": "bottom",
+                    "x": "width",
+                    "y": 0
+                },
+                "encoding": {
+                    "text": { "field": { "repeat": "repeat" } }
+                }
+
+            }
+        ]
+    },
+    "config": {}
+}

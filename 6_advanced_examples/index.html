@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Multiple Visualisations | An Example</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+
+
+</head>
+
+<body>
+
+    <div class="page">
+
+        <h2>Example 1: Overview+Detail</h2>
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div id="vis1" class="vis-container"></div>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+        <br>
+
+        <p>Example originally from:
+            <a href=https://vega.github.io/vega-lite/examples/interactive_overview_detail.html>link</a>
+
+
+            <hr class="hr3">
+
+            <h2>Example 2: Interactive multiple views</h2>
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <div id="vis2" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+            <br>
+
+            <hr class="hr3">
+
+
+            <h2>Example 3: Zoomable Choropleth map with a time slider</h2>
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <div id="vis3" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+            <br>
+
+            <hr class="hr3">
+
+            <h2>Example 4: Choropleth map in small multiples</h2>
+            <!-- pure grid group -->
+            <div class="pure-g">
+                <div class="pure-u-1-1">
+                    <div id="vis4" class="vis-container"></div>
+                </div>
+            </div>
+            <!-- end pure grid group -->
+
+            <hr class="hr3">
+
+            <div class="pure-g">
+                <div class="pure-u-1-1 small-font">
+                    <p>&copy; 2021 <a href="https://github.com/KaneSec/vega_lite" target="_blank">Kane Li</a>. Copyright reserved. Those examples are for educational purpose only.
+                </div>
+            </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        var specVis1 = "1_overview_detail.vg.json";
+        vegaEmbed('#vis1', specVis1);
+
+        var specVis2 = "2_interactive.vg.json";
+        vegaEmbed('#vis2', specVis2);
+
+        var specVis3 = "3_properties.vg.json";
+        vegaEmbed('#vis3', specVis3);
+
+        var specVis4 = "4_small_multiples.vg.json";
+        vegaEmbed('#vis4', specVis4);
+
+        print(brush)
+    </script>
+</body>
+
+</html>

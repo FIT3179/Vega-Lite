@@ -1,0 +1,47 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "seattle-weather.csv"
+    },
+    "width":"container",
+    "transform": [
+      {
+        "calculate": "datum.temp_max - datum.temp_min",
+        "as": "temp_range"
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "timeUnit": "month",
+        "type": "nominal"
+      },
+      "y": {
+        "aggregate": "count",
+        "stack": "normalize"
+      },
+      "color": {
+        "type": "nominal",
+        "field": "weather",
+        "scale": {
+          "domain": [
+            "sun",
+            "fog",
+            "drizzle",
+            "rain",
+            "snow"
+          ],
+          "range": [
+            "#e7ba52",
+            "#c7c7c7",
+            "#aec7e8",
+            "#1f77b4",
+            "#9467bd"
+          ]
+        },
+        "title": "Weather Type"        
+      }
+    },
+    "config": {}
+  }

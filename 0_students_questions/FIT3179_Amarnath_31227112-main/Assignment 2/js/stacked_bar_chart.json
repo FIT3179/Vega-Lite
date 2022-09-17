@@ -1,0 +1,40 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Migrated Students at each State in Australia",
+    "data": {
+        "url": "https://raw.githubusercontent.com/AmarnathMonashUniversity/FIT3179_Amarnath_31227112/main/Assignment%202/data/Data4.csv"
+    },
+    "width": "container",
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "Year",
+            "type": "ordinal"
+        },
+        "y": {
+            "field": "Students",
+            "type": "quantitative",
+            "aggregate": "sum"
+        },
+        "color": {
+            "type": "nominal",
+            "field": "State",
+            "scale": {
+                "domain": [
+                    "New South Wales",
+                    "Victoria",
+                    "Queensland",
+                    "South Australia",
+                    "Western Australia",
+                    "Tasmania",
+                    "Northern Territory",
+                    "Australian Capital Territory",
+                    "Other Territories"
+                ],
+                "range": ["#0D47A1", "#F2870F", "#EA4BEC", "#00C3BF", "#9E00C3", "#C30000", "#797979", "#26C20D", "#1E6413"]
+            },
+            "title": "State"
+        }
+    },
+    "config": {}
+}

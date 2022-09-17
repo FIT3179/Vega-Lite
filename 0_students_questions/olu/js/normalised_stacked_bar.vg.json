@@ -1,0 +1,88 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Property Types of Most Expensive Suburbs",
+    "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/top3_subs_region.csv"
+    },
+    "width": "container",
+    "params": [
+        {
+            "name": "Region_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Northern Metropolitan",
+                    "Northern Victoria",
+                    "Eastern Metropolitan",
+                    "Eastern Victoria",
+                    "Southern Metropolitan",
+                    "South-Eastern Metropolitan",
+                    "Western Metropolitan",
+                    "Western Victoria"
+                ],
+                "labels": [
+                    "All",
+                    "Northern Metropolitan",
+                    "Northern Victoria",
+                    "Eastern Metropolitan",
+                    "Eastern Victoria",
+                    "Southern Metropolitan",
+                    "South-Eastern Metropolitan",
+                    "Western Metropolitan",
+                    "Western Victoria"
+                ],
+                "name": "Region: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "Region_selection == null || datum.Regionname == Region_selection"
+        }
+    ],
+    "mark": {
+        "type": "bar",
+        "tooltip": true
+    },
+    "encoding": {
+        "x": {
+            "field": "Suburb",
+            "type": "nominal",
+            "title": "Suburb",
+            "axis": {
+                "labelAngle": -60
+            }
+        },
+        "y": {
+            "aggregate": "count",
+            "stack": "normalize",
+            "title": "Proportion of Properties"
+        },
+        "color": {
+            "type": "nominal",
+            "field": "Type",
+            "scale": {
+                "domain": [
+                    "House",
+                    "Townhouse",
+                    "Unit"
+                ],
+                "range": [
+                    "#2163aa",
+                    "#22964f",
+                    "#bf363a"
+                ]
+            },
+            "title": "Property Type"
+        }
+    },
+    "config": {
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 0
+        },
+        "numberFormat": ".2f"
+    }
+}

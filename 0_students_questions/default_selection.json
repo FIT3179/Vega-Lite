@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
+  "description": "A Rectangular Unit-Chart",
+  "title": "Happiness Score Composition",
+  "width": 600,
+  "height": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/GohNgeeJuay/FIT3179/main/Assignment2/Happiness2017UnitChart.csv"
+  },
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "Afghanistan", "Albania", "Algeria", "Angola", "Argentina", "Armenia", "Austria"],
+        "labels": ["Australia"],
+        "name": "Select country: "
+      }
+    }
+  ],
+
+  "transform": [
+    {
+      "filter": "(Country_selection == null && datum.Country == 'Afghanistan') || datum.Country == Country_selection "
+    },
+   
+    {"fold": ["EconomyGDPperCapita", "Family","HealthLifeExpectancy","Freedom","Generosity", "TrustGovernmentCorruption","DystopiaResidual"]}
+  ],
+  
+
+  "layer": [
+    {
+    "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+  },
+  {
+    "mark": {"type": "text", "radiusOffset": 10},
+    "encoding": {
+      "text": {"field": "value", "type": "quantitative","format": ".1f"}
+    }
+  }],
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative", "stack": true},
+    "radius": {"field": "value", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+    "color": {"field": "key", "type": "nominal"},
+    "tooltip" : [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Region", "type": "nominal"},
+      {"field": "HappinessScore", "type": "quantitative","format": ".1f"},
+      {"field": "HappinessRank", "type": "quantitative"}
+    ]
+  },
+  "view": {"stroke": null}
+}

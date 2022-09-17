@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Australia Car Fatalities Across State </title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+    <!-- Import vega-embed -->
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+</head>
+
+<body>
+
+    <div id="pyramid"></div>
+
+    <script type="text/javascript">
+        var spec1 = "Assignment2_viz/age_gender_vg.json";
+        vegaEmbed('#pyramid', spec1).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+
+    <div id="chloropeth_map"></div>
+
+    <script type="text/javascript">
+        var spec2 = "Assignment2_viz/aus_map_viz.vega";
+        vegaEmbed('#chloropeth_map', spec2).then(function(result) {
+            // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+    </script>
+
+
+    </script>
+</body>
+
+</html>

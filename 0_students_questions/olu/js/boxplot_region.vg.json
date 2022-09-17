@@ -1,0 +1,221 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Metropolitan House Prices",
+    "width": "container",
+    "height": 250,
+    "data": {
+        "values": [
+            {
+                "Region": "Eastern Metropolitan",
+                "lower": 288000,
+                "Q1": 800000,
+                "median": 1043367,
+                "Q3": 1334294,
+                "upper": 2123500,
+                "outliers": [
+                    2800000,
+                    3200000,
+                    3300000,
+                    4000000
+                ]
+            },
+            {
+                "Region": "Northern Metropolitan",
+                "lower": 121000,
+                "Q1": 592000,
+                "median": 775250,
+                "Q3": 1050000,
+                "upper": 1730000,
+                "outliers": [
+                    2560000,
+                    2950000,
+                    3450000,
+                    4525000
+                ]
+            },
+            {
+                "Region": "South-Eastern Metropolitan",
+                "lower": 266000,
+                "Q1": 649375,
+                "median": 812214,
+                "Q3": 1050000,
+                "upper": 1630000,
+                "outliers": [
+                    2185000,
+                    2475000,
+                    3000000,
+                    3100000,
+                    4000000
+                ]
+            },
+            {
+                "Region": "Southern Metropolitan",
+                "lower": 131000,
+                "Q1": 810000,
+                "median": 1310000,
+                "Q3": 1849442,
+                "upper": 3401086,
+                "outliers": [
+                    3730000,
+                    4300000,
+                    4501000,
+                    5300000,
+                    5800000,
+                    5900000
+                ]
+            },
+            {
+                "Region": "Western Metropolitan",
+                "lower": 85000,
+                "Q1": 587281,
+                "median": 760000,
+                "Q3": 1005000,
+                "upper": 1631000,
+                "outliers": [
+                    1865000,
+                    1990000,
+                    2355000,
+                    2800000
+                ]
+            }
+        ]
+    },
+    "encoding": {
+        "y": {
+            "field": "Region",
+            "type": "nominal",
+            "title": null
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "rule",
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "lower",
+                    "type": "quantitative",
+                    "scale": {
+                        "zero": false
+                    },
+                    "title": "Lower",
+                    "axis": {
+                        "title": "Price"
+                    },
+                    "format": "$,"
+                },
+                "x2": {
+                    "field": "upper",
+                    "title": "Upper",
+                    "format": "$,"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "bar",
+                "size": 14,
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "Q1",
+                    "type": "quantitative",
+                    "format": "$,"
+                },
+                "x2": {
+                    "field": "Q3",
+                    "format": "$,"
+                },
+                "color": {
+                    "value": "#2163aa"
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "tick",
+                "color": "white",
+                "size": 14,
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "median",
+                    "type": "quantitative",
+                    "format": "$,",
+                    "title": "Median",
+                    "axis": {
+                        "title": "Price"
+                    }
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dx": 135,
+                "dy": 5,
+                "font": "sans-serif",
+                "fontStyle": "italic",
+                "fontSize": 12.5
+            },
+            "encoding": {
+                "text": {
+                    "field": "outliers",
+                    "type": "quantitative",
+                    "condition": {
+                        "test": "(datum.Region) == 'Southern Metropolitan' && (datum.outliers) > '3000000'",
+                        "value": [
+                            "Boroondara"
+                        ]
+                    }
+                },
+                "opacity": {
+                    "condition": {
+                        "test": "(datum.Region) == 'Southern Metropolitan' && (datum.outliers) > '3000000'",
+                        "value": 1
+                    },
+                    "value": 0
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "flatten": [
+                        "outliers"
+                    ]
+                }
+            ],
+            "mark": {
+                "type": "point",
+                "style": "boxplot-outliers",
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "outliers",
+                    "title": "Outlier",
+                    "axis": {
+                        "title": "Price"
+                    },
+                    "type": "quantitative",
+                    "format": "$,"
+                }
+            }
+        }
+    ],
+    "config": {
+        "numberFormat": "$.2s",
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 0
+        }
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "$schema": "https://vega.github.io/schema/vega/v5.json",
+    "description": "Religion of 1026 participants",
+    "width": 500,
+
+    "background": "white",
+    "padding": 5,
+    "height": 250,
+    "data": [
+        { "name": "religion_highlight_store" },
+        {
+            "name": "source_0",
+            "values": [
+                { "religion": "Agnostic", "population": 123 },
+                { "religion": "Athiest", "population": 111 },
+                { "religion": "Buddhist", "population": 14 },
+                { "religion": "Hindu", "population": 6 },
+                { "religion": "Jewish", "population": 41 },
+                { "religion": "Mormon", "population": 12 },
+                { "religion": "Muslim", "population": 10 },
+                { "religion": "None of these", "population": 238 },
+                { "religion": "Orthodox Christian", "population": 52 },
+                { "religion": "Protestants", "population": 232 },
+                { "religion": "Roman Catholic", "population": 187 }
+            ]
+        },
+        {
+            "name": "data_1",
+            "source": "source_0",
+            "transform": [{
+                    "type": "stack",
+                    "groupby": [],
+                    "field": "population",
+                    "sort": { "field": ["religion"], "order": ["ascending"] },
+                    "as": ["population_start", "population_end"],
+                    "offset": "zero"
+                },
+                {
+                    "type": "filter",
+                    "expr": "isValid(datum[\"population\"]) && isFinite(+datum[\"population\"])"
+                }
+            ]
+        },
+        {
+            "name": "data_2",
+            "source": "source_0",
+            "transform": [{
+                    "type": "stack",
+                    "groupby": [],
+                    "field": "population",
+                    "sort": {
+                        "field": ["religion", "population"],
+                        "order": ["ascending", "ascending"]
+                    },
+                    "as": ["population_start", "population_end"],
+                    "offset": "zero"
+                },
+                {
+                    "type": "filter",
+                    "expr": "isValid(datum[\"population\"]) && isFinite(+datum[\"population\"])"
+                }
+            ]
+        }
+    ],
+    "signals": [{
+            "name": "width",
+            "init": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+            "on": [{
+                "update": "isFinite(containerSize()[0]) ? containerSize()[0] : 200",
+                "events": "window:resize"
+            }]
+        },
+        {
+            "name": "unit",
+            "value": {},
+            "on": [
+                { "events": "mousemove", "update": "isTuple(group()) ? group() : unit" }
+            ]
+        },
+        {
+            "name": "religion_highlight",
+            "update": "vlSelectionResolve(\"religion_highlight_store\", \"union\", true, true)"
+        },
+        {
+            "name": "religion_highlight_tuple",
+            "on": [{
+                    "events": [{ "source": "scope", "type": "click" }],
+                    "update": "datum && item().mark.marktype !== 'group' ? {unit: \"layer_0\", fields: religion_highlight_tuple_fields, values: [(item().isVoronoi ? datum.datum : datum)[\"religion\"]]} : null",
+                    "force": true
+                },
+                { "events": [{ "source": "view", "type": "dblclick" }], "update": "null" }
+            ]
+        },
+        {
+            "name": "religion_highlight_tuple_fields",
+            "value": [{ "field": "religion", "channel": "color", "type": "E" }]
+        },
+        {
+            "name": "religion_highlight_toggle",
+            "value": false,
+            "on": [{
+                    "events": [{ "source": "scope", "type": "click" }],
+                    "update": "event.shiftKey"
+                },
+                { "events": [{ "source": "view", "type": "dblclick" }], "update": "false" }
+            ]
+        },
+        {
+            "name": "religion_highlight_modify",
+            "on": [{
+                "events": { "signal": "religion_highlight_tuple" },
+                "update": "modify(\"religion_highlight_store\", religion_highlight_toggle ? null : religion_highlight_tuple, religion_highlight_toggle ? null : true, religion_highlight_toggle ? religion_highlight_tuple : null)"
+            }]
+        }
+    ],
+    "marks": [{
+            "name": "layer_0_marks",
+            "type": "arc",
+            "style": ["arc"],
+            "interactive": true,
+            "from": { "data": "data_1" },
+            "encode": {
+                "update": {
+                    "stroke": { "value": "#fff" },
+                    "innerRadius": { "value": 40 },
+                    "fill": { "scale": "color", "field": "religion" },
+                    "opacity": [{
+                            "test": "!length(data(\"religion_highlight_store\")) || vlSelectionTest(\"religion_highlight_store\", datum)",
+                            "value": 0.7
+                        },
+                        { "value": 0.3 }
+                    ],
+                    "tooltip": {
+                        "signal": "{\"Religion\": isValid(datum[\"religion\"]) ? datum[\"religion\"] : \"\"+datum[\"religion\"], \"Population\": format(datum[\"population\"], \"\")}"
+                    },
+                    "description": {
+                        "signal": "\"population: \" + (format(datum[\"population\"], \"\")) + \"; Religion: \" + (isValid(datum[\"religion\"]) ? datum[\"religion\"] : \"\"+datum[\"religion\"]) + \"; Population: \" + (format(datum[\"population\"], \"\"))"
+                    },
+                    "x": { "signal": "width", "mult": 0.5 },
+                    "y": { "signal": "height", "mult": 0.5 },
+                    "outerRadius": { "scale": "radius", "field": "population" },
+                    "startAngle": { "scale": "theta", "field": "population_end" },
+                    "endAngle": { "scale": "theta", "field": "population_start" }
+                }
+            }
+        },
+        {
+            "name": "layer_1_marks",
+            "type": "text",
+            "style": ["text"],
+            "interactive": true,
+            "from": { "data": "data_2" },
+            "encode": {
+                "update": {
+                    "fill": { "scale": "color", "field": "religion" },
+                    "opacity": [{
+                            "test": "!length(data(\"religion_highlight_store\")) || vlSelectionTest(\"religion_highlight_store\", datum)",
+                            "value": 0.7
+                        },
+                        { "value": 0.3 }
+                    ],
+                    "tooltip": {
+                        "signal": "{\"Religion\": isValid(datum[\"religion\"]) ? datum[\"religion\"] : \"\"+datum[\"religion\"], \"Population\": format(datum[\"population\"], \"\")}"
+                    },
+                    "description": {
+                        "signal": "\"population: \" + (format(datum[\"population\"], \"\")) + \"; Religion: \" + (isValid(datum[\"religion\"]) ? datum[\"religion\"] : \"\"+datum[\"religion\"]) + \"; Population: \" + (format(datum[\"population\"], \"\"))"
+                    },
+                    "x": { "signal": "width", "mult": 0.5 },
+                    "y": { "signal": "height", "mult": 0.5 },
+                    "text": { "signal": "format(datum[\"population\"], \"\")" },
+                    "align": { "value": "center" },
+                    "baseline": { "value": "middle" },
+                    "radius": { "scale": "radius", "field": "population", "offset": 12 },
+                    "theta": {
+                        "signal": "scale(\"theta\", 0.5 * datum[\"population_start\"] + 0.5 * datum[\"population_end\"])"
+                    }
+                }
+            }
+        }
+    ],
+    "scales": [{
+            "name": "theta",
+            "type": "linear",
+            "domain": {
+                "fields": [
+                    { "data": "data_1", "field": "population_start" },
+                    { "data": "data_1", "field": "population_end" },
+                    { "data": "data_2", "field": "population_start" },
+                    { "data": "data_2", "field": "population_end" }
+                ]
+            },
+            "range": [0, 6.283185307179586],
+            "zero": true
+        },
+        {
+            "name": "radius",
+            "type": "sqrt",
+            "domain": {
+                "fields": [
+                    { "data": "data_1", "field": "population" },
+                    { "data": "data_2", "field": "population" }
+                ]
+            },
+            "range": [160, { "signal": "min(width,height)/2" }],
+            "zero": true
+        },
+        {
+            "name": "color",
+            "type": "ordinal",
+            "domain": [
+                "Agnostic",
+                "Athiest",
+                "Buddhist",
+                "Hindu",
+                "Jewish",
+                "Mormon",
+                "Muslim",
+                "None of these",
+                "Orthodox Christian",
+                "Protestants",
+                "Roman Catholic"
+            ],
+            "range": [
+                "#F5D368",
+                "#D7C54F",
+                "#DBA66B",
+                "#C5BEB1",
+                "#BFD6D2",
+                "#AEDCB9",
+                "#6F95A8",
+                "#939598",
+                "#F1B19D",
+                "#F38388",
+                "#92ADA2"
+            ]
+        }
+    ],
+    "legends": [{
+        "title": "Religion",
+        "fill": "color",
+        "symbolType": "circle",
+        "encode": {
+            "symbols": {
+                "update": { "stroke": { "value": "#fff" }, "opacity": { "value": 0.7 } }
+            }
+        }
+    }],
+    "config": {}
+}

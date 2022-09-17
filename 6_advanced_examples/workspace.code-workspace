@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "../../covid"
+        },
+        {
+            "path": "../../Website/test"
+        },
+        {
+            "path": "../../Website/sa1"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "sa1"
+    }
+}

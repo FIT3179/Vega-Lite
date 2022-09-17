@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+</head>
+
+<body>
+    <h1 style="margin-left: 300px;"> Cities should grow <span style="color: #0059ff;font-weight: bold;">Horizontally</span> or <span style="color: hsl(17, 100%, 50%);font-weight: bold;">Vertically</span>?</h1>
+    <div>
+        <!-- pure grid group -->
+        <div class="pure-g" class="outer">
+
+            <div class="pure-u-1-2">
+                <p style="margin-left: 100px;"> In 2020, <span style="font-weight: bold;">more than half of the world population</span> lived<br> in urban areas. And this figure is expected to rise to<br> nearly <span style="font-weight: bold;">70 percent</span> by 2050. As cities grow
+                    to accommodate<br> for this influx of population, the main challenge facing <br> major cities and their authorities is to grow <span style="color: #0059ff;font-weight: bold;">horizontally</span><br> or <span style="color: hsl(17, 100%, 50%);font-weight: bold;">vertically</span>.
+                    In other words, follow the model of some <br> of the least dense cities in world like Melbourne or <br>
+                </p>
+            </div>
+
+            <div class="pure-u-1-2">
+                <p style="margin-left: 100px;">Sydney in <span style="color: yellow;font-weight: bold;">Australia</span> or moderately dense like Singapore.<br> One major concern for those who are against cities with<br> high population densities is <span style="color: hsl(17, 100%, 50%);font-weight: bold;">environmental impact</span>                    of <br> densely populated Cities. However, <span style="font-weight: bold;">Tim Soutphommasane</span><br> form the University of Sydney claims that this is not simply<br> true and some of the <span style="color: rgb(30, 255, 0);">greenest</span>                    cities in the world are much<br> more densely populated than Sydney or Melbourne.<br>
+                </p>
+            </div>
+        </div>
+        <!-- end pure grid group -->
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+
+            <div class="pure-u-2-3">
+                <div id="vis1" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-3">
+                <div class="description description-left">
+                    <h2 class="outer">What is the trend globally?</h2>
+                    <p>It can be seen from the map on the right that <span style="font-weight: bold;">cities</span><br>
+                        <span style="font-weight: bold;">in East Asia have the highest population densities</span><br> like Mumbai (48000 inhabitants/Km2) in India<br> which is 20 times higher than Melbourne. Furthermore,<br> it is evident that majority
+                        of cities in <span style="font-weight: bold;">western countries</span><br> especially USA have low population densities which<br> is mainly attributed to the introduction of<br>
+                        <span style="color: hsl(17, 100%, 50%);font-weight: bold;">suburbanization</span> in the 1950s.<br>
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- end pure grid group -->
+        <h2 style="margin-left: 300px;">The <span style="color: hsl(17, 100%, 50%);font-weight: bold;">adverse effects</span> of low population density</h2>
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+
+                <div id="vis2" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-2">
+
+                <div id="vis3" class="vis-container"></div>
+            </div>
+
+        </div>
+        <!-- end pure grid group -->
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <h3 class="outer">Effect on House Prices</h3>
+                <div class="description description-right">
+
+                    <p style="margin-left: 100px;"><span style="color: #0059ff;font-weight: bold;">The house prices do not surpass certain threshold in</span><br>
+                        <span style="color: #0059ff;font-weight: bold;">cities with more than 8000 inhabitants/Km2</span> which may<br> sound counterintuitive as higher population density correlates<br> with higher demand for housing. However, low population
+                        <br> densities can drive prices much higher due to <span style="color: hsl(17, 100%, 50%);font-weight: bold;">urban sprawl</span> as<br> well-located land is of high demand and supply is limited.<br> This helps to explain the overly
+                        expensive house prices in<br> Melbourne and Sydney in Australia.<br>
+                    </p>
+                </div>
+            </div>
+            <div class="pure-u-1-2">
+                <h3 class="outer">Effect on Energy Use</h3>
+                <div class="description description-right">
+
+                    <p style="margin-left: 100px;">As cites grow horizontally, <span style="color: hsl(17, 100%, 50%);font-weight: bold;">the inhabitant’s dependent on use of</span><br>
+                        <span style="color: hsl(17, 100%, 50%);font-weight: bold;">private transport increases as it gets much more expensive</span><br> to provide same level of public transport accessibility in much<br> smaller cities. that’s why after
+                        certain threshold in population density<br> (graph above), the private <span style="color: #0059ff;font-weight: bold;">energy use for transport drops drastically</span>. <br> Inhabitants of Atlanta, with a very low population density,
+                        in united <br> states consume whopping 75 times more energy for private passenger<br> use than inhabitants of Singapore (with similar population size).<br>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- end pure grid group -->
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-2">
+                <div id="vis4" class="vis-container"></div>
+            </div>
+            <div class="pure-u-1-2">
+                <div id="vis5" class="vis-container"></div>
+            </div>
+
+        </div>
+        <!-- end pure grid group -->
+
+        <!-- pure grid group -->
+        <div class="pure-g">
+            <div class="pure-u-1-1">
+                <div class="description description-right">
+                    <h3 class="outer">Effect on Public Transport</h3>
+
+                    <p style="margin-left: 400px;">Singapore and Melbourne both have relatively similar population but <br> The population in Melbourne live on a land four times bigger than that of <br> Singapore. Singapore’s rail network known as Mass Rapid Transit (MRT) <br> Is world-renowned
+                        in terms of efficiency and quality of service and has <br> a length of 216 Km. On the other hand, Melbourne rail network has<br> a length 496 Km which provides less accessibility due to its shear<br> size. It can be seen from the
+                        above graph that Singapore’s rail network <br> has loops (Cycles) in its network which cuts the travel time and makes<br> the use of public transport more desirable. <span style="color: #0059ff;font-weight: bold;">Low population density</span>                        <br>
+                        <span style="color: #0059ff;font-weight: bold;">means better, faster, and cheaper public transport as more loops</span><br>
+                        <span style="color: #0059ff;font-weight: bold;">can be embedded in the network.</span> <br>
+                    </p>
+                </div>
+                <!-- end pure grid group -->
+
+                <!-- pure grid group -->
+                <div class="pure-g">
+
+                    <div class="pure-u-1-3">
+                        <div class="description description-left">
+                            <h3 class="outer">Societal and non-tangible toll</h3>
+                            <p>Finally, there is another aspect to low population density<br> which is <span style="color: hsl(17, 100%, 50%);font-weight: bold;">loneliness</span>. More dense cities provide more<br>
+                                <span style="color: #0059ff;font-weight: bold;">buzzing communal areas</span> which increase the chances<br> of encounter between the fellow citizens. Studies <br> show that <span style="color: hsl(17, 100%, 50%);font-weight: bold;">trust issues</span>                                and <span style="color: hsl(17, 100%, 50%);font-weight: bold;">alcoholism</span> are likely<br> consequences of <span style="color: hsl(17, 100%, 50%);font-weight: bold;">loneliness</span>. This increase in<br> interactions
+                                can introduce the individuals to different<br>
+                                <span style="color: #0059ff;font-weight: bold;">worldviews and create a more cohesive and functional society</span>.<br>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="pure-u-2-3">
+                        <div id="vis6" class="vis-container"></div>
+                    </div>
+
+                </div>
+                <!-- end pure grid group -->
+
+                <script type="text/javascript">
+                    var specVis1 = "js/symbolmap_density.vg.json";
+                    var specVis2 = "js2/visualization.vl (9).json";
+                    var specVis3 = "js3/visualization.vl(3).json";
+                    var specVis4 = "js4.2/visualization.vl(10).json";
+                    var specVis5 = "js5.1/visualization.vl(7).json";
+                    var specVis6 = "js6/vis6.vega";
+
+                    vegaEmbed('#vis1', specVis1, {
+                        "actions": false
+                    });
+
+                    vegaEmbed('#vis2', specVis2, {
+                        "actions": false
+                    }).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+
+                    vegaEmbed('#vis3', specVis3, {
+                        "actions": false
+                    }).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+
+                    vegaEmbed('#vis4', specVis4, {
+                        "actions": false
+                    }).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+
+                    vegaEmbed('#vis5', specVis5, {
+                        "actions": false
+                    }).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+
+                    vegaEmbed('#vis6', specVis6, {
+                        "actions": false
+                    }).then(function(result) {
+                        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+                    }).catch(console.error);
+                </script>
+
+</body>
+
+</html>

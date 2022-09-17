@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",    
+    "width": 500,
+    "height": 400,
+    "data": {
+        "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
+    },
+    "transform": [
+      {
+        "calculate": "datum.Entity", "as": "Energy Type"
+      }
+    ],
+    "layer": [
+      {
+        "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+      },
+      {
+        "mark": {"type": "text", "radiusOffset": 20, "fontWeight":"bolder"},
+        
+        "encoding": {
+          "text": {"field": "Deaths per twh", "type": "quantitative"},
+          "color": {
+            "field": "Energy Type", 
+            "type": "nominal", 
+            "scale": {"scheme": "darkgold"}
+          },
+          "opacity": {
+            "condition":{
+              "test": "datum['Energy Type'] == 'Biomass' || datum['Energy Type'] == 'Brown coal'  || datum['Energy Type'] == 'Coal' || datum['Energy Type'] == 'Gas'  || datum['Energy Type'] == 'Oil' ",
+              "value": 1
+            },
+            "value": 0
+          }
+        }
+      }
+    ],
+  
+    "encoding": {
+      "theta": {"field": "Deaths per twh", "type": "quantitative", "stack": true},
+      "radius": {"field": "Deaths per twh", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {
+        "field": "Energy Type", 
+        "type": "nominal", 
+        "scale": {"scheme": "darkgold"}
+      },
+  
+      "tooltip": [
+        {"field": "Energy Type", "type": "nominal"},
+        {"field": "Deaths per twh", "type": "quantitative"}
+      ]
+    }
+  }
+  

@@ -1,0 +1,81 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/heheheejin/FIT3179-Data-Visualisation-2-Project/main/data/world-happiness-report-with-regions.csv"
+    },
+    "transform": [
+        { "filter": "datum['Regional indicator'] != 'NA'" },
+        { "filter": "datum.year > 2005" }
+    ],
+    "hconcat": [{
+        "width": 200,
+        "height": 425,
+        "transform": [{
+                "joinaggregate": [{
+                    "op": "mean",
+                    "field": "Life Ladder",
+                    "as": "AverageScore"
+                }],
+                "groupby": ["Country"]
+            },
+            {
+                "window": [{
+                    "op": "rank",
+                    "as": "rank"
+                }],
+                "sort": [{ "field": "AverageScore", "order": "descending" }]
+            },
+            {
+                "filter": "datum.rank <= 10"
+            }
+        ],
+        "encoding": {
+            "y": {
+                "field": "Country",
+                "type": "nominal",
+                "sort": "-x",
+                "axis": null
+            },
+            "x": { "field": "AverageScore", "type": "quantitative" },
+            "tooltip": [{
+                    "field": "Country",
+                    "type": "nominal"
+                },
+                {
+                    "field": "AverageScore",
+                    "type": "quantitative",
+                    "format": ".2f"
+                }
+            ]
+        },
+        "layer": [{
+                "mark": "bar",
+                "encoding": {
+                    "color": {
+                        "field": "Regional indicator",
+                        "title": "Region",
+                        "legend": null
+                    }
+                }
+            },
+            {
+                "mark": {
+                    "type": "text",
+                    "align": "right",
+                    "xOffset": -4,
+                    "aria": false
+                },
+                "encoding": {
+                    "text": { "field": "Country", "type": "nominal" },
+                    "color": {
+                        "condition": {
+                            "test": { "field": "AverageScore", "gt": 5 },
+                            "value": ""
+                        },
+                        "value": "black"
+                    }
+                }
+            }
+        ]
+    }]
+}

@@ -1,0 +1,189 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A population pyramid for the US in 2000.",
+    "data": { "url": "https://raw.githubusercontent.com/zleo0003/A2_Dataset/main/ardd_fatalities_all_data.csv"},
+    "title": "Age and Gender Classification of Fatalities",
+    "params": [
+      {
+        "name": "Year_selection",
+        "value": 2020,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2021,
+          "step": 1,
+          "name": "Year: "
+        }
+      },
+      {
+        "name": "State_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            "Australian Capital Territory",
+            "New South Wales",
+            "Northern Territory",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria"
+          ],
+          "labels": [
+            "Show All",
+            "Australian Capital Territory",
+            "New South Wales",
+            "Northern Territory",
+            "Queensland",
+            "South Australia",
+            "Tasmania",
+            "Victoria"
+          ],
+          "name": "State: "
+        }
+      }
+    ],
+    "spacing": 0,
+    "hconcat": [{
+      "transform": [
+        {
+            "window": [{"op": "sum", "field": "Fatality", "as": "Total"}],
+            "frame": [null, null]
+          },
+          {
+            "calculate": "datum.Fatality/datum.Total * 100",
+            "as": "PercentOfTotal"
+          },
+        {"filter": {"field": "Gender", "equal": "Female"}
+      }],
+      "title": "Female",
+      "layer": [
+       {"mark": "bar"},
+          {
+            "mark": {
+              "type": "text",
+              "align": "left",
+              "baseline": "middle",
+              "dx": -30,
+              "fontSize": 11
+            },
+            "encoding": {
+              "text": {
+                "aggregate": "sum",
+                "field": "PercentOfTotal",
+                "format": ".2f",
+                "type": "quantitative"
+              }
+            }
+          } 
+      ],
+      "encoding": {
+        "y": {
+          "field": "Age_Group", "axis": null, "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum", "field": "PercentOfTotal",
+          "title": "Percentage of Fatalities",
+          "axis": {"format": "s"},
+          "sort": "descending"
+        },
+        "color": {
+          "field": "Gender",
+          "scale": {"range": ["#675193", "#ca8861"]},
+          "legend": null
+        },
+        "tooltip": [
+            {"field": "Gender", "type": "nominal"},
+            {"field": "Age_Group", "type": "nominal", "title": "Age_Group"},
+            {
+              "aggregate": "sum",
+              "field": "Fatality",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Fatalities"
+            }
+          ]
+      }
+    }, {
+      "width": 60,
+      "view": {"stroke": null},
+      "mark": {
+        "type": "text",
+        "align": "center"
+      },
+      "encoding": {
+        "y": {"field": "Age_Group", "type": "ordinal", "axis": null, "sort": "descending"},
+        "text": {"field": "Age_Group", "type": "ordinal"}
+      }
+    }, {
+      "transform": [
+      {
+            "window": [{"op": "sum", "field": "Fatality", "as": "Total"}],
+            "frame": [null, null]
+          },
+          {
+            "calculate": "datum.Fatality/datum.Total * 100",
+            "as": "PercentOfTotal"
+          },
+      {"filter": {"field": "Gender", "equal": "Male"}}
+      ],
+      "title": "Male",
+      "layer": [
+          {"mark": "bar"},
+          {
+            "mark": {
+              "type": "text",
+              "align": "right",
+              "baseline": "middle",
+              "dx": 40,
+              "fontSize": 11
+            },
+            "encoding": {
+              "text": {
+                "aggregate": "sum",
+                "field": "PercentOfTotal",
+                "format": ".2f",
+                "type": "quantitative"
+              }
+            }
+          }
+        ],
+      "encoding": {
+        "y": {
+          "field": "Age_Group", "title": null,
+          "axis": null, "sort": "descending"
+        },
+        "x": {
+          "aggregate": "sum", "field": "PercentOfTotal",
+          "title": "Population of Fatalities",
+          "axis": {"format": "s"}
+        },
+        "color": {
+          "field": "gender",
+          "legend": null
+        },
+        "tooltip": [
+            {"field": "Gender", "type": "nominal"},
+            {"field": "Age_Group", "type": "nominal", "title": "Age Group"},
+            {
+              "aggregate": "sum",
+              "field": "Fatality",
+              "type": "quantitative",
+              "format": ",",
+              "title": "Fatalities"
+            }
+          ]
+      }
+    }],
+    "transform": [
+      {"filter": "datum.Age_Group != '-9'"},
+      {"filter": "State_selection == null || datum.State == State_selection"},
+      {"filter": "Year_selection == datum.Year"}
+    ],
+    
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false},
+      "title": {"align": "center", "anchor": "middle", "fontSize": 15}
+    }
+  }
+  

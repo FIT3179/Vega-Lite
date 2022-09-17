@@ -1,0 +1,44 @@
+.body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.page {
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 35px;
+}
+
+.vis-container {
+    width: 100%;
+}
+
+.description h2,
+h1 {
+    margin-top: 0px;
+}
+
+.description-right {
+    padding-left: 20px;
+}
+
+.description-left {
+    padding-right: 20px;
+}
+
+.pure-g {
+    margin-bottom: 25px;
+}
+
+.small-font {
+    font-size: 14px;
+}

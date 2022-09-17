@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/earthquake.csv"
+    },
+    "width": 600,
+    "height": 300,
+    "transform": [{
+        "bin": { "step": 0.5, "extent": [5, 7] },
+        "field": "mag",
+        "as": "magnitude"
+    }],
+    "mark": "area",
+    "encoding": {
+        "x": {
+            "field": "time",
+            "timeUnit": "yearmonth",
+            "axis": { "title": "", "tickCount": 5, "grid": false }
+        },
+        "y": { "aggregate": "count", "title": "Count" },
+        "color": {
+            "field": "magnitude",
+            "scale": {
+                "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#bd0026", "#7f0000"]
+            },
+            "legend": null
+        }
+    }
+}

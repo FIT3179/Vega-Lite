@@ -1,0 +1,166 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Melbourne's House Price Distribution",
+    "height": 250,
+    "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/melb_data.csv"
+    },
+    "width": "container",
+    "layer": [
+        {
+            "params": [
+                {
+                    "name": "brush",
+                    "select": {
+                        "type": "interval",
+                        "encodings": [
+                            "x"
+                        ]
+                    }
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "Price",
+                    "bin": {
+                        "step": 200000
+                    },
+                    "axis": {
+                        "title": "Price",
+                        "labelAngle": -60,
+                        "format": "$.2s"
+                    }
+                },
+                "y": {
+                    "aggregate": "count",
+                    "title": "Count of Houses",
+                    "axis": {
+                        "title": "Houses"
+                    }
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "brush",
+                        "value": 1
+                    },
+                    "value": 0.3
+                },
+                "color": {
+                    "value": "#2163aa"
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": {
+                        "param": "brush"
+                    }
+                }
+            ],
+            "mark": {
+                "type": "bar",
+                "tooltip": true
+            },
+            "encoding": {
+                "x": {
+                    "field": "Price",
+                    "bin": {
+                        "step": 200000
+                    },
+                    "axis": {
+                        "title": "Price",
+                        "labelAngle": -60,
+                        "format": "$.2s"
+                    }
+                },
+                "y": {
+                    "aggregate": "count",
+                    "title": "Count of Houses",
+                    "axis": {
+                        "title": "Houses"
+                    }
+                },
+                "color": {
+                    "value": "2163aa"
+                }
+            },
+            "mark": {
+                "type": "text",
+                "align": "center",
+                "baseline": "top",
+                "dx": 100,
+                "dy": -5,
+                "fontSize": 12.5
+            },
+            "encoding": {
+                "text": {
+                    "field": "Price",
+                    "type": "quantitative",
+                    "condition": {
+                        "test": "datum['Price'] > 6000000",
+                        "value": [
+                            "The light blue line represents the",
+                            "mean price of the selected area."
+                        ]
+                    }
+                },
+                "color": {
+                    "value": "#45b4c2"
+                },
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Price'] > 6000000",
+                        "value": 1
+                    },
+                    "value": 0
+                }
+            }
+        },
+        {
+            "transform": [
+                {
+                    "filter": {
+                        "param": "brush"
+                    }
+                }
+            ],
+            "mark": {
+                "type": "rule"
+            },
+            "encoding": {
+                "x": {
+                    "aggregate": "mean",
+                    "field": "Price",
+                    "title": "Mean",
+                    "axis": {
+                        "title": ""
+                    }
+                },
+                "tooltip": {
+                    "title": "Mean",
+                    "aggregate": "mean",
+                    "field": "Price",
+                    "format": "$,.0f"
+                },
+                "color": {
+                    "value": "#45b4c2"
+                },
+                "size": {
+                    "value": 3
+                }
+            }
+        }
+    ],
+    "config": {
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 0
+        }
+    }
+}

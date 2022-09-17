@@ -1,0 +1,40 @@
+{
+  "params": [
+    {
+      "name": "YearFilter",
+      "value": 2019,
+      "bind": {"input": "range", "min": 1990, "max": 2019, "step": 1}
+    }
+  ],
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Hello World",
+  "width": 800,
+  "height": 300,
+  "data": {
+    "url": "https://raw.githubusercontent.com/JasonXsiu/econ-vis-vegalite/master/HDI.csv"
+  },
+  "transform": [
+    {
+      "lookup": "country",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+          "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+        },
+        "key": "properties.NAME_LONG"
+      },
+      "as": "geo"
+    },
+    {"filter": "datum.Year == YearFilter"}
+  ],
+  "projection": {"type": "equirectangular"},
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "shape": {"field": "geo", "type": "geojson"},
+    "color": {"field": "HDI", "type": "quantitative"},
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "country"},
+      {"title": "HDI", "field": "HDI", "type": "quantitative"}
+    ]
+  }
+}

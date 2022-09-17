@@ -1,0 +1,171 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container",
+  "height": 400,
+  "title": "Price and Landsize in Boroondara",
+  "data": {
+    "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/top_ca.csv"
+  },
+  "params": [
+    {
+      "name": "Price_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 3500000,
+        "step": 500000,
+        "name": "Minimum Price: "
+      }
+    },
+    {
+      "name": "Suburb_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Ashburton",
+          "Balwyn",
+          "Balwyn North",
+          "Camberwell",
+          "Canterbury",
+          "Deepdene",
+          "Glen Iris",
+          "Hawthorn",
+          "Hawthorn East",
+          "Kew",
+          "Kew East",
+          "Mont Albert",
+          "Surrey Hills"
+        ],
+        "labels": [
+          "Show All",
+          "Ashburton",
+          "Balwyn",
+          "Balwyn North",
+          "Camberwell",
+          "Canterbury",
+          "Deepdene",
+          "Glen Iris",
+          "Hawthorn",
+          "Hawthorn East",
+          "Kew",
+          "Kew East",
+          "Mont Albert",
+          "Surrey Hills"
+        ],
+        "name": "Suburb: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Price > Price_Above"
+    },
+    {
+      "filter": "Suburb_selection == null || datum.Suburb == Suburb_selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "Price",
+      "type": "quantitative",
+      "title": "Price",
+      "axis": {
+        "format": "$.2s"
+      }
+    },
+    "y": {
+      "field": "Landsize",
+      "type": "quantitative",
+      "title": "Landsize (Metres Squared)",
+      "scale": {
+        "domain": [
+          0,
+          1000
+        ]
+      }
+    }
+  },
+  "layer": [
+    {
+      "selection": {
+        "type_highlight": {
+          "type": "multi",
+          "fields": [
+            "Type"
+          ],
+          "bind": "legend"
+        }
+      },
+      "mark": "circle",
+      "encoding": {
+        "size": {
+          "title": "Rooms",
+          "field": "Rooms",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              1,
+              7
+            ]
+          }
+        },
+        "color": {
+          "field": "Type",
+          "type": "nominal",
+          "scale": {
+            "domain": [
+              "House",
+              "Townhouse",
+              "Unit"
+            ],
+            "range": [
+              "#2163aa",
+              "#22964f",
+              "#bf363a"
+            ]
+          }
+        },
+        "opacity": {
+          "condition": {
+            "selection": "type_highlight",
+            "value": 0.9
+          },
+          "value": 0.2
+        },
+        "tooltip": [
+          {
+            "field": "Suburb",
+            "type": "nominal"
+          },
+          {
+            "field": "Price",
+            "type": "quantitative",
+            "format": "$,"
+          },
+          {
+            "field": "Landsize",
+            "type": "quantitative",
+            "format": ","
+          },
+          {
+            "field": "Rooms",
+            "type": "quantitative"
+          },
+          {
+            "field": "Type",
+            "type": "nominal"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "title": {
+      "font": "Roboto Condensed",
+      "fontSize": 14,
+      "dx": 0
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "data": {"url": "data/COVID_19.csv"},
+  "mark": {"type": "bar", "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "encoding": {
+    "x": {"timeUnit": "yearmonth", "field": "date", "type": "ordinal"},
+    "y": {"aggregate": "sum", "field":"new_cases"},
+    "color": {"field": "continent"}
+  }
+}

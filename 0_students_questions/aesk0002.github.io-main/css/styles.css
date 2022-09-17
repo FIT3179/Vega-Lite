@@ -1,0 +1,72 @@
+.outer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+/* p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 8px;
+    text-align: center;
+
+} */
+
+/* div {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 8px;
+    
+} */
+
+#vis1 {
+    height: 500px;
+    width: 800px;
+}
+
+.pure-g {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+
+}
+
+#vis2 {
+    height: 500px;
+    width: 500px;
+}
+
+#vis3 {
+    height: 500px;
+    width: 500px;
+}
+
+#vis4 {
+    height: 500px;
+    width: 500px;
+}
+
+#vis5 {
+    height: 500px;
+    width: 500px;
+}
+
+#vis6 {
+    height: 700px;
+    width: 700px;
+}
+
+
+
+.austarlia{
+    color: #ff5e00;
+
+    
+
+}

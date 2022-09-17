@@ -1,0 +1,24 @@
+{
+    "mark": {
+      "type": "text",
+      "align": "right",
+      "baseline": "middle",
+      "dx": -12,
+      "fontSize": 12,
+      "fontStyle": "italic",
+      "color":"grey",
+      "font":"Arial"
+
+    },
+    "encoding": {
+      "text": {"field": "City", "type": "nominal"},
+      "color": {"value": "black"},
+      "opacity": {
+        "condition": {
+          "test": "datum['City'] == 'Atlanta' || datum['City'] == 'Singapore'",
+          "value": 1
+        },
+        "value": 0
+      }
+    }
+  }

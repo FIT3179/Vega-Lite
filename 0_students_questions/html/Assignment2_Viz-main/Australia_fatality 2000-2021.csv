@@ -1,0 +1,177 @@
+﻿Year,State,Fatality,Population
+2000,New South Wales,543,6485081
+2000,Victoria,373,4730855
+2000,Queensland,275,3537670
+2000,South Australia,151,1500129
+2000,Western Australia,184,1892531
+2000,Tasmania,38,473200
+2000,Northern Territory,48,200045
+2000,Australia Capital Territory,16,318941
+2001,New South Wales,486,6558484
+2001,Victoria,404,4790212
+2001,Queensland,296,3611203
+2001,South Australia,137,1507825
+2001,Western Australia,151,1917752
+2001,Tasmania,52,473890
+2001,Northern Territory,43,201751
+2001,Australia Capital Territory,15,322874
+2002,New South Wales,501,6599441
+2002,Victoria,361,4845024
+2002,Queensland,283,3700791
+2002,South Australia,108,1515723
+2002,Western Australia,159,1938610
+2002,Tasmania,35,475998
+2002,Northern Territory,40,201549
+2002,Australia Capital Territory,8,325950
+2003,New South Wales,483,6634509
+2003,Victoria,294,4900176
+2003,Queensland,284,3788560
+2003,South Australia,136,1524727
+2003,Western Australia,155,1966130
+2003,Tasmania,39,481411
+2003,Northern Territory,44,201708
+2003,Australia Capital Territory,10,327596
+2004,New South Wales,458,6669206
+2004,Victoria,312,4957147
+2004,Queensland,289,3872351
+2004,South Australia,128,1532562
+2004,Western Australia,162,1994241
+2004,Tasmania,52,484778
+2004,Northern Territory,34,203857
+2004,Australia Capital Territory,9,329498
+2005,New South Wales,459,6718023
+2005,Victoria,314,5023203
+2005,Queensland,296,3964175
+2005,South Australia,127,1544852
+2005,Western Australia,148,2029936
+2005,Tasmania,49,488098
+2005,Northern Territory,51,207385
+2005,Australia Capital Territory,25,333505
+2006,New South Wales,454,6786160
+2006,Victoria,309,5103965
+2006,Queensland,313,4055845
+2006,South Australia,104,1561300
+2006,Western Australia,181,2076867
+2006,Tasmania,43,491515
+2006,Northern Territory,41,211029
+2006,Australia Capital Territory,12,338381
+2007,New South Wales,405,6883852
+2007,Victoria,289,5199503
+2007,Queensland,337,4159990
+2007,South Australia,107,1578489
+2007,Western Australia,181,2135006
+2007,Tasmania,39,495858
+2007,Northern Territory,47,216618
+2007,Australia Capital Territory,14,344176
+2008,New South Wales,353,7001782
+2008,Victoria,278,5313285
+2008,Queensland,294,4275551
+2008,South Australia,87,1597880
+2008,Western Australia,185,2208928
+2008,Tasmania,37,501774
+2008,Northern Territory,67,222526
+2008,Australia Capital Territory,13,351101
+2009,New South Wales,409,7101504
+2009,Victoria,268,5419249
+2009,Queensland,296,4367454
+2009,South Australia,107,1618578
+2009,Western Australia,176,2263747
+2009,Tasmania,52,506461
+2009,Northern Territory,31,227783
+2009,Australia Capital Territory,11,357859
+2010,New South Wales,365,7179891
+2010,Victoria,260,5495711
+2010,Queensland,236,4436882
+2010,South Australia,105,1632482
+2010,Western Australia,176,2319063
+2010,Tasmania,29,510219
+2010,Northern Territory,46,230299
+2010,Australia Capital Territory,16,364833
+2011,New South Wales,336,7258722
+2011,Victoria,259,5591818
+2011,Queensland,227,4518649
+2011,South Australia,95,1647183
+2011,Western Australia,167,2385947
+2011,Tasmania,23,511739
+2011,Northern Territory,38,232952
+2011,Australia Capital Territory,6,372070
+2012,New South Wales,336,7353189
+2012,Victoria,261,5709586
+2012,Queensland,255,4611304
+2012,South Australia,86,1663082
+2012,Western Australia,171,2457489
+2012,Tasmania,29,511813
+2012,Northern Territory,40,238728
+2012,Australia Capital Territory,12,379812
+2013,New South Wales,316,7454938
+2013,Victoria,225,5832585
+2013,Queensland,246,4685439
+2013,South Australia,90,1678052
+2013,Western Australia,149,2502188
+2013,Tasmania,35,513015
+2013,Northern Territory,33,242304
+2013,Australia Capital Territory,7,386318
+2014,New South Wales,285,7562171
+2014,Victoria,223,5957512
+2014,Queensland,199,4747263
+2014,South Australia,96,1693107
+2014,Western Australia,173,2528619
+2014,Tasmania,31,514040
+2014,Northern Territory,34,242753
+2014,Australia Capital Territory,10,391981
+2015,New South Wales,326,7671401
+2015,Victoria,231,6093049
+2015,Queensland,219,4804933
+2015,South Australia,96,1705937
+2015,Western Australia,140,2547745
+2015,Tasmania,32,515694
+2015,Northern Territory,42,244090
+2015,Australia Capital Territory,14,398874
+2016,New South Wales,356,7801785
+2016,Victoria,275,6244863
+2016,Queensland,238,4883821
+2016,South Australia,76,1717400
+2016,Western Australia,170,2563708
+2016,Tasmania,33,519810
+2016,Northern Territory,40,246183
+2016,Australia Capital Territory,10,407489
+2017,New South Wales,351,7919815
+2017,Victoria,240,6387081
+2017,Queensland,228,4963072
+2017,South Australia,93,1728494
+2017,Western Australia,151,2582563
+2017,Tasmania,31,524969
+2017,Northern Territory,27,246858
+2017,Australia Capital Territory,5,415874
+2018,New South Wales,326,8036665
+2018,Victoria,202,6528601
+2018,Queensland,224,5050651
+2018,South Australia,75,1743594
+2018,Western Australia,145,2606394
+2018,Tasmania,31,531777
+2018,Northern Territory,42,245796
+2018,Australia Capital Territory,9,423169
+2019,New South Wales,329,8137322
+2019,Victoria,248,6660255
+2019,Queensland,196,5136458
+2019,South Australia,110,1761372
+2019,Western Australia,154,2646132
+2019,Tasmania,29,538195
+2019,Northern Territory,28,245255
+2019,Australia Capital Territory,6,428269
+2020,New South Wales,264,8169114
+2020,Victoria,195,6657142
+2020,Queensland,250,5193269
+2020,South Australia,85,1770309
+2020,Western Australia,136,2669996
+2020,Tasmania,30,541209
+2020,Northern Territory,28,246453
+2020,Australia Capital Territory,6,431190
+2021,New South Wales,177,8176368
+2021,Victoria,142,6648564
+2021,Queensland,168,5206400
+2021,South Australia,63,1771703
+2021,Western Australia,102,2675797
+2021,Tasmania,23,541965
+2021,Northern Territory,23,247023
+2021,Australia Capital Territory,23,431826

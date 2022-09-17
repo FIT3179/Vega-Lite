@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <!-- Import vega-embed -->
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  
+</head>
+<body>
+  
+<div id="stacked_bar_chart"></div>
+
+<script type="text/javascript">
+  var data_location = "data/COVID_19.csv"
+
+  // var spec2 = "js/stacked_bar_chart.vg.json";
+  var spec2 = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 800,
+  "height": 600,
+  "data": {"url": data_location},
+  "mark": {"type": "bar", "cornerRadiusTopLeft": 3, "cornerRadiusTopRight": 3},
+  "encoding": {
+    "x": {"timeUnit": "yearmonth", "field": "date", "type": "ordinal"},
+    "y": {"aggregate": "sum", "field":"new_cases"},
+    "color": {"field": "continent"}
+  }
+}
+
+  
+  vegaEmbed('#stacked_bar_chart', spec2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+
+</body>
+</html>

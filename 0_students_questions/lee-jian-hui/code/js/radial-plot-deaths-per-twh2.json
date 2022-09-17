@@ -1,0 +1,71 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": "container",
+    "height": "container",
+    "background": null,
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    },
+
+    "data": {
+        "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
+    },
+
+    "transform": [{
+        "calculate": "datum.Entity",
+        "as": "Energy Type"
+    }],
+
+    "layer": [
+        {
+            "params": [
+                {
+                "name": "energy-type-select",
+                "select": { "type": "point", "fields": ["Energy Type"] },
+                "bind": "legend"
+                }
+            ],
+            "mark": { "type": "arc", "innerRadius": 20, "stroke": "#fff" }
+        },
+        {
+            "mark": { "type": "text", "radiusOffset": 55, "fontWeight": "bold", "align":"center", "fontSize":17},
+
+            "encoding": {
+                "text": { "field": "Energy Type", "type": "nominal" },
+                "opacity": {
+                    "condition": {
+                        "test": "datum['Energy Type'] == 'Biomass' || datum['Energy Type'] == 'Brown coal'  || datum['Energy Type'] == 'Coal' || datum['Energy Type'] == 'Gas'  || datum['Energy Type'] == 'Oil' ",
+                        "value": 1
+                    },
+                    "value": 0
+                }
+            }
+        }
+    ],
+
+    "encoding": {
+        "theta": { "field": "Deaths per twh", "type": "quantitative", "stack": true , "sort":"ascending"},
+        "radius": { "field": "Deaths per twh", "scale": { "type": "sqrt", "zero": true, "rangeMin": 20 } },
+        "color": {
+            "field": "Energy Type",
+            "type": "nominal",
+            "scale": {"range": ["#0ed145", "#3e7438","#583903", "#000000", "#85cfec", "#c3c3c3", "#c3c3c3", "#b23b1c","#c3c3c3", "#c3c3c3"]},
+            "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 20, "titleFontSize":25}
+        },
+        "fillOpacity": {
+            "condition": {
+                "param": "energy-type-select",
+                "value": 1
+            },
+            "value": 0
+        },
+        "tooltip": [
+            { "field": "Energy Type", "type": "nominal" },
+            { "field": "Deaths per twh", "type": "quantitative" }
+        ]
+    }
+}

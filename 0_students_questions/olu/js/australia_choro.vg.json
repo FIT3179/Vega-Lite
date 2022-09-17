@@ -1,0 +1,201 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australian Median House Prices",
+  "width": "container",
+  "height": 350,
+  "projection": {
+    "type": "equirectangular"
+  },
+  "params": [
+    {
+      "name": "Year_Selection",
+      "value": 2021,
+      "bind": {
+        "input": "range",
+        "min": 2004,
+        "max": 2021,
+        "step": 1,
+        "name": "Year Selection:"
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/australia_topo.geo.json",
+        "format": {
+          "type": "topojson",
+          "feature": "STE11aAust"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.STATE_NAME",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "lightgray",
+        "stroke": "white"
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "note"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/australia_housing_states_final.csv"
+      },
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/australia_topo.geo.json",
+              "format": {
+                "type": "topojson",
+                "feature": "STE11aAust"
+              }
+            },
+            "key": "properties.STATE_NAME"
+          },
+          "as": "geo"
+        },
+        {
+          "filter": "datum.Year == Year_Selection"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "Price",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              100000,
+              1000000
+            ]
+          },
+          "legend": {
+            "title": "State Price",
+            "format": "$.2s"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "State",
+            "type": "nominal",
+            "title": "State"
+          },
+          {
+            "field": "Year",
+            "type": "quantitative",
+            "title": "Year"
+          },
+          {
+            "field": "Price",
+            "type": "quantitative",
+            "format": "$,",
+            "title": "Median Price"
+          }
+        ]
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/australia_housing_cities_final.csv"
+      },
+      "transform": [
+        {
+          "filter": "datum.Year == Year_Selection"
+        }
+      ],
+      "encoding": {
+        "longitude": {
+          "field": "lon",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "lat",
+          "type": "quantitative"
+        }
+      },
+      "layer": [
+        {
+          "mark": {
+            "type": "circle",
+            "color": "#bf363a",
+            "tooltip": {
+              "content": "data"
+            }
+          },
+          "encoding": {
+            "size": {
+              "field": "Price",
+              "type": "quantitative",
+              "scale": {
+                "domain": [
+                  0,
+                  1000000
+                ]
+              },
+              "legend": {
+                "title": "City Price",
+                "format": "$.2s"
+              }
+            },
+            "tooltip": [
+              {
+                "field": "City",
+                "type": "nominal",
+                "title": "City"
+              },
+              {
+                "field": "Year",
+                "type": "quantitative",
+                "title": "Year"
+              },
+              {
+                "field": "Price",
+                "type": "quantitative",
+                "format": "$,",
+                "title": "Median Price"
+              }
+            ]
+          }
+        },
+        {
+          "mark": {
+            "type": "text",
+            "dy": 10,
+            "dx": 20
+          },
+          "encoding": {
+            "text": {
+              "field": "City",
+              "type": "nominal"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "config": {
+    "title": {
+      "font": "Roboto Condensed",
+      "fontSize": 14,
+      "dx": 30
+    }
+  }
+}

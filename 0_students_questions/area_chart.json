@@ -1,0 +1,60 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 600,
+    "height": 400,
+    "data": { "url": "https://raw.githubusercontent.com/TylerPersonal/Vis2_data/main/lat_long_state_areas.csv" },
+    "title": "Fires over time",
+    "transform": [{
+            "aggregate": [{
+                "op": "count",
+                "as": "Count"
+            }],
+            "groupby": ["acq_date", "state"]
+        },
+        {
+            "calculate": "if(datum.state === 'Victoria', 2, if(datum.state === 'Tasmania', 0, if(datum.state === 'New South Wales',3,if(datum.state === 'South Australia',1,4))))",
+            "as": "stateOrder"
+        }
+    ],
+    "mark": "area",
+    "encoding": {
+        "x": {
+            "timeUnit": "yearquarter",
+            "field": "acq_date",
+            "title": "Time",
+            "axis": { "domain": false, "format": "%Y", "tickSize": 0 }
+        },
+        "y": {
+            "aggregate": "sum",
+            "field": "Count",
+            "title": "Total Fires"
+        },
+        "color": {
+            "field": "state",
+            "type": "nominal",
+            "scale": {
+                "domain": [
+                    "Western Australia",
+                    "Queensland",
+                    "Northern Territory",
+                    "New South Wales",
+                    "Victoria",
+                    "South Australia",
+                    "Tasmania"
+                ],
+                "type": "ordinal",
+                "range": [
+                    "#377eb8",
+                    "#e41a1c",
+                    "#4daf4a",
+                    "#984ea3",
+                    "#ff7f00",
+                    "#ffff33",
+                    "#a65628"
+                ]
+            }
+        },
+        "order": { "field": "stateOrder" },
+        "tooltip": [{ "field": "state", "type": "nominal", "title": "State" }]
+    }
+}

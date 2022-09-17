@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 500,
+  "title": "Earthquakes of magnitude 4 or large between 4 Oct 2020 and 10 Oct 2020",
+  "projection": {"type": "equalEarth", "rotate":[-150,0,0]},
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/earthquake.csv"
+      },
+      "mark": {
+          "type": "circle", 
+          "tooltip": {"content": "data"}, 
+          "opacity": 0.4,
+          "size": 10
+        },
+      "encoding": {
+        "longitude": {"field": "longitude", "type": "quantitative"},
+        "latitude": {"field": "latitude", "type": "quantitative"},
+        "color": {
+          "field": "mag",
+          "type": "quantitative",
+          "scale": {
+              "type": "threshold",
+              "domain": [4, 5, 6, 7, 8], 
+              "range": ["#ffeda0","#fdbe85", "#fd8d3c", "#e6550d", "#bd0026", "#7f0000"]
+        }
+    }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+melbourne : 2441.438942
+
+Singapore: 11993.73695
+
+Sydney: 3148.881446
+
+
+Mumbai: 48254.13223
+
+Shenzhen: 34182.40343
+
+total:997

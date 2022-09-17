@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Migration in Australia</title>
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+    <!-- Import pure.css -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+<body>
+  <div class="introduction">
+      <h1>Student Migration From Around The World And Entering Into Australia</h1>
+      International student migration into Australia from 2002 to 2021, a visualisation by Amarnath Ilangovan
+  </div>
+  <hr>
+  <p>
+    Do you know that the international students in Australia occupy almost 40% of the student population. 
+    In that, around 23.6% of students are currently studying on-campus. This percentage figure is almost 
+    10% lower when compared to the pre-coronavirus pandemic period. Particularly, in this visualisation you will be able
+    to analyse the trend in student migration from various parts of the world and entering Australia to pursue
+    their higher studies.
+  </p>
+  <p>
+    Furthermore, you will be able to witness the impacts of COVID-19 pandemic on student migration and which are the major
+    countries that are being affected and compare the student influx into Australia.
+  </p>
+    <div class="page">
+      <div class="section1">
+        <h2>Map of Student Migration into Australia</h2>
+      </div>
+            <div id="map2"></div>
+            <script type="text/javascript">
+              var spec2 = "js/map2.json";
+              vegaEmbed('#map2', spec2).then(function(result) {
+              }).catch(console.error);
+            </script>
+            <br>
+      <div class="section1">
+        <h2>Quantity of student Migration at each state in Australia</h2>
+      </div>
+            <div id="stacked_bar_chart"></div>
+            <script type="text/javascript">
+              var spec3 = "js/stacked_bar_chart.json";
+              vegaEmbed('#stacked_bar_chart', spec3).then(function(result) {
+              }).catch(console.error);
+            </script>
+             <br>
+             <div class="section1">
+               <h2>Distribution of students in each state of Australia</h2>
+             </div>
+                   <div id="map3"></div>
+                   <script type="text/javascript">
+                     var spec4 = "js/map3.json";
+                     vegaEmbed('#map3', spec4).then(function(result) {
+                     }).catch(console.error);
+                   </script>
+                   <br>
+              <div class="section1">
+                <h2>Distribution of students in each state of Australia</h2>
+              </div>
+                    <div id="scatter_plot"></div>
+                    <script type="text/javascript">
+                      var spec5 = "js/scatter_plot.json";
+                      vegaEmbed('#scatter_plot', spec5).then(function(result) {
+                      }).catch(console.error);
+                    </script>
+     </div>
+</body>
+</html>

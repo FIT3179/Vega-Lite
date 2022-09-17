@@ -1,0 +1,208 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Victorian Average House Prices",
+    "width": "container",
+    "height": 400,
+    "projection": {
+        "type": "equirectangular",
+        "center": {
+            "expr": "center_to"
+        },
+        "scale": {
+            "expr": "zoom_level"
+        }
+    },
+    "params": [
+        {
+            "name": "Year",
+            "value": 2016,
+            "bind": {
+                "input": "radio",
+                "options": [
+                    [
+                        2016
+                    ],
+                    [
+                        2017
+                    ]
+                ],
+                "labels": [
+                    "2016",
+                    "2017"
+                ],
+                "name": "Year: "
+            }
+        },
+        {
+            "name": "month",
+            "value": 1,
+            "bind": {
+                "input": "range",
+                "min": 1,
+                "max": 12,
+                "step": 1,
+                "name": "Month: "
+            }
+        },
+        {
+            "name": "zoom_level",
+            "value": 19000,
+            "bind": {
+                "input": "range",
+                "min": 2500,
+                "max": 60000,
+                "step": 500,
+                "name": "Zoom: "
+            }
+        },
+        {
+            "name": "center_to",
+            "value": [
+                145,
+                -37.95
+            ],
+            "bind": {
+                "input": "select",
+                "options": [
+                    [
+                        145,
+                        -37.72
+                    ],
+                    [
+                        144.9,
+                        -37.5
+                    ],
+                    [
+                        145.3,
+                        -38.1
+                    ],
+                    [
+                        145.1,
+                        -37.8
+                    ],
+                    [
+                        144.6,
+                        -37.7
+                    ]
+                ],
+                "labels": [
+                    "CBD Melbourne",
+                    "North Melbourne",
+                    "South Melbourne",
+                    "East Melbourne",
+                    "West Melbourne"
+                ],
+                "name": "Map Centre: "
+            }
+        }
+    ],
+    "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/vic_topo.geo.json",
+        "format": {
+            "type": "topojson",
+            "feature": "VIC_LOCALITY_POLYGON_SHP"
+        }
+    },
+    "layer": [
+        {
+            "transform": [
+                {
+                    "calculate": "'Data is not available in ' + datum.properties.NAME",
+                    "as": "note"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "fill": "lightgray",
+                "stroke": "white"
+            },
+            "encoding": {
+                "tooltip": {
+                    "field": "note"
+                }
+            }
+        },
+        {
+            "data": {
+                "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/avg_suburb_month.csv"
+            },
+            "transform": [
+                {
+                    "lookup": "Suburb",
+                    "from": {
+                        "data": {
+                            "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/vic_topo.geo.json",
+                            "format": {
+                                "type": "topojson",
+                                "feature": "VIC_LOCALITY_POLYGON_SHP"
+                            }
+                        },
+                        "key": "properties.NAME"
+                    },
+                    "as": "geo"
+                },
+                {
+                    "filter": "datum.Month == month"
+                },
+                {
+                    "filter": "datum.Year == Year"
+                }
+            ],
+            "mark": {
+                "type": "geoshape",
+                "stroke": "#fff",
+                "strokeWidth": 0.5
+            },
+            "encoding": {
+                "shape": {
+                    "field": "geo",
+                    "type": "geojson"
+                },
+                "color": {
+                    "field": "avg_price",
+                    "type": "quantitative",
+                    "scale": {
+                        "domain": [
+                            100000,
+                            2500000
+                        ]
+                    },
+                    "legend": {
+                        "format": "$.2s"
+                    },
+                    "title": "Price"
+                },
+                "tooltip": [
+                    {
+                        "field": "Suburb",
+                        "type": "nominal",
+                        "title": "Suburb"
+                    },
+                    {
+                        "field": "Year",
+                        "type": "quantitative",
+                        "title": "Year"
+                    },
+                    {
+                        "field": "Month",
+                        "type": "quantitative",
+                        "title": "Month"
+                    },
+                    {
+                        "field": "avg_price",
+                        "type": "quantitative",
+                        "format": "$,",
+                        "title": "Average Price"
+                    }
+                ]
+            }
+        }
+    ],
+    "config": {
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 30
+        }
+    }
+}

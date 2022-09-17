@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "2016 Rio Olympics Participation by Sports",
+  "width": 800,
+  "height": 600,
+  "data": {
+    "url": "https://raw.githubusercontent.com/ameliatan98/vega_lite/main/FIT3179/data/athletes.csv"
+  },
+  "params": [
+    {
+      "name": "select_count",
+      "value": 70,
+      "bind": {
+        "input": "range",
+        "min": 72,
+        "max": 2272,
+        "step": 100,
+        "name": "Total Participants: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "aggregate": [{
+       "op": "count",
+       "field": "name",
+       "as": "count_name"
+      }],
+      "groupby": ["sport"]
+    },
+    {"filter": "datum.count_name > select_count"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": { "field": "sport", "type": "nominal",       "sort": "-x"
+},
+    "x": {
+      "field": "count_name", "type": "quantitative"
+    }
+  },
+  "config": {}
+}

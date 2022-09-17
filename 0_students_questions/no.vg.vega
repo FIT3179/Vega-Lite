@@ -1,0 +1,77 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "The top 5 Highest Weekly Salary Industries  (2010-2021)",
+    "title": "Top 5 Highest Weekly Salary Industries (2010-2021)",
+    "data": {
+        "url": "https://raw.githubusercontent.com/yxuu0066/FIT3179_HW10/main/Week_salary.csv"
+    },
+
+
+    "params": [{
+        "name": "Year_selection",
+        "value": "2021",
+        "bind": {
+            "input": "select",
+            "options": [
+                "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"
+            ],
+            "labels": [
+                "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021"
+            ],
+            "name": "Year Selection: "
+        }
+    }],
+
+    "transform": [
+        { "filter": "Year_selection == null || datum.Year == Year_selection" },
+        {
+            "window": [{
+                "op": "count",
+                "as": "rank"
+            }],
+            "sort": [{ "field": "Average weekly salary", "order": "ascending" }],
+            "ignorePeers": true
+        }, {
+            "filter": "datum.rank <= 5"
+        }
+    ],
+
+    "mark": {
+        "type": "bar",
+        "point": {
+            "filled": false,
+            "fill": "white"
+        }
+    },
+    "encoding": {
+        "x": { "field": "Average weekly salary", "type": "quantitative", "scale": { "domain": [0, 3000] } },
+        "y": {
+            "field": "Category",
+            "type": "nominal",
+            "sort": "-x",
+            "axis": {
+                "labelLimit": 0
+            }
+        },
+        "color": {
+            "field": "rank",
+            "legend": null,
+            "type": "ordinal",
+            "scale": {
+                "type": "ordinal",
+                "range": ["#e9ecef", "#f1dca7", "#e09f3e", "#9e2a2b", "#14213d"]
+            }
+        },
+
+        "tooltip": [
+            { "field": "Category", "type": "nominal" },
+            { "field": "Year", "type": "ordinal", "format": "," },
+            { "field": "Average weekly salary", "type": "quantitative", "format": ",", "title": "Average weekly salary($)" }
+        ]
+    },
+    "config": {
+        "view": { "stroke": null },
+        "axisX": { "grid": false }
+    }
+
+}

@@ -1,0 +1,121 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/zleo0003/A2_Dataset/main/ardd_fatalities_all_data.csv"
+    },
+    "title": "Road Users Fatality Count",
+    "height": 250,
+    "width": 600,
+    "spacing": 0,
+    "params": [
+      {
+        "name": "Year",
+        "value": 2020,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2020,
+          "step": 1,
+          "name": "Year: "
+        }
+      },
+      {
+        "name": "Road_selection",
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Driver",
+            "Motorcycle pillion passenger",
+            "Motorcycle rider",
+            "Passenger",
+            "Pedal cyclist",
+            "Pedestrian"
+          ],
+          "labels": [
+            "Show All",
+            "Driver",
+            "Motorcycle pillion passenger",
+            "Motorcycle rider",
+            "Passenger",
+            "Pedal cyclist",
+            "Pedestrian"
+          ],
+          "name": "Road User: "
+        }
+      }
+    ],
+    "mark": "bar",
+    "encoding": {
+      "x": {"aggregate": "sum", "field": "Fatality", "title": "Fatalities"},
+      "y": {"field": "State", "title": null},
+      "color": {
+        "field": "Road_User",
+        "title": "Road User",
+        "type": "nominal",
+        "scale": {
+          "domain": [
+            "Driver",
+            "Motorcycle pillion passenger",
+            "Motorcycle rider",
+            "Passenger",
+            "Pedal cyclist",
+            "Pedestrian"
+          ],
+          "range": [
+            "#ffffd9",
+            "#edf8b1",
+            "#c7e9b4",
+            "#41b6c4",
+            "#1d91c0",
+            "#225ea8",
+            "#0c2c84"
+          ]
+        }
+      },
+      "tooltip": [
+        {"field": "State", "type": "nominal"},
+        {"field": "Road_User", "type": "nominal"},
+        {
+          "aggregate": "sum",
+          "field": "Fatality",
+          "type": "quantitative",
+          "format": ",",
+          "title": "Fatalities"
+        }
+      ]
+    },
+    "selection": {
+      "User_highlight": {
+        "type": "multi",
+        "fields": ["Road_User"],
+        "bind": "legend"
+      }
+    },
+    "transform": [
+      {"filter": "Road_selection == null || datum.Road_User == Road_selection"},
+      {"filter": "Year == datum.Year"},
+      {"filter": {"selection": "User_highlight"}}
+    ],
+    "config": {
+      "view": {"stroke": null},
+      "legend": {
+        "orient": "bottom",
+        "titleOrient": "left",
+        "labelFontSize": 11,
+        "titleFontSize": 10
+      },
+      "axisY": {
+        "labelAlign": "left",
+        "labelPadding": 150,
+        "labelFontSize": 11,
+        "labelFontWeight": "bold"
+      },
+      "axisX": {
+        "grid": false,
+        "labelFontSize": 11,
+        "titleFontSize": 13,
+        "tickMinStep": 1
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+        "url": "https://raw.githubusercontent.com/1099238610/global-map-vis/main/data/modern-renewable-energy-consumption.csv"
+    },
+    "repeat": {
+        "layer": ["Wind", "Solar"]
+    },
+    "spec": {
+        "mark": "bar",
+        "transform": [{
+                "filter": "datum['Entity'] == 'China' || datum['Entity'] == 'Russia'  || datum['Entity'] == 'Canada' || datum['Entity'] == 'Brazil' ||  datum['Entity'] == 'United States'"
+            },
+            {
+                "filter": "datum.Year == 2000"
+            },
+            {
+                "calculate": "datum['Solar']",
+                "as": "p_type"
+            }
+        ],
+        "encoding": {
+            "x": { "field": { "repeat": "layer" }, "type": "quantitative" },
+            "y": { "field": "Entity", "type": "nominal" },
+            "color": { "datum": { "repeat": "layer" }, "type": "nominal" }
+        }
+    }
+}

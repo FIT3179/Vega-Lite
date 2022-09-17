@@ -1,0 +1,107 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": "container",
+  "width": "container",
+  "title": "Population Densities of Some Cities (inhabitants per 10,000 m^2)",
+  "data": {
+    "url": "https://raw.githubusercontent.com/aesk0002/aesk0002.github.io/main/data6/final_quotes.csv"
+  },
+  "params": [
+    {
+      "name": "City_selection",
+      "bind": {
+        "input": "select",
+        "options": ["Melbourne", "Singapore", "Sydney", "Mumbai", "Shenzhen"],
+        "labels": ["Melbourne", "Singapore", "Sydney", "Mumbai", "Shenzhen"],
+        "name": "City Selection: "
+      }
+    }
+  ],
+  "transform": [
+    
+    {
+      "filter": "datum.City == City_selection"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "field": "x1",
+      "axis": null,
+      "type": "quantitative",
+      "title": "100 meters",
+      "scale": {"domain": [-0.001, 100.001]}
+    },
+    "y": {
+      "field": "x2",
+      "axis": null,
+      "type": "quantitative",
+      "title": "100 meters",
+      "scale": {"domain": [-0.001, 100.001]}
+    },
+    "shape": {
+      "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"},
+      "color": {"value": "yellow"
+
+      
+        
+      
+    },
+    "opacity": {
+      "condition": {"selection": "City_highlight", "value": 0.6},
+      "value": 0.0001
+    },
+    "tooltip": [
+      {"field": "Quote", "type": "nominal"},
+      {"field": "City", "type": "nominal"}
+    ]
+  },
+  "layer": [
+    {
+      "selection": {
+        "City_highlight": {
+          "type": "multi",
+          "fields": ["City"],
+          "bind": "legend"
+        }
+      },
+      "mark":{"type": "point", "filled": true},
+      "encoding": {
+        "shape": {
+          "value": "M1.7 -1.7h-0.8c0.3 -0.2 0.6 -0.5 0.6 -0.9c0 -0.6 -0.4 -1 -1 -1c-0.6 0 -1 0.4 -1 1c0 0.4 0.2 0.7 0.6 0.9h-0.8c-0.4 0 -0.7 0.3 -0.7 0.6v1.9c0 0.3 0.3 0.6 0.6 0.6h0.2c0 0 0 0.1 0 0.1v1.9c0 0.3 0.2 0.6 0.3 0.6h1.3c0.2 0 0.3 -0.3 0.3 -0.6v-1.8c0 0 0 -0.1 0 -0.1h0.2c0.3 0 0.6 -0.3 0.6 -0.6v-2c0.2 -0.3 -0.1 -0.6 -0.4 -0.6z"},
+          "color": {"value": "yellow"
+        },
+        "opacity": {
+          "condition": {"selection": "City_highlight", "value": 0.6},
+          "value": 0.0001
+        },
+        "tooltip": [
+          {"field": "Quote", "type": "nominal"},
+          {"field": "City", "type": "nominal"}
+        ]
+      } 
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "right",
+        "baseline": "middle",
+        "dx": -12,
+        "fontSize": 11.5,
+        "fontStyle": "italic"
+      },
+      "encoding": {
+        "text": {"field": "here", "type": "nominal"},
+        "color": {"value": "red"},
+        "size":{"value":15},
+        "opacity": {
+          "condition": {
+            "test": "datum['here'] == 'You are here'",
+            "value": 1
+          },
+          "value": 0
+        }
+      }
+    }
+  ],
+  "config": {}
+}

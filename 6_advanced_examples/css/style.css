@@ -1,0 +1,19 @@
+.vis-container {
+    width: 100%;
+}
+
+.page {
+    width: 1024px;
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    padding-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hr3 {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #DDD, transparent);
+    padding-top: 5px;
+}

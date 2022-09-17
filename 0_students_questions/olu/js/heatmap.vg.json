@@ -1,0 +1,286 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Correlation Between Variables",
+    "width": "container",
+    "data": {
+        "values": [
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Price",
+                "count": 1
+            },
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Rooms",
+                "count": 0.53
+            },
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Bedroom",
+                "count": 0.51
+            },
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Bathroom",
+                "count": 0.49
+            },
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Car",
+                "count": 0.23
+            },
+            {
+                "Variable 1": "Price",
+                "Variable 2": "Year Built",
+                "count": -0.34
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Price",
+                "count": 0.53
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Rooms",
+                "count": 1
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Bedroom",
+                "count": 0.96
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Bathroom",
+                "count": 0.62
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Car",
+                "count": 0.43
+            },
+            {
+                "Variable 1": "Rooms",
+                "Variable 2": "Year Built",
+                "count": -0.07
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Price",
+                "count": 0.51
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Rooms",
+                "count": 0.96
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Bedroom",
+                "count": 1
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Bathroom",
+                "count": 0.62
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Car",
+                "count": 0.43
+            },
+            {
+                "Variable 1": "Bedroom",
+                "Variable 2": "Year Built",
+                "count": -0.06
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Price",
+                "count": 0.49
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Rooms",
+                "count": 0.62
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Bedroom",
+                "count": 0.62
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Bathroom",
+                "count": 1
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Car",
+                "count": 0.33
+            },
+            {
+                "Variable 1": "Bathroom",
+                "Variable 2": "Year Built",
+                "count": 0.08
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Price",
+                "count": 0.23
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Rooms",
+                "count": 0.43
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Bedroom",
+                "count": 0.43
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Bathroom",
+                "count": 0.33
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Car",
+                "count": 1
+            },
+            {
+                "Variable 1": "Car",
+                "Variable 2": "Year Built",
+                "count": 0.11
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Price",
+                "count": -0.34
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Rooms",
+                "count": -0.07
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Bedroom",
+                "count": -0.06
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Bathroom",
+                "count": 0.08
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Car",
+                "count": 0.11
+            },
+            {
+                "Variable 1": "Year Built",
+                "Variable 2": "Year Built",
+                "count": 1
+            }
+        ]
+    },
+    "params": [
+        {
+            "name": "highlight",
+            "select": "point"
+        }
+    ],
+    "mark": {
+        "type": "rect",
+        "strokeWidth": 2
+    },
+    "encoding": {
+        "y": {
+            "field": "Variable 1",
+            "type": "nominal",
+            "title": ""
+        },
+        "x": {
+            "field": "Variable 2",
+            "type": "nominal",
+            "title": "",
+            "axis": {
+                "labelAngle": 0
+            }
+        },
+        "tooltip": [
+            {
+                "field": "Variable 1",
+                "type": "nominal"
+            },
+            {
+                "field": "Variable 2",
+                "type": "nominal"
+            },
+            {
+                "field": "count",
+                "type": "quantitative",
+                "title": "R-Value"
+            }
+        ],
+        "fill": {
+            "field": "count",
+            "type": "quantitative",
+            "title": "R-Value",
+            "scale": {
+                "domain": [
+                    -1,
+                    1
+                ],
+                "scheme": "redblue"
+            }
+        },
+        "stroke": {
+            "condition": {
+                "param": "highlight",
+                "empty": false,
+                "value": "black"
+            },
+            "value": null
+        },
+        "opacity": {
+            "condition": {
+                "param": "highlight",
+                "value": 1
+            },
+            "value": 0.5
+        },
+        "order": {
+            "condition": {
+                "param": "highlight",
+                "value": 1
+            },
+            "value": 0
+        }
+    },
+    "config": {
+        "scale": {
+            "bandPaddingInner": 0,
+            "bandPaddingOuter": 0
+        },
+        "view": {
+            "step": 50
+        },
+        "range": {
+            "color": "diverging",
+            "ramp": {
+                "scheme": "redblue"
+            }
+        },
+        "axis": {
+            "domain": false
+        },
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 30
+        }
+    }
+}

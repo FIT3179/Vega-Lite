@@ -1,0 +1,161 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 500,
+    "data": {
+        "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/world-energy-consumption-long-format.csv"
+    },
+    "params": [
+        {
+            "name": "top_n",
+            "value": 5,
+            "bind": {
+                "input": "range",
+                "min": 1,
+                "max": 15,
+                "step": 1
+            }
+        },
+        {
+            "name": "min_year",
+            "value": 1965,
+            "bind": {
+                "input": "range",
+                "min": 1965,
+                "max": 2019,
+                "step": 1
+            }
+        },
+        {
+            "name": "max_year",
+            "value": 2019,
+            "bind": {
+                "input": "range",
+                "min": 1965,
+                "max": 2019,
+                "step": 1
+            }
+        },
+        {
+            "name": "energy_type_legend_select",
+            "select": {"type": "point", "fields": ["Energy Type"]},
+            "bind": "legend"
+        }
+    ],
+    "transform": [
+        {
+            "sort": [
+                {
+                    "field": "Energy Consumption (TwH)",
+                    "order": "descending"
+                }
+            ],
+            "window": [
+                {
+                    "op": "rank",
+                    "as": "rank"
+                }
+            ],
+            "groupby": ["year"]
+        },
+        {
+            "filter": "datum.rank <= top_n"
+        },
+        {
+            "filter": " min_year <= datum.year && datum.year <= max_year"
+        }  
+    ],
+    "encoding": {
+        "x": {
+            "field": "year",
+            "type": "ordinal",
+            "axis": {
+                "labelAngle": 30,
+                "labelFontSize": 12,
+                "titleFontSize": 14,
+                "values": [1965, 1970, 
+                1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2019]
+            },
+            "title": ""
+        },
+        "y": {
+            "field": "rank",
+            "type": "quantitative",
+            "sort": "descending",
+            "scale": {
+                "domain": [
+                    0.5,
+                    {
+                        "expr": "top_n+0.5"
+                    }
+                ]
+            },
+            "axis": {
+                "labelAngle": 0,
+                "labelFontSize": 12,
+                "tickMinStep": 1,
+                "tickCount": {
+                    "expr": "top_n"
+                },
+                "titleFontSize": 14
+            },
+            "title": "Ranking of Consumption per Energy Type (TwH)"
+        }
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "line",
+                "interpolate": "monotone"
+            },
+            "encoding": {
+                "color": {
+                    "field": "Energy Type", 
+                    "scale": {"scheme": "category20"}
+                },
+                "size": {
+                    "condition": {
+                        "param": "widen-on-click",
+                        "empty": false,
+                        "value": 4
+                    },
+                    "value": 1
+                },
+                "tooltip": [
+                    {"field": "Energy Type", "type": "nominal"},
+                    {"field": "rank", "type": "quantitative"}
+                
+                ]
+            }
+        },
+        {
+            "params": [
+                {
+                    "name": "widen-on-click",
+                    "select": {
+                        "type": "point",
+                        "on": "click",
+                        "fields": [
+                            "Energy Type"
+                        ]
+                    },
+                    "bind": "legend"
+                }
+            ],
+            "mark": {
+                "type": "tick",
+                "thickness": 5
+            },
+            "encoding": {
+                "color": {
+                    "condition": {
+                        "param": "widen-on-click",
+                        "empty": false,
+                        "value": "black"
+                    },
+                    "field": "Energy Type"
+                }
+            }
+        }
+    ]
+}

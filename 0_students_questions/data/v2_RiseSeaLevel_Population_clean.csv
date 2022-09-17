@@ -1,0 +1,421 @@
+Country,Population,SeaLevelRiseScenarios,ImpactedPopulation
+Argentina,37032000,Onemeter,199601
+Bahamas,304000,Onemeter,13869
+Belize,226000,Onemeter,5532
+Brazil,170406000,Onemeter,1026618
+Chile,15211000,Onemeter,39615
+Colombia,42105000,Onemeter,142888
+Costa Rica,4024000,Onemeter,5152
+Cuba,11199000,Onemeter,77460
+Dominican Republic,8373000,Onemeter,27631
+Ecuador,12646000,Onemeter,137539
+El Salvador,6278000,Onemeter,9920
+French Guiana,165000,Onemeter,8940
+Guatemala,11385000,Onemeter,3133
+Guyana,761000,Onemeter,47924
+Haiti,8142000,Onemeter,11830
+Honduras,6417000,Onemeter,7198
+Jamaica,2576000,Onemeter,24106
+Mexico,98872000,Onemeter,590895
+Suriname,417000,Onemeter,29203
+Nicaragua,5071000,Onemeter,6276
+Peru,25662000,Onemeter,38455
+Panama,2856000,Onemeter,9924
+Puerto Rico,3915000,Onemeter,103834
+Uruguay,3337000,Onemeter,82885
+Venezuela,24170000,Onemeter,235500
+Algeria,30291000,Onemeter,171380
+Egypt,67884000,Onemeter,6296292
+Iran,70330000,Onemeter,240354
+Kuwait,1914000,Onemeter,11429
+Libya,5290000,Onemeter,156820
+Morocco,29634000,Onemeter,380844
+Oman,2538000,Onemeter,27252
+Qatar,565000,Onemeter,9051
+Saudi Arabia,20346000,Onemeter,403036
+United Arab Emirates,2606000,Onemeter,119581
+Tunisia,9459000,Onemeter,462490
+Western Sahara,190000,Onemeter,286
+Yemen,18349000,Onemeter,111983
+Angola,13134000,Onemeter,24360
+Benin,6272000,Onemeter,246162
+"Congo, Rep.",3018000,Onemeter,2841
+"Congo, Dem. Rep.",50948000,Onemeter,14205
+Cameroon,14876000,Onemeter,2761
+Equatorial Guinea,457000,Onemeter,466
+Ethiopia,62908000,Onemeter,233919
+"Gambia, The",1303000,Onemeter,45794
+Gabon,1230000,Onemeter,6119
+Ghana,19306000,Onemeter,150143
+Guinea,8154000,Onemeter,52659
+Ivory Coast,16013000,Onemeter,217073
+Kenya,30669000,Onemeter,15627
+Liberia,2913000,Onemeter,46660
+Madagascar,15970000,Onemeter,85089
+Mauritania,2665000,Onemeter,211834
+Mozambique,18292000,Onemeter,71478
+Nigeria,113862000,Onemeter,455209
+Guinea-Bissau,1199000,Onemeter,10215
+South Africa,43309000,Onemeter,37071
+Senegal,9421000,Onemeter,206078
+Sierra Leone,4405000,Onemeter,25370
+Somalia,8778000,Onemeter,39302
+Sudan,31095000,Onemeter,26805
+Togo,4527000,Onemeter,40904
+Sao Tome and Principe,138000,Onemeter,174
+"Tanzania, United Republic of",35119000,Onemeter,41313
+Namibia,1757000,Onemeter,3616
+Djibouti,632000,Onemeter,17301
+Myanmar (Burma),47749000,Onemeter,591118
+Brunei,328000,Onemeter,1584
+Cambodia,13104000,Onemeter,130478
+China,1275133000,Onemeter,22699295
+Indonesia,212092000,Onemeter,2774692
+North Korea,22268000,Onemeter,86211
+South Korea,46740000,Onemeter,228762
+Malaysia,22218000,Onemeter,97384
+Papua New Guinea,4809000,Onemeter,4963
+Philippines,75653000,Onemeter,805406
+Thailand,62806000,Onemeter,686175
+Taiwan China,22370000,Onemeter,670339
+Vietnam,78137000,Onemeter,8437072
+Bangladesh,137439000,Onemeter,1526826
+Sri Lanka,18924000,Onemeter,126368
+India,1008937000,Onemeter,4446570
+Pakistan,141256000,Onemeter,301960
+Argentina,37032000,Twometer,425596
+Bahamas,304000,Twometer,20616
+Belize,226000,Twometer,15438
+Brazil,170406000,Twometer,1710273
+Chile,15211000,Twometer,49111
+Colombia,42105000,Twometer,252587
+Costa Rica,4024000,Twometer,7696
+Cuba,11199000,Twometer,122735
+Dominican Republic,8373000,Twometer,60868
+Ecuador,12646000,Twometer,229772
+El Salvador,6278000,Twometer,14940
+French Guiana,165000,Twometer,10041
+Guatemala,11385000,Twometer,6909
+Guyana,761000,Twometer,112998
+Haiti,8142000,Twometer,29042
+Honduras,6417000,Twometer,17169
+Jamaica,2576000,Twometer,36643
+Mexico,98872000,Twometer,886704
+Suriname,417000,Twometer,75474
+Nicaragua,5071000,Twometer,13096
+Peru,25662000,Twometer,57329
+Panama,2856000,Twometer,21554
+Puerto Rico,3915000,Twometer,161377
+Uruguay,3337000,Twometer,113646
+Venezuela,24170000,Twometer,338101
+Algeria,30291000,Twometer,234314
+Egypt,67884000,Twometer,8160882
+Iran,70330000,Twometer,406278
+Kuwait,1914000,Twometer,16375
+Libya,5290000,Twometer,202293
+Morocco,29634000,Twometer,461485
+Oman,2538000,Twometer,42069
+Qatar,565000,Twometer,12406
+Saudi Arabia,20346000,Twometer,602309
+United Arab Emirates,2606000,Twometer,164176
+Tunisia,9459000,Twometer,566649
+Western Sahara,190000,Twometer,390
+Yemen,18349000,Twometer,139481
+Angola,13134000,Twometer,38193
+Benin,6272000,Twometer,343896
+"Congo, Rep.",3018000,Twometer,2955
+"Congo, Dem. Rep.",50948000,Twometer,21444
+Cameroon,14876000,Twometer,26406
+Equatorial Guinea,457000,Twometer,1395
+Ethiopia,62908000,Twometer,237452
+"Gambia, The",1303000,Twometer,108335
+Gabon,1230000,Twometer,6851
+Ghana,19306000,Twometer,224383
+Guinea,8154000,Twometer,145588
+Ivory Coast,16013000,Twometer,266158
+Kenya,30669000,Twometer,22072
+Liberia,2913000,Twometer,89000
+Madagascar,15970000,Twometer,141274
+Mauritania,2665000,Twometer,330154
+Mozambique,18292000,Twometer,160041
+Nigeria,113862000,Twometer,972769
+Guinea-Bissau,1199000,Twometer,25988
+South Africa,43309000,Twometer,37071
+Senegal,9421000,Twometer,392195
+Sierra Leone,4405000,Twometer,53339
+Somalia,8778000,Twometer,53213
+Sudan,31095000,Twometer,50767
+Togo,4527000,Twometer,53895
+Sao Tome and Principe,138000,Twometer,174
+"Tanzania, United Republic of",35119000,Twometer,54398
+Namibia,1757000,Twometer,4034
+Djibouti,632000,Twometer,34137
+Myanmar (Burma),47749000,Twometer,1083044
+Brunei,328000,Twometer,1626
+Cambodia,13104000,Twometer,277645
+China,1275133000,Twometer,34965603
+Indonesia,212092000,Twometer,5103216
+North Korea,22268000,Twometer,163803
+South Korea,46740000,Twometer,355878
+Malaysia,22218000,Twometer,249682
+Papua New Guinea,4809000,Twometer,7047
+Philippines,75653000,Twometer,1437272
+Thailand,62806000,Twometer,1516607
+Taiwan China,22370000,Twometer,986225
+Vietnam,78137000,Twometer,14036213
+Bangladesh,137439000,Twometer,2753213
+Sri Lanka,18924000,Twometer,227632
+India,1008937000,Twometer,7447115
+Pakistan,141256000,Twometer,502815
+Argentina,37032000,Threemeter,664630
+Bahamas,304000,Threemeter,32069
+Belize,226000,Threemeter,23050
+Brazil,170406000,Threemeter,2692247
+Chile,15211000,Threemeter,59526
+Colombia,42105000,Threemeter,385963
+Costa Rica,4024000,Threemeter,14387
+Cuba,11199000,Threemeter,181608
+Dominican Republic,8373000,Threemeter,91215
+Ecuador,12646000,Threemeter,327299
+El Salvador,6278000,Threemeter,23550
+French Guiana,165000,Threemeter,11796
+Guatemala,11385000,Threemeter,12823
+Guyana,761000,Threemeter,195477
+Haiti,8142000,Threemeter,51304
+Honduras,6417000,Threemeter,27201
+Jamaica,2576000,Threemeter,55226
+Mexico,98872000,Threemeter,1310478
+Suriname,417000,Threemeter,127999
+Nicaragua,5071000,Threemeter,21869
+Peru,25662000,Threemeter,97625
+Panama,2856000,Threemeter,40422
+Puerto Rico,3915000,Threemeter,223204
+Uruguay,3337000,Threemeter,140009
+Venezuela,24170000,Threemeter,453557
+Algeria,30291000,Threemeter,290705
+Egypt,67884000,Threemeter,10110653
+Iran,70330000,Threemeter,572686
+Kuwait,1914000,Threemeter,22516
+Libya,5290000,Threemeter,250110
+Morocco,29634000,Threemeter,550148
+Oman,2538000,Threemeter,62398
+Qatar,565000,Threemeter,25107
+Saudi Arabia,20346000,Threemeter,841248
+United Arab Emirates,2606000,Threemeter,211191
+Tunisia,9459000,Threemeter,663122
+Western Sahara,190000,Threemeter,760
+Yemen,18349000,Threemeter,167523
+Angola,13134000,Threemeter,66443
+Benin,6272000,Threemeter,436542
+"Congo, Rep.",3018000,Threemeter,10075
+"Congo, Dem. Rep.",50948000,Threemeter,28118
+Cameroon,14876000,Threemeter,46319
+Equatorial Guinea,457000,Threemeter,2156
+Ethiopia,62908000,Threemeter,241515
+"Gambia, The",1303000,Threemeter,182072
+Gabon,1230000,Threemeter,19660
+Ghana,19306000,Threemeter,317701
+Guinea,8154000,Threemeter,281683
+Ivory Coast,16013000,Threemeter,312107
+Kenya,30669000,Threemeter,35311
+Liberia,2913000,Threemeter,158594
+Madagascar,15970000,Threemeter,183006
+Mauritania,2665000,Threemeter,426017
+Mozambique,18292000,Threemeter,369914
+Nigeria,113862000,Threemeter,165525
+Guinea-Bissau,1199000,Threemeter,53520
+South Africa,43309000,Threemeter,59906
+Senegal,9421000,Threemeter,662398
+Sierra Leone,4405000,Threemeter,90919
+Somalia,8778000,Threemeter,90418
+Sudan,31095000,Threemeter,75670
+Togo,4527000,Threemeter,94655
+Sao Tome and Principe,138000,Threemeter,138
+"Tanzania, United Republic of",35119000,Threemeter,95602
+Namibia,1757000,Threemeter,10757
+Djibouti,632000,Threemeter,51409
+Myanmar (Burma),47749000,Threemeter,2213080
+Brunei,328000,Threemeter,2344
+Cambodia,13104000,Threemeter,519612
+China,1275133000,Threemeter,50732742
+Indonesia,212092000,Threemeter,8348630
+North Korea,22268000,Threemeter,343249
+South Korea,46740000,Threemeter,590494
+Malaysia,22218000,Threemeter,538892
+Papua New Guinea,4809000,Threemeter,9859
+Philippines,75653000,Threemeter,2300469
+Thailand,62806000,Threemeter,3074655
+Taiwan China,22370000,Threemeter,1362055
+Vietnam,78137000,Threemeter,20003408
+Bangladesh,137439000,Threemeter,5407944
+Sri Lanka,18924000,Threemeter,429293
+India,1008937000,Threemeter,12318026
+Pakistan,141256000,Threemeter,749875
+Argentina,37032000,Fourmeter,944211
+Bahamas,304000,Fourmeter,54722
+Belize,226000,Fourmeter,33676
+Brazil,170406000,Fourmeter,3969403
+Chile,15211000,Fourmeter,71714
+Colombia,42105000,Fourmeter,522346
+Costa Rica,4024000,Fourmeter,23440
+Cuba,11199000,Fourmeter,294205
+Dominican Republic,8373000,Fourmeter,133827
+Ecuador,12646000,Fourmeter,483380
+El Salvador,6278000,Fourmeter,36612
+French Guiana,165000,Fourmeter,16764
+Guatemala,11385000,Fourmeter,21690
+Guyana,761000,Fourmeter,267845
+Haiti,8142000,Fourmeter,79873
+Honduras,6417000,Fourmeter,42062
+Jamaica,2576000,Fourmeter,81046
+Mexico,98872000,Fourmeter,1746646
+Suriname,417000,Fourmeter,185124
+Nicaragua,5071000,Fourmeter,37728
+Peru,25662000,Fourmeter,125481
+Panama,2856000,Fourmeter,66661
+Puerto Rico,3915000,Fourmeter,283106
+Uruguay,3337000,Fourmeter,173805
+Venezuela,24170000,Fourmeter,596423
+Algeria,30291000,Fourmeter,371685
+Egypt,67884000,Fourmeter,12017374
+Iran,70330000,Fourmeter,722502
+Kuwait,1914000,Fourmeter,27600
+Libya,5290000,Fourmeter,290829
+Morocco,29634000,Fourmeter,663212
+Oman,2538000,Fourmeter,85497
+Qatar,565000,Fourmeter,41576
+Saudi Arabia,20346000,Fourmeter,1102031
+United Arab Emirates,2606000,Fourmeter,255431
+Tunisia,9459000,Fourmeter,772427
+Western Sahara,190000,Fourmeter,945
+Yemen,18349000,Fourmeter,203497
+Angola,13134000,Fourmeter,106994
+Benin,6272000,Fourmeter,610604
+"Congo, Rep.",3018000,Fourmeter,12852
+"Congo, Dem. Rep.",50948000,Fourmeter,32602
+Cameroon,14876000,Fourmeter,74839
+Equatorial Guinea,457000,Fourmeter,3429
+Ethiopia,62908000,Fourmeter,247583
+"Gambia, The",1303000,Fourmeter,244131
+Gabon,1230000,Fourmeter,39054
+Ghana,19306000,Fourmeter,404992
+Guinea,8154000,Fourmeter,365981
+Ivory Coast,16013000,Fourmeter,396557
+Kenya,30669000,Fourmeter,47468
+Liberia,2913000,Fourmeter,289158
+Madagascar,15970000,Fourmeter,263855
+Mauritania,2665000,Fourmeter,494341
+Mozambique,18292000,Fourmeter,690947
+Nigeria,113862000,Fourmeter,2527719
+Guinea-Bissau,1199000,Fourmeter,109778
+South Africa,43309000,Fourmeter,68707
+Senegal,9421000,Fourmeter,914822
+Sierra Leone,4405000,Fourmeter,129079
+Somalia,8778000,Fourmeter,129101
+Sudan,31095000,Fourmeter,129216
+Togo,4527000,Fourmeter,144835
+Sao Tome and Principe,138000,Fourmeter,1396
+"Tanzania, United Republic of",35119000,Fourmeter,146283
+Namibia,1757000,Fourmeter,29359
+Djibouti,632000,Fourmeter,86482
+Myanmar (Burma),47749000,Fourmeter,3964937
+Brunei,328000,Fourmeter,4310
+Cambodia,13104000,Fourmeter,845556
+China,1275133000,Fourmeter,69240818
+Indonesia,212092000,Fourmeter,12459289
+North Korea,22268000,Fourmeter,601995
+South Korea,46740000,Fourmeter,886687
+Malaysia,22218000,Fourmeter,934249
+Papua New Guinea,4809000,Fourmeter,13799
+Philippines,75653000,Fourmeter,4821392
+Thailand,62806000,Fourmeter,5297225
+Taiwan China,22370000,Fourmeter,1798884
+Vietnam,78137000,Fourmeter,25389856
+Bangladesh,137439000,Fourmeter,10183882
+Sri Lanka,18924000,Fourmeter,679015
+India,1008937000,Fourmeter,12145257
+Pakistan,141256000,Fourmeter,1094385
+Argentina,37032000,Fivemeter,1271972
+Bahamas,304000,Fivemeter,89742
+Belize,226000,Fivemeter,42693
+Brazil,170406000,Fivemeter,5296660
+Chile,15211000,Fivemeter,71714
+Colombia,42105000,Fivemeter,650853
+Costa Rica,4024000,Fivemeter,43917
+Cuba,11199000,Fivemeter,427107
+Dominican Republic,8373000,Fivemeter,189017
+Ecuador,12646000,Fivemeter,660611
+El Salvador,6278000,Fivemeter,56534
+French Guiana,165000,Fivemeter,24304
+Guatemala,11385000,Fivemeter,35277
+Guyana,761000,Fivemeter,319582
+Haiti,8142000,Fivemeter,115836
+Honduras,6417000,Fivemeter,62839
+Jamaica,2576000,Fivemeter,105399
+Mexico,98872000,Fivemeter,2221226
+Suriname,417000,Fivemeter,232546
+Nicaragua,5071000,Fivemeter,48615
+Peru,25662000,Fivemeter,164391
+Panama,2856000,Fivemeter,92329
+Puerto Rico,3915000,Fivemeter,333421
+Uruguay,3337000,Fivemeter,201020
+Venezuela,24170000,Fivemeter,745730
+Algeria,30291000,Fivemeter,446864
+Egypt,67884000,Fivemeter,14147454
+Iran,70330000,Fivemeter,866473
+Kuwait,1914000,Fivemeter,39722
+Libya,5290000,Fivemeter,334717
+Morocco,29634000,Fivemeter,771015
+Oman,2538000,Fivemeter,111377
+Qatar,565000,Fivemeter,55379
+Saudi Arabia,20346000,Fivemeter,1349536
+United Arab Emirates,2606000,Fivemeter,306088
+Tunisia,9459000,Fivemeter,899951
+Western Sahara,190000,Fivemeter,1212
+Yemen,18349000,Fivemeter,227928
+Angola,13134000,Fivemeter,131359
+Benin,6272000,Fivemeter,766704
+"Congo, Rep.",3018000,Fivemeter,21608
+"Congo, Dem. Rep.",50948000,Fivemeter,35239
+Cameroon,14876000,Fivemeter,96768
+Equatorial Guinea,457000,Fivemeter,4217
+Ethiopia,62908000,Fivemeter,252826
+"Gambia, The",1303000,Fivemeter,291532
+Gabon,1230000,Fivemeter,57222
+Ghana,19306000,Fivemeter,503424
+Guinea,8154000,Fivemeter,427999
+Ivory Coast,16013000,Fivemeter,518012
+Kenya,30669000,Fivemeter,64592
+Liberia,2913000,Fivemeter,360564
+Madagascar,15970000,Fivemeter,330336
+Mauritania,2665000,Fivemeter,549780
+Mozambique,18292000,Fivemeter,979918
+Nigeria,113862000,Fivemeter,3505455
+Guinea-Bissau,1199000,Fivemeter,161336
+South Africa,43309000,Fivemeter,99670
+Senegal,9421000,Fivemeter,1120602
+Sierra Leone,4405000,Fivemeter,169335
+Somalia,8778000,Fivemeter,177212
+Sudan,31095000,Fivemeter,187512
+Togo,4527000,Fivemeter,186124
+Sao Tome and Principe,138000,Fivemeter,1452
+"Tanzania, United Republic of",35119000,Fivemeter,187985
+Namibia,1757000,Fivemeter,39966
+Djibouti,632000,Fivemeter,90968
+Myanmar (Burma),47749000,Fivemeter,5859748
+Brunei,328000,Fivemeter,10953
+Cambodia,13104000,Fivemeter,1249821
+China,1275133000,Fivemeter,88275595
+Indonesia,212092000,Fivemeter,17327380
+North Korea,22268000,Fivemeter,951319
+South Korea,46740000,Fivemeter,1276765
+Malaysia,22218000,Fivemeter,1458363
+Papua New Guinea,4809000,Fivemeter,24860
+Philippines,75653000,Fivemeter,6243089
+Thailand,62806000,Fivemeter,7810588
+Taiwan China,22370000,Fivemeter,2199026
+Vietnam,78137000,Fivemeter,29836444
+Bangladesh,137439000,Fivemeter,16720860
+Sri Lanka,18924000,Fivemeter,949770
+India,1008937000,Fivemeter,24626888
+Pakistan,141256000,Fivemeter,1393182

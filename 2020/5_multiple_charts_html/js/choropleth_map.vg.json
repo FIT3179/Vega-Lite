@@ -1,0 +1,41 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "COVID-19 Active Cases (10 Oct 2020)",
+  "width": 800,
+  "height": 400,
+  "projection": {"type": "equirectangular"},
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+    "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+  },
+  "transform": [
+    {
+      "lookup": "properties.NAME",
+      "from": {
+        "data": {
+          "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Active", "Confirmed", "Deaths", "Population"]
+      }
+    },
+    {"calculate": "datum.Confirmed/datum.Population * 10000", "as": "Confirmed per 10,000 population"}
+  ],
+  "mark": {"type": "geoshape"},
+  "encoding": {
+    "color": {
+      "field": "Confirmed per 10,000 population",
+      "type": "quantitative",
+      "scale": {
+        "type": "threshold",
+        "domain": [1, 10, 100],
+        "range": ["#fdbe85", "#fd8d3c", "#e6550d", "#a63603"]
+      }
+    },
+    "tooltip": [
+      {"field": "properties.NAME", "type": "nominal", "title": "Country"},
+      {"field": "Confirmed", "type": "quantitative", "title": "Confirmed Cases", "format": ","},
+      {"field": "Confirmed per 10,000 population", "type": "quantitative", "format": ".2f"}
+    ]
+  }
+}

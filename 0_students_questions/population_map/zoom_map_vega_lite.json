@@ -1,0 +1,62 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 420,
+  "title": "Earthquakes of magnitude 4 or large between 4 Oct 2020 and 10 Oct 2020",
+  "params":[
+    {
+      "name": "zoom_level", "value": 150,
+      "bind": {"input": "range", "min": 150, "max": 500, "step": 50, "name": "Zoom level"} 
+    },
+    {
+      "name": "center_to", 
+      "bind": {
+        "input": "select",
+        "options":[
+          [0, 0],
+          [135.6, -26],
+          [144.2, -37.8],
+          [10.8, 50.48]
+        ],
+        "labels": [
+          "Default",
+          "Australia",
+          "Victoria",
+          "Europe"
+        ],
+        "name": "Map Centre"
+      }
+    }
+  ],
+  "projection": {
+    "type": "equirectangular",
+    "center":  {"expr": "center_to"},
+    "scale": {"expr": "zoom_level"}
+  },
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+      },
+      "mark": {"type": "geoshape", "stroke": "white"},
+      "encoding": {
+        "color": {
+          "field": "properties.POP_EST",
+          "type": "quantitative",
+          "scale":{
+            "type": "log",
+            "scheme": "lightmulti"
+          },
+          "title": "Population"
+        },
+        "tooltip":[
+          {"field":"properties.NAME", "title": "Country"},
+          {"field":"properties.POP_EST", "title": "Population", "format": ","},
+          {"field": "properties.GDP_MD_EST", "title": "GDP (million dollars)", "format": ","},
+          {"field": "properties.NAME_ZH", "title": "Name in Chinese"}
+          
+        ]
+      }
+    }]
+}

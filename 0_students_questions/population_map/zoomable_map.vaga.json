@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "An interactive world map supporting pan and zoom.",
+  "width": 900,
+  "height": 500,
+  "autosize": "none",
+  "signals": [
+    { "name": "tx", "update": "width / 2" },
+    { "name": "ty", "update": "height / 2" },
+    {
+      "name": "scale",
+      "value": 150,
+      "on": [{
+        "events": {"type": "wheel", "consume": true},
+        "update": "clamp(scale * pow(1.0005, -event.deltaY * pow(16, event.deltaMode)), 150, 3000)"
+      }]
+    },
+    {
+      "name": "angles",
+      "value": [0, 0],
+      "on": [{
+        "events": "mousedown",
+        "update": "[rotateX, centerY]"
+      }]
+    },
+    {
+      "name": "cloned",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "copy('projection')"
+      }]
+    },
+    {
+      "name": "start",
+      "value": null,
+      "on": [{
+        "events": "mousedown",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "drag", "value": null,
+      "on": [{
+        "events": "[mousedown, window:mouseup] > window:mousemove",
+        "update": "invert(cloned, xy())"
+      }]
+    },
+    {
+      "name": "delta", "value": null,
+      "on": [{
+        "events": {"signal": "drag"},
+        "update": "[drag[0] - start[0], start[1] - drag[1]]"
+      }]
+    },
+    {
+      "name": "rotateX", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "angles[0] + delta[0]"
+      }]
+    },
+    {
+      "name": "centerY", "value": 0,
+      "on": [{
+        "events": {"signal": "delta"},
+        "update": "clamp(angles[1] + delta[1], -60, 60)"
+      }]
+    }
+  ],
+  "projections": [
+    {
+      "name": "projection",
+      "type": "equirectangular",
+      "scale": {"signal": "scale"},
+      "rotate": [{"signal": "rotateX"}, 0, 0],
+      "center": [0, {"signal": "centerY"}],
+      "translate": [{"signal": "tx"}, {"signal": "ty"}]
+    }
+  ],
+
+  "data": [
+    {
+      "name": "world",
+      "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+      "format": {
+        "type": "topojson",
+        "feature": "ne_110m_admin_0_countries"
+      }
+    },
+    {
+      "name": "graticule",
+      "transform": [
+        { "type": "graticule", "step": [15, 15] }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "color",
+      "type": "log",
+      "range": {"scheme": "lightmulti"},
+      "domain": {"data": "world", "field": "properties.POP_EST"}
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "orient": "bottom-left",
+      "title": "Population",
+      "format": ",",
+      "fillColor": "white"
+    }
+  ],
+  "marks": [
+    {
+      "type": "shape",
+      "from": {"data": "graticule"},
+      "encode": {
+        "enter": {
+          "strokeWidth": {"value": 1},
+          "stroke": {"value": "#eee"},
+          "fill": {"value": null}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "world"},
+      "encode": {
+        "enter": {
+          "strokeWidth": {"value": 1},
+          "stroke": {"value": "white"},
+          "fill": {"scale": "color", "field": "properties.POP_EST"},
+          "tooltip": [{
+            "signal": "{'Country': datum.properties.NAME, 'Population': format(datum.properties.POP_EST, ','), 'GDP (million dollars)': format(datum.properties.GDP_MD_EST, ','), 'Name in Chinese': datum.properties.NAME_ZH}"
+          }
+          ]
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    }
+  ]
+}

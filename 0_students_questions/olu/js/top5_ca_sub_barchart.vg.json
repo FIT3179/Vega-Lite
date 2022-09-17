@@ -1,0 +1,53 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Top 5 Most Expensive Council Areas and Suburbs",
+    "width": "container",
+    "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/top_5_sub_ca.csv"
+    },
+    "params": [
+        {
+            "name": "Area_selection",
+            "bind": {
+                "input": "select",
+                "options": [
+                    null,
+                    "Council Area",
+                    "Suburb"
+                ],
+                "labels": [
+                    "All",
+                    "Council Areas",
+                    "Suburbs"
+                ],
+                "name": "Area Type: "
+            }
+        }
+    ],
+    "transform": [
+        {
+            "filter": "Area_selection == null || datum.Area == Area_selection"
+        }
+    ],
+    "mark": "bar",
+    "encoding": {
+        "x": {
+            "field": "avg_price",
+            "type": "quantitative",
+            "title": "Price"
+        },
+        "y": {
+            "field": "Name",
+            "type": "ordinal",
+            "title": "Name"
+        }
+    },
+    "config": {
+        "numberFormat": "$,.2s",
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 0
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 500,
+  "width": 500,
+  "title": "Deaths per TwH of Each Energy Type",
+  "data": {
+    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/death-rates-from-energy-production-per-twh.csv"
+  },
+  "transform": [
+    {"calculate": "datum.Entity", "as": "Energy Type"},
+    {"filter": "energy_type_selection == null || energy_type_selection == datum.Entity"}
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x":{
+      "field": "Deaths per twh",
+      "type": "quantitative"
+    },
+    "y":{
+      "field": "Entity",
+      "type": "nominal"
+    },
+    "color": { 
+      "field": "Entity", 
+      "type": "nominal" 
+    },
+    "tooltip": [
+      {"field": "Energy Type", "type": "nominal"},
+      {"field": "Deaths per twh", "type": "quantitative"}
+    ]
+  },
+
+  "params":[
+    {
+      "name": "energy_type_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null, 
+          "Biofuels",
+          "Biomass",
+          "Brown coal",
+          "Coal",
+          "Gas",
+          "Hydropower",
+          "Nuclear",
+          "Oil",
+          "Solar",
+          "Wind"
+        ],
+        "labels": [
+          "Show All",
+          "Biomass",
+          "Brown coal",
+          "Coal",
+          "Gas",
+          "Hydropower",
+          "Nuclear",
+          "Oil",
+          "Solar",
+          "Wind"
+        ],
+        "name": "Energy Type Selection: "
+      }
+    }
+  ]
+}

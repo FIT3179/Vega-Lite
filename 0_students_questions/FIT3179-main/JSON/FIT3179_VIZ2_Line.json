@@ -1,0 +1,46 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 300,
+  "height": 250,
+  "title": "Suicides Cases based on generation",
+  "data": {
+    "url": "https://raw.githubusercontent.com/zolyn17/FIT3179/main/CSV/line_data_world_suicide.csv"
+  },
+  "params": [
+    {
+      "name": "Minimum_Year",
+      "value": 0,
+      "bind": {"input": "range", "min": 1985, "max": 2016, "step": 1}
+    }
+  ],
+  "transform": [
+    {"filter": {"timeUnit": "year", "field": "year", "gt": "Minimum_Year"}}
+  ],
+  "mark": {"type": "line", "point": true},
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "year",
+      "title": "Year",
+      "type": "ordinal"
+    },
+    "y": {
+      "aggregate": "mean",
+      "title": "Average number of suicide cases",
+      "field": "suicides_no",
+      "type": "quantitative"
+    },
+    "color": {"field": "generation", "type": "nominal"},
+    "tooltip": [
+      {"field": "generation", "type": "nominal", "title": "generation"},
+      {"timeUnit": "year", "field": "year", "type": "nominal", "title": "Year"},
+      {
+        "field": "suicides_no",
+        "aggregate": "mean",
+        "type": "quantitative",
+        "title": "Number of suicide cases"
+      }
+    ]
+  },
+  "config": {}
+}

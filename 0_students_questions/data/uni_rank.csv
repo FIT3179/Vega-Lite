@@ -1,0 +1,71 @@
+﻿category,key,value
+Harvard University,Total score,100
+Stanford University,Total score,75.6
+University of Cambridge,Total score,71.8
+Massachusetts Institute of Technology (MIT),Total score,69.9
+"University of California, Berkeley",Total score,68.3
+Princeton University,Total score,61
+University of Oxford,Total score,60
+Columbia University,Total score,58.2
+California Institute of Technology,Total score,57.4
+University of Chicago,Total score,55.5
+Harvard University,Alumni,100
+Stanford University,Alumni,44.5
+University of Cambridge,Alumni,82.3
+Massachusetts Institute of Technology (MIT),Alumni,70.9
+"University of California, Berkeley",Alumni,65.6
+Princeton University,Alumni,55.8
+University of Oxford,Alumni,50.8
+Columbia University,Alumni,62.8
+California Institute of Technology,Alumni,53.5
+University of Chicago,Alumni,59.2
+Harvard University,Award,100
+Stanford University,Award,88.5
+University of Cambridge,Award,95.4
+Massachusetts Institute of Technology (MIT),Award,83.6
+"University of California, Berkeley",Award,78.4
+Princeton University,Award,97.9
+University of Oxford,Award,54.2
+Columbia University,Award,67.2
+California Institute of Technology,Award,67.5
+University of Chicago,Award,90.1
+Harvard University,PUB,100
+Stanford University,PUB,76.5
+University of Cambridge,PUB,70.9
+Massachusetts Institute of Technology (MIT),PUB,64.4
+"University of California, Berkeley",PUB,65.1
+Princeton University,PUB,44.2
+University of Oxford,PUB,77.1
+Columbia University,PUB,71.5
+California Institute of Technology,PUB,45
+University of Chicago,PUB,52
+Harvard University,N&S,100
+Stanford University,N&S,78.6
+University of Cambridge,N&S,57.6
+Massachusetts Institute of Technology (MIT),N&S,71.4
+"University of California, Berkeley",N&S,67.8
+Princeton University,N&S,47.1
+University of Oxford,N&S,52.6
+Columbia University,N&S,56.4
+California Institute of Technology,N&S,57.6
+University of Chicago,N&S,42.5
+Harvard University,Hi Ci,100
+Stanford University,Hi Ci,76.6
+University of Cambridge,Hi Ci,56.7
+Massachusetts Institute of Technology (MIT),Hi Ci,52.5
+"University of California, Berkeley",Hi Ci,61.3
+Princeton University,Hi Ci,44.9
+University of Oxford,Hi Ci,61.3
+Columbia University,Hi Ci,41.8
+California Institute of Technology,Hi Ci,34.5
+University of Chicago,Hi Ci,35.8
+Harvard University,PCP,79.6
+Stanford University,PCP,56
+University of Cambridge,PCP,59.5
+Massachusetts Institute of Technology (MIT),PCP,70.3
+"University of California, Berkeley",PCP,58.2
+Princeton University,PCP,73.3
+University of Oxford,PCP,46.8
+Columbia University,PCP,33.7
+California Institute of Technology,PCP,100
+University of Chicago,PCP,44.2

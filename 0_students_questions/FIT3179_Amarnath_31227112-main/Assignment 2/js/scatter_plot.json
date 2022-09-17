@@ -1,0 +1,25 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 500,
+    "height": 400,
+    "title": "International Students Travelling To Australia",
+    "data": {
+      "url": "https://raw.githubusercontent.com/AmarnathMonashUniversity/FIT3179_Amarnath_31227112/main/Assignment%202/data/Map_2.csv"
+    },
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "field": "Enrolment",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "y": {
+        "field": "Commencement",
+        "type": "quantitative",
+        "scale": {"zero": false}
+      },
+      "color": {"field": "State", "type": "nominal"},
+      "shape":{"field": "State", "type": "nominal"},
+      "size": {"field": "Enrolment", "type": "quantitative"}
+    }
+  }

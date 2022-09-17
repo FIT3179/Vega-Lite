@@ -1,0 +1,87 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json", 
+    "title": " Domestic states that have Students entering Australia for higher studies",
+    "width": 800,
+    "height": 600,
+    "params": [
+        {
+          "name": "Year_selection",
+          "value": 2018,
+          "bind": {
+            "input": "range",
+            "min": 2002,
+            "max": 2021,
+            "step": 1,
+            "name": "Year:  "
+          }
+        },
+        {
+          "name": "zoom_level", "value": 120, "bind": {
+            "input": "range", "min": 60, "max": 200, "step": 20, "name": "Zoom level: "
+        }
+        }
+      ],
+    "projection": {"type":"mercator","scale": {"expr": "zoom_level"}},
+    "data": {
+    "url": "https://raw.githubusercontent.com/AmarnathMonashUniversity/FIT3179_Amarnath_31227112/main/Assignment%202/js/STE_2016_AUST1.json",
+        "format": {"type": "topojson", "feature": "STE_2016_AUST"}
+            },
+            "layer":[
+              {
+                "transform": [
+                  {"calculate": "'Data is not available in ' + datum.properties.NAME", "as": "note"}
+                ],
+                "mark": {"type": "geoshape", "fill": "lightgray", "stroke": "white"},
+                "encoding": {
+                  "tooltip": {
+                    "field": "note"
+                  }
+                }
+              },
+              {
+              "data": {
+                "url": "https://raw.githubusercontent.com/AmarnathMonashUniversity/FIT3179_Amarnath_31227112/main/Assignment%202/data/Map_3.csv"
+                      },
+      "transform": [
+        {
+          "lookup": "State",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/AmarnathMonashUniversity/FIT3179_Amarnath_31227112/main/Assignment%202/js/STE_2016_AUST1.json",
+              "format": {
+                "type": "topojson",
+                "feature": "STE_2016_AUST"
+              }
+                    },
+            "key": "properties.STE_NAME16"
+                },
+                "as": "geo"
+        },
+        {"calculate": "datum[Year_selection]", "as": "year"}
+        
+     ],
+    "mark": {"type": "geoshape"},
+    "encoding": {
+      "shape": {
+        "field": "geo",
+        "type": "geojson"
+      },
+      "color": {
+        "field": "year",
+        "title": "Number of Students",
+        "type": "quantitative",
+        "scale": {
+          "type": "threshold",
+          "domain": [100000, 150000, 400000, 1000000],
+          "range": ["#feebe2","#fcc5c0","#fa9fb5","#f768a1","#c51b8a","#7a0177"]
+                 }
+                },
+      "tooltip": [
+      {"field": "State", "type": "nominal", "title": "State"},
+      {"field": "year", "type": "quantitative","title":"No. of international students"} 
+      ]
+                } 
+            } 
+                    ],
+                    "config": {}
+  }

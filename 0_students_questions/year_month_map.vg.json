@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 300,
+  "params": [
+    {
+      "name": "YearFilter",
+      "value": 20,
+      "bind": {"input": "range", "min": 20, "max": 21, "step": 1}
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/jjj-nn/fit3179/main/STE_2016_AUST.json",
+    "format": {
+      "type": "topojson",
+      "feature": "STE_2016_AUST"
+    }
+  },
+  "transform": [{
+    "lookup": "properties.STE_NAME16",
+    "from": {
+      "data": {
+        "url": "https://raw.githubusercontent.com/jjj-nn/fit3179/main/maronwardspercentages.csv",
+        "format":{
+          "parse": {
+            "Month-Year": "date:'%M%y'"
+          }
+        }
+      },
+      "key": "State",
+      "fields": ["Population","Month-Year"]
+    }
+  }
+  ],
+  "projection": {
+    "type": "equirectangular"
+  },
+  "scales": [
+    {
+      "name": "color",
+      "type": "quantize",
+      "range": {"scheme": "blues"}
+    }
+  ],
+  "mark": "geoshape",
+  "encoding": {
+    "color": {
+      "field": "Population",
+      "type": "quantitative"
+    }
+  }
+}

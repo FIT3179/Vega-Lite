@@ -1,0 +1,55 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Median house price per suburb (2010, 2012, 2014, 2016, 2018, 2020)",
+    "projection": {
+        "type": "equirectangular",
+        "center": [144.4, -37.6],
+        "scale": 20000
+    },
+    "width": 400,
+    "height": 300,
+    "data": {
+        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/house_price_by_suburb_long_format.csv"
+    },
+    "transform": [{
+        "lookup": "locality",
+        "from": {
+            "data": {
+                "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/VIC_LOCALITY_POLYGON_SHP.json",
+                "format": {
+                    "type": "topojson",
+                    "feature": "VIC_LOCALITY_POLYGON_SHP"
+                }
+            },
+            "key": "properties.NAME"
+        },
+        "as": "geo"
+    }, {
+        "filter": "datum.year % 2 ==0"
+    }],
+    "mark": { "type": "geoshape", "stroke": "#fff", "strokeWidth": 0.5 },
+    "encoding": {
+        "facet": {
+            "field": "year",
+            "columns": 2,
+            "header": { "title": null, "titleFontSize": 20, "labelFontSize": 15, "labelAngle": 0 }
+        },
+        "shape": { "field": "geo", "type": "geojson" },
+        "color": {
+            "field": "price",
+            "type": "quantitative",
+            "scale": {
+                "domain": [
+                    400000,
+                    1800000
+                ],
+                "scheme": "reds"
+            },
+            "legend": { "format": ".2s", "title": "Median price" }
+        },
+        "tooltip": [
+            { "field": "locality", "type": "nominal", "title": "Suburb" }
+        ]
+    },
+    "config": {}
+}

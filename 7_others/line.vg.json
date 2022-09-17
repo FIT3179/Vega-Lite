@@ -1,0 +1,17 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A simple bar chart with ranged data (aka Gantt Chart).",
+  "width": 600,
+  "height": 150,
+  "data": {
+    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/7_others/line.csv"
+  },
+  "mark": {
+    "type": "line",
+    "interpolate": "step-after"
+  },
+  "encoding": {
+    "x": {"field": "Time", "type": "quantitative"},
+    "y": {"field": "System state", "type": "quantitative"}
+  }
+}

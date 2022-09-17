@@ -1,0 +1,151 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Global House Indices",
+  "width": "container",
+  "height": 350,
+  "projection": {
+    "type": "equirectangular"
+  },
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2020,
+      "bind": {
+        "input": "range",
+        "min": 1970,
+        "max": 2020,
+        "step": 1,
+        "name": "Year:  "
+      }
+    },
+    {
+      "name": "Index_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          "REAL",
+          "RENT",
+          "PRICEINCOME",
+          "PRICERENT"
+        ],
+        "labels": [
+          "Real Prices",
+          "Rent Prices",
+          "Price to Income",
+          "Price to Rent"
+        ],
+        "name": "Index Type: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/world_topo.geo.json",
+        "format": {
+          "type": "topojson",
+          "feature": "world.geo"
+        }
+      },
+      "transform": [
+        {
+          "calculate": "'Data is not available in ' + datum.properties.name",
+          "as": "note"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "fill": "#ddd",
+        "stroke": "white",
+        "strokeWidth": 1
+      },
+      "encoding": {
+        "tooltip": {
+          "field": "note"
+        }
+      }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/world_data.csv"
+      },
+      "transform": [
+        {
+          "lookup": "LOCATION",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/js/world_topo.geo.json",
+              "format": {
+                "type": "topojson",
+                "feature": "world.geo"
+              }
+            },
+            "key": "properties.name"
+          },
+          "as": "geo"
+        },
+        {
+          "filter": "datum.TIME == Year_selection"
+        },
+        {
+          "filter": "Index_selection == null || datum.SUBJECT == Index_selection"
+        }
+      ],
+      "mark": {
+        "type": "geoshape",
+        "stroke": "#fff",
+        "strokeWidth": 0.5
+      },
+      "encoding": {
+        "shape": {
+          "field": "geo",
+          "type": "geojson"
+        },
+        "color": {
+          "field": "Value",
+          "type": "quantitative",
+          "scale": {
+            "domain": [
+              20,
+              180
+            ]
+          },
+          "legend": {
+            "format": ".2s",
+            "title": "Index Value"
+          }
+        },
+        "tooltip": [
+          {
+            "field": "LOCATION",
+            "type": "nominal",
+            "title": "Country"
+          },
+          {
+            "field": "TIME",
+            "type": "quantitative",
+            "title": "Year"
+          },
+          {
+            "field": "SUBJECT",
+            "type": "nominal",
+            "title": "Index Type"
+          },
+          {
+            "field": "Value",
+            "type": "quantitative",
+            "title": "Index Value",
+            "format": ".2f"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "title": {
+      "font": "Roboto Condensed",
+      "fontSize": 14,
+      "dx": 0
+    }
+  }
+}

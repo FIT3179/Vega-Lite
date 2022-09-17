@@ -1,0 +1,91 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Sweden Crime Cases, 2003-2011",
+  "data": {
+    "url": "https://raw.githubusercontent.com/wenqii09/FIT3179_A2/main/data/type.csv"
+  },
+  "vconcat": [
+    {
+      "layer":[
+      {
+        "encoding": {
+          "color": {
+            "condition": {
+              "selection": "click",
+              "field": "crime type",
+              "scale": {
+                "domain": [
+                  "murder",
+                  "assault",
+                  "sexual offences",
+                  "rape",
+                  "stealing",
+                  "burglary",
+                  "robbery",
+                  "fraud"
+                ],
+                "scheme": "tableau20"
+              }
+            },
+            "value": "lightgray"
+          },
+          "x": {
+            "aggregate": "sum",
+            "field": "value",
+            "title": "Count of crime type",
+            "axis": {"grid": false}
+          },
+          "y": {"title": "Crime Type", "field": "crime type"}
+        },
+        "width": 350,
+        "mark": {"type": "bar", "tooltip": true},
+        "selection": {"click": {"encodings": ["color"], "type": "multi"}},
+        "transform": [{"filter": {"selection": "brush"}}]
+      }
+      ]
+    },
+    {
+      "encoding": {
+        "color": {
+          "condition": {
+            "selection": "brush",
+            "title": "crime type",
+            "field": "crime type",
+            "type": "nominal",
+            "scale": {
+              "domain": [
+                "assault",
+                "burglary",
+                "fraud",
+                "murder",
+                "rape",
+                "robbery",
+                "sexual offences",
+                "stealing"
+              ],
+              "scheme": "tableau20"
+            }
+          },
+          "value": "lightgray"
+        },
+        "x": {
+          "scale": {"padding": 0.2},
+          "field": "Year",
+          "axis": {"title": "Year", "labelAngle": 0}
+        },
+        "y": {
+          "aggregate": "sum",
+          "title": "Total Crimes Type",
+          "field": "value",
+          "axis": {"grid": false}
+        }
+      },
+      "width": 350,
+      "height": 300,
+      "mark": {"type": "bar", "tooltip": true},
+      "selection": {"brush": {"encodings": ["x"], "type": "interval"}},
+      "transform": [{"filter": {"selection": "click"}}]
+    }
+  ],
+  "config": {"axisY": {"minExtent": 80}}
+}

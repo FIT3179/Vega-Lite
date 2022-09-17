@@ -1,0 +1,152 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Median Price of Most Expensive Suburbs",
+    "data": {
+        "url": "https://raw.githubusercontent.com/olu-git/assgn2/main/data/top_5_suburbs_years.csv"
+    },
+    "vconcat": [
+        {
+            "width": "container",
+            "height": 300,
+            "encoding": {
+                "x": {
+                    "field": "Year",
+                    "timeUnit": "year",
+                    "title": "Year"
+                },
+                "y": {
+                    "title": "Price",
+                    "field": "Median Price",
+                    "type": "quantitative",
+                    "format": "$,"
+                },
+                "color": {
+                    "condition": {
+                        "param": "brush",
+                        "title": "Suburb",
+                        "field": "Suburb",
+                        "type": "nominal",
+                        "scale": {
+                            "domain": [
+                                "Albert Park",
+                                "Brighton",
+                                "Canterbury",
+                                "Malvern",
+                                "Middle Park"
+                            ],
+                            "range": [
+                                "#2163aa",
+                                "#45b4c2",
+                                "#dbf1b4",
+                                "#bf363a",
+                                "orange"
+                            ]
+                        }
+                    },
+                    "value": "gray"
+                },
+                "opacity": {
+                    "condition": {
+                        "param": "brush",
+                        "value": 1
+                    },
+                    "value": 0.3
+                }
+            },
+            "layer": [
+                {
+                    "params": [
+                        {
+                            "name": "brush",
+                            "select": {
+                                "type": "interval",
+                                "encodings": [
+                                    "x"
+                                ]
+                            }
+                        }
+                    ],
+                    "transform": [
+                        {
+                            "filter": {
+                                "param": "click"
+                            }
+                        }
+                    ],
+                    "mark": {
+                        "type": "line",
+                        "point": true,
+                        "tooltip": true,
+                        "strokeWidth": 7,
+                        "stroke": "transparent"
+                    }
+                },
+                {
+                    "mark": "line"
+                }
+            ]
+        },
+        {
+            "encoding": {
+                "color": {
+                    "condition": {
+                        "param": "click",
+                        "field": "Suburb",
+                        "scale": {
+                            "range": [
+                                "#e7ba52",
+                                "#a7a7a7",
+                                "#2163aa",
+                                "#45b4c2",
+                                "#dbf1b4"
+                            ]
+                        }
+                    },
+                    "value": "gray"
+                },
+                "x": {
+                    "aggregate": "mean",
+                    "field": "Median Price",
+                    "title": "Price",
+                    "format": "$,.0f"
+                },
+                "y": {
+                    "title": "Suburb",
+                    "field": "Suburb",
+                    "type": "nominal"
+                }
+            },
+            "width": "container",
+            "mark": {
+                "type": "bar",
+                "tooltip": true
+            },
+            "params": [
+                {
+                    "name": "click",
+                    "select": {
+                        "type": "interval",
+                        "encodings": [
+                            "color"
+                        ]
+                    }
+                }
+            ],
+            "transform": [
+                {
+                    "filter": {
+                        "param": "brush"
+                    }
+                }
+            ]
+        }
+    ],
+    "config": {
+        "title": {
+            "font": "Roboto Condensed",
+            "fontSize": 14,
+            "dx": 260
+        },
+        "numberFormat": "$,.2s"
+    }
+}

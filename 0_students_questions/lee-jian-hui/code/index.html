@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple Visualisations | An Example</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;900&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  <link rel="stylesheet" type="text/css" href="css/text.css" media="all">
+
+
+</head>
+<body>
+  <div class="page">
+
+    <!-- Title -->
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1" style="width:max-content ;">
+        <span class="title">Nuclear, Weapon & Energy </span> <span style="font-size: 100px;">&#9762</span>
+        <h2 style="color: black;">A Growing Threat OR Mankind's Greatest Aide?</h2>
+        <h2 style="color: black;font-style: italic;">by: Lee Jian Hui</h2>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- Vis 1 -->
+    <!-- pure grid group -->
+    <div class="pure-g subtitle-container">
+      <div class="pure-u-1-3">
+      </div>        
+      <div class="pure-u-1-3">
+        <h2>Global Distributions of Nuclear Reactors</h2>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g marginal-text-box" style="padding-left: 80px; padding-right: 80px;">
+      <div class="pure-u-6-24"> 
+        <p class="left-p">
+          The nuclear reactor frequency is an aggregate sum of all nuclear reactors that a country has. This includes nuclear reactors that are not operational anymore.
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="center-p">
+          It is important to know that not all Countries have Nuclear Power Plants
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="right-p">
+          Historically, United States, France and China has the most numbers of both operational and 
+          <br>non-operational reactors.</br>
+        </p>
+      </div>    
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis1" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    
+    <div class="empty-container"></div>
+
+
+    <!-- Vis 2 -->
+    <!-- pure grid group -->
+    <div class="pure-g subtitle-container">
+      <div class="pure-u-1-3">
+      </div>        
+      <div class="pure-u-1-3">
+        <h2>Mortality Rate of Each Energy Source</h2>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g marginal-text-box" style="padding-left: 80px; padding-right: 80px;">
+      <div class="pure-u-6-24"> 
+        <p class="left-p">
+          In the color legend, energy types which has mortality rates too low
+          to be represented in the chart is marked as grey colour
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="center-p">
+          The energies with the lowest mortality rates: <span class="emphasize-text">Hydropower</span>, <span class="emphasize-text">Nuclear</span>, <span class="emphasize-text">Solar</span> and <span class="emphasize-text">Wind</span> 
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="right-p">
+          Note that <span class="emphasize-text">Nuclear Power</span> gets much more hate than what it deserves as it is one of the least harmful energy sources.
+        </p>
+      </div>    
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- pure grid group -->
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+
+    <div class="empty-container"></div>
+
+    <!-- Vis 3 -->
+    <!-- pure grid group -->
+    <div class="pure-g subtitle-container">
+      <div class="pure-u-1-3">
+      </div>        
+      <div class="pure-u-1-3">
+        <h2>The Trend in Nuclear Stockpile</h2>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g marginal-text-box" style="padding-left: 80px; padding-right: 80px;">
+      <div class="pure-u-6-24"> 
+        <p class="left-p">
+          <span class="emphasize-text">Russia</span> and <span class="emphasize-text">United States</span>  had the most nuclear weapons over the entire duration of the graph         
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="center-p">
+          The sudden surge in nuclear stockpile is due to the
+          <br> 
+            <span class="emphasize-text">Cold War (1946 - 1991)</span> between United States, Russia and their allies
+          </br>
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="right-p">
+          "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones".
+        </p>
+        <p class="right-p">
+          - Albert Einstein (1879–1955)
+        </p>
+      </div>    
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis3" class="vis-container"></div>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <div class="empty-container"></div>
+
+    <!-- Vis 4 Subtitle -->
+    <!-- pure grid group -->
+    <div class="pure-g subtitle-container">
+      <div class="pure-u-1-3">
+      </div>        
+      <div class="pure-u-1-3">
+        <h2>Shift in Global Energy Source Trends</h2>
+      </div>
+      <div class="pure-u-1-3">
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g marginal-text-box" style="padding-left: 80px; padding-right: 80px;">
+      <div class="pure-u-6-24"> 
+        <p class="left-p">
+          This is a ranking of how much energy an Energy Type contributes to the Global Energy Consumption (TwH/terrawatt-hour)
+
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="center-p">
+          It is interesting to see a sharp drop after year 1966 and rose back up to number 1 at year 2019
+        </p>
+      </div>
+
+      <div class="pure-u-3-24"> </div>
+
+      <div class="pure-u-6-24"> 
+        <p class="right-p">
+          Coal, Oil, Solar and Wind have never topped the number 1 rankings.
+        </p>
+      </div>    
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div class="pure-g center-item">
+      <div class="pure-u-1" style="width: fit-content; height: fit-content;">
+        <div id="vis4" class="vis-container" style="height: 900px;"></div>
+      </div>   
+    </div>
+    <!-- end pure grid group -->
+
+
+    <!-- the separator for reference and citations body text -->
+    <!-- <div class="empty-container" style="background-color: black; margin-top: 20px;">
+    </div> -->
+
+  </div> <!-- end page -->
+
+
+
+   
+<script type="text/javascript">
+  var specVis1 = "js/choropleth-map-number-of-reactors.json";
+  // var specVis2 = "js/bar-chart-deaths-per-twh.json";   
+  var specVis2 = "js/radial-plot-deaths-per-twh2.json"; 
+  var specVis3 = "js/streamgraph-nuclear-weapons.json"; 
+  var specVis4 = "js/rank-plot-share-of-energy-sources.json"; 
+
+
+  vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
+  }).catch(console.error);
+  
+   vegaEmbed('#vis2', specVis2, {"actions": false}).then(function(result) {
+  }).catch(console.error);
+
+  vegaEmbed('#vis3', specVis3, {"actions": false}).then(function(result) {
+  }).catch(console.error);
+
+  vegaEmbed('#vis4', specVis4).then(function(result) {
+    // const sliders = document.getElementsByClassName('vega-bindings'); 
+    
+    // const newSlider1 = document.getElementById('newSlider1');  
+    // const oldSlider1 = document.getElementById("oldSlider1");  
+
+    // const newSlider2 = document.getElementById('newSlider2');  
+    // const oldSlider2 = document.getElementById("oldSlider2");
+
+    // const newSlider3 = document.getElementById('newSlider3');  
+    // const oldSlider3 = document.getElementById("oldSlider3");  
+
+    // newSlider1.replaceChild(sliders[0], oldSlider1);
+    // newSlider2.replaceChild(sliders[1], oldSlider2);
+    // newSlider3.replaceChild(sliders[2], oldSlider3);
+
+  }).catch(console.error);
+
+</script>
+</body>
+</html>

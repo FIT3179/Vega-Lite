@@ -1,0 +1,65 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": "container", "height": "container",
+  "background": null,
+  "config": {
+    "style": {
+        "cell": {
+            "stroke": "transparent"
+        }
+    }
+},
+  "data": {
+    "url": "https://raw.githubusercontent.com/lee-jian-hui/FIT3179-project-vis-2/master/code/data/number-of-nuclear-warheads-in-the-inventory-of-the-nuclear-powers.csv"
+  },
+  "transform": [
+    {"calculate": "datum.Entity", "as": "Country"},
+    {"calculate": "datum.Nuclear_Weapons_Count", "as": "Nuclear Weapons Count"}
+  ],
+  "mark": "area",
+  "params": [
+    {
+      "name": "country_legend_select",
+      "select": {"type": "point", "fields": ["Country"]},
+      "bind": "legend"
+    }
+  ],
+  "encoding": {
+  
+    "x": { 
+      "field": "Year", 
+      "type": "ordinal",
+      "axis": { 
+        "labelAngle": 0,
+        "values": [1945, 1950, 1955, 1960, 1965, 1970, 
+        1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2014]
+      }
+    },
+    "y": {
+      "aggregate": "sum", "field": "Nuclear Weapons Count",
+      "type": "quantitative",
+      "axis": {
+        "title": "Nuclear Warheads Count",
+        "ticks": false,
+        "values": []
+      },
+      "stack": "center",
+      "sort": "ascending"
+    },
+    "color": {
+      "field":"Country", 
+      "scale":{"scheme": "category10"},
+      "legend": {"type": "symbol", "symbolType": "square", "labelFontSize": 20, "titleFontSize":25, "titleFontWeight":"bold"}
+    },
+    "opacity": {
+      "condition": {"param": "country_legend_select", "value": 1},
+      "value": 0.2
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Nuclear Weapons Count", "type": "quantitative"},
+      {"field": "Year", "type": "ordinal"}
+    ]
+    
+  }
+}

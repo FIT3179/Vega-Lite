@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Australia Fatalities from year 2000-2021 per 100,000 population",
+  "width":800,
+  "height": 500,
+ "projection": {
+     "type": "equirectangular"
+   },
+  "params": [
+  {
+ "name": "Year_selection",
+  "value": 2021,
+  "bind": {
+  "input": "range",
+  "min": 2000,
+  "max": 2021,
+  "step": 1,
+  "name": "Year: "
+  }
+  }
+  ],
+ "layer": [
+     {
+     "data": {
+         "url": "https://raw.githubusercontent.com/zleo0003/aus_map/main/aus_map_topo.json",
+         "format": {"type": "topojson", "feature": "STE11aAust"}
+     },
+       "mark": {
+         "type": "geoshape",
+         "fill": "#ddd",
+         "stroke": "black",
+         "strokeWidth": 1
+       },
+       "encoding": {"tooltip": {"field": "note"}}
+     },
+  {
+  "data": {
+  "url":
+     "https://raw.githubusercontent.com/zleo0003/A2_Dataset/main/Australia_fatality%202000-2021.csv"
+  },
+   "transform": [
+  
+  {
+  "lookup": "State",
+  "from": {
+  "data": {
+  "url":
+     "https://raw.githubusercontent.com/zleo0003/aus_map/main/aus_map_topo.json",
+  "format": {
+  "type": "topojson",
+  "feature": "STE11aAust"
+  }
+  },
+  "key": "properties.STATE_NAME"
+  },
+  "as": "geo"
+  },
+  {
+ "calculate": "datum.Fatality/datum.Population * 100000",
+       "as": "Fatalities per 100,000 population"
+     },
+  {"filter": "Year_selection == datum.Year"}
+  ],
+  "mark": {"type": "geoshape", "stroke": "#fff86", "strokeWidth": 0.5},
+  "encoding": {
+  "shape": {"field": "geo", "type": "geojson"},
+  "text": {"field": "State"},
+  "color": {
+  "field": "Fatalities per 100,000 population",
+  "type": "quantitative",
+  "scale": {
+     "type": "threshold",
+       "domain": [5,10,15,20],
+       "range":  [
+           "#ffffb2",
+           "#fed976",
+            "#fd8d3c",
+           "#f03b20",
+           "#bd0026"]
+  },
+  "legend": {
+         "orient": "bottom-left",
+         "titleOrient": "top",
+         "direction": "horizontal",
+         "labelFontSize": 11,
+         "titleFontSize": 11
+       }
+  },
+  "tooltip": [
+  {"field": "State", "type": "nominal", "title": "States"},
+  {
+  "field": "Fatalities per 100,000 population",
+  "type": "quantitative",
+  "title": "Fatalities per 100,000 population",
+  "format": ","
+  },
+  {"field": "year", "type": "quantitative", "title": "Year"}
+  ]
+     }
+   }
+   ]
+  }
