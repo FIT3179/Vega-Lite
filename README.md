@@ -1,7 +1,6 @@
 # Vega-lite examples
 
-The visualiastion will be shown on 
-https://fit3179.github.io/Vega-Lite/
+The visualiastion will be shown on https://fit3179.github.io/Vega-Lite/
 
 ## 1. Intro to Vega-lite
 
