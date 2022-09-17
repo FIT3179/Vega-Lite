@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/6_advanced_examples/data/earthquake.csv"
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/6_advanced_examples/data/earthquake.csv"
     },
     "vconcat": [{
             "width": "container",
@@ -10,7 +10,7 @@
             "projection": { "type": "equalEarth", "rotate": [-150, 0, 0] },
             "layer": [{
                     "data": {
-                        "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
+                        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/ne_110m_admin_0_countries.topojson",
                         "format": {
                             "type": "topojson",
                             "feature": "ne_110m_admin_0_countries"

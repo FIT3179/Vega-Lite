@@ -4,7 +4,7 @@
   "width": 600,
   "height": 150,
   "data": {
-    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/7_others/line.csv"
+    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/line.csv"
   },
   "mark": {
     "type": "line",

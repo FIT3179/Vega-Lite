@@ -4,7 +4,7 @@
   "width": 300,
   "height": 200,
   "data": {
-    "url": "https://raw.githubusercontent.com/KaneSec/vega_lite/main/7_others/gantt.csv"
+    "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/gantt.csv"
   },
   "mark": "bar",
   "encoding": {
