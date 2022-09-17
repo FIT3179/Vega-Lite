@@ -29,7 +29,8 @@
         "timeUnit": "year",
         "type": "nominal",
         "field": "date",
-        "title": "Year"
+        "title": "Year",
+        "legend":{"orient": "none", "legendX":10, "legendY":5}
       }
     },
     "config": {}
