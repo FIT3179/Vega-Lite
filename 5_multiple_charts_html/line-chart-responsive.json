@@ -17,7 +17,8 @@
     "encoding": {
       "x": {
         "field": "date",
-        "timeUnit": "month"
+        "timeUnit": "month",
+        "title":null
       },
       "y": {
         "field": "temp_range",

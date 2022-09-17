@@ -1,47 +1,56 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-      "url": "seattle-weather.csv"
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "seattle-weather.csv"
+  },
+  "width": "container",
+  "transform": [
+    {
+      "calculate": "datum.temp_max - datum.temp_min",
+      "as": "temp_range"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "date",
+      "timeUnit": "month",
+      "type": "nominal",
+      "title": null
     },
-    "width":"container",
-    "transform": [
-      {
-        "calculate": "datum.temp_max - datum.temp_min",
-        "as": "temp_range"
-      }
-    ],
-    "mark": "bar",
-    "encoding": {
-      "x": {
-        "field": "date",
-        "timeUnit": "month",
-        "type": "nominal"
-      },
-      "y": {
-        "aggregate": "count",
-        "stack": "normalize"
-      },
-      "color": {
-        "type": "nominal",
-        "field": "weather",
-        "scale": {
-          "domain": [
-            "sun",
-            "fog",
-            "drizzle",
-            "rain",
-            "snow"
-          ],
-          "range": [
-            "#e7ba52",
-            "#c7c7c7",
-            "#aec7e8",
-            "#1f77b4",
-            "#9467bd"
-          ]
-        },
-        "title": "Weather Type"        
+    "y": {
+      "aggregate": "count",
+      "stack": "normalize",
+      "title": "Average 2012 to 2015",
+      "axis": {
+        "format": "%"
       }
     },
-    "config": {}
-  }
+    "color": {
+      "field": "weather",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "drizzle",
+          "fog",
+          "rain",
+          "snow",
+          "sun"
+        ],
+        "range": [
+          "#aec7e8",
+          "#c7c7c7",
+          "#1f77b4",
+          "#9467bd",
+          "#e7ba52"
+        ]
+      },
+      "legend": {
+        "orient": "left",
+        "labelExpr": "datum.label == 'sun' ? 'Sun' : datum.label == 'fog' ? 'Fog' :datum.label == 'drizzle' ? 'Drizzle' : datum.label == 'rain' ? 'Rain' : datum.label == 'snow' ? 'Snow': ''"
+      },
+      "title": "Weather Type"
+    }
+  },
+  "config": {}
+}
