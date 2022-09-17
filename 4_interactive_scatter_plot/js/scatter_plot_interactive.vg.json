@@ -31,7 +31,7 @@
           "Asia",
           "Oceania"
         ],
-        "labels":[
+        "labels": [
           "Show All",
           "North America",
           "South America",
@@ -48,7 +48,9 @@
     {"filter": "datum.Active > 0"},
     {"filter": "datum.Deaths > 0"},
     {"filter": "datum.Population > Population_Above"},
-    {"filter": "Continent_selection == null || datum.Continent == Continent_selection"},
+    {
+      "filter": "Continent_selection == null || datum.Continent == Continent_selection"
+    },
     {
       "calculate": "datum.Confirmed/datum.Population * 10000",
       "as": "Cases per 10,000 Population"
@@ -71,13 +73,6 @@
   },
   "layer": [
     {
-      "selection": {
-        "continent_highlight": {
-          "type": "multi",
-          "fields": ["Continent"],
-          "bind": "legend"
-        }
-      },
       "mark": "circle",
       "encoding": {
         "size": {
@@ -112,10 +107,7 @@
             ]
           }
         },
-        "opacity": {
-          "condition": {"selection": "continent_highlight", "value": 0.6},
-          "value": 0.2
-        },
+        "opacity": {"value": 0.6},
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Confirmed", "type": "quantitative", "format": ","},
