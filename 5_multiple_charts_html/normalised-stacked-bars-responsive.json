@@ -47,7 +47,7 @@
       },
       "legend": {
         "orient": "left",
-        "offset":-10,
+        "offset":-15,
         "labelExpr": "datum.label == 'sun' ? 'Sun' : datum.label == 'fog' ? 'Fog' :datum.label == 'drizzle' ? 'Drizzle' : datum.label == 'rain' ? 'Rain' : datum.label == 'snow' ? 'Snow': ''"
       },
       "title": "Weather Type"
