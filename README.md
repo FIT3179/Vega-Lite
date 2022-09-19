@@ -16,6 +16,9 @@ https://fit3179.github.io/Vega-Lite/1_Intro/section3/
 ## 2. Proportional Symbol Map (Basemap + Earthquake Data):
 https://fit3179.github.io/Vega-Lite/2_symbol_map/
 
+### 2.1 Proportional Symbol Map + Graticules
+https://fit3179.github.io/Vega-Lite/2_symbol_map/mapWithGraticules.html
+
 ## 3. Choropleth Map (COVID-19 by Country)
 https://fit3179.github.io/Vega-Lite/3_choropleth_map/
 
