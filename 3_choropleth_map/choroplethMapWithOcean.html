@@ -12,7 +12,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "COVID-19 Active Cases (10 Oct 2020)",
   "width": 800,
-  "height": 500,
+  "height": 400,
   "data": {
     "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
     "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
@@ -30,6 +30,20 @@
       "encoding": {"tooltip": {"field": "note"}}
     },
     {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/oceans.topojson",
+        "format": {"type": "topojson", "feature": "oceans"}
+      },
+      "mark": {"type": "geoshape", "fill": "skyblue"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/2_symbol_map/js/WorldMapWithGraticules.topojson",
+        "format": {"type": "topojson", "feature": "ne_110m_graticules_30"}
+      },
+      "mark": {"type": "geoshape", "fill": null, "stroke": "lightgray"}
+    },
+    {
       "transform": [
         {
           "lookup": "properties.NAME",
@@ -38,10 +52,13 @@
               "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
             },
             "key": "Country",
-            "fields": ["Active"]
+            "fields": ["Active", "Confirmed", "Population"]
           }
         },
-        { "calculate" : "datum.Confirmed/datum.Population * 10000" , "as" : "Confirmed per 10,000 population" }
+        {
+          "calculate": "datum.Confirmed/datum.Population * 10000",
+          "as": "Confirmed per 10,000 population"
+        }
       ],
       "mark": {"type": "geoshape", "stroke": "white"},
       "encoding": {
@@ -57,7 +74,11 @@
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
           {"field": "Active", "type": "quantitative"},
-          {"field" : "Confirmed per 10,000 population" , "type" : "quantitative" , "format" : ".2f" }
+          {
+            "field": "Confirmed per 10,000 population",
+            "type": "quantitative",
+            "format": ".2f"
+          }
         ]
       }
     }
