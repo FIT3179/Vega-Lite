@@ -38,7 +38,7 @@
               "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/data/covid_10_10_2020.csv"
             },
             "key": "Country",
-            "fields": ["Active"]
+            "fields": ["Active", "Confirmed", "Population"]
           }
         },
         { "calculate" : "datum.Confirmed/datum.Population * 10000" , "as" : "Confirmed per 10,000 population" }
