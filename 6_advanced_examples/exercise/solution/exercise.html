@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
+</head>
+<body>
+    <h2>Exercise 1: Earthquake Coordinate Charts</h2>
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <div id="vis1" class="vis-container"></div>
+        </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+
+    <hr class="hr3">
+
+
+    <h2>Exercise 2: Custom Icon and a Better Layout</h2>
+    <!-- pure grid group -->
+    <div class="pure-g">
+        <div class="pure-u-1-1">
+            <div id="vis2" class="vis-container"></div>
+        </div>
+    </div>
+    <!-- end pure grid group -->
+    <br>
+  <script>
+    const exe1 = "exercise_1.vg.json";
+    const exe2 = "exercise_2.vg.json";
+
+    vegaEmbed("#vis1", exe1, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+    vegaEmbed("#vis2", exe2, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>
