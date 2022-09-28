@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": {
-        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/6_advanced_examples/data/earthquake.csv"
+        "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/6_advanced_examples/data/earthquake_lite.csv"
     },
     "width": 600,
     "height": 300,
