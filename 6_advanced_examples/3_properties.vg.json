@@ -3,11 +3,6 @@
     "title": "Median house price per suburb (2010-2020)",
     "width": "container",
     "height": 500,
-    "projection": {
-        "type": "equirectangular",
-        "center": { "expr": "center_to" },
-        "scale": { "expr": "zoom_level" }
-    },
     "params": [{
             "name": "Year_selection",
             "value": 2018,
@@ -46,6 +41,11 @@
             }
         }
     ],
+    "projection": {
+        "type": "equirectangular",
+        "center": { "expr": "center_to" },
+        "scale": { "expr": "zoom_level" }
+    },
     "layer": [{
             "data": {
                 "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/6_advanced_examples/data/VIC_LOCALITY_POLYGON_SHP.json",
