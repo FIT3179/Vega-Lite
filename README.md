@@ -25,6 +25,9 @@ https://fit3179.github.io/Vega-Lite/3_choropleth_map/
 ### 3.1 Choropleth Map + Graticules + Oceans
 https://fit3179.github.io/Vega-Lite/3_choropleth_map/choroplethMapWithOcean.html
 
+### 3.2 Choropleth Map + Country Name (lat and long)
+https://fit3179.github.io/Vega-Lite/3_choropleth_map/choroplethMapWithCountryName.html
+
 ## 4. Interactive Scatter Plot (COVID-19)
 https://fit3179.github.io/Vega-Lite/4_interactive_scatter_plot/
 - Tooltips
