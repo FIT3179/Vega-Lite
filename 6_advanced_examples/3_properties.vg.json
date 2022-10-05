@@ -3,7 +3,8 @@
     "title": "Median house price per suburb (2010-2020)",
     "width": "container",
     "height": 500,
-    "params": [{
+    "params": [
+        {
             "name": "Year_selection",
             "value": 2018,
             "bind": {
