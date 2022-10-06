@@ -42,3 +42,5 @@ https://fit3179.github.io/Vega-Lite/5_multiple_charts_html
 ## 6. Advanced examples
 https://fit3179.github.io/Vega-Lite/6_advanced_examples
 
+### 6.1 Choropleth Map + Country Selection
+https://fit3179.github.io/Vega-Lite/6_advanced_examples/ChoroplethMapWithSelection.html
