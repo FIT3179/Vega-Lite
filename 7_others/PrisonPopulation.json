@@ -13,7 +13,7 @@
         "lookup": "properties.STATE",
         "from": {
           "data": {
-            "url": "https://raw.githubusercontent.com/nkan0016/FIT3179/main/prison_custody_by_state.csv",
+            "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/7_others/prison_custody_by_state.csv",
             "format": {"type": "csv"}
           },
           "key": "state",
