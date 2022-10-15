@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.2.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.20.8"></script>
+</head>
+<body>
+  <div id="vis"/>
+  <script>
+    const spec = {
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
+  "autosize": {"resize": true},
+  "vconcat": [
+    {
+      "title": {
+        "text": [
+          "Top 10 Countries of Birth(Oversea) of residents",
+          "in Melbourne in 2021"
+        ],
+        "subtitle": "Rank based on population of the residents",
+        "subtitleColor": "gray",
+        "subtitleFontStyle": "italic",
+        "dy": 5
+      },
+      "width": 420,
+      "height": 300,
+      "data": {
+        "url": "top10_CoB.CSV",
+        "format": {"type": "csv"}
+      },
+      "transform": [
+        {
+          "lookup": "Country",
+          "from": {
+            "data": {
+              "url": "flags.csv"
+            },
+            "key": "Country",
+            "fields": ["ImageURL"]
+          }
+        }
+      ],
+      "encoding": {
+        "x": {
+          "field": "Year",
+          "type": "ordinal",
+          "sort": ["2011", "2016", "2021"],
+          "axis": {"labelAngle": 0}
+        },
+        "y": {
+          "field": "Rank",
+          "type": "quantitative",
+          "sort": "descending",
+          "scale": {"domain": [0.5, 10.5]}
+        }
+      },
+      "layer": [
+        {
+          "params": [
+            {
+              "name": "select",
+              "select": {"type": "point", "fields": ["Country"]}
+            }
+          ],
+          "mark": {
+            "type": "line",
+            "cursor": "pointer",
+            "point": {"filled": false, "fill": "white"}
+          },
+          "encoding": {
+            "color": {
+              "field": "Country",
+              "bandPosition": 0,
+              "legend": null,
+              "scale": {
+                "range": [
+                  "#4e79a7",
+                  "#edc948",
+                  "#f28e2b",
+                  "#c9c776",
+                  "#bab0ac",
+                  "#8ad6d0",
+                  "#8452bd",
+                  "#9c755f",
+                  "#5aa24f",
+                  "#ff9da7"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "mark": {
+            "type": "image",
+            "width": 35,
+            "height": 18,
+            "tooltip": true,
+            "cursor": "pointer"
+          },
+          "transform": [
+            {
+              "lookup": "Country",
+              "from": {
+                "data": {
+                  "url": "top10_CoB.CSV",
+                  "format": {"type": "csv"}
+                },
+                "key": "Country",
+                "fields": ["Population", "Year"]
+              }
+            }
+          ],
+          "encoding": {
+            "url": {"field": "ImageURL", "type": "nominal"},
+            "tooltip": [
+              {"field": "Country", "type": "nominal"},
+              {"field": "Population", "type": "quantitative", "format": ","}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "width": 420,
+      "height": 170,
+      "title": {
+        "text": "Arrival Population of Melbourne Residents From Oversea, 1951-2020",
+        "subtitle": "Population recorded based on arrival years and CoB",
+        "subtitleColor": "gray",
+        "subtitleFontStyle": "italic",
+        "dy": -20
+      },
+      "encoding": {
+        "x": {
+          "field": "ArrivalYear",
+          "type": "nominal",
+          "axis": {"labelAngle": -30},
+          "sort": [
+            "before 1951",
+            "1951-1960",
+            "1961-1970",
+            "1971-1980",
+            "1981-1990",
+            "1991-2000",
+            "2001-2010",
+            "2011-2020"
+          ]
+        },
+        "y": {"field": "Population", "type": "quantitative"},
+        "color": {"field": "Country"},
+        "tooltip": [
+          {"field": "Population", "type": "quantitative", "format": ","},
+          {"field": "Country", "type": "nominal"}
+        ]
+      },
+      "layer": [
+        {
+          "data": {
+            "url": "ArrivalYear.CSV",
+            "format": {"type": "csv"}
+          },
+          "mark": {"type": "line", "tooltip": true, "point": {"filled": true}},
+          "transform": [{"filter": {"param": "select"}}]
+        },
+        {
+          "data": {
+            "url": "ArrivalYear.CSV",
+            "format": {"type": "csv"}
+          },
+          "mark": {"type": "text", "fontSize": 15, "align": "left", "dx": 10},
+          "transform": [
+            {"filter": {"param": "select", "empty": false}},
+            {"filter": "datum.ArrivalYear == '2011-2020'"},
+            {"calculate": "datum.Country", "as": "coun"}
+          ],
+          "encoding": {
+            "text": {"condition": {"param": "select", "field": "coun"}}
+          }
+        },
+        {
+          "data": {
+            "url": "ArrivalYear.CSV",
+            "format": {"type": "csv"}
+          },
+          "mark": {"type": "text", "fontSize": 15, "align": "left", "dx": 10},
+          "transform": [
+            {"filter": {"param": "select", "empty": true}},
+            {"filter": "datum.ArrivalYear == '2011-2020'"},
+            {"filter": "datum.Country == 'China' || datum.Country == 'India'"},
+            {"calculate": "datum.Country", "as": "coun"}
+          ],
+          "encoding": {
+            "text": {"condition": {"param": "select", "field": "coun"}}
+          }
+        }
+      ]
+    }
+  ],
+  "config": {"style": {"cell": {"stroke": "transparent"}}}
+};
+    vegaEmbed("#vis", spec, {mode: "vega-lite"}).then(console.log).catch(console.warn);
+  </script>
+</body>
+</html>
